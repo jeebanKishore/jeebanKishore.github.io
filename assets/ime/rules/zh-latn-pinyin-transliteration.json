@@ -1,0 +1,176 @@
+{
+  "id": "zh-latn-pinyin-transliteration",
+  "name": "拼音符号输入法 / 拼音符號輸入法",
+  "description": "Mandarin Hanyu Pinyin Transliteration input method",
+  "date": "2018-12-28",
+  "author": "Yuping Zuo",
+  "license": "MIT",
+  "version": "1.0",
+  "maxKeyLength": 4,
+  "rules": [
+    {
+      "pattern": "iou",
+      "replacement": "iu"
+    },
+    {
+      "pattern": "uei",
+      "replacement": "ui"
+    },
+    {
+      "pattern": "uen",
+      "replacement": "un"
+    },
+    {
+      "pattern": "([jqxy])v",
+      "replacement": "$1u"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ü"
+    },
+    {
+      "pattern": "a(ng?)?1",
+      "replacement": "ā$1"
+    },
+    {
+      "pattern": "a(ng?)?2",
+      "replacement": "á$1"
+    },
+    {
+      "pattern": "a(ng?)?3",
+      "replacement": "ǎ$1"
+    },
+    {
+      "pattern": "a(ng?)?4",
+      "replacement": "à$1"
+    },
+    {
+      "pattern": "a([io])1",
+      "replacement": "ā$1"
+    },
+    {
+      "pattern": "a([io])2",
+      "replacement": "á$1"
+    },
+    {
+      "pattern": "a([io])3",
+      "replacement": "ǎ$1"
+    },
+    {
+      "pattern": "a([io])4",
+      "replacement": "à$1"
+    },
+    {
+      "pattern": "o(ng)?1",
+      "replacement": "ō$1"
+    },
+    {
+      "pattern": "o(ng)?2",
+      "replacement": "ó$1"
+    },
+    {
+      "pattern": "o(ng)?3",
+      "replacement": "ǒ$1"
+    },
+    {
+      "pattern": "o(ng)?4",
+      "replacement": "ò$1"
+    },
+    {
+      "pattern": "ou1",
+      "replacement": "ōu"
+    },
+    {
+      "pattern": "ou2",
+      "replacement": "óu"
+    },
+    {
+      "pattern": "ou3",
+      "replacement": "ǒu"
+    },
+    {
+      "pattern": "ou4",
+      "replacement": "òu"
+    },
+    {
+      "pattern": "e(ng?)?1",
+      "replacement": "ē$1"
+    },
+    {
+      "pattern": "e(ng?)?2",
+      "replacement": "é$1"
+    },
+    {
+      "pattern": "e(ng?)?3",
+      "replacement": "ě$1"
+    },
+    {
+      "pattern": "e(ng?)?4",
+      "replacement": "è$1"
+    },
+    {
+      "pattern": "ei1",
+      "replacement": "ēi"
+    },
+    {
+      "pattern": "ei2",
+      "replacement": "éi"
+    },
+    {
+      "pattern": "ei3",
+      "replacement": "ěi"
+    },
+    {
+      "pattern": "ei4",
+      "replacement": "èi"
+    },
+    {
+      "pattern": "i(ng?)?1",
+      "replacement": "ī$1"
+    },
+    {
+      "pattern": "i(ng?)?2",
+      "replacement": "í$1"
+    },
+    {
+      "pattern": "i(ng?)?3",
+      "replacement": "ǐ$1"
+    },
+    {
+      "pattern": "i(ng?)?4",
+      "replacement": "ì$1"
+    },
+    {
+      "pattern": "u(n)?1",
+      "replacement": "ū$1"
+    },
+    {
+      "pattern": "u(n)?2",
+      "replacement": "ú$1"
+    },
+    {
+      "pattern": "u(n)?3",
+      "replacement": "ǔ$1"
+    },
+    {
+      "pattern": "u(n)?4",
+      "replacement": "ù$1"
+    },
+    {
+      "pattern": "ü(n)?1",
+      "replacement": "ǖ$1"
+    },
+    {
+      "pattern": "ü(n)?2",
+      "replacement": "ǘ$1"
+    },
+    {
+      "pattern": "ü(n)?3",
+      "replacement": "ǚ$1"
+    },
+    {
+      "pattern": "ü(n)?4",
+      "replacement": "ǜ$1"
+    }
+  ]
+}

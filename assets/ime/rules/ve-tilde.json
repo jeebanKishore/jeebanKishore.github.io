@@ -1,0 +1,51 @@
+{
+  "id": "ve-tilde",
+  "name": "ve-tilde",
+  "description": "Venda input keyboard",
+  "date": "2018-12-02",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~D",
+      "replacement": "Ḓ"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "ḓ"
+    },
+    {
+      "pattern": "~L",
+      "replacement": "Ḽ"
+    },
+    {
+      "pattern": "~l",
+      "replacement": "ḽ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ṋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ṋ"
+    },
+    {
+      "pattern": "~T",
+      "replacement": "Ṱ"
+    },
+    {
+      "pattern": "~t",
+      "replacement": "ṱ"
+    },
+    {
+      "pattern": "`N",
+      "replacement": "Ṅ"
+    },
+    {
+      "pattern": "`n",
+      "replacement": "ṅ"
+    }
+  ]
+}

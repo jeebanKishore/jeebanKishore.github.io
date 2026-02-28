@@ -1,0 +1,477 @@
+{
+  "id": "ml-inscript2",
+  "name": "ഇൻസ്ക്രിപ്റ്റ് 2",
+  "description": "Enhanced InScript for Malayalam InScript",
+  "date": "2013-01-16",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "1",
+      "replacement": "൧"
+    },
+    {
+      "pattern": "2",
+      "replacement": "൨"
+    },
+    {
+      "pattern": "3",
+      "replacement": "൩"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "്ര"
+    },
+    {
+      "pattern": "4",
+      "replacement": "൪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "൫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "൬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "൭"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "ക്ഷ"
+    },
+    {
+      "pattern": "8",
+      "replacement": "൮"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "ൾ"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "9",
+      "replacement": "൯"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")"
+    },
+    {
+      "pattern": "0",
+      "replacement": "൦"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "ഃ"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ഋ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ൃ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ഔ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ൗ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ഐ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ൈ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ആ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ാ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ഈ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ീ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ഊ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ൂ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ഭ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ബ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ങ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ഹ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ഘ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ഗ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ധ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ദ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ഝ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ജ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ഢ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ഡ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ഞ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ർ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ഓ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ോ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ഏ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "േ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "അ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "്"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ഇ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ി"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ഉ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ു"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ഫ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "പ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "റ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ര"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ഖ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ക"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ഥ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ത"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ഛ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ച"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ഠ"
+    },
+    {
+      "pattern": "\\'",
+      "replacement": "ട"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "ഒ"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "ൊ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "എ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "െ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ൺ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ം"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ണ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "മ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ൻ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ന"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ഴ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "വ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ള"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ല"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ശ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "സ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ഷ"
+    },
+    {
+      "pattern": ",",
+      "replacement": ","
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "ൽ"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": "/",
+      "replacement": "യ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "‍",
+      "context": "x"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "൰",
+      "context": "x"
+    },
+    {
+      "pattern": "2",
+      "replacement": "‌",
+      "context": "x"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "൱",
+      "context": "x"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "൲",
+      "context": "x"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "൳",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "₹",
+      "context": "x"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "൴",
+      "context": "x"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "൵",
+      "context": "x"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ൠ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ൄ",
+      "context": "x"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ൌ",
+      "context": "x"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ൡ",
+      "context": "x"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ൣ",
+      "context": "x"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ഌ",
+      "context": "x"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ൢ",
+      "context": "x"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ർ",
+      "context": "x"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ൿ",
+      "context": "x"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ൺ",
+      "context": "x"
+    },
+    {
+      "pattern": "v",
+      "replacement": "൹",
+      "context": "x"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ൾ",
+      "context": "x"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ൽ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "ഽ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "॥",
+      "context": "x"
+    }
+  ]
+}

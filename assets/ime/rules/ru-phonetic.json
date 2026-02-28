@@ -1,0 +1,275 @@
+{
+  "id": "ru-phonetic",
+  "name": "Russian phonetic",
+  "description": "Russian phonetic keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "\\#",
+      "replacement": "ё"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "Ё"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "ъ"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "Ъ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ч"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "Ч"
+    },
+    {
+      "pattern": "`",
+      "replacement": "ю"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "Ю"
+    },
+    {
+      "pattern": "q",
+      "replacement": "я"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "Я"
+    },
+    {
+      "pattern": "w",
+      "replacement": "в"
+    },
+    {
+      "pattern": "W",
+      "replacement": "В"
+    },
+    {
+      "pattern": "e",
+      "replacement": "е"
+    },
+    {
+      "pattern": "E",
+      "replacement": "Е"
+    },
+    {
+      "pattern": "r",
+      "replacement": "р"
+    },
+    {
+      "pattern": "R",
+      "replacement": "Р"
+    },
+    {
+      "pattern": "t",
+      "replacement": "т"
+    },
+    {
+      "pattern": "T",
+      "replacement": "Т"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ы"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Ы"
+    },
+    {
+      "pattern": "u",
+      "replacement": "у"
+    },
+    {
+      "pattern": "U",
+      "replacement": "У"
+    },
+    {
+      "pattern": "i",
+      "replacement": "и"
+    },
+    {
+      "pattern": "I",
+      "replacement": "И"
+    },
+    {
+      "pattern": "o",
+      "replacement": "о"
+    },
+    {
+      "pattern": "O",
+      "replacement": "О"
+    },
+    {
+      "pattern": "p",
+      "replacement": "п"
+    },
+    {
+      "pattern": "P",
+      "replacement": "П"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ш"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "Ш"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "щ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "Щ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "а"
+    },
+    {
+      "pattern": "A",
+      "replacement": "А"
+    },
+    {
+      "pattern": "s",
+      "replacement": "с"
+    },
+    {
+      "pattern": "S",
+      "replacement": "С"
+    },
+    {
+      "pattern": "d",
+      "replacement": "д"
+    },
+    {
+      "pattern": "D",
+      "replacement": "Д"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ф"
+    },
+    {
+      "pattern": "F",
+      "replacement": "Ф"
+    },
+    {
+      "pattern": "g",
+      "replacement": "г"
+    },
+    {
+      "pattern": "G",
+      "replacement": "Г"
+    },
+    {
+      "pattern": "h",
+      "replacement": "х"
+    },
+    {
+      "pattern": "H",
+      "replacement": "Х"
+    },
+    {
+      "pattern": "j",
+      "replacement": "й"
+    },
+    {
+      "pattern": "J",
+      "replacement": "Й"
+    },
+    {
+      "pattern": "k",
+      "replacement": "к"
+    },
+    {
+      "pattern": "K",
+      "replacement": "К"
+    },
+    {
+      "pattern": "l",
+      "replacement": "л"
+    },
+    {
+      "pattern": "L",
+      "replacement": "Л"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "э"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "Э"
+    },
+    {
+      "pattern": "z",
+      "replacement": "з"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "З"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ь"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Ь"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ц"
+    },
+    {
+      "pattern": "C",
+      "replacement": "Ц"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ж"
+    },
+    {
+      "pattern": "V",
+      "replacement": "Ж"
+    },
+    {
+      "pattern": "b",
+      "replacement": "б"
+    },
+    {
+      "pattern": "B",
+      "replacement": "Б"
+    },
+    {
+      "pattern": "n",
+      "replacement": "н"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Н"
+    },
+    {
+      "pattern": "m",
+      "replacement": "м"
+    },
+    {
+      "pattern": "M",
+      "replacement": "М"
+    }
+  ]
+}

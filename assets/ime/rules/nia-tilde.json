@@ -1,0 +1,27 @@
+{
+  "id": "nia-tilde",
+  "name": "nia-tilde",
+  "description": "Nias tilde keyboard",
+  "date": "2021-01-13",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1",
+  "rules": [
+    {
+      "pattern": "~O",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ö"
+    },
+    {
+      "pattern": "~W",
+      "replacement": "Ŵ"
+    },
+    {
+      "pattern": "~w",
+      "replacement": "ŵ"
+    }
+  ]
+}

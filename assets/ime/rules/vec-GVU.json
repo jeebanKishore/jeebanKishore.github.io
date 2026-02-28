@@ -1,0 +1,83 @@
+{
+  "id": "vec-GVU",
+  "name": "Vèneto GVU",
+  "description": "Venetian input method.",
+  "date": "2020-03-23",
+  "author": "Vajotwo and GatoSelvadego (Wikipedia users)",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "ce",
+      "replacement": "ç"
+    },
+    {
+      "pattern": "ci",
+      "replacement": "ç"
+    },
+    {
+      "pattern": "Ce",
+      "replacement": "Ç"
+    },
+    {
+      "pattern": "Ci",
+      "replacement": "Ç"
+    },
+    {
+      "pattern": "dh",
+      "replacement": "đ"
+    },
+    {
+      "pattern": "lh",
+      "replacement": "ł"
+    },
+    {
+      "pattern": "òò",
+      "replacement": "ó"
+    },
+    {
+      "pattern": "zh",
+      "replacement": "ẑ"
+    },
+    {
+      "pattern": "đh",
+      "replacement": "dh"
+    },
+    {
+      "pattern": "łh",
+      "replacement": "lh"
+    },
+    {
+      "pattern": "ẑh",
+      "replacement": "zh"
+    },
+    {
+      "pattern": "Dh",
+      "replacement": "Đ"
+    },
+    {
+      "pattern": "Lh",
+      "replacement": "Ł"
+    },
+    {
+      "pattern": "Òò",
+      "replacement": "Ó"
+    },
+    {
+      "pattern": "Zh",
+      "replacement": "Ẑ"
+    },
+    {
+      "pattern": "Đh",
+      "replacement": "Dh"
+    },
+    {
+      "pattern": "Łh",
+      "replacement": "Lh"
+    },
+    {
+      "pattern": "Ẑh",
+      "replacement": "Zh"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": "nqo-transliteration",
+  "name": "N'Ko transliteration",
+  "description": "N'Ko transliteration",
+  "date": "2019-04-26",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 3,
+  "rules": [
+    {
+      "pattern": "ߣn",
+      "replacement": "ߠ"
+    },
+    {
+      "pattern": "ߢw",
+      "replacement": "ߧ"
+    },
+    {
+      "pattern": "ߣy",
+      "replacement": "ߢ"
+    },
+    {
+      "pattern": "ߖ\\/",
+      "replacement": "ߨ"
+    },
+    {
+      "pattern": "ߗ\\/",
+      "replacement": "ߩ"
+    },
+    {
+      "pattern": "ߙ\\/",
+      "replacement": "ߪ"
+    },
+    {
+      "pattern": "߲߲\\.",
+      "replacement": "߷"
+    },
+    {
+      "pattern": "߫-",
+      "replacement": "-"
+    },
+    {
+      "pattern": "߬~",
+      "replacement": "~"
+    },
+    {
+      "pattern": "\\\\\\?",
+      "replacement": "?"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "؟"
+    },
+    {
+      "pattern": "`",
+      "replacement": "ߑ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "߁"
+    },
+    {
+      "pattern": "2",
+      "replacement": "߂"
+    },
+    {
+      "pattern": "3",
+      "replacement": "߃"
+    },
+    {
+      "pattern": "4",
+      "replacement": "߄"
+    },
+    {
+      "pattern": "5",
+      "replacement": "߅"
+    },
+    {
+      "pattern": "6",
+      "replacement": "߆"
+    },
+    {
+      "pattern": "7",
+      "replacement": "߇"
+    },
+    {
+      "pattern": "8",
+      "replacement": "߈"
+    },
+    {
+      "pattern": "9",
+      "replacement": "߉"
+    },
+    {
+      "pattern": "0",
+      "replacement": "߀"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ߥ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ߍ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ߙ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ߕ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ߦ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ߎ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ߌ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ߐ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ߔ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ߊ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ߛ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ߘ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ߝ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ߜ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ߤ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ߖ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ߞ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ߟ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ߗ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ߓ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ߣ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ߡ"
+    },
+    {
+      "pattern": "~",
+      "replacement": "߬"
+    },
+    {
+      "pattern": "!",
+      "replacement": "߹"
+    },
+    {
+      "pattern": "#",
+      "replacement": "߰"
+    },
+    {
+      "pattern": "%",
+      "replacement": "߳"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ߋ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ߚ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ߏ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ߒ"
+    },
+    {
+      "pattern": "<",
+      "replacement": "߱"
+    },
+    {
+      "pattern": ">",
+      "replacement": "߯"
+    },
+    {
+      "pattern": "߮\\.",
+      "replacement": "߭"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "߮"
+    },
+    {
+      "pattern": "߸\\/",
+      "replacement": "ߺ"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "߲"
+    },
+    {
+      "pattern": ",",
+      "replacement": "߸"
+    },
+    {
+      "pattern": "/",
+      "replacement": "߶"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ߴ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ߵ"
+    },
+    {
+      "pattern": "-",
+      "replacement": "߫"
+    }
+  ]
+}

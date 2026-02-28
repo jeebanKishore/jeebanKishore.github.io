@@ -1,0 +1,44 @@
+{
+  "id": "nb-tildeforms",
+  "name": "Norsk tildemerket transliterasjon",
+  "description": "Norwegian input method with initial tilde triggering transliteration",
+  "date": "2012-12-04",
+  "author": "John Erling Blad",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 3,
+  "rules": [
+    {
+      "pattern": "°a",
+      "replacement": "å"
+    },
+    {
+      "pattern": "°A",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "~ae",
+      "replacement": "æ"
+    },
+    {
+      "pattern": "~AE",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "~oe",
+      "replacement": "ø"
+    },
+    {
+      "pattern": "~OE",
+      "replacement": "Ø"
+    },
+    {
+      "pattern": "~aa",
+      "replacement": "å"
+    },
+    {
+      "pattern": "~AA",
+      "replacement": "Å"
+    }
+  ]
+}

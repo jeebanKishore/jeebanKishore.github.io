@@ -1,0 +1,592 @@
+{
+  "id": "fa-kbd",
+  "name": "kbd",
+  "description": "Persian standard (ISIRI 9147) keyboard layout",
+  "date": "2013-08-30",
+  "author": "Ebrahim Byagowi",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "`",
+      "replacement": "‍"
+    },
+    {
+      "pattern": "1",
+      "replacement": "۱"
+    },
+    {
+      "pattern": "2",
+      "replacement": "۲"
+    },
+    {
+      "pattern": "3",
+      "replacement": "۳"
+    },
+    {
+      "pattern": "4",
+      "replacement": "۴"
+    },
+    {
+      "pattern": "5",
+      "replacement": "۵"
+    },
+    {
+      "pattern": "6",
+      "replacement": "۶"
+    },
+    {
+      "pattern": "7",
+      "replacement": "۷"
+    },
+    {
+      "pattern": "8",
+      "replacement": "۸"
+    },
+    {
+      "pattern": "9",
+      "replacement": "۹"
+    },
+    {
+      "pattern": "0",
+      "replacement": "۰"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ض"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ص"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ث"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ق"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ف"
+    },
+    {
+      "pattern": "y",
+      "replacement": "غ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ع"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ه"
+    },
+    {
+      "pattern": "o",
+      "replacement": "خ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ح"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ج"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "چ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ش"
+    },
+    {
+      "pattern": "s",
+      "replacement": "س"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ی"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ب"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ل"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ا"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ت"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ن"
+    },
+    {
+      "pattern": "l",
+      "replacement": "م"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ک"
+    },
+    {
+      "pattern": "'",
+      "replacement": "گ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ظ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ط"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ز"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ر"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ذ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "د"
+    },
+    {
+      "pattern": "m",
+      "replacement": "پ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "و"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": "/",
+      "replacement": "/"
+    },
+    {
+      "pattern": "~",
+      "replacement": "÷"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "!"
+    },
+    {
+      "pattern": "@",
+      "replacement": "٬"
+    },
+    {
+      "pattern": "#",
+      "replacement": "٫"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "﷼"
+    },
+    {
+      "pattern": "%",
+      "replacement": "٪"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "×"
+    },
+    {
+      "pattern": "&",
+      "replacement": "،"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "*"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "("
+    },
+    {
+      "pattern": "_",
+      "replacement": "ـ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ْ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ٌ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ٍ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ً"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ُ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ِ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "َ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ّ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "]"
+    },
+    {
+      "pattern": "P",
+      "replacement": "["
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "}"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "{"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ؤ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ئ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ي"
+    },
+    {
+      "pattern": "F",
+      "replacement": "إ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "أ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "آ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ة"
+    },
+    {
+      "pattern": "K",
+      "replacement": "»"
+    },
+    {
+      "pattern": "L",
+      "replacement": "«"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": ":"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "؛"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ك"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ٓ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ژ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ٰ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ٔ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ء"
+    },
+    {
+      "pattern": "<",
+      "replacement": ">"
+    },
+    {
+      "pattern": ">",
+      "replacement": "<"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "؟"
+    },
+    {
+      "pattern": "`",
+      "replacement": "~",
+      "context": "x"
+    },
+    {
+      "pattern": "1",
+      "replacement": "`",
+      "context": "x"
+    },
+    {
+      "pattern": "2",
+      "replacement": "@",
+      "context": "x"
+    },
+    {
+      "pattern": "3",
+      "replacement": "#",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "$",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "%",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "^",
+      "context": "x"
+    },
+    {
+      "pattern": "7",
+      "replacement": "&",
+      "context": "x"
+    },
+    {
+      "pattern": "8",
+      "replacement": "•",
+      "context": "x"
+    },
+    {
+      "pattern": "9",
+      "replacement": "‎",
+      "context": "x"
+    },
+    {
+      "pattern": "0",
+      "replacement": "‏",
+      "context": "x"
+    },
+    {
+      "pattern": "q",
+      "replacement": "°",
+      "context": "x"
+    },
+    {
+      "pattern": "w",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "e",
+      "replacement": "€",
+      "context": "x"
+    },
+    {
+      "pattern": "r",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "t",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "y",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "u",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "i",
+      "replacement": "‭",
+      "context": "x"
+    },
+    {
+      "pattern": "o",
+      "replacement": "‮",
+      "context": "x"
+    },
+    {
+      "pattern": "p",
+      "replacement": "‬",
+      "context": "x"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "‪",
+      "context": "x"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "‫",
+      "context": "x"
+    },
+    {
+      "pattern": "a",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "s",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ى",
+      "context": "x"
+    },
+    {
+      "pattern": "f",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "g",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ٱ",
+      "context": "x"
+    },
+    {
+      "pattern": "j",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "k",
+      "replacement": "﴾",
+      "context": "x"
+    },
+    {
+      "pattern": "l",
+      "replacement": "﴿",
+      "context": "x"
+    },
+    {
+      "pattern": ";",
+      "replacement": ";",
+      "context": "x"
+    },
+    {
+      "pattern": "'",
+      "replacement": "\"",
+      "context": "x"
+    },
+    {
+      "pattern": "z",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "x",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "c",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ٖ",
+      "context": "x"
+    },
+    {
+      "pattern": "b",
+      "replacement": "‍",
+      "context": "x"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ٕ",
+      "context": "x"
+    },
+    {
+      "pattern": "m",
+      "replacement": "…",
+      "context": "x"
+    },
+    {
+      "pattern": ",",
+      "replacement": ",",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "'",
+      "context": "x"
+    },
+    {
+      "pattern": "/",
+      "replacement": "?",
+      "context": "x"
+    },
+    {
+      "pattern": " ",
+      "replacement": " ",
+      "context": "x"
+    }
+  ]
+}

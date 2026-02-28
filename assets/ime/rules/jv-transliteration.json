@@ -1,0 +1,841 @@
+{
+  "id": "jv-transliteration",
+  "name": "Javanese",
+  "description": "Javanese transliteration",
+  "date": "2023-04-06",
+  "author": "Bennylin",
+  "license": "GPLv3",
+  "version": "1.3",
+  "contextLength": 1,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
+      "replacement": "\\\\"
+    },
+    {
+      "pattern": "ꦃ(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦃ(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦃ(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦃ(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦃ(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦃ(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂ(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂ(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂ(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂ(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂ(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂX",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂx",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁ(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁ(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁ(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁ(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁ(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁ(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦿ(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦿ(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦿ(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦿ(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦿ(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦿ(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦾ(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦾ(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦾ(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦾ(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦾ(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦾ(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀a",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀A",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀e",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀E",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀i",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀I",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀o",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀O",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀u",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀U",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦭ꧀X",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦭ꧀x",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦫ꧀X",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦫ꧀x",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀x",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀X",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦌx",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀b",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀B",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦤ꧀C",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦤ꧀c",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦕ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀c",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦕ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀C",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀d",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀D",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀(f|v|F|V)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦤ꧀G",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦤ꧀g",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦟ꧀g",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦟ)꧀G",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦤ|ꦕ|ꦫ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦝ|ꦗ|ꦪ|ꦚ|ꦩ|ꦒ|ꦧ|ꦛ|ꦔ|ꦐ|ꦑ|ꦓ|ꦖ|ꦘ|ꦙ|ꦜ|ꦞ|ꦟ|ꦡ|ꦣ|ꦦ|ꦨ|ꦬ|ꦯ|ꦰ|ꦿ|ꦾ|꦳|ꦴ|ꦻ|ꦍ|ꦺ|ꦼ|ꦶ|ꦷ|ꦸ|ꦹ|ꦄ|ꦌ|ꦅ|ꦆ|ꦇ|ꦎ|ꦈ)(ꦤ|ꦟ)꧀(g|G)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦕ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀g",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦕ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀G",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦠ꧀​h",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦢ꧀​h",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀​h",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦢ꧀h",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦣ꧀h",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦠ꧀h",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦡ꧀h",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦤ|ꦕ|ꦫ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦝ|ꦗ|ꦪ|ꦚ|ꦩ|ꦒ|ꦧ|ꦛ|ꦔ|ꦐ|ꦑ|ꦓ|ꦖ|ꦘ|ꦙ|ꦜ|ꦞ|ꦟ|ꦡ|ꦣ|ꦦ|ꦨ|ꦬ|ꦯ|ꦰ|ꦿ|ꦾ|꦳|ꦴ|ꦻ|ꦍ|ꦺ|ꦼ|ꦶ|ꦷ|ꦸ|ꦹ|ꦄ|ꦌ|ꦅ|ꦆ|ꦇ|ꦎ|ꦈ)h",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ)꧀h",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦢ|ꦣ)꧀H",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦠ|ꦡ)꧀H",
+      "replacement": ""
+    },
+    {
+      "pattern": "(꧀|ꦿ|ꦾ|꦳)H",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦤ꧀J",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦤ꧀j",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦕ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀(j|J)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀k",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀K",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁl",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦃ|ꦤ|ꦕ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦗ|ꦚ|ꦩ|ꦒ|ꦧ|ꦔ|ꦁ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀(l|L)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀(m|M)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀n",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀N",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀p",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀P",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀​r",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁR",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂR",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦃR",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦤ|ꦕ|ꦫ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦝ|ꦗ|ꦪ|ꦚ|ꦩ|ꦒ|ꦧ|ꦛ|ꦔ|ꦐ|ꦑ|ꦓ|ꦖ|ꦘ|ꦙ|ꦜ|ꦞ|ꦟ|ꦡ|ꦣ|ꦦ|ꦨ|ꦬ|ꦯ|ꦰ|ꦿ|ꦾ|꦳|ꦴ|ꦻ|ꦍ|ꦺ|ꦼ|ꦶ|ꦷ|ꦸ|ꦹ|ꦄ|ꦌ|ꦅ|ꦆ|ꦇ|ꦎ|ꦈ)r",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦤ|ꦕ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦝ|ꦗ|ꦚ|ꦩ|ꦒ|ꦧ|ꦛ|ꦔ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀(r|R)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀s",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀S",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀t",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦢ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀T",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁw",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦃ|ꦤ|ꦫ|ꦂ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦝ|ꦗ|ꦪ|ꦚ|ꦩ|ꦒ|ꦧ|ꦔ|ꦁ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀(w|W)꧀",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀​y",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦁY",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂY",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦃY",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦗ꧀ꦤ꧀y",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦤ꧀y",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦟ꧀y",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦟ)꧀Y",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦫ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦝ|ꦗ|ꦩ|ꦒ|ꦧ|ꦔ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦦ|ꦯ|ꦡ)꧀(y|Y)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦤ|ꦏ|ꦠ|ꦱ|ꦭ|ꦥ|ꦗ|ꦩ|ꦒ|ꦧ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ)꧀(z|Z)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦤ|ꦕ|ꦫ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦝ|ꦗ|ꦪ|ꦚ|ꦩ|ꦒ|ꦧ|ꦛ|ꦔ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ|꦳)i",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ꦲ|ꦤ|ꦕ|ꦫ|ꦏ|ꦢ|ꦠ|ꦱ|ꦮ|ꦭ|ꦥ|ꦝ|ꦗ|ꦪ|ꦚ|ꦩ|ꦒ|ꦧ|ꦛ|ꦔ|ꦘ|ꦨ|ꦖ|ꦓ|ꦑ|ꦟ|ꦦ|ꦯ|ꦡ|꦳)u",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦄi",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦄu",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦶi",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦆi",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦆI",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦸu",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦈu",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦺꦴo",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦏ꧀Q",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦫ꧀q",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦂq",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦪ꧀q",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦊq",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦺq",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦺꦴq",
+      "replacement": ""
+    },
+    {
+      "pattern": " ",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧅q",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧄q",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧃q",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧂q",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧁q",
+      "replacement": ""
+    },
+    {
+      "pattern": "Q",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧟[Q|q]",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧞[Q|q]",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧆[Q|q]",
+      "replacement": ""
+    },
+    {
+      "pattern": "ꦀ[Q|q]",
+      "replacement": ""
+    },
+    {
+      "pattern": "꦳[Q|q]",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧀[Q|q]",
+      "replacement": ""
+    },
+    {
+      "pattern": "q",
+      "replacement": ""
+    },
+    {
+      "pattern": "a",
+      "replacement": ""
+    },
+    {
+      "pattern": "b",
+      "replacement": ""
+    },
+    {
+      "pattern": "c",
+      "replacement": ""
+    },
+    {
+      "pattern": "d",
+      "replacement": ""
+    },
+    {
+      "pattern": "e",
+      "replacement": ""
+    },
+    {
+      "pattern": "(f|v)",
+      "replacement": ""
+    },
+    {
+      "pattern": "g",
+      "replacement": ""
+    },
+    {
+      "pattern": "h",
+      "replacement": ""
+    },
+    {
+      "pattern": "i",
+      "replacement": ""
+    },
+    {
+      "pattern": "j",
+      "replacement": ""
+    },
+    {
+      "pattern": "k",
+      "replacement": ""
+    },
+    {
+      "pattern": "l",
+      "replacement": ""
+    },
+    {
+      "pattern": "m",
+      "replacement": ""
+    },
+    {
+      "pattern": "n",
+      "replacement": ""
+    },
+    {
+      "pattern": "o",
+      "replacement": ""
+    },
+    {
+      "pattern": "p",
+      "replacement": ""
+    },
+    {
+      "pattern": "r",
+      "replacement": ""
+    },
+    {
+      "pattern": "s",
+      "replacement": ""
+    },
+    {
+      "pattern": "t",
+      "replacement": ""
+    },
+    {
+      "pattern": "u",
+      "replacement": ""
+    },
+    {
+      "pattern": "w",
+      "replacement": ""
+    },
+    {
+      "pattern": "x",
+      "replacement": ""
+    },
+    {
+      "pattern": "y",
+      "replacement": ""
+    },
+    {
+      "pattern": "z",
+      "replacement": ""
+    },
+    {
+      "pattern": "A",
+      "replacement": ""
+    },
+    {
+      "pattern": "B",
+      "replacement": ""
+    },
+    {
+      "pattern": "C",
+      "replacement": ""
+    },
+    {
+      "pattern": "D",
+      "replacement": ""
+    },
+    {
+      "pattern": "E",
+      "replacement": ""
+    },
+    {
+      "pattern": "(F|V)",
+      "replacement": ""
+    },
+    {
+      "pattern": "G",
+      "replacement": ""
+    },
+    {
+      "pattern": "H",
+      "replacement": ""
+    },
+    {
+      "pattern": "I",
+      "replacement": ""
+    },
+    {
+      "pattern": "J",
+      "replacement": ""
+    },
+    {
+      "pattern": "K",
+      "replacement": ""
+    },
+    {
+      "pattern": "L",
+      "replacement": ""
+    },
+    {
+      "pattern": "M",
+      "replacement": ""
+    },
+    {
+      "pattern": "N",
+      "replacement": ""
+    },
+    {
+      "pattern": "O",
+      "replacement": ""
+    },
+    {
+      "pattern": "P",
+      "replacement": ""
+    },
+    {
+      "pattern": "R",
+      "replacement": ""
+    },
+    {
+      "pattern": "S",
+      "replacement": ""
+    },
+    {
+      "pattern": "T",
+      "replacement": ""
+    },
+    {
+      "pattern": "U",
+      "replacement": ""
+    },
+    {
+      "pattern": "W",
+      "replacement": ""
+    },
+    {
+      "pattern": "X",
+      "replacement": ""
+    },
+    {
+      "pattern": "Y",
+      "replacement": ""
+    },
+    {
+      "pattern": "Z",
+      "replacement": ""
+    },
+    {
+      "pattern": "0",
+      "replacement": ""
+    },
+    {
+      "pattern": "1",
+      "replacement": ""
+    },
+    {
+      "pattern": "2",
+      "replacement": ""
+    },
+    {
+      "pattern": "3",
+      "replacement": ""
+    },
+    {
+      "pattern": "4",
+      "replacement": ""
+    },
+    {
+      "pattern": "5",
+      "replacement": ""
+    },
+    {
+      "pattern": "6",
+      "replacement": ""
+    },
+    {
+      "pattern": "7",
+      "replacement": ""
+    },
+    {
+      "pattern": "8",
+      "replacement": ""
+    },
+    {
+      "pattern": "9",
+      "replacement": ""
+    },
+    {
+      "pattern": ":",
+      "replacement": ""
+    },
+    {
+      "pattern": ",",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\.",
+      "replacement": ""
+    },
+    {
+      "pattern": "꧊\\|",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\|",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ""
+    }
+  ]
+}

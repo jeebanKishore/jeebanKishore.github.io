@@ -1,0 +1,333 @@
+{
+  "id": "sk-kbd",
+  "name": "Slovak kbd",
+  "description": "Slovak kbd keyboard layout",
+  "date": "2013-06-26",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.1",
+  "rules": [
+    {
+      "pattern": "1",
+      "replacement": "+"
+    },
+    {
+      "pattern": "2",
+      "replacement": "ľ"
+    },
+    {
+      "pattern": "3",
+      "replacement": "š"
+    },
+    {
+      "pattern": "4",
+      "replacement": "č"
+    },
+    {
+      "pattern": "5",
+      "replacement": "ť"
+    },
+    {
+      "pattern": "6",
+      "replacement": "ž"
+    },
+    {
+      "pattern": "7",
+      "replacement": "ý"
+    },
+    {
+      "pattern": "8",
+      "replacement": "á"
+    },
+    {
+      "pattern": "9",
+      "replacement": "í"
+    },
+    {
+      "pattern": "0",
+      "replacement": "é"
+    },
+    {
+      "pattern": "!",
+      "replacement": "1"
+    },
+    {
+      "pattern": "@",
+      "replacement": "2"
+    },
+    {
+      "pattern": "#",
+      "replacement": "3"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "4"
+    },
+    {
+      "pattern": "%",
+      "replacement": "5"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "6"
+    },
+    {
+      "pattern": "&",
+      "replacement": "7"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "8"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "9"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "0"
+    },
+    {
+      "pattern": "-",
+      "replacement": "="
+    },
+    {
+      "pattern": "_",
+      "replacement": "%"
+    },
+    {
+      "pattern": "=",
+      "replacement": "´"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ˇ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ú"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "/"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ň"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": ")"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ô"
+    },
+    {
+      "pattern": ":",
+      "replacement": "\""
+    },
+    {
+      "pattern": "'",
+      "replacement": "§"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "!"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "?"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": ":"
+    },
+    {
+      "pattern": "/",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "_"
+    },
+    {
+      "pattern": "`",
+      "replacement": ";"
+    },
+    {
+      "pattern": "~",
+      "replacement": "°"
+    },
+    {
+      "pattern": "´a",
+      "replacement": "á"
+    },
+    {
+      "pattern": "´A",
+      "replacement": "Á"
+    },
+    {
+      "pattern": "´e",
+      "replacement": "é"
+    },
+    {
+      "pattern": "´E",
+      "replacement": "É"
+    },
+    {
+      "pattern": "´i",
+      "replacement": "í"
+    },
+    {
+      "pattern": "´I",
+      "replacement": "Í"
+    },
+    {
+      "pattern": "´l",
+      "replacement": "ĺ"
+    },
+    {
+      "pattern": "´L",
+      "replacement": "Ĺ"
+    },
+    {
+      "pattern": "´o",
+      "replacement": "ó"
+    },
+    {
+      "pattern": "´O",
+      "replacement": "Ó"
+    },
+    {
+      "pattern": "´r",
+      "replacement": "ŕ"
+    },
+    {
+      "pattern": "´R",
+      "replacement": "Ŕ"
+    },
+    {
+      "pattern": "´u",
+      "replacement": "ú"
+    },
+    {
+      "pattern": "´U",
+      "replacement": "Ú"
+    },
+    {
+      "pattern": "´y",
+      "replacement": "ý"
+    },
+    {
+      "pattern": "´Y",
+      "replacement": "Ý"
+    },
+    {
+      "pattern": "¨a",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "¨A",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "\\^o",
+      "replacement": "ô"
+    },
+    {
+      "pattern": "\\^O",
+      "replacement": "Ô"
+    },
+    {
+      "pattern": "ˇc",
+      "replacement": "č"
+    },
+    {
+      "pattern": "ˇC",
+      "replacement": "Č"
+    },
+    {
+      "pattern": "ˇd",
+      "replacement": "ď"
+    },
+    {
+      "pattern": "ˇD",
+      "replacement": "Ď"
+    },
+    {
+      "pattern": "ˇl",
+      "replacement": "ľ"
+    },
+    {
+      "pattern": "ˇL",
+      "replacement": "Ľ"
+    },
+    {
+      "pattern": "ˇn",
+      "replacement": "ň"
+    },
+    {
+      "pattern": "ˇN",
+      "replacement": "Ň"
+    },
+    {
+      "pattern": "ˇs",
+      "replacement": "š"
+    },
+    {
+      "pattern": "ˇS",
+      "replacement": "Š"
+    },
+    {
+      "pattern": "ˇt",
+      "replacement": "ť"
+    },
+    {
+      "pattern": "ˇT",
+      "replacement": "Ť"
+    },
+    {
+      "pattern": "ˇz",
+      "replacement": "ž"
+    },
+    {
+      "pattern": "ˇZ",
+      "replacement": "Ž"
+    },
+    {
+      "pattern": "y",
+      "replacement": "z"
+    },
+    {
+      "pattern": "z",
+      "replacement": "y"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Z"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "Y"
+    },
+    {
+      "pattern": "3",
+      "replacement": "^",
+      "context": "x"
+    },
+    {
+      "pattern": "=",
+      "replacement": "¨",
+      "context": "x"
+    }
+  ]
+}

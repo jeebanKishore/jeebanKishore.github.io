@@ -1,0 +1,93 @@
+{
+  "id": "udm-alt",
+  "name": "Удмурт ALT",
+  "description": "Удмурт ALT",
+  "date": "2013-03-17",
+  "author": "Amir (Алексей) Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "ц",
+      "replacement": "ӵ"
+    },
+    {
+      "pattern": "Ц",
+      "replacement": "Ӵ"
+    },
+    {
+      "pattern": "щ",
+      "replacement": "ӥ"
+    },
+    {
+      "pattern": "Щ",
+      "replacement": "Ӥ"
+    },
+    {
+      "pattern": "х",
+      "replacement": "ӟ"
+    },
+    {
+      "pattern": "Х",
+      "replacement": "Ӟ"
+    },
+    {
+      "pattern": "ф",
+      "replacement": "ӝ"
+    },
+    {
+      "pattern": "Ф",
+      "replacement": "Ӝ"
+    },
+    {
+      "pattern": "ё",
+      "replacement": "ӧ",
+      "context": "x"
+    },
+    {
+      "pattern": "Ё",
+      "replacement": "Ӧ",
+      "context": "x"
+    },
+    {
+      "pattern": "ц",
+      "replacement": "ц",
+      "context": "x"
+    },
+    {
+      "pattern": "Ц",
+      "replacement": "Ц",
+      "context": "x"
+    },
+    {
+      "pattern": "щ",
+      "replacement": "щ",
+      "context": "x"
+    },
+    {
+      "pattern": "Щ",
+      "replacement": "Щ",
+      "context": "x"
+    },
+    {
+      "pattern": "х",
+      "replacement": "х",
+      "context": "x"
+    },
+    {
+      "pattern": "Х",
+      "replacement": "Х",
+      "context": "x"
+    },
+    {
+      "pattern": "ф",
+      "replacement": "ф",
+      "context": "x"
+    },
+    {
+      "pattern": "Ф",
+      "replacement": "Ф",
+      "context": "x"
+    }
+  ]
+}

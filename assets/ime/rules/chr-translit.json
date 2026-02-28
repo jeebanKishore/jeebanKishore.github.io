@@ -1,0 +1,416 @@
+{
+  "id": "chr-translit",
+  "name": "Cherokee",
+  "description": "Typing Cherokee syllabary from English letters",
+  "date": "2023-01-14",
+  "author": "Anne Drew Hu",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 3,
+  "rules": [
+    {
+      "pattern": "ga",
+      "replacement": "Ꭶ"
+    },
+    {
+      "pattern": "ka",
+      "replacement": "Ꭷ"
+    },
+    {
+      "pattern": "ge",
+      "replacement": "Ꭸ"
+    },
+    {
+      "pattern": "gi",
+      "replacement": "Ꭹ"
+    },
+    {
+      "pattern": "go",
+      "replacement": "Ꭺ"
+    },
+    {
+      "pattern": "gu",
+      "replacement": "Ꭻ"
+    },
+    {
+      "pattern": "gv",
+      "replacement": "Ꭼ"
+    },
+    {
+      "pattern": "'ha",
+      "replacement": "Ꭽ"
+    },
+    {
+      "pattern": "'he",
+      "replacement": "Ꭾ"
+    },
+    {
+      "pattern": "'hi",
+      "replacement": "Ꭿ"
+    },
+    {
+      "pattern": "'ho",
+      "replacement": "Ꮀ"
+    },
+    {
+      "pattern": "'hu",
+      "replacement": "Ꮁ"
+    },
+    {
+      "pattern": "'hv",
+      "replacement": "Ꮂ"
+    },
+    {
+      "pattern": "ha",
+      "replacement": "Ꭽ"
+    },
+    {
+      "pattern": "he",
+      "replacement": "Ꭾ"
+    },
+    {
+      "pattern": "hi",
+      "replacement": "Ꭿ"
+    },
+    {
+      "pattern": "ho",
+      "replacement": "Ꮀ"
+    },
+    {
+      "pattern": "hu",
+      "replacement": "Ꮁ"
+    },
+    {
+      "pattern": "hv",
+      "replacement": "Ꮂ"
+    },
+    {
+      "pattern": "dla",
+      "replacement": "Ꮬ"
+    },
+    {
+      "pattern": "tla",
+      "replacement": "Ꮭ"
+    },
+    {
+      "pattern": "tle",
+      "replacement": "Ꮮ"
+    },
+    {
+      "pattern": "tli",
+      "replacement": "Ꮯ"
+    },
+    {
+      "pattern": "tlo",
+      "replacement": "Ꮰ"
+    },
+    {
+      "pattern": "tlu",
+      "replacement": "Ꮱ"
+    },
+    {
+      "pattern": "tlv",
+      "replacement": "Ꮲ"
+    },
+    {
+      "pattern": "la",
+      "replacement": "Ꮃ"
+    },
+    {
+      "pattern": "le",
+      "replacement": "Ꮄ"
+    },
+    {
+      "pattern": "li",
+      "replacement": "Ꮅ"
+    },
+    {
+      "pattern": "lo",
+      "replacement": "Ꮆ"
+    },
+    {
+      "pattern": "lu",
+      "replacement": "Ꮇ"
+    },
+    {
+      "pattern": "lv",
+      "replacement": "Ꮈ"
+    },
+    {
+      "pattern": "ma",
+      "replacement": "Ꮉ"
+    },
+    {
+      "pattern": "me",
+      "replacement": "Ꮊ"
+    },
+    {
+      "pattern": "mi",
+      "replacement": "Ꮋ"
+    },
+    {
+      "pattern": "mo",
+      "replacement": "Ꮌ"
+    },
+    {
+      "pattern": "mu",
+      "replacement": "Ꮍ"
+    },
+    {
+      "pattern": "mv",
+      "replacement": "Ᏽ"
+    },
+    {
+      "pattern": "'hna",
+      "replacement": "Ꮏ"
+    },
+    {
+      "pattern": "hna",
+      "replacement": "Ꮏ"
+    },
+    {
+      "pattern": "'na",
+      "replacement": "Ꮎ"
+    },
+    {
+      "pattern": "na",
+      "replacement": "Ꮎ"
+    },
+    {
+      "pattern": "Ꮎh",
+      "replacement": "Ꮐ"
+    },
+    {
+      "pattern": "Ꮎh",
+      "replacement": "Ꮐ"
+    },
+    {
+      "pattern": "ne",
+      "replacement": "Ꮑ"
+    },
+    {
+      "pattern": "ni",
+      "replacement": "Ꮒ"
+    },
+    {
+      "pattern": "no",
+      "replacement": "Ꮓ"
+    },
+    {
+      "pattern": "nu",
+      "replacement": "Ꮔ"
+    },
+    {
+      "pattern": "nv",
+      "replacement": "Ꮕ"
+    },
+    {
+      "pattern": "qᎤa",
+      "replacement": "Ꮖ"
+    },
+    {
+      "pattern": "qᎤe",
+      "replacement": "Ꮗ"
+    },
+    {
+      "pattern": "qᎤi",
+      "replacement": "Ꮘ"
+    },
+    {
+      "pattern": "qᎤo",
+      "replacement": "Ꮙ"
+    },
+    {
+      "pattern": "qᎤu",
+      "replacement": "Ꮚ"
+    },
+    {
+      "pattern": "qᎤv",
+      "replacement": "Ꮛ"
+    },
+    {
+      "pattern": "tsa",
+      "replacement": "Ꮳ"
+    },
+    {
+      "pattern": "tse",
+      "replacement": "Ꮴ"
+    },
+    {
+      "pattern": "tsi",
+      "replacement": "Ꮵ"
+    },
+    {
+      "pattern": "tso",
+      "replacement": "Ꮶ"
+    },
+    {
+      "pattern": "tsu",
+      "replacement": "Ꮷ"
+    },
+    {
+      "pattern": "tsv",
+      "replacement": "Ꮸ"
+    },
+    {
+      "pattern": "sa",
+      "replacement": "Ꮜ"
+    },
+    {
+      "pattern": "se",
+      "replacement": "Ꮞ"
+    },
+    {
+      "pattern": "si",
+      "replacement": "Ꮟ"
+    },
+    {
+      "pattern": "so",
+      "replacement": "Ꮠ"
+    },
+    {
+      "pattern": "su",
+      "replacement": "Ꮡ"
+    },
+    {
+      "pattern": "sv",
+      "replacement": "Ꮢ"
+    },
+    {
+      "pattern": "s'",
+      "replacement": "Ꮝ"
+    },
+    {
+      "pattern": "da",
+      "replacement": "Ꮣ"
+    },
+    {
+      "pattern": "ta",
+      "replacement": "Ꮤ"
+    },
+    {
+      "pattern": "de",
+      "replacement": "Ꮥ"
+    },
+    {
+      "pattern": "te",
+      "replacement": "Ꮦ"
+    },
+    {
+      "pattern": "di",
+      "replacement": "Ꮧ"
+    },
+    {
+      "pattern": "ti",
+      "replacement": "Ꮨ"
+    },
+    {
+      "pattern": "do",
+      "replacement": "Ꮩ"
+    },
+    {
+      "pattern": "du",
+      "replacement": "Ꮪ"
+    },
+    {
+      "pattern": "dv",
+      "replacement": "Ꮫ"
+    },
+    {
+      "pattern": "wa",
+      "replacement": "Ꮹ"
+    },
+    {
+      "pattern": "we",
+      "replacement": "Ꮺ"
+    },
+    {
+      "pattern": "wi",
+      "replacement": "Ꮻ"
+    },
+    {
+      "pattern": "wo",
+      "replacement": "Ꮼ"
+    },
+    {
+      "pattern": "wu",
+      "replacement": "Ꮽ"
+    },
+    {
+      "pattern": "wv",
+      "replacement": "Ꮾ"
+    },
+    {
+      "pattern": "ya",
+      "replacement": "Ꮿ"
+    },
+    {
+      "pattern": "ye",
+      "replacement": "Ᏸ"
+    },
+    {
+      "pattern": "yi",
+      "replacement": "Ᏹ"
+    },
+    {
+      "pattern": "yo",
+      "replacement": "Ᏺ"
+    },
+    {
+      "pattern": "yu",
+      "replacement": "Ᏻ"
+    },
+    {
+      "pattern": "yv",
+      "replacement": "Ᏼ"
+    },
+    {
+      "pattern": "'a",
+      "replacement": "Ꭰ"
+    },
+    {
+      "pattern": "'e",
+      "replacement": "Ꭱ"
+    },
+    {
+      "pattern": "'i",
+      "replacement": "Ꭲ"
+    },
+    {
+      "pattern": "'o",
+      "replacement": "Ꭳ"
+    },
+    {
+      "pattern": "'u",
+      "replacement": "Ꭴ"
+    },
+    {
+      "pattern": "'v",
+      "replacement": "Ꭵ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "Ꭰ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "Ꭱ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "Ꭲ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "Ꭳ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "Ꭴ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "Ꭵ"
+    }
+  ]
+}

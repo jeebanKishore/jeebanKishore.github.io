@@ -1,0 +1,79 @@
+{
+  "id": "ajg-tilde",
+  "name": "ajg-tilde",
+  "description": "Aja tilde keyboard",
+  "date": "2021-11-13",
+  "author": "Mahuton POSSOUPE, Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~D",
+      "replacement": "Ɖ"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "ɖ"
+    },
+    {
+      "pattern": "~E",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "~G",
+      "replacement": "Ɣ"
+    },
+    {
+      "pattern": "~g",
+      "replacement": "ɣ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ɔ"
+    },
+    {
+      "pattern": "~Z",
+      "replacement": "Ʒ"
+    },
+    {
+      "pattern": "~z",
+      "replacement": "ʒ"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~-",
+      "replacement": "̄"
+    },
+    {
+      "pattern": "~v",
+      "replacement": "̌"
+    }
+  ]
+}

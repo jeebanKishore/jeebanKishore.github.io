@@ -1,0 +1,61 @@
+{
+  "id": "cv-lat-altgr",
+  "name": "Căvašla - Mercen",
+  "description": "CVLat usă kurakan Mercen",
+  "date": "2013-03-21",
+  "author": "Anatoly Mironov, @mirontoli",
+  "license": "MIT",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "a",
+      "replacement": "ă",
+      "context": "x"
+    },
+    {
+      "pattern": "A",
+      "replacement": "Ă",
+      "context": "x"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ĕ",
+      "context": "x"
+    },
+    {
+      "pattern": "E",
+      "replacement": "Ĕ",
+      "context": "x"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ş",
+      "context": "x"
+    },
+    {
+      "pattern": "S",
+      "replacement": "Ş",
+      "context": "x"
+    },
+    {
+      "pattern": "d|h",
+      "replacement": "š",
+      "context": "x"
+    },
+    {
+      "pattern": "D|H",
+      "replacement": "Š",
+      "context": "x"
+    },
+    {
+      "pattern": "w|u",
+      "replacement": "ü",
+      "context": "x"
+    },
+    {
+      "pattern": "W|U",
+      "replacement": "Ü",
+      "context": "x"
+    }
+  ]
+}

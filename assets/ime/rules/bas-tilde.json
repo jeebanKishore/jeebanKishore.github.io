@@ -1,0 +1,63 @@
+{
+  "id": "bas-tilde",
+  "name": "bas-tilde",
+  "description": "Basaa tilde keyboard",
+  "date": "2021-03-31",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~B",
+      "replacement": "Ɓ"
+    },
+    {
+      "pattern": "~b",
+      "replacement": "ɓ"
+    },
+    {
+      "pattern": "~E",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ɔ"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~-",
+      "replacement": "̄"
+    },
+    {
+      "pattern": "~v",
+      "replacement": "̌"
+    }
+  ]
+}

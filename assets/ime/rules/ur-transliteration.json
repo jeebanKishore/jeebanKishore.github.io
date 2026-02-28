@@ -1,0 +1,335 @@
+{
+  "id": "ur-transliteration",
+  "name": "Urdu Transliteration",
+  "description": "Urdu Transliteration based on RTS",
+  "date": "2012-10-16",
+  "author": "Mohammed Imran Tabani",
+  "license": "",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "x",
+      "replacement": "ف"
+    },
+    {
+      "pattern": "_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ڑ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ذ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ں"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ڈ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ۂ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ث"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "+"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ز"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ض"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ژ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ظ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ک"
+    },
+    {
+      "pattern": "K",
+      "replacement": "گ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ب"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ـ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ۃ"
+    },
+    {
+      "pattern": "\\;",
+      "replacement": "؛"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": ":"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ح"
+    },
+    {
+      "pattern": "P",
+      "replacement": "خ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "{"
+    },
+    {
+      "pattern": "'",
+      "replacement": "'"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "\""
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "]"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "{"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ۓ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ی"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ي"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ج"
+    },
+    {
+      "pattern": "O",
+      "replacement": "چ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "س"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ہ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ء"
+    },
+    {
+      "pattern": "y",
+      "replacement": "پ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ّ­"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ے"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "؟"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ا"
+    },
+    {
+      "pattern": "n",
+      "replacement": "غ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ئ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ش"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": ""
+    },
+    {
+      "pattern": "m",
+      "replacement": "ع"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ت"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": ""
+    },
+    {
+      "pattern": "e",
+      "replacement": "ھ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ن"
+    },
+    {
+      "pattern": "r",
+      "replacement": "د"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ل"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ٹ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "\\"
+    },
+    {
+      "pattern": "s",
+      "replacement": "و"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ص"
+    },
+    {
+      "pattern": "a",
+      "replacement": "م"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ط"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ر"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "|"
+    },
+    {
+      "pattern": "/",
+      "replacement": "/"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "<"
+    },
+    {
+      "pattern": "0",
+      "replacement": "0"
+    },
+    {
+      "pattern": "1",
+      "replacement": "1"
+    },
+    {
+      "pattern": "2",
+      "replacement": "2"
+    },
+    {
+      "pattern": "3",
+      "replacement": "3"
+    },
+    {
+      "pattern": "4",
+      "replacement": "4"
+    },
+    {
+      "pattern": "5",
+      "replacement": "5"
+    },
+    {
+      "pattern": "6",
+      "replacement": "6"
+    },
+    {
+      "pattern": "7",
+      "replacement": "7"
+    },
+    {
+      "pattern": "8",
+      "replacement": "8"
+    },
+    {
+      "pattern": "9",
+      "replacement": "9"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "@"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\$",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\%",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\^",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "ۖ"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "٭"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")"
+    }
+  ]
+}

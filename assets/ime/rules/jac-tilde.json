@@ -1,0 +1,31 @@
+{
+  "id": "jac-tilde",
+  "name": "jac-tilde",
+  "description": "Jakaltek input keyboard",
+  "date": "2024-07-03",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~'",
+      "replacement": "ꞌ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "n̈"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "N̈"
+    },
+    {
+      "pattern": "~x",
+      "replacement": "ẍ"
+    },
+    {
+      "pattern": "~X",
+      "replacement": "Ẍ"
+    }
+  ]
+}

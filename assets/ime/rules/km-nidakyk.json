@@ -1,0 +1,798 @@
+{
+  "id": "km-nidakyk",
+  "name": "ក្តារ​ចុច​យូនីកូដ​ខ្មែរ (NiDA)",
+  "description": "NiDA Standard Khmer Unicode Keyboard",
+  "date": "2016-07-07",
+  "author": "Ang Iongchun",
+  "license": "Public domain",
+  "version": "1.0",
+  "contextLength": 1,
+  "rules": [
+    {
+      "pattern": "េa",
+      "replacement": "e"
+    },
+    {
+      "pattern": "ាe",
+      "replacement": "a"
+    },
+    {
+      "pattern": "េI",
+      "replacement": "e"
+    },
+    {
+      "pattern": "ីe",
+      "replacement": "I"
+    },
+    {
+      "pattern": "ំa",
+      "replacement": "M"
+    },
+    {
+      "pattern": "ំu",
+      "replacement": "M"
+    },
+    {
+      "pattern": "ះe",
+      "replacement": "H"
+    },
+    {
+      "pattern": "ះu",
+      "replacement": "H"
+    },
+    {
+      "pattern": "ះo",
+      "replacement": "H"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ឆ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "រ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ត"
+    },
+    {
+      "pattern": "y",
+      "replacement": "យ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ផ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ស"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ដ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ថ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ង"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ហ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "្"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ក"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ល"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ឋ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ខ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ច"
+    },
+    {
+      "pattern": "v",
+      "replacement": "វ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ប"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ន"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ម"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ឈ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ទ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ភ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ឌ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ធ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "អ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ញ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "គ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ឡ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ឍ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ឃ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ជ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ព"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ណ"
+    },
+    {
+      "pattern": "-",
+      "replacement": "ឥ"
+    },
+    {
+      "pattern": "=",
+      "replacement": "ឲ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ឪ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ឮ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ឬ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ឧ"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ឭ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ឹ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "េ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ុ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ិ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ោ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ា"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ឺ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ែ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ួ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ូ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ី"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ៅ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ាំ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ៃ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ះ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "េះ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ំ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ៀ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ើ"
+    },
+    {
+      "pattern": "'",
+      "replacement": "់"
+    },
+    {
+      "pattern": ",",
+      "replacement": "ុំ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "៊"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ោះ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "៉"
+    },
+    {
+      "pattern": "<",
+      "replacement": "ុះ"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "៍"
+    },
+    {
+      "pattern": "&",
+      "replacement": "័"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "៏"
+    },
+    {
+      "pattern": "_",
+      "replacement": "៌"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ឿ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "១"
+    },
+    {
+      "pattern": "2",
+      "replacement": "២"
+    },
+    {
+      "pattern": "3",
+      "replacement": "៣"
+    },
+    {
+      "pattern": "4",
+      "replacement": "៤"
+    },
+    {
+      "pattern": "5",
+      "replacement": "៥"
+    },
+    {
+      "pattern": "6",
+      "replacement": "៦"
+    },
+    {
+      "pattern": "7",
+      "replacement": "៧"
+    },
+    {
+      "pattern": "8",
+      "replacement": "៨"
+    },
+    {
+      "pattern": "9",
+      "replacement": "៩"
+    },
+    {
+      "pattern": "0",
+      "replacement": "០"
+    },
+    {
+      "pattern": " ",
+      "replacement": "​"
+    },
+    {
+      "pattern": "`",
+      "replacement": "«"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "។"
+    },
+    {
+      "pattern": ">",
+      "replacement": "៕"
+    },
+    {
+      "pattern": "~",
+      "replacement": "»"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "!"
+    },
+    {
+      "pattern": "@",
+      "replacement": "ៗ"
+    },
+    {
+      "pattern": "#",
+      "replacement": "\""
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "៛"
+    },
+    {
+      "pattern": "%",
+      "replacement": "%"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "="
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "?"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ឯ",
+      "context": "x"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ឫ",
+      "context": "x"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ឦ",
+      "context": "x"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ឱ",
+      "context": "x"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ឰ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ឩ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ឳ",
+      "context": "x"
+    },
+    {
+      "pattern": "3",
+      "replacement": "៑",
+      "context": "x"
+    },
+    {
+      "pattern": "=",
+      "replacement": "៎",
+      "context": "x"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ៈ",
+      "context": "x"
+    },
+    {
+      "pattern": "2",
+      "replacement": "@",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "$",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "€",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "៙",
+      "context": "x"
+    },
+    {
+      "pattern": "7",
+      "replacement": "៚",
+      "context": "x"
+    },
+    {
+      "pattern": "8",
+      "replacement": "*",
+      "context": "x"
+    },
+    {
+      "pattern": "9",
+      "replacement": "{",
+      "context": "x"
+    },
+    {
+      "pattern": "0",
+      "replacement": "}",
+      "context": "x"
+    },
+    {
+      "pattern": "-",
+      "replacement": "x",
+      "context": "x"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "\\",
+      "context": "x"
+    },
+    {
+      "pattern": ";",
+      "replacement": "៖",
+      "context": "x"
+    },
+    {
+      "pattern": ",",
+      "replacement": ",",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": ".",
+      "context": "x"
+    },
+    {
+      "pattern": "/",
+      "replacement": "/",
+      "context": "x"
+    },
+    {
+      "pattern": " ",
+      "replacement": " ",
+      "context": "x"
+    },
+    {
+      "pattern": "`",
+      "replacement": "‍",
+      "context": "x"
+    },
+    {
+      "pattern": "1",
+      "replacement": "‌",
+      "context": "x"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ឞ",
+      "context": "x"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ឝ",
+      "context": "x"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ឨ",
+      "context": "x"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ៜ",
+      "context": "x"
+    },
+    {
+      "pattern": "w",
+      "replacement": "៝",
+      "context": "x"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "៱",
+      "context": "x"
+    },
+    {
+      "pattern": "@",
+      "replacement": "៲",
+      "context": "x"
+    },
+    {
+      "pattern": "#",
+      "replacement": "៳",
+      "context": "x"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "៴",
+      "context": "x"
+    },
+    {
+      "pattern": "%",
+      "replacement": "៵",
+      "context": "x"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "៶",
+      "context": "x"
+    },
+    {
+      "pattern": "&",
+      "replacement": "៷",
+      "context": "x"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "៸",
+      "context": "x"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "៹",
+      "context": "x"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "៰",
+      "context": "x"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "᧠",
+      "context": "x"
+    },
+    {
+      "pattern": "W",
+      "replacement": "᧡",
+      "context": "x"
+    },
+    {
+      "pattern": "E",
+      "replacement": "᧢",
+      "context": "x"
+    },
+    {
+      "pattern": "R",
+      "replacement": "᧣",
+      "context": "x"
+    },
+    {
+      "pattern": "T",
+      "replacement": "᧤",
+      "context": "x"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "᧥",
+      "context": "x"
+    },
+    {
+      "pattern": "U",
+      "replacement": "᧦",
+      "context": "x"
+    },
+    {
+      "pattern": "I",
+      "replacement": "᧧",
+      "context": "x"
+    },
+    {
+      "pattern": "O",
+      "replacement": "᧨",
+      "context": "x"
+    },
+    {
+      "pattern": "P",
+      "replacement": "᧩",
+      "context": "x"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "᧪",
+      "context": "x"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "᧫",
+      "context": "x"
+    },
+    {
+      "pattern": "A",
+      "replacement": "᧬",
+      "context": "x"
+    },
+    {
+      "pattern": "S",
+      "replacement": "᧭",
+      "context": "x"
+    },
+    {
+      "pattern": "D",
+      "replacement": "᧮",
+      "context": "x"
+    },
+    {
+      "pattern": "F",
+      "replacement": "᧯",
+      "context": "x"
+    },
+    {
+      "pattern": "G",
+      "replacement": "᧰",
+      "context": "x"
+    },
+    {
+      "pattern": "H",
+      "replacement": "᧱",
+      "context": "x"
+    },
+    {
+      "pattern": "J",
+      "replacement": "᧲",
+      "context": "x"
+    },
+    {
+      "pattern": "K",
+      "replacement": "᧳",
+      "context": "x"
+    },
+    {
+      "pattern": "L",
+      "replacement": "᧴",
+      "context": "x"
+    },
+    {
+      "pattern": ":",
+      "replacement": "᧵",
+      "context": "x"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "᧶",
+      "context": "x"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "᧷",
+      "context": "x"
+    },
+    {
+      "pattern": "X",
+      "replacement": "᧸",
+      "context": "x"
+    },
+    {
+      "pattern": "C",
+      "replacement": "᧹",
+      "context": "x"
+    },
+    {
+      "pattern": "V",
+      "replacement": "᧺",
+      "context": "x"
+    },
+    {
+      "pattern": "B",
+      "replacement": "᧻",
+      "context": "x"
+    },
+    {
+      "pattern": "N",
+      "replacement": "᧼",
+      "context": "x"
+    },
+    {
+      "pattern": "M",
+      "replacement": "᧽",
+      "context": "x"
+    },
+    {
+      "pattern": "<",
+      "replacement": "᧾",
+      "context": "x"
+    },
+    {
+      "pattern": ">",
+      "replacement": "᧿",
+      "context": "x"
+    }
+  ]
+}

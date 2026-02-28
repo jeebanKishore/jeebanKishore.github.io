@@ -1,0 +1,535 @@
+{
+  "id": "my-mm3",
+  "name": "မြန်မာ၃ လက်ကွက်",
+  "description": "Myanmar3 keyboard layout",
+  "date": "2014-10-28",
+  "author": "Lionslayer",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "ေu",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေc",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေ:",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေC",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေi",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေp",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေq",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေZ",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေQ",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေn",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေN",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေ!",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေX",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေ#",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေ~",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေP",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေw",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေx",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေK",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေL",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေe",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေy",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေz",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေA",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေb",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေr",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေB",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေ&",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေv",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေW",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေo",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေ\\[",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေV",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေt",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ေG",
+      "replacement": ""
+    },
+    {
+      "pattern": "ေj",
+      "replacement": ""
+    },
+    {
+      "pattern": "ေs",
+      "replacement": ""
+    },
+    {
+      "pattern": "ေS",
+      "replacement": ""
+    },
+    {
+      "pattern": "ေြG",
+      "replacement": ""
+    },
+    {
+      "pattern": "ေျG",
+      "replacement": ""
+    },
+    {
+      "pattern": "ေြS",
+      "replacement": ""
+    },
+    {
+      "pattern": "ေျS",
+      "replacement": ""
+    },
+    {
+      "pattern": "စs",
+      "replacement": ""
+    },
+    {
+      "pattern": "သj",
+      "replacement": ""
+    },
+    {
+      "pattern": "ဥf",
+      "replacement": ""
+    },
+    {
+      "pattern": "ဥD",
+      "replacement": ""
+    },
+    {
+      "pattern": "ုd",
+      "replacement": ""
+    },
+    {
+      "pattern": "်h",
+      "replacement": ""
+    },
+    {
+      "pattern": "ွs",
+      "replacement": ""
+    },
+    {
+      "pattern": "ွj",
+      "replacement": ""
+    },
+    {
+      "pattern": "ှG",
+      "replacement": ""
+    },
+    {
+      "pattern": "ှs",
+      "replacement": ""
+    },
+    {
+      "pattern": "ှj",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ှွs)|(ွှs)|(ှျG)|(ျှG)|(ျွS)|(ွျS)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ှွj)|(ွှj)|(ှြG)|(ြှG)|(ြွS)|(ွြS)",
+      "replacement": ""
+    },
+    {
+      "pattern": "u",
+      "replacement": ""
+    },
+    {
+      "pattern": "c",
+      "replacement": ""
+    },
+    {
+      "pattern": ":",
+      "replacement": ""
+    },
+    {
+      "pattern": "C",
+      "replacement": ""
+    },
+    {
+      "pattern": "i",
+      "replacement": ""
+    },
+    {
+      "pattern": "p",
+      "replacement": ""
+    },
+    {
+      "pattern": "q",
+      "replacement": ""
+    },
+    {
+      "pattern": "Z",
+      "replacement": ""
+    },
+    {
+      "pattern": "Q",
+      "replacement": ""
+    },
+    {
+      "pattern": "n",
+      "replacement": ""
+    },
+    {
+      "pattern": "N",
+      "replacement": ""
+    },
+    {
+      "pattern": "!",
+      "replacement": ""
+    },
+    {
+      "pattern": "X",
+      "replacement": ""
+    },
+    {
+      "pattern": "#",
+      "replacement": ""
+    },
+    {
+      "pattern": "~",
+      "replacement": ""
+    },
+    {
+      "pattern": "P",
+      "replacement": ""
+    },
+    {
+      "pattern": "w",
+      "replacement": ""
+    },
+    {
+      "pattern": "x",
+      "replacement": ""
+    },
+    {
+      "pattern": "K",
+      "replacement": ""
+    },
+    {
+      "pattern": "L",
+      "replacement": ""
+    },
+    {
+      "pattern": "e",
+      "replacement": ""
+    },
+    {
+      "pattern": "y",
+      "replacement": ""
+    },
+    {
+      "pattern": "z",
+      "replacement": ""
+    },
+    {
+      "pattern": "A",
+      "replacement": ""
+    },
+    {
+      "pattern": "b",
+      "replacement": ""
+    },
+    {
+      "pattern": "r",
+      "replacement": ""
+    },
+    {
+      "pattern": "B",
+      "replacement": ""
+    },
+    {
+      "pattern": "&",
+      "replacement": ""
+    },
+    {
+      "pattern": "v",
+      "replacement": ""
+    },
+    {
+      "pattern": "W",
+      "replacement": ""
+    },
+    {
+      "pattern": "o",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\[",
+      "replacement": ""
+    },
+    {
+      "pattern": "V",
+      "replacement": ""
+    },
+    {
+      "pattern": "t",
+      "replacement": ""
+    },
+    {
+      "pattern": "m",
+      "replacement": ""
+    },
+    {
+      "pattern": "g",
+      "replacement": ""
+    },
+    {
+      "pattern": "d",
+      "replacement": ""
+    },
+    {
+      "pattern": "D",
+      "replacement": ""
+    },
+    {
+      "pattern": "k",
+      "replacement": ""
+    },
+    {
+      "pattern": "l",
+      "replacement": ""
+    },
+    {
+      "pattern": "a",
+      "replacement": ""
+    },
+    {
+      "pattern": "J",
+      "replacement": ""
+    },
+    {
+      "pattern": "H",
+      "replacement": ""
+    },
+    {
+      "pattern": "h",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\;",
+      "replacement": ""
+    },
+    {
+      "pattern": "f",
+      "replacement": ""
+    },
+    {
+      "pattern": "F",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\>",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\<",
+      "replacement": ""
+    },
+    {
+      "pattern": "s",
+      "replacement": ""
+    },
+    {
+      "pattern": "j",
+      "replacement": ""
+    },
+    {
+      "pattern": "G",
+      "replacement": ""
+    },
+    {
+      "pattern": "S",
+      "replacement": ""
+    },
+    {
+      "pattern": "E",
+      "replacement": ""
+    },
+    {
+      "pattern": "R",
+      "replacement": ""
+    },
+    {
+      "pattern": "T",
+      "replacement": ""
+    },
+    {
+      "pattern": "Y",
+      "replacement": ""
+    },
+    {
+      "pattern": "I",
+      "replacement": ""
+    },
+    {
+      "pattern": "O",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\{",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\]",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\}",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": ""
+    },
+    {
+      "pattern": "u",
+      "replacement": ""
+    },
+    {
+      "pattern": "U",
+      "replacement": ""
+    },
+    {
+      "pattern": "M",
+      "replacement": ""
+    },
+    {
+      "pattern": "0",
+      "replacement": ""
+    },
+    {
+      "pattern": "1",
+      "replacement": ""
+    },
+    {
+      "pattern": "2",
+      "replacement": ""
+    },
+    {
+      "pattern": "3",
+      "replacement": ""
+    },
+    {
+      "pattern": "4",
+      "replacement": ""
+    },
+    {
+      "pattern": "5",
+      "replacement": ""
+    },
+    {
+      "pattern": "6",
+      "replacement": ""
+    },
+    {
+      "pattern": "7",
+      "replacement": ""
+    },
+    {
+      "pattern": "8",
+      "replacement": ""
+    },
+    {
+      "pattern": "9",
+      "replacement": ""
+    }
+  ]
+}

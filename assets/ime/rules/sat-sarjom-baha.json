@@ -1,0 +1,271 @@
+{
+  "id": "sat-sarjom-baha",
+  "name": "Sarjom Baha",
+  "description": "Phonetic Ol Chiki keyboard, Sarjom Baha for Santali language",
+  "date": "2016-03-29",
+  "author": "Jnanaranjan Sahu",
+  "license": "GPLv3",
+  "version": "1.01",
+  "rules": [
+    {
+      "pattern": "a",
+      "replacement": "ᱟ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ᱵ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ᱪ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ᱰ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ᱮ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ᱝ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ᱜ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ᱦ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ᱤ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ᱡ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ᱠ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ᱞ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ᱢ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ᱱ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ᱚ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ᱯ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ᱧ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ᱨ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ᱥ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ᱴ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ᱩ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ᱶ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ᱣ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ᱽ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ᱭ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ᱲ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ᱟ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ᱵ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ᱪ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ᱫ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ᱮ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ᱝ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ᱜ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ᱷ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "᱾"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ᱡ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ᱠ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "᱿"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ᱬ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ᱸ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ᱳ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ᱯ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ᱻ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ᱨ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ᱥ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ᱛ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ᱩ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ᱶ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ᱣ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ᱽ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ᱭ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ᱼ"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ᱹ"
+    },
+    {
+      "pattern": "\\;",
+      "replacement": ";"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "ᱺ"
+    },
+    {
+      "pattern": "0",
+      "replacement": "᱐"
+    },
+    {
+      "pattern": "1",
+      "replacement": "᱑"
+    },
+    {
+      "pattern": "2",
+      "replacement": "᱒"
+    },
+    {
+      "pattern": "3",
+      "replacement": "᱓"
+    },
+    {
+      "pattern": "4",
+      "replacement": "᱔"
+    },
+    {
+      "pattern": "5",
+      "replacement": "᱕"
+    },
+    {
+      "pattern": "6",
+      "replacement": "᱖"
+    },
+    {
+      "pattern": "7",
+      "replacement": "᱗"
+    },
+    {
+      "pattern": "8",
+      "replacement": "᱘"
+    },
+    {
+      "pattern": "9",
+      "replacement": "᱙"
+    }
+  ]
+}

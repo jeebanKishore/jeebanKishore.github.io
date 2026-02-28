@@ -1,0 +1,284 @@
+{
+  "id": "nqo-standard-qwerty",
+  "name": "N'Ko standard qwerty",
+  "description": "N'Ko standard qwerty",
+  "date": "2019-04-26",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": "`",
+      "replacement": "߷"
+    },
+    {
+      "pattern": "1",
+      "replacement": "߁"
+    },
+    {
+      "pattern": "2",
+      "replacement": "߂"
+    },
+    {
+      "pattern": "3",
+      "replacement": "߃"
+    },
+    {
+      "pattern": "4",
+      "replacement": "߄"
+    },
+    {
+      "pattern": "5",
+      "replacement": "߅"
+    },
+    {
+      "pattern": "6",
+      "replacement": "߆"
+    },
+    {
+      "pattern": "7",
+      "replacement": "߇"
+    },
+    {
+      "pattern": "8",
+      "replacement": "߈"
+    },
+    {
+      "pattern": "9",
+      "replacement": "߉"
+    },
+    {
+      "pattern": "0",
+      "replacement": "߀"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ߩ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ߨ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ߚ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "÷"
+    },
+    {
+      "pattern": "O",
+      "replacement": "×"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ߪ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "߶"
+    },
+    {
+      "pattern": "D",
+      "replacement": "["
+    },
+    {
+      "pattern": "F",
+      "replacement": "]"
+    },
+    {
+      "pattern": "G",
+      "replacement": "("
+    },
+    {
+      "pattern": "H",
+      "replacement": ")"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ߺ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "/"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "߳"
+    },
+    {
+      "pattern": "X",
+      "replacement": "߱"
+    },
+    {
+      "pattern": "C",
+      "replacement": "߭"
+    },
+    {
+      "pattern": "V",
+      "replacement": "߮"
+    },
+    {
+      "pattern": "B",
+      "replacement": "߰"
+    },
+    {
+      "pattern": "N",
+      "replacement": "߯"
+    },
+    {
+      "pattern": "M",
+      "replacement": "߸"
+    },
+    {
+      "pattern": "<",
+      "replacement": "ߑ"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "؟"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ߔ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ߧ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ߠ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ߥ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ߦ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ߙ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ߗ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ߜ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ߢ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ߡ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ߤ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ߒ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ߏ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ߎ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ߍ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ߌ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ߋ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ߊ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ߝ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ߖ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ߞ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ߣ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ߟ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ߕ"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ߓ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ߐ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "߲"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ߴ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ߵ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "߬"
+    },
+    {
+      "pattern": "n",
+      "replacement": "߫"
+    },
+    {
+      "pattern": "!",
+      "replacement": "߹"
+    },
+    {
+      "pattern": ",",
+      "replacement": "ߛ"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ߘ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ߞ"
+    }
+  ]
+}

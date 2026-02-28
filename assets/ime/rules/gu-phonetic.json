@@ -1,0 +1,387 @@
+{
+  "id": "gu-phonetic",
+  "name": "ફોનૅટિક",
+  "description": "Phonetic keyboard for Gujarati script",
+  "date": "2013-11-15",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "\\~",
+      "replacement": "ઍ"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "ૅ"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "!"
+    },
+    {
+      "pattern": "1",
+      "replacement": "૧"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "@"
+    },
+    {
+      "pattern": "2",
+      "replacement": "૨"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "#"
+    },
+    {
+      "pattern": "3",
+      "replacement": "૩"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "$"
+    },
+    {
+      "pattern": "4",
+      "replacement": "૪"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "૱"
+    },
+    {
+      "pattern": "5",
+      "replacement": "૫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "૬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "૭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "૮"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "9",
+      "replacement": "૯"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")"
+    },
+    {
+      "pattern": "0",
+      "replacement": "૦"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "+"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "="
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ઔ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ઓ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ઠ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ટ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ૈ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ે"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ૃ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ર"
+    },
+    {
+      "pattern": "T",
+      "replacement": "થ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ત"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ય઼"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ય"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ૂ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ુ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ી"
+    },
+    {
+      "pattern": "i",
+      "replacement": "િ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ૌ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ો"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ફ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "પ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ઢ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ડ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ર઼"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ઋ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "આ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ા"
+    },
+    {
+      "pattern": "S",
+      "replacement": "શ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "સ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ધ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "દ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "અ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "્"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ઘ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ગ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ઃ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "હ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ઝ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "જ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ખ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ક"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ળ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "લ"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ઈ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ઇ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ઊ"
+    },
+    {
+      "pattern": "\\'",
+      "replacement": "ઉ"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ઑ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ૉ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ઁ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ઙ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ષ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "છ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ચ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ઽ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "વ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ભ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "બ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ણ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ન"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ં"
+    },
+    {
+      "pattern": "m",
+      "replacement": "મ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ૐ"
+    },
+    {
+      "pattern": ",",
+      "replacement": ","
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "઼"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "ઐ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "એ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ક્ષ"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "જ્ઞ"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ત્ર"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "શ્ર"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "hr-kbd",
+  "name": "Croatian kbd",
+  "description": "Croatian keyboard layout",
+  "date": "2013-02-11",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "¸c",
+      "replacement": "ç"
+    },
+    {
+      "pattern": "¸C",
+      "replacement": "Ç"
+    },
+    {
+      "pattern": "¸s",
+      "replacement": "ş"
+    },
+    {
+      "pattern": "¸S",
+      "replacement": "Ş"
+    },
+    {
+      "pattern": "¨a",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "¨A",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "¨e",
+      "replacement": "ë"
+    },
+    {
+      "pattern": "¨E",
+      "replacement": "Ë"
+    },
+    {
+      "pattern": "¨o",
+      "replacement": "ö"
+    },
+    {
+      "pattern": "¨O",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "¨u",
+      "replacement": "ü"
+    },
+    {
+      "pattern": "¨U",
+      "replacement": "Ü"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "\""
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "&"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "/"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "="
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "'"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "?"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "+"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "*"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "¸"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "¨"
+    },
+    {
+      "pattern": "y",
+      "replacement": "z"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Z"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "š"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "Š"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "đ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "Đ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "č"
+    },
+    {
+      "pattern": ":",
+      "replacement": "Č"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ć"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "Ć"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ž"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "Ž"
+    },
+    {
+      "pattern": "z",
+      "replacement": "y"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "Y"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": ";"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": ":"
+    },
+    {
+      "pattern": "/",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "_"
+    }
+  ]
+}

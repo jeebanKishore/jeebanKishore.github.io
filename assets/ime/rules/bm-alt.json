@@ -1,0 +1,73 @@
+{
+  "id": "bm-alt",
+  "name": "Bamanankan Alt",
+  "description": "Bambara input method with Alt-H/B/E/J/N/O combinations",
+  "date": "2017-05-29",
+  "author": "Amir E. Aharoni, based on mali-pense.net",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": "H",
+      "replacement": "̂",
+      "context": "x"
+    },
+    {
+      "pattern": "h",
+      "replacement": "́",
+      "context": "x"
+    },
+    {
+      "pattern": "B",
+      "replacement": "̌",
+      "context": "x"
+    },
+    {
+      "pattern": "b",
+      "replacement": "̀",
+      "context": "x"
+    },
+    {
+      "pattern": "E",
+      "replacement": "Ɛ",
+      "context": "x"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ɛ",
+      "context": "x"
+    },
+    {
+      "pattern": "J",
+      "replacement": "Ɲ",
+      "context": "x"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ɲ",
+      "context": "x"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Ŋ",
+      "context": "x"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ŋ",
+      "context": "x"
+    },
+    {
+      "pattern": "O",
+      "replacement": "Ɔ",
+      "context": "x"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ɔ",
+      "context": "x"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "ka-transliteration",
+  "name": "ტრანსლიტერაცია",
+  "description": "Georgian transliteration",
+  "date": "2012-10-14",
+  "author": "Ioseb Dzmanashvili (http://www.code.ge), [[User:Hooman]], Srikanth L",
+  "license": "MIT",
+  "version": "1.0",
+  "contextLength": 3,
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": "\\\\([A-Za-z|\\~|\\`])",
+      "replacement": "\\\\"
+    },
+    {
+      "pattern": "`",
+      "replacement": "„"
+    },
+    {
+      "pattern": "~",
+      "replacement": "“"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ქ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "წ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ე"
+    },
+    {
+      "pattern": "r",
+      "replacement": "რ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ტ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ყ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "უ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ი"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ო"
+    },
+    {
+      "pattern": "p",
+      "replacement": "პ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ა"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ს"
+    },
+    {
+      "pattern": "d",
+      "replacement": "დ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ფ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "გ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ჰ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ჯ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "კ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ლ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ზ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ხ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ც"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ვ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ბ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ნ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "მ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ჭ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ღ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "თ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "შ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ჟ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ძ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ჩ"
+    }
+  ]
+}

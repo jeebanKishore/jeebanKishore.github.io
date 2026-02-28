@@ -1,0 +1,343 @@
+{
+  "id": "ur-phonetic",
+  "name": "صوتی",
+  "description": "Phonetic keyboard for Urdu script",
+  "date": "2013-02-18",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "\\~",
+      "replacement": "ً"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "ٍ"
+    },
+    {
+      "pattern": "!",
+      "replacement": "!"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "@"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "#"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "$"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "%"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ۂ"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "&"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "*"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "("
+    },
+    {
+      "pattern": "_",
+      "replacement": "ـ"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "أ"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ٓ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ۤ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ﷺ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ق"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ؤ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "و"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ؑ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ع"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ڑ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ر"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ٹ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ت"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "؁"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ے"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ء"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ئ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ٰ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ی"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ۃ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ہ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ُ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "پ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ٗ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ٌ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ّ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ْ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "آ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ا"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ص"
+    },
+    {
+      "pattern": "s",
+      "replacement": "س"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ڈ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "د"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ٖ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ف"
+    },
+    {
+      "pattern": "G",
+      "replacement": "غ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "گ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ح"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ھ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ض"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ج"
+    },
+    {
+      "pattern": "K",
+      "replacement": "خ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ک"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ؓ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ل"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": ":"
+    },
+    {
+      "pattern": ";",
+      "replacement": "؛"
+    },
+    {
+      "pattern": "\\'",
+      "replacement": "'"
+    },
+    {
+      "pattern": "\\\"",
+      "replacement": "\""
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ؔ"
+    },
+    {
+      "pattern": "\\",
+      "replacement": "؎"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ذ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ز"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ژ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ش"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ث"
+    },
+    {
+      "pattern": "c",
+      "replacement": "چ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ظ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ط"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ؒ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ب"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ں"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ن"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ؐ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "م"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ِ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "،"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "َ"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "۔"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "؟"
+    }
+  ]
+}

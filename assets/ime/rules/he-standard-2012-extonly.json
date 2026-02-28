@@ -1,0 +1,186 @@
+{
+  "id": "he-standard-2012-extonly",
+  "name": "Hebrew 2012",
+  "description": "Hebrew keyboard according to Israeli Standard 1452",
+  "date": "2012-10-15",
+  "author": "Amir E. Aharoni (אָמִיר אֱלִישָׁע אַהֲרוֹנִי, [[User:Amire80]])",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "ש",
+      "replacement": "ְ",
+      "context": "x"
+    },
+    {
+      "pattern": "ק",
+      "replacement": "ָ",
+      "context": "x"
+    },
+    {
+      "pattern": "ר",
+      "replacement": "ֳ",
+      "context": "x"
+    },
+    {
+      "pattern": "פ",
+      "replacement": "ַ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ֲ",
+      "context": "x"
+    },
+    {
+      "pattern": "צ",
+      "replacement": "ֵ",
+      "context": "x"
+    },
+    {
+      "pattern": "ס",
+      "replacement": "ֶ",
+      "context": "x"
+    },
+    {
+      "pattern": "ב",
+      "replacement": "ֱ",
+      "context": "x"
+    },
+    {
+      "pattern": "ח",
+      "replacement": "ִ",
+      "context": "x"
+    },
+    {
+      "pattern": "ו",
+      "replacement": "ֹ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ֻ",
+      "context": "x"
+    },
+    {
+      "pattern": "ד",
+      "replacement": "ּ",
+      "context": "x"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ׂ",
+      "context": "x"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ׁ",
+      "context": "x"
+    },
+    {
+      "pattern": "-",
+      "replacement": "־",
+      "context": "x"
+    },
+    {
+      "pattern": "=",
+      "replacement": "–",
+      "context": "x"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ֿ",
+      "context": "x"
+    },
+    {
+      "pattern": "1",
+      "replacement": "ֽ",
+      "context": "x"
+    },
+    {
+      "pattern": "3",
+      "replacement": "€",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "₪",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "°",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "֫",
+      "context": "x"
+    },
+    {
+      "pattern": "8",
+      "replacement": "×",
+      "context": "x"
+    },
+    {
+      "pattern": "9",
+      "replacement": "‎",
+      "context": "x"
+    },
+    {
+      "pattern": "0",
+      "replacement": "‏",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "÷",
+      "context": "x"
+    },
+    {
+      "pattern": "ט",
+      "replacement": "װ",
+      "context": "x"
+    },
+    {
+      "pattern": "י",
+      "replacement": "ײ",
+      "context": "x"
+    },
+    {
+      "pattern": "ע",
+      "replacement": "ױ",
+      "context": "x"
+    },
+    {
+      "pattern": ";",
+      "replacement": "׳",
+      "context": "x"
+    },
+    {
+      "pattern": ",",
+      "replacement": "״",
+      "context": "x"
+    },
+    {
+      "pattern": "ף",
+      "replacement": "„",
+      "context": "x"
+    },
+    {
+      "pattern": "ך",
+      "replacement": "”",
+      "context": "x"
+    },
+    {
+      "pattern": "ץ",
+      "replacement": "‚",
+      "context": "x"
+    },
+    {
+      "pattern": "ת",
+      "replacement": "’",
+      "context": "x"
+    }
+  ]
+}

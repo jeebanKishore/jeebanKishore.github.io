@@ -1,0 +1,196 @@
+{
+  "id": "mul-cm",
+  "name": "Cameroon Languages tilde",
+  "description": "General Alphabet of Cameroon Languages tilde keyboard",
+  "date": "2022-02-07",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "~A",
+      "replacement": "Ɑ"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "ɑ"
+    },
+    {
+      "pattern": "AE",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "Ae",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "ae",
+      "replacement": "æ"
+    },
+    {
+      "pattern": "A~E",
+      "replacement": "AE"
+    },
+    {
+      "pattern": "A~e",
+      "replacement": "Ae"
+    },
+    {
+      "pattern": "a~e",
+      "replacement": "ae"
+    },
+    {
+      "pattern": "OE",
+      "replacement": "Œ"
+    },
+    {
+      "pattern": "Oe",
+      "replacement": "Œ"
+    },
+    {
+      "pattern": "oe",
+      "replacement": "œ"
+    },
+    {
+      "pattern": "O~E",
+      "replacement": "OE"
+    },
+    {
+      "pattern": "O~e",
+      "replacement": "Oe"
+    },
+    {
+      "pattern": "o~e",
+      "replacement": "oe"
+    },
+    {
+      "pattern": "~B",
+      "replacement": "Ɓ"
+    },
+    {
+      "pattern": "~b",
+      "replacement": "ɓ"
+    },
+    {
+      "pattern": "~c",
+      "replacement": "ə"
+    },
+    {
+      "pattern": "~C",
+      "replacement": "Ə"
+    },
+    {
+      "pattern": "~E",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "~D",
+      "replacement": "Ɗ"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "ɗ"
+    },
+    {
+      "pattern": "~I",
+      "replacement": "Ɨ"
+    },
+    {
+      "pattern": "~i",
+      "replacement": "ɨ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~J",
+      "replacement": "Ø"
+    },
+    {
+      "pattern": "~j",
+      "replacement": "ø"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ɔ"
+    },
+    {
+      "pattern": "~U",
+      "replacement": "Ʉ"
+    },
+    {
+      "pattern": "~u",
+      "replacement": "ʉ"
+    },
+    {
+      "pattern": "~X",
+      "replacement": "ɤ"
+    },
+    {
+      "pattern": "~x",
+      "replacement": "ɤ"
+    },
+    {
+      "pattern": "~W",
+      "replacement": "Ẅ"
+    },
+    {
+      "pattern": "~w",
+      "replacement": "ẅ"
+    },
+    {
+      "pattern": "~Y",
+      "replacement": "Ƴ"
+    },
+    {
+      "pattern": "~y",
+      "replacement": "ƴ"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~-",
+      "replacement": "̄"
+    },
+    {
+      "pattern": "~v",
+      "replacement": "̌"
+    },
+    {
+      "pattern": "~\\|",
+      "replacement": "̍"
+    },
+    {
+      "pattern": "~\\.",
+      "replacement": "̣"
+    },
+    {
+      "pattern": "~,",
+      "replacement": "̧"
+    }
+  ]
+}

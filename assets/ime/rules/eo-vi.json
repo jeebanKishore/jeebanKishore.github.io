@@ -1,0 +1,203 @@
+{
+  "id": "eo-vi",
+  "name": "Esperanto vi",
+  "description": "writing Esperanto-letters using double key press (the X-system).",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "ĉc",
+      "replacement": "cc"
+    },
+    {
+      "pattern": "ĝg",
+      "replacement": "gg"
+    },
+    {
+      "pattern": "ĥh",
+      "replacement": "hh"
+    },
+    {
+      "pattern": "ĵj",
+      "replacement": "jj"
+    },
+    {
+      "pattern": "ŝs",
+      "replacement": "ss"
+    },
+    {
+      "pattern": "ŭu",
+      "replacement": "uu"
+    },
+    {
+      "pattern": "Ĉc",
+      "replacement": "Cc"
+    },
+    {
+      "pattern": "Ĝg",
+      "replacement": "Gg"
+    },
+    {
+      "pattern": "Ĥh",
+      "replacement": "Hh"
+    },
+    {
+      "pattern": "Ĵj",
+      "replacement": "Jj"
+    },
+    {
+      "pattern": "Ŝs",
+      "replacement": "Ss"
+    },
+    {
+      "pattern": "Ŭu",
+      "replacement": "Uu"
+    },
+    {
+      "pattern": "aŭu",
+      "replacement": "au"
+    },
+    {
+      "pattern": "eŭu",
+      "replacement": "eu"
+    },
+    {
+      "pattern": "Aŭu",
+      "replacement": "Au"
+    },
+    {
+      "pattern": "Eŭu",
+      "replacement": "Eu"
+    },
+    {
+      "pattern": "AŬU",
+      "replacement": "AU"
+    },
+    {
+      "pattern": "EŬU",
+      "replacement": "EU"
+    },
+    {
+      "pattern": "ĈC",
+      "replacement": "CC"
+    },
+    {
+      "pattern": "ĜG",
+      "replacement": "GG"
+    },
+    {
+      "pattern": "ĤH",
+      "replacement": "HH"
+    },
+    {
+      "pattern": "ĴJ",
+      "replacement": "JJ"
+    },
+    {
+      "pattern": "ŜS",
+      "replacement": "SS"
+    },
+    {
+      "pattern": "ŬU",
+      "replacement": "UU"
+    },
+    {
+      "pattern": "cc",
+      "replacement": "ĉ"
+    },
+    {
+      "pattern": "gg",
+      "replacement": "ĝ"
+    },
+    {
+      "pattern": "hh",
+      "replacement": "ĥ"
+    },
+    {
+      "pattern": "jj",
+      "replacement": "ĵ"
+    },
+    {
+      "pattern": "ss",
+      "replacement": "ŝ"
+    },
+    {
+      "pattern": "uu",
+      "replacement": "ŭ"
+    },
+    {
+      "pattern": "au",
+      "replacement": "aŭ"
+    },
+    {
+      "pattern": "eu",
+      "replacement": "eŭ"
+    },
+    {
+      "pattern": "Cc",
+      "replacement": "Ĉ"
+    },
+    {
+      "pattern": "Gg",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "Hh",
+      "replacement": "Ĥ"
+    },
+    {
+      "pattern": "Jj",
+      "replacement": "Ĵ"
+    },
+    {
+      "pattern": "Ss",
+      "replacement": "Ŝ"
+    },
+    {
+      "pattern": "Uu",
+      "replacement": "Ŭ"
+    },
+    {
+      "pattern": "Au",
+      "replacement": "Aŭ"
+    },
+    {
+      "pattern": "Eu",
+      "replacement": "Eŭ"
+    },
+    {
+      "pattern": "AU",
+      "replacement": "AŬ"
+    },
+    {
+      "pattern": "EU",
+      "replacement": "EŬ"
+    },
+    {
+      "pattern": "CC",
+      "replacement": "Ĉ"
+    },
+    {
+      "pattern": "GG",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "HH",
+      "replacement": "Ĥ"
+    },
+    {
+      "pattern": "JJ",
+      "replacement": "Ĵ"
+    },
+    {
+      "pattern": "SS",
+      "replacement": "Ŝ"
+    },
+    {
+      "pattern": "UU",
+      "replacement": "Ŭ"
+    }
+  ]
+}

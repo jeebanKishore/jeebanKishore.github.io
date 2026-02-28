@@ -1,0 +1,396 @@
+{
+  "id": "pa-inscript2",
+  "name": "Punjabi InScript2",
+  "description": "Enhanced InScript keyboard for Punjabi script",
+  "date": "2013-11-14",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "1",
+      "replacement": "੧"
+    },
+    {
+      "pattern": "2",
+      "replacement": "੨"
+    },
+    {
+      "pattern": "3",
+      "replacement": "੩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "੪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "੫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "੬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "੭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "੮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "੯"
+    },
+    {
+      "pattern": "0",
+      "replacement": "੦"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "ਃ"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "-"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ਔ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ੌ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ਐ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ੈ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ਆ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ਾ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ਈ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ੀ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ਊ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ੂ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ਭ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ਬ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ਙ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ਹ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ਘ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ਗ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ਧ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ਦ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ਝ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ਜ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ਢ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ਡ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ਞ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "਼"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ਓ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ੋ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ਏ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ੇ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ਅ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "੍"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ਇ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ਿ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ਉ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ੁ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ਫ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ਪ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ੜ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ਰ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ਖ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ਕ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ਥ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ਤ"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ਛ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ਚ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ਠ"
+    },
+    {
+      "pattern": "\\'",
+      "replacement": "ਟ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ਂ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ੰ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ਣ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ਮ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ਨ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ਞ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ਵ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "N"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ਲ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ਸ਼"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ਸ"
+    },
+    {
+      "pattern": ",",
+      "replacement": ","
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "।"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": "/",
+      "replacement": "ਯ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "‍",
+      "context": "x"
+    },
+    {
+      "pattern": "2",
+      "replacement": "‌",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "₹",
+      "context": "x"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ਗ਼",
+      "context": "x"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ਜ਼",
+      "context": "x"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ੜ",
+      "context": "x"
+    },
+    {
+      "pattern": "D",
+      "replacement": "☬",
+      "context": "x"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ੑ",
+      "context": "x"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ੲ",
+      "context": "x"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ੳ",
+      "context": "x"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ਫ਼",
+      "context": "x"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ਖ਼",
+      "context": "x"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ੴ",
+      "context": "x"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ਁ",
+      "context": "x"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ਲ਼",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "॥",
+      "context": "x"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ੵ",
+      "context": "x"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "eo-x",
+  "name": "Esperanto x",
+  "description": "writing Esperanto-letters adding x's (the X-system).",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "ĉx",
+      "replacement": "cx"
+    },
+    {
+      "pattern": "ĝx",
+      "replacement": "gx"
+    },
+    {
+      "pattern": "ĥx",
+      "replacement": "hx"
+    },
+    {
+      "pattern": "ĵx",
+      "replacement": "jx"
+    },
+    {
+      "pattern": "ŝx",
+      "replacement": "sx"
+    },
+    {
+      "pattern": "ŭx",
+      "replacement": "ux"
+    },
+    {
+      "pattern": "Ĉx",
+      "replacement": "Cx"
+    },
+    {
+      "pattern": "Ĝx",
+      "replacement": "Gx"
+    },
+    {
+      "pattern": "Ĥx",
+      "replacement": "Hx"
+    },
+    {
+      "pattern": "Ĵx",
+      "replacement": "Jx"
+    },
+    {
+      "pattern": "Ŝx",
+      "replacement": "Sx"
+    },
+    {
+      "pattern": "Ŭx",
+      "replacement": "Ux"
+    },
+    {
+      "pattern": "ĈX",
+      "replacement": "CX"
+    },
+    {
+      "pattern": "ĜX",
+      "replacement": "GX"
+    },
+    {
+      "pattern": "ĤX",
+      "replacement": "HX"
+    },
+    {
+      "pattern": "ĴX",
+      "replacement": "JX"
+    },
+    {
+      "pattern": "ŜX",
+      "replacement": "SX"
+    },
+    {
+      "pattern": "ŬX",
+      "replacement": "UX"
+    },
+    {
+      "pattern": "cx",
+      "replacement": "ĉ"
+    },
+    {
+      "pattern": "gx",
+      "replacement": "ĝ"
+    },
+    {
+      "pattern": "hx",
+      "replacement": "ĥ"
+    },
+    {
+      "pattern": "jx",
+      "replacement": "ĵ"
+    },
+    {
+      "pattern": "sx",
+      "replacement": "ŝ"
+    },
+    {
+      "pattern": "ux",
+      "replacement": "ŭ"
+    },
+    {
+      "pattern": "Cx",
+      "replacement": "Ĉ"
+    },
+    {
+      "pattern": "Gx",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "Hx",
+      "replacement": "Ĥ"
+    },
+    {
+      "pattern": "Jx",
+      "replacement": "Ĵ"
+    },
+    {
+      "pattern": "Sx",
+      "replacement": "Ŝ"
+    },
+    {
+      "pattern": "Ux",
+      "replacement": "Ŭ"
+    },
+    {
+      "pattern": "CX",
+      "replacement": "Ĉ"
+    },
+    {
+      "pattern": "GX",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "HX",
+      "replacement": "Ĥ"
+    },
+    {
+      "pattern": "JX",
+      "replacement": "Ĵ"
+    },
+    {
+      "pattern": "SX",
+      "replacement": "Ŝ"
+    },
+    {
+      "pattern": "UX",
+      "replacement": "Ŭ"
+    }
+  ]
+}

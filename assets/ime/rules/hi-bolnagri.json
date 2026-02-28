@@ -1,0 +1,379 @@
+{
+  "id": "hi-bolnagri",
+  "name": "बोलनागरी",
+  "description": "BolNagri phonetic keymap for Devanagari script",
+  "date": "2012-03-28",
+  "author": "G Karunakar",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": "a",
+      "replacement": "ा"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ब"
+    },
+    {
+      "pattern": "c",
+      "replacement": "च"
+    },
+    {
+      "pattern": "d",
+      "replacement": "द"
+    },
+    {
+      "pattern": "e",
+      "replacement": "े"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ट"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ग"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ह"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ि"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ज"
+    },
+    {
+      "pattern": "k",
+      "replacement": "क"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ल"
+    },
+    {
+      "pattern": "m",
+      "replacement": "म"
+    },
+    {
+      "pattern": "n",
+      "replacement": "न"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ो"
+    },
+    {
+      "pattern": "p",
+      "replacement": "प"
+    },
+    {
+      "pattern": "q",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "r",
+      "replacement": "र"
+    },
+    {
+      "pattern": "s",
+      "replacement": "स"
+    },
+    {
+      "pattern": "t",
+      "replacement": "त"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ु"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ड"
+    },
+    {
+      "pattern": "w",
+      "replacement": "व"
+    },
+    {
+      "pattern": "x",
+      "replacement": "्"
+    },
+    {
+      "pattern": "y",
+      "replacement": "य"
+    },
+    {
+      "pattern": "z",
+      "replacement": "श"
+    },
+    {
+      "pattern": "A",
+      "replacement": "आ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "भ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "छ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ध"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ै"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ठ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "घ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ः"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ी"
+    },
+    {
+      "pattern": "J",
+      "replacement": "झ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ख"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ळ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ऽ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ण"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ौ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "फ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "‍"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ृ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ष"
+    },
+    {
+      "pattern": "T",
+      "replacement": "थ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ू"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ढ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ॐ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ॉ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ञ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ॅ"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "₹"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "ं"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "ँ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "।"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "॥"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "़"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "॰"
+    },
+    {
+      "pattern": "a",
+      "replacement": "अ",
+      "context": "x"
+    },
+    {
+      "pattern": "A",
+      "replacement": "आ",
+      "context": "x"
+    },
+    {
+      "pattern": "i",
+      "replacement": "इ",
+      "context": "x"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ई",
+      "context": "x"
+    },
+    {
+      "pattern": "u",
+      "replacement": "उ",
+      "context": "x"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ऊ",
+      "context": "x"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ए",
+      "context": "x"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ऐ",
+      "context": "x"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ओ",
+      "context": "x"
+    },
+    {
+      "pattern": "O",
+      "replacement": "औ",
+      "context": "x"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ऱ",
+      "context": "x"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ऋ",
+      "context": "x"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ऍ",
+      "context": "x"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ऑ",
+      "context": "x"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ॢ",
+      "context": "x"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ऌ",
+      "context": "x"
+    },
+    {
+      "pattern": "0",
+      "replacement": "०",
+      "context": "x"
+    },
+    {
+      "pattern": "1",
+      "replacement": "१",
+      "context": "x"
+    },
+    {
+      "pattern": "2",
+      "replacement": "२",
+      "context": "x"
+    },
+    {
+      "pattern": "3",
+      "replacement": "३",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "४",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "५",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "६",
+      "context": "x"
+    },
+    {
+      "pattern": "7",
+      "replacement": "७",
+      "context": "x"
+    },
+    {
+      "pattern": "8",
+      "replacement": "८",
+      "context": "x"
+    },
+    {
+      "pattern": "9",
+      "replacement": "९",
+      "context": "x"
+    }
+  ]
+}

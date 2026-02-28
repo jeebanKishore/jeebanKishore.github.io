@@ -1,0 +1,541 @@
+{
+  "id": "ipa-x-sampa",
+  "name": "International Phonetic Alphabet - X-SAMPA",
+  "description": "International Phonetic Alphabet - X-SAMPA",
+  "date": "2012-11-26",
+  "author": "mapping by John C. Wells; implementation by Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 4,
+  "rules": [
+    {
+      "pattern": "_/",
+      "replacement": "̌"
+    },
+    {
+      "pattern": "_\\\\",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "_ɥ_T",
+      "replacement": "᷄"
+    },
+    {
+      "pattern": "_β_L",
+      "replacement": "᷅"
+    },
+    {
+      "pattern": "_ʁ_F",
+      "replacement": "᷈"
+    },
+    {
+      "pattern": "β\\\\",
+      "replacement": "ʙ"
+    },
+    {
+      "pattern": "p\\\\",
+      "replacement": "ɸ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "β"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ɱ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ʋ"
+    },
+    {
+      "pattern": "v\\\\",
+      "replacement": "ʋ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "θ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ð"
+    },
+    {
+      "pattern": "4",
+      "replacement": "ɾ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ɬ"
+    },
+    {
+      "pattern": "ɬ\\\\",
+      "replacement": "ɮ"
+    },
+    {
+      "pattern": "r\\\\",
+      "replacement": "ɹ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ʃ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ʒ"
+    },
+    {
+      "pattern": "t`",
+      "replacement": "ʈ"
+    },
+    {
+      "pattern": "d`",
+      "replacement": "ɖ"
+    },
+    {
+      "pattern": "n`",
+      "replacement": "ɳ"
+    },
+    {
+      "pattern": "r`",
+      "replacement": "ɽ"
+    },
+    {
+      "pattern": "s`",
+      "replacement": "ʂ"
+    },
+    {
+      "pattern": "z`",
+      "replacement": "ʐ"
+    },
+    {
+      "pattern": "ɹ`",
+      "replacement": "ɻ"
+    },
+    {
+      "pattern": "l`",
+      "replacement": "ɭ"
+    },
+    {
+      "pattern": "ɲ\\\\",
+      "replacement": "ɟ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ɲ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ç"
+    },
+    {
+      "pattern": "j\\\\",
+      "replacement": "ʝ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ʎ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ɡ"
+    },
+    {
+      "pattern": "_N",
+      "replacement": "̼"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "_G",
+      "replacement": "ˠ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ɣ"
+    },
+    {
+      "pattern": "ɯ\\\\",
+      "replacement": "ɰ"
+    },
+    {
+      "pattern": "ʎ\\\\",
+      "replacement": "ʟ"
+    },
+    {
+      "pattern": "ɣ\\\\",
+      "replacement": "ɢ"
+    },
+    {
+      "pattern": "ŋ\\\\",
+      "replacement": "ɴ"
+    },
+    {
+      "pattern": "ʁ\\\\",
+      "replacement": "ʀ"
+    },
+    {
+      "pattern": "_X",
+      "replacement": "̆"
+    },
+    {
+      "pattern": "X",
+      "replacement": "χ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ʁ"
+    },
+    {
+      "pattern": "χ\\\\",
+      "replacement": "ħ"
+    },
+    {
+      "pattern": "_ʔ\\\\",
+      "replacement": "ˤ"
+    },
+    {
+      "pattern": "ʔ\\\\",
+      "replacement": "ʕ"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "ʔ"
+    },
+    {
+      "pattern": "h\\\\",
+      "replacement": "ɦ"
+    },
+    {
+      "pattern": "ɔ\\\\",
+      "replacement": "ʘ"
+    },
+    {
+      "pattern": "ǀ\\|\\\\",
+      "replacement": "ǁ"
+    },
+    {
+      "pattern": "\\|\\\\",
+      "replacement": "ǀ"
+    },
+    {
+      "pattern": "ꜜ\\\\",
+      "replacement": "ǃ"
+    },
+    {
+      "pattern": "_?=",
+      "replacement": "̩"
+    },
+    {
+      "pattern": "̩\\\\",
+      "replacement": "ǂ"
+    },
+    {
+      "pattern": "b_<",
+      "replacement": "ɓ"
+    },
+    {
+      "pattern": "d_<",
+      "replacement": "ɗ"
+    },
+    {
+      "pattern": "ɟ_<",
+      "replacement": "ʄ"
+    },
+    {
+      "pattern": "ɡ_<",
+      "replacement": "ɠ"
+    },
+    {
+      "pattern": "ɢ_<",
+      "replacement": "ʛ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ʍ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ɥ"
+    },
+    {
+      "pattern": "ɥ\\\\",
+      "replacement": "ʜ"
+    },
+    {
+      "pattern": "<\\\\",
+      "replacement": "ʢ"
+    },
+    {
+      "pattern": ">\\\\",
+      "replacement": "ʡ"
+    },
+    {
+      "pattern": "s\\\\",
+      "replacement": "ɕ"
+    },
+    {
+      "pattern": "z\\\\",
+      "replacement": "ʑ"
+    },
+    {
+      "pattern": "l\\\\",
+      "replacement": "ɺ"
+    },
+    {
+      "pattern": "x\\\\",
+      "replacement": "ɧ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ɪ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "æ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ʏ"
+    },
+    {
+      "pattern": "2",
+      "replacement": "ø"
+    },
+    {
+      "pattern": "9",
+      "replacement": "œ"
+    },
+    {
+      "pattern": "&",
+      "replacement": "ɶ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "ɨ"
+    },
+    {
+      "pattern": "ə\\\\",
+      "replacement": "ɘ"
+    },
+    {
+      "pattern": "@",
+      "replacement": "ə"
+    },
+    {
+      "pattern": "ɜ\\\\",
+      "replacement": "ɞ"
+    },
+    {
+      "pattern": "3",
+      "replacement": "ɜ"
+    },
+    {
+      "pattern": "6",
+      "replacement": "ɐ"
+    },
+    {
+      "pattern": "_\\}",
+      "replacement": "̚"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ʉ"
+    },
+    {
+      "pattern": "8",
+      "replacement": "ɵ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ɯ"
+    },
+    {
+      "pattern": "7",
+      "replacement": "ɤ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ʌ"
+    },
+    {
+      "pattern": "_A",
+      "replacement": "̘"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ɑ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ʊ"
+    },
+    {
+      "pattern": "_O",
+      "replacement": "̹"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ɔ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ɒ"
+    },
+    {
+      "pattern": "%",
+      "replacement": "ˌ"
+    },
+    {
+      "pattern": "_\"",
+      "replacement": "̈"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ˈ"
+    },
+    {
+      "pattern": "ː\\\\",
+      "replacement": "ˑ"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ː"
+    },
+    {
+      "pattern": "\\.<",
+      "replacement": "|"
+    },
+    {
+      "pattern": "\\|\\|",
+      "replacement": "‖"
+    },
+    {
+      "pattern": "-\\\\",
+      "replacement": "‿"
+    },
+    {
+      "pattern": "<ʁ>",
+      "replacement": "↗"
+    },
+    {
+      "pattern": "<ɱ>",
+      "replacement": "↘"
+    },
+    {
+      "pattern": "!",
+      "replacement": "ꜜ"
+    },
+    {
+      "pattern": "_\\^",
+      "replacement": "̯"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ꜛ"
+    },
+    {
+      "pattern": "_h",
+      "replacement": "ʰ"
+    },
+    {
+      "pattern": "_w",
+      "replacement": "ʷ"
+    },
+    {
+      "pattern": "_j",
+      "replacement": "ʲ"
+    },
+    {
+      "pattern": "_n",
+      "replacement": "ⁿ"
+    },
+    {
+      "pattern": "_l",
+      "replacement": "ˡ"
+    },
+    {
+      "pattern": "`",
+      "replacement": "˞"
+    },
+    {
+      "pattern": "_>",
+      "replacement": "ʼ"
+    },
+    {
+      "pattern": "_k",
+      "replacement": "̰"
+    },
+    {
+      "pattern": "([ɱɮɳɖʐɻɽɭɲɟʝjŋɡɣɰ])_0",
+      "replacement": "$1̊"
+    },
+    {
+      "pattern": "(.)_0",
+      "replacement": "$1̥"
+    },
+    {
+      "pattern": "_v",
+      "replacement": "̬"
+    },
+    {
+      "pattern": "_t",
+      "replacement": "̤"
+    },
+    {
+      "pattern": "_d",
+      "replacement": "̪"
+    },
+    {
+      "pattern": "_a",
+      "replacement": "̺"
+    },
+    {
+      "pattern": "_m",
+      "replacement": "̻"
+    },
+    {
+      "pattern": "_?~",
+      "replacement": "̃"
+    },
+    {
+      "pattern": "_e",
+      "replacement": "̴"
+    },
+    {
+      "pattern": "_x",
+      "replacement": "̽"
+    },
+    {
+      "pattern": "_\\+",
+      "replacement": "̟"
+    },
+    {
+      "pattern": "_-",
+      "replacement": "̠"
+    },
+    {
+      "pattern": "_r",
+      "replacement": "̝"
+    },
+    {
+      "pattern": "_o",
+      "replacement": "̞"
+    },
+    {
+      "pattern": "_q",
+      "replacement": "̙"
+    },
+    {
+      "pattern": "_c",
+      "replacement": "̜"
+    }
+  ]
+}

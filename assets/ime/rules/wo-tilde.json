@@ -1,0 +1,48 @@
+{
+  "id": "wo-tilde",
+  "name": "Wolof tilde",
+  "description": "Wolof tilde",
+  "date": "2019-05-06",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "~E",
+      "replacement": "Ë"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ë"
+    },
+    {
+      "pattern": "~G",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~g",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ñ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ñ"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~:",
+      "replacement": "̈"
+    }
+  ]
+}

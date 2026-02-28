@@ -1,0 +1,49 @@
+{
+  "id": "lud-transliteration",
+  "name": "lud",
+  "description": "Ludic transliteration",
+  "date": "2014-06-14",
+  "author": "Niklas Laxström",
+  "license": "MIT",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "ch",
+      "replacement": "č"
+    },
+    {
+      "pattern": "C[hH]",
+      "replacement": "Č"
+    },
+    {
+      "pattern": "sh",
+      "replacement": "š"
+    },
+    {
+      "pattern": "S[hH]",
+      "replacement": "Š"
+    },
+    {
+      "pattern": "zh",
+      "replacement": "ž"
+    },
+    {
+      "pattern": "Z[hH]",
+      "replacement": "Ž"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ü"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Ü"
+    },
+    {
+      "pattern": "'",
+      "replacement": "’"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": "be-transliteration",
+  "name": "Belarusian Transliteration",
+  "description": "Belarusian transliteration per Belarusian winkeys",
+  "date": "2012-11-06",
+  "author": "Pavel Selitskas",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~",
+      "replacement": "Ё"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "Й"
+    },
+    {
+      "pattern": "W",
+      "replacement": "Ц"
+    },
+    {
+      "pattern": "E",
+      "replacement": "У"
+    },
+    {
+      "pattern": "R",
+      "replacement": "К"
+    },
+    {
+      "pattern": "T",
+      "replacement": "Е"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Н"
+    },
+    {
+      "pattern": "U",
+      "replacement": "Г"
+    },
+    {
+      "pattern": "I",
+      "replacement": "Ш"
+    },
+    {
+      "pattern": "O",
+      "replacement": "Ў"
+    },
+    {
+      "pattern": "P",
+      "replacement": "З"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "Х"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "'"
+    },
+    {
+      "pattern": "A",
+      "replacement": "Ф"
+    },
+    {
+      "pattern": "S",
+      "replacement": "Ы"
+    },
+    {
+      "pattern": "D",
+      "replacement": "В"
+    },
+    {
+      "pattern": "F",
+      "replacement": "А"
+    },
+    {
+      "pattern": "G",
+      "replacement": "П"
+    },
+    {
+      "pattern": "H",
+      "replacement": "Р"
+    },
+    {
+      "pattern": "J",
+      "replacement": "О"
+    },
+    {
+      "pattern": "K",
+      "replacement": "Л"
+    },
+    {
+      "pattern": "L",
+      "replacement": "Д"
+    },
+    {
+      "pattern": ":",
+      "replacement": "Ж"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "Э"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "Я"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Ч"
+    },
+    {
+      "pattern": "C",
+      "replacement": "С"
+    },
+    {
+      "pattern": "V",
+      "replacement": "М"
+    },
+    {
+      "pattern": "B",
+      "replacement": "І"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Т"
+    },
+    {
+      "pattern": "M",
+      "replacement": "Ь"
+    },
+    {
+      "pattern": "<",
+      "replacement": "Б"
+    },
+    {
+      "pattern": ">",
+      "replacement": "Ю"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": ","
+    },
+    {
+      "pattern": "`",
+      "replacement": "ё"
+    },
+    {
+      "pattern": "q",
+      "replacement": "й"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ц"
+    },
+    {
+      "pattern": "e",
+      "replacement": "у"
+    },
+    {
+      "pattern": "r",
+      "replacement": "к"
+    },
+    {
+      "pattern": "t",
+      "replacement": "е"
+    },
+    {
+      "pattern": "y",
+      "replacement": "н"
+    },
+    {
+      "pattern": "u",
+      "replacement": "г"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ш"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ў"
+    },
+    {
+      "pattern": "p",
+      "replacement": "з"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "х"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "'"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ф"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ы"
+    },
+    {
+      "pattern": "d",
+      "replacement": "в"
+    },
+    {
+      "pattern": "f",
+      "replacement": "а"
+    },
+    {
+      "pattern": "g",
+      "replacement": "п"
+    },
+    {
+      "pattern": "h",
+      "replacement": "р"
+    },
+    {
+      "pattern": "j",
+      "replacement": "о"
+    },
+    {
+      "pattern": "k",
+      "replacement": "л"
+    },
+    {
+      "pattern": "l",
+      "replacement": "д"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ж"
+    },
+    {
+      "pattern": "'",
+      "replacement": "э"
+    },
+    {
+      "pattern": "z",
+      "replacement": "я"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ч"
+    },
+    {
+      "pattern": "c",
+      "replacement": "с"
+    },
+    {
+      "pattern": "v",
+      "replacement": "м"
+    },
+    {
+      "pattern": "b",
+      "replacement": "і"
+    },
+    {
+      "pattern": "n",
+      "replacement": "т"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ь"
+    },
+    {
+      "pattern": ",",
+      "replacement": "б"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ю"
+    },
+    {
+      "pattern": "/",
+      "replacement": "."
+    },
+    {
+      "pattern": "@",
+      "replacement": "\""
+    },
+    {
+      "pattern": "#",
+      "replacement": "№"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": ";"
+    },
+    {
+      "pattern": "^",
+      "replacement": ":"
+    },
+    {
+      "pattern": "&",
+      "replacement": "?"
+    }
+  ]
+}

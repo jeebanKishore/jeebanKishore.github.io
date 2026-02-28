@@ -1,0 +1,379 @@
+{
+  "id": "mnc-scripts",
+  "name": "Manchu Scripts",
+  "description": "Manchu Scripts",
+  "date": "2014-4-22",
+  "author": "Feilong Huang, <huangfeilong@gmail.com>",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "Q",
+      "replacement": ""
+    },
+    {
+      "pattern": "W",
+      "replacement": "ᠸ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ᠧ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ᡰ"
+    },
+    {
+      "pattern": "T",
+      "replacement": ""
+    },
+    {
+      "pattern": "Y",
+      "replacement": ""
+    },
+    {
+      "pattern": "U",
+      "replacement": ""
+    },
+    {
+      "pattern": "I",
+      "replacement": "ᡟ"
+    },
+    {
+      "pattern": "O",
+      "replacement": ""
+    },
+    {
+      "pattern": "P",
+      "replacement": ""
+    },
+    {
+      "pattern": "{",
+      "replacement": "〈"
+    },
+    {
+      "pattern": "}",
+      "replacement": "〉"
+    },
+    {
+      "pattern": "A",
+      "replacement": ""
+    },
+    {
+      "pattern": "S",
+      "replacement": ""
+    },
+    {
+      "pattern": "D",
+      "replacement": ""
+    },
+    {
+      "pattern": "F",
+      "replacement": ""
+    },
+    {
+      "pattern": "G",
+      "replacement": "ᡬ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ᡭ"
+    },
+    {
+      "pattern": "J",
+      "replacement": ""
+    },
+    {
+      "pattern": "K",
+      "replacement": "ᠻ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ᡀ"
+    },
+    {
+      "pattern": ":",
+      "replacement": "᠄"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "᠌"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ᡷ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ᡱ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ᡂ"
+    },
+    {
+      "pattern": "V",
+      "replacement": ""
+    },
+    {
+      "pattern": "B",
+      "replacement": ""
+    },
+    {
+      "pattern": "N",
+      "replacement": "ᡢ"
+    },
+    {
+      "pattern": "M",
+      "replacement": ""
+    },
+    {
+      "pattern": "<",
+      "replacement": "《"
+    },
+    {
+      "pattern": ">",
+      "replacement": "》"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "?"
+    },
+    {
+      "pattern": "_",
+      "replacement": "᠎"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "+"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ᠴ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ᠣ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ᡝ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ᡵ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ᡨ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ᠶ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ᡠ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ᡳ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ᠥ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ᡦ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "〔"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "〕"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ᠠ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ᠰ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ᡩ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ᡶ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ᡤ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ᡥ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ᡪ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ᡴ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ᠯ"
+    },
+    {
+      "pattern": ";",
+      "replacement": ";"
+    },
+    {
+      "pattern": "'",
+      "replacement": "᠋"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ᡯ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ᡧ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ᡮ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ᡡ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ᠪ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ᠨ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ᠮ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "᠈"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "᠉"
+    },
+    {
+      "pattern": "/",
+      "replacement": "."
+    },
+    {
+      "pattern": "\\-",
+      "replacement": " "
+    },
+    {
+      "pattern": "=",
+      "replacement": "="
+    },
+    {
+      "pattern": "`",
+      "replacement": "᠍"
+    },
+    {
+      "pattern": "~",
+      "replacement": "~"
+    },
+    {
+      "pattern": "1",
+      "replacement": "1"
+    },
+    {
+      "pattern": "2",
+      "replacement": "2"
+    },
+    {
+      "pattern": "3",
+      "replacement": "3"
+    },
+    {
+      "pattern": "4",
+      "replacement": "4"
+    },
+    {
+      "pattern": "5",
+      "replacement": "5"
+    },
+    {
+      "pattern": "6",
+      "replacement": "6"
+    },
+    {
+      "pattern": "7",
+      "replacement": "7"
+    },
+    {
+      "pattern": "8",
+      "replacement": "8"
+    },
+    {
+      "pattern": "9",
+      "replacement": "9"
+    },
+    {
+      "pattern": "0",
+      "replacement": "0"
+    },
+    {
+      "pattern": "!",
+      "replacement": "!"
+    },
+    {
+      "pattern": "@",
+      "replacement": "⁈"
+    },
+    {
+      "pattern": "#",
+      "replacement": "⁉"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "—"
+    },
+    {
+      "pattern": "%",
+      "replacement": "%"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "&",
+      "replacement": "᠊"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "‍"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")"
+    }
+  ]
+}

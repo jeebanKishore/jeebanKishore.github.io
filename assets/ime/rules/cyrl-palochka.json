@@ -1,0 +1,53 @@
+{
+  "id": "cyrl-palochka",
+  "name": "Cyrillic Palochka",
+  "description": "Palochka input method for Cyrillic",
+  "date": "2012-10-10",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.1",
+  "contextLength": 2,
+  "maxKeyLength": 3,
+  "rules": [
+    {
+      "pattern": "~~1",
+      "replacement": "~~"
+    },
+    {
+      "pattern": "~1",
+      "replacement": "Ӏ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "Ӏ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "Ӏ"
+    },
+    {
+      "pattern": "І",
+      "replacement": "Ӏ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "Ӏ",
+      "context": "x"
+    },
+    {
+      "pattern": "д",
+      "replacement": "Ӏ",
+      "context": "x"
+    },
+    {
+      "pattern": "ш",
+      "replacement": "Ӏ",
+      "context": "x"
+    },
+    {
+      "pattern": "Ш",
+      "replacement": "Ӏ",
+      "context": "x"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "mh-replace",
+  "name": "Kajin M̧ajeļ",
+  "description": "Marshallese Language",
+  "date": "2013-03-29",
+  "author": "Nick Doiron, <ndoiron@mapmeld.com>",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "Y",
+      "replacement": "Ū"
+    },
+    {
+      "pattern": "S",
+      "replacement": "Ā"
+    },
+    {
+      "pattern": "F",
+      "replacement": "Ņ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "N̄"
+    },
+    {
+      "pattern": "H",
+      "replacement": "M̧"
+    },
+    {
+      "pattern": "X",
+      "replacement": "O̧"
+    },
+    {
+      "pattern": "C",
+      "replacement": "Ō"
+    },
+    {
+      "pattern": "V",
+      "replacement": "Ļ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ū"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ā"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ņ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "n̄"
+    },
+    {
+      "pattern": "h",
+      "replacement": "m̧"
+    },
+    {
+      "pattern": "x",
+      "replacement": "o̧"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ō"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ļ"
+    }
+  ]
+}

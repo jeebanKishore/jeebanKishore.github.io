@@ -1,0 +1,372 @@
+{
+  "id": "or-inscript",
+  "name": "ଇନସ୍କ୍ରିପ୍ଟ",
+  "description": "InScript keyboard for Odia script",
+  "date": "2012-10-14",
+  "author": "Junaid P V",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "X",
+      "replacement": "ଁ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ଂ"
+    },
+    {
+      "pattern": "_",
+      "replacement": "ଃ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ଅ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ଆ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ଇ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ଈ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ଉ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ଊ"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ଋ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ଏ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ଐ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ଓ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ଔ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "କ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ଖ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ଗ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ଘ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ଙ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ଚ"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "ଛ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ଜ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ଝ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ଞ"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ଟ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ଠ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ଡ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ଢ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ଣ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ତ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ଥ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ଦ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ଧ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ନ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ପ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ଫ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ବ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ଭ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ମ"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "ଯ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ର"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ଲ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ଳ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ଶ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ଷ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ସ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ହ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "଼"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ା"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ି"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ୀ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ୁ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ୂ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ୃ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "େ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ୈ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ୋ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ୌ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "୍"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ୟ"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "।"
+    },
+    {
+      "pattern": "0",
+      "replacement": "୦"
+    },
+    {
+      "pattern": "1",
+      "replacement": "୧"
+    },
+    {
+      "pattern": "2",
+      "replacement": "୨"
+    },
+    {
+      "pattern": "3",
+      "replacement": "୩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "୪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "୫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "୬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "୭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "୮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "୯"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ୱ"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "‍"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ଌ",
+      "context": "x"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ଵ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "ଽ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ୄ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ଡ଼",
+      "context": "x"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ଢ଼",
+      "context": "x"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ୠ",
+      "context": "x"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ୡ",
+      "context": "x"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ୢ",
+      "context": "x"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ୣ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "୥",
+      "context": "x"
+    },
+    {
+      "pattern": "x",
+      "replacement": "୰",
+      "context": "x"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "₹",
+      "context": "x"
+    }
+  ]
+}

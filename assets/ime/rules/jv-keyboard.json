@@ -1,0 +1,143 @@
+{
+  "id": "jv-keyboard",
+  "name": "Jawa Latin extended keyboard",
+  "description": "Javanese keyboard that include several accented letters",
+  "date": "2024-06-05",
+  "author": "Benny Lin",
+  "license": "GPLv3",
+  "version": "1.1",
+  "rules": [
+    {
+      "pattern": "~E",
+      "replacement": "É"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "é"
+    },
+    {
+      "pattern": "`E",
+      "replacement": "È"
+    },
+    {
+      "pattern": "`e",
+      "replacement": "è"
+    },
+    {
+      "pattern": "ÈQ",
+      "replacement": "Q"
+    },
+    {
+      "pattern": "Èq",
+      "replacement": "Q"
+    },
+    {
+      "pattern": "èq",
+      "replacement": "q"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "È"
+    },
+    {
+      "pattern": "q",
+      "replacement": "è"
+    },
+    {
+      "pattern": "\\^E",
+      "replacement": "Ê"
+    },
+    {
+      "pattern": "\\^e",
+      "replacement": "ê"
+    },
+    {
+      "pattern": "ÊX",
+      "replacement": "X"
+    },
+    {
+      "pattern": "Êx",
+      "replacement": "X"
+    },
+    {
+      "pattern": "êx",
+      "replacement": "x"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Ê"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ê"
+    },
+    {
+      "pattern": "ÉE",
+      "replacement": "E"
+    },
+    {
+      "pattern": "Ée",
+      "replacement": "E"
+    },
+    {
+      "pattern": "ée",
+      "replacement": "e"
+    },
+    {
+      "pattern": "E",
+      "replacement": "É"
+    },
+    {
+      "pattern": "e",
+      "replacement": "é"
+    },
+    {
+      "pattern": "\\^A",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "\\^a",
+      "replacement": "å"
+    },
+    {
+      "pattern": "~A",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "å"
+    },
+    {
+      "pattern": "~D",
+      "replacement": "Ḍ"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "ḍ"
+    },
+    {
+      "pattern": "~T",
+      "replacement": "Ṭ"
+    },
+    {
+      "pattern": "~t",
+      "replacement": "ṭ"
+    },
+    {
+      "pattern": "\\.D",
+      "replacement": "Ḍ"
+    },
+    {
+      "pattern": "\\.d",
+      "replacement": "ḍ"
+    },
+    {
+      "pattern": "\\.T",
+      "replacement": "Ṭ"
+    },
+    {
+      "pattern": "\\.t",
+      "replacement": "ṭ"
+    }
+  ]
+}

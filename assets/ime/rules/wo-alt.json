@@ -1,0 +1,59 @@
+{
+  "id": "wo-alt",
+  "name": "Wolof Alt",
+  "description": "Wolof Alt",
+  "date": "2017-05-27",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "n~",
+      "replacement": "ñ"
+    },
+    {
+      "pattern": "N~",
+      "replacement": "Ñ"
+    },
+    {
+      "pattern": "ñ~",
+      "replacement": "n~"
+    },
+    {
+      "pattern": "Ñ~",
+      "replacement": "N~"
+    },
+    {
+      "pattern": "E",
+      "replacement": "Ë",
+      "context": "x"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ë",
+      "context": "x"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Ŋ",
+      "context": "x"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ŋ",
+      "context": "x"
+    },
+    {
+      "pattern": "/",
+      "replacement": "́",
+      "context": "x"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "̀",
+      "context": "x"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "id": "ta-bamini",
+  "name": "பாமினி",
+  "description": "Tamil Bamini input method",
+  "date": "2012-10-03",
+  "author": "Junaid P V",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "`",
+      "replacement": "ஹ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ங"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ற"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ந"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ச"
+    },
+    {
+      "pattern": "t",
+      "replacement": "வ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ல"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ர"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ை"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ழ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ி"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ஜ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ஸ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ஷ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ய"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ள"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ன"
+    },
+    {
+      "pattern": "f",
+      "replacement": "க"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ப"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ா"
+    },
+    {
+      "pattern": "j",
+      "replacement": "த"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ம"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ட"
+    },
+    {
+      "pattern": ";",
+      "replacement": "்"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ண"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ஒ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "உ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "எ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "டி"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ெ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ே"
+    },
+    {
+      "pattern": "m",
+      "replacement": "அ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "இ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ஃ"
+    },
+    {
+      "pattern": "@",
+      "replacement": ";"
+    },
+    {
+      "pattern": "#",
+      "replacement": "சூ"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "கூ"
+    },
+    {
+      "pattern": "%",
+      "replacement": "மூ"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "டூ"
+    },
+    {
+      "pattern": "&",
+      "replacement": "ரூ"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "ழூ"
+    },
+    {
+      "pattern": "=",
+      "replacement": "ஸ்ரீ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ஞ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "று"
+    },
+    {
+      "pattern": "E",
+      "replacement": "நு"
+    },
+    {
+      "pattern": "R",
+      "replacement": "சு"
+    },
+    {
+      "pattern": "T",
+      "replacement": "வு"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "லு"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ரு"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ஐ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ழு"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ீ"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "'"
+    },
+    {
+      "pattern": "A",
+      "replacement": "யு"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ளு"
+    },
+    {
+      "pattern": "D",
+      "replacement": "னு"
+    },
+    {
+      "pattern": "F",
+      "replacement": "கு"
+    },
+    {
+      "pattern": "G",
+      "replacement": "பு"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ர்"
+    },
+    {
+      "pattern": "J",
+      "replacement": "து"
+    },
+    {
+      "pattern": "K",
+      "replacement": "மு"
+    },
+    {
+      "pattern": "L",
+      "replacement": "டு"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ணு"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ஓ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ஊ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ஏ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "டீ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ஆ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ஈ"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": ","
+    },
+    {
+      "pattern": "([ஜஷஸஹ])\\{",
+      "replacement": "$1ு"
+    },
+    {
+      "pattern": "([ஜஷஸஹ])\\_",
+      "replacement": "$1ூ"
+    }
+  ]
+}

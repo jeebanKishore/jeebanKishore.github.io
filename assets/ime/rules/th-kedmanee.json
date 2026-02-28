@@ -1,0 +1,387 @@
+{
+  "id": "th-kedmanee",
+  "name": "Thai Kedmanee",
+  "description": "Thai Kedmanee Input Method",
+  "date": "2012-10-25",
+  "author": "Kevin K.S. Leung, <sprconan@gmail.com>",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "Q",
+      "replacement": "๐"
+    },
+    {
+      "pattern": "W",
+      "replacement": "\""
+    },
+    {
+      "pattern": "E",
+      "replacement": "ฎ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ฑ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ธ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ํ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "๊"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ณ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ฯ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ญ"
+    },
+    {
+      "pattern": "{",
+      "replacement": "ฐ"
+    },
+    {
+      "pattern": "}",
+      "replacement": ","
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ฅ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ฤ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ฆ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ฏ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "โ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ฌ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "็"
+    },
+    {
+      "pattern": "J",
+      "replacement": "๋"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ษ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ศ"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ซ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "."
+    },
+    {
+      "pattern": "Z",
+      "replacement": "("
+    },
+    {
+      "pattern": "X",
+      "replacement": ")"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ฉ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ฮ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ฺ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "์"
+    },
+    {
+      "pattern": "M",
+      "replacement": "?"
+    },
+    {
+      "pattern": "<",
+      "replacement": "ฒ"
+    },
+    {
+      "pattern": ">",
+      "replacement": "ฬ"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "ฦ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ๆ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ไ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ำ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "พ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ะ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ั"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ี"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ร"
+    },
+    {
+      "pattern": "o",
+      "replacement": "น"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ย"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "บ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ล"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ฃ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ฟ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ห"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ก"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ด"
+    },
+    {
+      "pattern": "g",
+      "replacement": "เ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "้"
+    },
+    {
+      "pattern": "j",
+      "replacement": "่"
+    },
+    {
+      "pattern": "k",
+      "replacement": "า"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ส"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ว"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ง"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ผ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ป"
+    },
+    {
+      "pattern": "c",
+      "replacement": "แ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "อ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ิ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ื"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ท"
+    },
+    {
+      "pattern": ",",
+      "replacement": "ม"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ใ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ฝ"
+    },
+    {
+      "pattern": "`",
+      "replacement": "_"
+    },
+    {
+      "pattern": "1",
+      "replacement": "ๅ"
+    },
+    {
+      "pattern": "2",
+      "replacement": "/"
+    },
+    {
+      "pattern": "3",
+      "replacement": "-"
+    },
+    {
+      "pattern": "4",
+      "replacement": "ภ"
+    },
+    {
+      "pattern": "5",
+      "replacement": "ถ"
+    },
+    {
+      "pattern": "6",
+      "replacement": "ุ"
+    },
+    {
+      "pattern": "7",
+      "replacement": "ึ"
+    },
+    {
+      "pattern": "8",
+      "replacement": "ค"
+    },
+    {
+      "pattern": "9",
+      "replacement": "ต"
+    },
+    {
+      "pattern": "0",
+      "replacement": "จ"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "ข"
+    },
+    {
+      "pattern": "=",
+      "replacement": "ช"
+    },
+    {
+      "pattern": "~",
+      "replacement": "%"
+    },
+    {
+      "pattern": "!",
+      "replacement": "+"
+    },
+    {
+      "pattern": "@",
+      "replacement": "๑"
+    },
+    {
+      "pattern": "#",
+      "replacement": "๒"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "๓"
+    },
+    {
+      "pattern": "%",
+      "replacement": "๔"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ู"
+    },
+    {
+      "pattern": "&",
+      "replacement": "฿"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "๕"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "๖"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "๗"
+    },
+    {
+      "pattern": "_",
+      "replacement": "๘"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "๙"
+    }
+  ]
+}

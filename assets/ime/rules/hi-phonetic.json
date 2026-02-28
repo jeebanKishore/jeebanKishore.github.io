@@ -1,0 +1,387 @@
+{
+  "id": "hi-phonetic",
+  "name": "फोनेटिक",
+  "description": "Phonetic keyboard for Hindi language",
+  "date": "2013-02-09",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "्f",
+      "replacement": "्‌"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "ऎ"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "ॆ"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "ऍ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "१"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "ॅ"
+    },
+    {
+      "pattern": "2",
+      "replacement": "२"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "ऑ"
+    },
+    {
+      "pattern": "3",
+      "replacement": "३"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "ॉ"
+    },
+    {
+      "pattern": "4",
+      "replacement": "४"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "ञ"
+    },
+    {
+      "pattern": "5",
+      "replacement": "५"
+    },
+    {
+      "pattern": "6",
+      "replacement": "६"
+    },
+    {
+      "pattern": "7",
+      "replacement": "७"
+    },
+    {
+      "pattern": "8",
+      "replacement": "८"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "9",
+      "replacement": "९"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")"
+    },
+    {
+      "pattern": "0",
+      "replacement": "०"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "+"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "="
+    },
+    {
+      "pattern": "Q",
+      "replacement": "औ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ओ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ठ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ट"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ै"
+    },
+    {
+      "pattern": "e",
+      "replacement": "े"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ृ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "र"
+    },
+    {
+      "pattern": "T",
+      "replacement": "थ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "त"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "य़"
+    },
+    {
+      "pattern": "y",
+      "replacement": "य"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ू"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ु"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ी"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ि"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ौ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ो"
+    },
+    {
+      "pattern": "P",
+      "replacement": "फ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "प"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ढ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ड"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ऱ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ऋ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "आ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ा"
+    },
+    {
+      "pattern": "S",
+      "replacement": "श"
+    },
+    {
+      "pattern": "s",
+      "replacement": "स"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ध"
+    },
+    {
+      "pattern": "d",
+      "replacement": "द"
+    },
+    {
+      "pattern": "F",
+      "replacement": "अ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "्"
+    },
+    {
+      "pattern": "G",
+      "replacement": "घ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ग"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ः"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ह"
+    },
+    {
+      "pattern": "J",
+      "replacement": "झ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ज"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ख"
+    },
+    {
+      "pattern": "k",
+      "replacement": "क"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ळ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ल"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ई"
+    },
+    {
+      "pattern": ";",
+      "replacement": "इ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ऊ"
+    },
+    {
+      "pattern": "'",
+      "replacement": "उ"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ऒ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ो"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ँ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ङ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ष"
+    },
+    {
+      "pattern": "C",
+      "replacement": "छ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "च"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ऴ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "व"
+    },
+    {
+      "pattern": "B",
+      "replacement": "भ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ब"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ण"
+    },
+    {
+      "pattern": "n",
+      "replacement": "न"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ं"
+    },
+    {
+      "pattern": "m",
+      "replacement": "म"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ऩ"
+    },
+    {
+      "pattern": ",",
+      "replacement": ","
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "़"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "।"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "ऐ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ए"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ज्ञ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "क्ष"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "श्र"
+    }
+  ]
+}

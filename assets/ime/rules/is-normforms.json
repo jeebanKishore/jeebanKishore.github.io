@@ -1,0 +1,205 @@
+{
+  "id": "is-normforms",
+  "name": "Íslenska",
+  "description": "Islandic input method with most common form transliterated",
+  "date": "2012-12-04",
+  "author": "John Erling Blad",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 3,
+  "rules": [
+    {
+      "pattern": "'a",
+      "replacement": "á"
+    },
+    {
+      "pattern": "'A",
+      "replacement": "Á"
+    },
+    {
+      "pattern": "'i",
+      "replacement": "í"
+    },
+    {
+      "pattern": "'I",
+      "replacement": "Í"
+    },
+    {
+      "pattern": "'e",
+      "replacement": "é"
+    },
+    {
+      "pattern": "'E",
+      "replacement": "É"
+    },
+    {
+      "pattern": "'o",
+      "replacement": "ó"
+    },
+    {
+      "pattern": "'O",
+      "replacement": "Ó"
+    },
+    {
+      "pattern": "'u",
+      "replacement": "ú"
+    },
+    {
+      "pattern": "'U",
+      "replacement": "Ú"
+    },
+    {
+      "pattern": "'y",
+      "replacement": "ý"
+    },
+    {
+      "pattern": "'Y",
+      "replacement": "Ý"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "~A",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ë"
+    },
+    {
+      "pattern": "~E",
+      "replacement": "Ë"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "ð"
+    },
+    {
+      "pattern": "~D",
+      "replacement": "Ð"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ø"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ø"
+    },
+    {
+      "pattern": "th",
+      "replacement": "þ"
+    },
+    {
+      "pattern": "TH",
+      "replacement": "Þ"
+    },
+    {
+      "pattern": "Th",
+      "replacement": "Þ"
+    },
+    {
+      "pattern": "aa",
+      "replacement": "å"
+    },
+    {
+      "pattern": "AA",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "Aa",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "ae",
+      "replacement": "æ"
+    },
+    {
+      "pattern": "AE",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "Ae",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "oe",
+      "replacement": "ö"
+    },
+    {
+      "pattern": "OE",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "Oe",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "þh",
+      "replacement": "h"
+    },
+    {
+      "pattern": "ÞA",
+      "replacement": "H"
+    },
+    {
+      "pattern": "Þh",
+      "replacement": "H"
+    },
+    {
+      "pattern": "þA",
+      "replacement": "h"
+    },
+    {
+      "pattern": "åa",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ÅA",
+      "replacement": "A"
+    },
+    {
+      "pattern": "Åa",
+      "replacement": "A"
+    },
+    {
+      "pattern": "åA",
+      "replacement": "a"
+    },
+    {
+      "pattern": "æe",
+      "replacement": "e"
+    },
+    {
+      "pattern": "ÆE",
+      "replacement": "E"
+    },
+    {
+      "pattern": "Æe",
+      "replacement": "E"
+    },
+    {
+      "pattern": "æE",
+      "replacement": "e"
+    },
+    {
+      "pattern": "öe",
+      "replacement": "e"
+    },
+    {
+      "pattern": "ÖE",
+      "replacement": "E"
+    },
+    {
+      "pattern": "Öe",
+      "replacement": "E"
+    },
+    {
+      "pattern": "öE",
+      "replacement": "e"
+    }
+  ]
+}

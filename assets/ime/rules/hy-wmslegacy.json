@@ -1,0 +1,592 @@
+{
+  "id": "hy-wmslegacy",
+  "name": "ՄՍ Արևմտահայերեն (հնացած)",
+  "description": "Legacy keyboard layout for Western Armenian by Microsoft",
+  "date": "2013-07-08",
+  "author": "Aleksey Chalabyan Ալեքսեյ Չալաբյան a.k.a Xelgen",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "1",
+      "replacement": "։"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "1"
+    },
+    {
+      "pattern": "2",
+      "replacement": "ձ"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "Ձ"
+    },
+    {
+      "pattern": "3",
+      "replacement": "յ"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "Յ"
+    },
+    {
+      "pattern": "4",
+      "replacement": "՛"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "֏"
+    },
+    {
+      "pattern": "5",
+      "replacement": ","
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "4"
+    },
+    {
+      "pattern": "6",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "9"
+    },
+    {
+      "pattern": "7",
+      "replacement": "․"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "և"
+    },
+    {
+      "pattern": "8",
+      "replacement": "«"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "("
+    },
+    {
+      "pattern": "9",
+      "replacement": "»"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "0",
+      "replacement": "օ"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "Օ"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "ռ"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "Ռ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ժ"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "Ժ"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "՝"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "՜"
+    },
+    {
+      "pattern": "q",
+      "replacement": "խ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "Խ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "վ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "Վ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "է"
+    },
+    {
+      "pattern": "E",
+      "replacement": "Է"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ր"
+    },
+    {
+      "pattern": "R",
+      "replacement": "Ր"
+    },
+    {
+      "pattern": "t",
+      "replacement": "դ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "Դ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ե"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Ե"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ը"
+    },
+    {
+      "pattern": "U",
+      "replacement": "Ը"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ի"
+    },
+    {
+      "pattern": "I",
+      "replacement": "Ի"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ո"
+    },
+    {
+      "pattern": "O",
+      "replacement": "Ո"
+    },
+    {
+      "pattern": "p",
+      "replacement": "բ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "Բ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "չ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "Չ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ջ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "Ջ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "'"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "՞"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ա"
+    },
+    {
+      "pattern": "A",
+      "replacement": "Ա"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ս"
+    },
+    {
+      "pattern": "S",
+      "replacement": "Ս"
+    },
+    {
+      "pattern": "d",
+      "replacement": "տ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "Տ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ֆ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "Ֆ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "կ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "Կ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "հ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "Հ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ճ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "Ճ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ք"
+    },
+    {
+      "pattern": "K",
+      "replacement": "Ք"
+    },
+    {
+      "pattern": "l",
+      "replacement": "լ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "Լ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "թ"
+    },
+    {
+      "pattern": ":",
+      "replacement": "Թ"
+    },
+    {
+      "pattern": "'",
+      "replacement": "փ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "Փ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "զ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "Զ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ց"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Ց"
+    },
+    {
+      "pattern": "c",
+      "replacement": "գ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "Գ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ւ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "Ւ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "պ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "Պ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ն"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Ն"
+    },
+    {
+      "pattern": "m",
+      "replacement": "մ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "Մ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "շ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "Շ"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ղ"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "Ղ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ծ"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "Ծ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "1",
+      "context": "x"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "!",
+      "context": "x"
+    },
+    {
+      "pattern": "2",
+      "replacement": "2",
+      "context": "x"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "@",
+      "context": "x"
+    },
+    {
+      "pattern": "3",
+      "replacement": "3",
+      "context": "x"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "#",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "4",
+      "context": "x"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "$",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "5",
+      "context": "x"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "%",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "6",
+      "context": "x"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "^",
+      "context": "x"
+    },
+    {
+      "pattern": "7",
+      "replacement": "7",
+      "context": "x"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "&",
+      "context": "x"
+    },
+    {
+      "pattern": "8",
+      "replacement": "8",
+      "context": "x"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "*",
+      "context": "x"
+    },
+    {
+      "pattern": "9",
+      "replacement": "9",
+      "context": "x"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "(",
+      "context": "x"
+    },
+    {
+      "pattern": "0",
+      "replacement": "0",
+      "context": "x"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")",
+      "context": "x"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "-",
+      "context": "x"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "_",
+      "context": "x"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "=",
+      "context": "x"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "+",
+      "context": "x"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "`",
+      "context": "x"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "~",
+      "context": "x"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "[",
+      "context": "x"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "{",
+      "context": "x"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "]",
+      "context": "x"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "}",
+      "context": "x"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "\\",
+      "context": "x"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "|",
+      "context": "x"
+    },
+    {
+      "pattern": ";",
+      "replacement": ";",
+      "context": "x"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": ":",
+      "context": "x"
+    },
+    {
+      "pattern": "'",
+      "replacement": "'",
+      "context": "x"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "\"",
+      "context": "x"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "<",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": ".",
+      "context": "x"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": ">",
+      "context": "x"
+    },
+    {
+      "pattern": "/",
+      "replacement": "/",
+      "context": "x"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "?",
+      "context": "x"
+    }
+  ]
+}

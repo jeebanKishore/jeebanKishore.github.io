@@ -1,0 +1,343 @@
+{
+  "id": "sdh-kbd",
+  "name": "کوردی خوارگ",
+  "description": "Southern Kurdish Keyboard Layout",
+  "date": "2015-05-03",
+  "author": "Mjbmr",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "`",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "1",
+      "replacement": "١"
+    },
+    {
+      "pattern": "2",
+      "replacement": "٢"
+    },
+    {
+      "pattern": "3",
+      "replacement": "٣"
+    },
+    {
+      "pattern": "4",
+      "replacement": "٤"
+    },
+    {
+      "pattern": "5",
+      "replacement": "٥"
+    },
+    {
+      "pattern": "6",
+      "replacement": "۶"
+    },
+    {
+      "pattern": "7",
+      "replacement": "٧"
+    },
+    {
+      "pattern": "8",
+      "replacement": "٨"
+    },
+    {
+      "pattern": "9",
+      "replacement": "٩"
+    },
+    {
+      "pattern": "0",
+      "replacement": "٠"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ض"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ص"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ث"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ق"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ف"
+    },
+    {
+      "pattern": "y",
+      "replacement": "غ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ع"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ھ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "خ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ح"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ج"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "چ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ش"
+    },
+    {
+      "pattern": "s",
+      "replacement": "س"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ی"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ب"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ل"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ا"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ت"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ن"
+    },
+    {
+      "pattern": "l",
+      "replacement": "م"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ک"
+    },
+    {
+      "pattern": "'",
+      "replacement": "گ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ظ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ط"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ز"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ر"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ذ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "د"
+    },
+    {
+      "pattern": "m",
+      "replacement": "پ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "و"
+    },
+    {
+      "pattern": "~",
+      "replacement": "÷"
+    },
+    {
+      "pattern": "@",
+      "replacement": "٬"
+    },
+    {
+      "pattern": "#",
+      "replacement": "٫"
+    },
+    {
+      "pattern": "%",
+      "replacement": "٪"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "×"
+    },
+    {
+      "pattern": "&",
+      "replacement": "،"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "("
+    },
+    {
+      "pattern": "_",
+      "replacement": "ـ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ْ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "وو"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ڤ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ً"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ۊ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ئ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ە"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ّ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "]"
+    },
+    {
+      "pattern": "P",
+      "replacement": "["
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "}"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "{"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ؤ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ئ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ێ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "إ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "أ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "آ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ة"
+    },
+    {
+      "pattern": "K",
+      "replacement": "»"
+    },
+    {
+      "pattern": "L",
+      "replacement": "«"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "؛"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ۆ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ط"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ژ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ڕ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ڵ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ٔ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ء"
+    },
+    {
+      "pattern": "<",
+      "replacement": ">"
+    },
+    {
+      "pattern": ">",
+      "replacement": "<"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "؟"
+    }
+  ]
+}

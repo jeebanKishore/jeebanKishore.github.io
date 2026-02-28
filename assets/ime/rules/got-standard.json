@@ -1,0 +1,119 @@
+{
+  "id": "got-standard",
+  "name": "𐌲𐌿𐍄𐌹𐍃𐌺𐌰 𐍂𐌰𐌶𐌳𐌰",
+  "description": "Gothic keyboard layout",
+  "date": "2016-06-27",
+  "author": "Bokareis",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "a",
+      "replacement": "𐌰"
+    },
+    {
+      "pattern": "b",
+      "replacement": "𐌱"
+    },
+    {
+      "pattern": "g",
+      "replacement": "𐌲"
+    },
+    {
+      "pattern": "d",
+      "replacement": "𐌳"
+    },
+    {
+      "pattern": "e",
+      "replacement": "𐌴"
+    },
+    {
+      "pattern": "q",
+      "replacement": "𐌵"
+    },
+    {
+      "pattern": "z",
+      "replacement": "𐌶"
+    },
+    {
+      "pattern": "h",
+      "replacement": "𐌷"
+    },
+    {
+      "pattern": "T",
+      "replacement": "𐌸"
+    },
+    {
+      "pattern": "i",
+      "replacement": "𐌹"
+    },
+    {
+      "pattern": "k",
+      "replacement": "𐌺"
+    },
+    {
+      "pattern": "l",
+      "replacement": "𐌻"
+    },
+    {
+      "pattern": "m",
+      "replacement": "𐌼"
+    },
+    {
+      "pattern": "n",
+      "replacement": "𐌽"
+    },
+    {
+      "pattern": "j",
+      "replacement": "𐌾"
+    },
+    {
+      "pattern": "u",
+      "replacement": "𐌿"
+    },
+    {
+      "pattern": "p",
+      "replacement": "𐍀"
+    },
+    {
+      "pattern": "c",
+      "replacement": "𐍁"
+    },
+    {
+      "pattern": "r",
+      "replacement": "𐍂"
+    },
+    {
+      "pattern": "s",
+      "replacement": "𐍃"
+    },
+    {
+      "pattern": "t",
+      "replacement": "𐍄"
+    },
+    {
+      "pattern": "w",
+      "replacement": "𐍅"
+    },
+    {
+      "pattern": "f",
+      "replacement": "𐍆"
+    },
+    {
+      "pattern": "x",
+      "replacement": "𐍇"
+    },
+    {
+      "pattern": "v",
+      "replacement": "𐍈"
+    },
+    {
+      "pattern": "o",
+      "replacement": "𐍉"
+    },
+    {
+      "pattern": "y",
+      "replacement": "𐍊"
+    }
+  ]
+}

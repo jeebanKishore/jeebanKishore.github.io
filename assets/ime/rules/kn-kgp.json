@@ -1,0 +1,349 @@
+{
+  "id": "kn-kgp",
+  "name": "ಕಗಪ/ನುಡಿ",
+  "description": "Kannada kgp/nudi/KP Rao layout",
+  "date": "2012-11-09",
+  "author": "Aravinda VK<mail@aravindavk.in>",
+  "license": "GPLv3,MIT",
+  "version": "1.0",
+  "contextLength": 4,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)f",
+      "replacement": "$1್"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?್)f",
+      "replacement": "$1"
+    },
+    {
+      "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
+      "replacement": "\\\\"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)A",
+      "replacement": "$1ಾ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)i",
+      "replacement": "$1ಿ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)I",
+      "replacement": "$1ೀ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)u",
+      "replacement": "$1ು"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)U",
+      "replacement": "$1ೂ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)R",
+      "replacement": "$1ೃ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)ೃX",
+      "replacement": "$1ೄ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)e",
+      "replacement": "$1ೆ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)E",
+      "replacement": "$1ೇ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)Y",
+      "replacement": "$1ೈ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)o",
+      "replacement": "$1ೊ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)O",
+      "replacement": "$1ೋ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?)V",
+      "replacement": "$1ೌ"
+    },
+    {
+      "pattern": "ಸX",
+      "replacement": "ಽ"
+    },
+    {
+      "pattern": "([ಕ-ಹೞ]಼?‍)f",
+      "replacement": "$1್"
+    },
+    {
+      "pattern": "(‍)F",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "F",
+      "replacement": "‍"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ಕ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ಖ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ಗ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ಘ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ಙ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ಚ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ಛ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ಜ"
+    },
+    {
+      "pattern": "ಜX",
+      "replacement": "ಜ಼"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ಝ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ಞ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ಟ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ಠ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ಡ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ಢ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ಣ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ತ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ಥ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ದ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ಧ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ನ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ಪ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ಫ"
+    },
+    {
+      "pattern": "ಫX",
+      "replacement": "ಫ಼"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ಬ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ಭ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ಮ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ಯ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ರ"
+    },
+    {
+      "pattern": "ರX",
+      "replacement": "ಱ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ಲ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ವ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ಶ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ಷ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ಸ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ಹ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ಳ"
+    },
+    {
+      "pattern": "ಳX",
+      "replacement": "ೞ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ಅ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ಆ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ಇ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ಈ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ಉ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ಊ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ಋ"
+    },
+    {
+      "pattern": "ಋX",
+      "replacement": "ೠ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ಎ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ಏ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ಐ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ಒ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ಓ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ಔ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ಂ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ಃ"
+    },
+    {
+      "pattern": "0",
+      "replacement": "೦"
+    },
+    {
+      "pattern": "1",
+      "replacement": "೧"
+    },
+    {
+      "pattern": "2",
+      "replacement": "೨"
+    },
+    {
+      "pattern": "3",
+      "replacement": "೩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "೪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "೫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "೬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "೭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "೮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "೯"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "str-sencoten",
+  "name": "SENĆOŦEN Keyboard",
+  "description": "Saanich SENĆOŦEN Keyboard",
+  "date": "2024-11-23",
+  "author": "Anne Drew Hu",
+  "license": "MIT",
+  "version": "1.0",
+  "maxKeyLength": 4,
+  "rules": [
+    {
+      "pattern": "S",
+      "replacement": "s"
+    },
+    {
+      "pattern": "([a-z])"
+    },
+    {
+      "pattern": "A'",
+      "replacement": "Á"
+    },
+    {
+      "pattern": "A/",
+      "replacement": "Ⱥ"
+    },
+    {
+      "pattern": "C'",
+      "replacement": "Ć"
+    },
+    {
+      "pattern": "C/",
+      "replacement": "Ȼ"
+    },
+    {
+      "pattern": "I'",
+      "replacement": "Í"
+    },
+    {
+      "pattern": ",",
+      "replacement": "¸"
+    },
+    {
+      "pattern": "<",
+      "replacement": ","
+    },
+    {
+      "pattern": "K-",
+      "replacement": "₭"
+    },
+    {
+      "pattern": "K_",
+      "replacement": "Ḵ"
+    },
+    {
+      "pattern": "K;",
+      "replacement": "Ḵ"
+    },
+    {
+      "pattern": "K'",
+      "replacement": "Ḱ"
+    },
+    {
+      "pattern": "L-",
+      "replacement": "Ƚ"
+    },
+    {
+      "pattern": "N_",
+      "replacement": "Ṉ"
+    },
+    {
+      "pattern": "N;",
+      "replacement": "Ṉ"
+    },
+    {
+      "pattern": "S'",
+      "replacement": "Ś"
+    },
+    {
+      "pattern": "T/",
+      "replacement": "Ⱦ"
+    },
+    {
+      "pattern": "T_",
+      "replacement": "Ṯ"
+    },
+    {
+      "pattern": "T;",
+      "replacement": "Ṯ"
+    },
+    {
+      "pattern": "T-",
+      "replacement": "Ŧ"
+    },
+    {
+      "pattern": "W_",
+      "replacement": "W̱"
+    },
+    {
+      "pattern": "W;",
+      "replacement": "W̱"
+    },
+    {
+      "pattern": "X;",
+      "replacement": "X̱"
+    },
+    {
+      "pattern": "X_",
+      "replacement": "X̱"
+    }
+  ]
+}

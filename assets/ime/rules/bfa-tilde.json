@@ -1,0 +1,28 @@
+{
+  "id": "bfa-tilde",
+  "name": "Bari tilde",
+  "description": "Bari tilde",
+  "date": "2022-12-07",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ö"
+    }
+  ]
+}

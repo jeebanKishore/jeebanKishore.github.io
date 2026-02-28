@@ -1,0 +1,41 @@
+{
+  "id": "ky-cyrl-alt",
+  "name": "Кыргыз Alt",
+  "description": "Кыргыз Alt",
+  "date": "2013-08-10",
+  "author": "Amir (Алексей) Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "н",
+      "replacement": "ң",
+      "context": "x"
+    },
+    {
+      "pattern": "Н",
+      "replacement": "Ң",
+      "context": "x"
+    },
+    {
+      "pattern": "о",
+      "replacement": "ө",
+      "context": "x"
+    },
+    {
+      "pattern": "О",
+      "replacement": "Ө",
+      "context": "x"
+    },
+    {
+      "pattern": "у",
+      "replacement": "ү",
+      "context": "x"
+    },
+    {
+      "pattern": "У",
+      "replacement": "Ү",
+      "context": "x"
+    }
+  ]
+}

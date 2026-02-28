@@ -1,0 +1,137 @@
+{
+  "id": "id-jawi",
+  "name": "Jawi keyboard",
+  "description": "Jawi keyboard for Indonesian Wikisource",
+  "date": "2023-09-21",
+  "author": "Benny Lin, Pungkas, Michael",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
+      "replacement": ""
+    },
+    {
+      "pattern": "(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(b|B)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(c|C)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(d|D)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(f|F)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(g|G)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(h|H)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(ݢ|ڬ)(h|H)",
+      "replacement": "(g|G)"
+    },
+    {
+      "pattern": "ت(h|H)",
+      "replacement": "(t|T)"
+    },
+    {
+      "pattern": "ى(h|H)",
+      "replacement": "(k|K)"
+    },
+    {
+      "pattern": "(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(j|J)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(k|K)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(l|L)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(m|M)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(n|N)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(p|P)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(q|Q)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(r|R)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(s|S)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(t|T)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(v|V)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(w|W)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(y|Y)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(z|Z)",
+      "replacement": ""
+    },
+    {
+      "pattern": "`",
+      "replacement": ""
+    }
+  ]
+}

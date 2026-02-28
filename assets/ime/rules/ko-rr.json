@@ -1,0 +1,12 @@
+{
+  "id": "ko-rr",
+  "name": "Korean Revised Romanization",
+  "description": "Transliteration using Korean revised romanization",
+  "date": "2023-02-04",
+  "author": "Anne Drew Hu",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 4,
+  "rules": []
+}

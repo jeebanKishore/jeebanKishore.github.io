@@ -1,0 +1,151 @@
+{
+  "id": "lut-tulalip",
+  "name": "Lushootseed Tulalip",
+  "description": "Lushootseed Keyboard with Tulalip Layout",
+  "date": "2014-03-01",
+  "author": "Joshua Crowgey, jcrowgey@u.washington.edu",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "e",
+      "replacement": "ə"
+    },
+    {
+      "pattern": "r",
+      "replacement": "š"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ʷ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ʔ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ǰ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ɬ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "x̌"
+    },
+    {
+      "pattern": "v",
+      "replacement": "č"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "q̓"
+    },
+    {
+      "pattern": "W",
+      "replacement": "w̓"
+    },
+    {
+      "pattern": "E",
+      "replacement": "q̓ʷ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "√"
+    },
+    {
+      "pattern": "T",
+      "replacement": "t̕"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "y̓"
+    },
+    {
+      "pattern": "U",
+      "replacement": ""
+    },
+    {
+      "pattern": "I",
+      "replacement": "kʷ"
+    },
+    {
+      "pattern": "O",
+      "replacement": ""
+    },
+    {
+      "pattern": "P",
+      "replacement": "p̓"
+    },
+    {
+      "pattern": "A",
+      "replacement": "qʷ"
+    },
+    {
+      "pattern": "S",
+      "replacement": ""
+    },
+    {
+      "pattern": "D",
+      "replacement": "dᶻ"
+    },
+    {
+      "pattern": "F",
+      "replacement": ""
+    },
+    {
+      "pattern": "G",
+      "replacement": "gʷ"
+    },
+    {
+      "pattern": "H",
+      "replacement": ""
+    },
+    {
+      "pattern": "J",
+      "replacement": "k̓ʷ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "k̓"
+    },
+    {
+      "pattern": "L",
+      "replacement": "l̕"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ƛ̕"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "x̌ʷ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "xʷ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "c̓"
+    },
+    {
+      "pattern": "V",
+      "replacement": "č̓"
+    },
+    {
+      "pattern": "B",
+      "replacement": "b̓"
+    },
+    {
+      "pattern": "N",
+      "replacement": "n̓"
+    },
+    {
+      "pattern": "M",
+      "replacement": "m̓"
+    }
+  ]
+}

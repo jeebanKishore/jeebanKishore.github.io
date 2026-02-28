@@ -1,0 +1,99 @@
+{
+  "id": "mns-backslash",
+  "name": "mns-backslash",
+  "description": "Mansi backslash keyboard",
+  "date": "2024-11-05",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "\\\\А",
+      "replacement": "А̄"
+    },
+    {
+      "pattern": "\\\\а",
+      "replacement": "а̄"
+    },
+    {
+      "pattern": "\\\\Е",
+      "replacement": "Е̄"
+    },
+    {
+      "pattern": "\\\\е",
+      "replacement": "е̄"
+    },
+    {
+      "pattern": "\\\\Ё",
+      "replacement": "Ё̄"
+    },
+    {
+      "pattern": "\\\\ё",
+      "replacement": "ё̄"
+    },
+    {
+      "pattern": "\\\\И",
+      "replacement": "Ӣ"
+    },
+    {
+      "pattern": "\\\\и",
+      "replacement": "ӣ"
+    },
+    {
+      "pattern": "\\\\Н",
+      "replacement": "Ӈ"
+    },
+    {
+      "pattern": "\\\\н",
+      "replacement": "ӈ"
+    },
+    {
+      "pattern": "\\\\О",
+      "replacement": "О̄"
+    },
+    {
+      "pattern": "\\\\о",
+      "replacement": "о̄"
+    },
+    {
+      "pattern": "\\\\У",
+      "replacement": "Ӯ"
+    },
+    {
+      "pattern": "\\\\у",
+      "replacement": "ӯ"
+    },
+    {
+      "pattern": "\\\\Ы",
+      "replacement": "Ы̄"
+    },
+    {
+      "pattern": "\\\\ы",
+      "replacement": "ы̄"
+    },
+    {
+      "pattern": "\\\\Э",
+      "replacement": "Э̄"
+    },
+    {
+      "pattern": "\\\\э",
+      "replacement": "э̄"
+    },
+    {
+      "pattern": "\\\\Ю",
+      "replacement": "Ю̄"
+    },
+    {
+      "pattern": "\\\\ю",
+      "replacement": "ю̄"
+    },
+    {
+      "pattern": "\\\\Я",
+      "replacement": "Я̄"
+    },
+    {
+      "pattern": "\\\\я",
+      "replacement": "я̄"
+    }
+  ]
+}

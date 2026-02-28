@@ -1,0 +1,386 @@
+{
+  "id": "jv-kongres",
+  "name": "Aksara Jawa Kongres",
+  "description": "Papan Tombol Aksara Jawa berdasarkan Kongres Aksara Jawa I - 2021",
+  "date": "2023-04-06",
+  "author": "Benny Lin",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "q",
+      "replacement": "꧀"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ꦮ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ꦺ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ꦫ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ꦠ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ꦪ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ꦸ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ꦶ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ꦺꦴ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ꦥ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ꦔ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ꦱ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ꦢ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ꦉ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ꦒ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ꦲ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ꦗ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ꦏ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ꦭ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ꦝ"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ꦛ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ꦚ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ꦼ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ꦕ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ꦊ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ꦧ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ꦤ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ꦩ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ꦐ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ꦻ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ꦌ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ꦿ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ꦡ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ꦾ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ꦈ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ꦆ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ꦎ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ꦦ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ꦄ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ꦯ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ꦣ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ꦽ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ꦓ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ꦃ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ꦘ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ꦑ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ꦴ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ꦰ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ꦬ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ꦖ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ꦋ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ꦨ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ꦟ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ꦍ"
+    },
+    {
+      "pattern": "`",
+      "replacement": "꧇"
+    },
+    {
+      "pattern": "1",
+      "replacement": "꧑"
+    },
+    {
+      "pattern": "2",
+      "replacement": "꧒"
+    },
+    {
+      "pattern": "3",
+      "replacement": "꧓"
+    },
+    {
+      "pattern": "4",
+      "replacement": "꧔"
+    },
+    {
+      "pattern": "5",
+      "replacement": "꧕"
+    },
+    {
+      "pattern": "6",
+      "replacement": "꧖"
+    },
+    {
+      "pattern": "7",
+      "replacement": "꧗"
+    },
+    {
+      "pattern": "8",
+      "replacement": "꧘"
+    },
+    {
+      "pattern": "9",
+      "replacement": "꧙"
+    },
+    {
+      "pattern": "0",
+      "replacement": "꧐"
+    },
+    {
+      "pattern": "-",
+      "replacement": "꦳"
+    },
+    {
+      "pattern": "=",
+      "replacement": "ꦀ"
+    },
+    {
+      "pattern": "~",
+      "replacement": "꧊"
+    },
+    {
+      "pattern": "!",
+      "replacement": "ꦵ"
+    },
+    {
+      "pattern": "@",
+      "replacement": "ꧏ"
+    },
+    {
+      "pattern": "#",
+      "replacement": "꧐"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "꧞"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "꧟"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "꧃"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "꧄"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "꧅"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "꧌"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "꧍"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "ꦷ"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ꦙ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ꦁ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ꦂ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "\\,",
+      "replacement": "꧈"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "꧉"
+    },
+    {
+      "pattern": "\\/",
+      "replacement": "꧋"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "꧁"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "꧂"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "​"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "ꦞ"
+    },
+    {
+      "pattern": "\\\"",
+      "replacement": "ꦜ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ꦹ"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "ꦅ"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "ꦇ"
+    }
+  ]
+}

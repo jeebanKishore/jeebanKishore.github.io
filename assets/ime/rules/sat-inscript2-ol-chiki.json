@@ -1,0 +1,195 @@
+{
+  "id": "sat-inscript2-ol-chiki",
+  "name": "InScript2",
+  "description": "Enhanced Ol Chiki InScript keyboard for Santali language",
+  "date": "2016-03-29",
+  "author": "Jnanaranjan Sahu",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "0",
+      "replacement": "᱐"
+    },
+    {
+      "pattern": "1",
+      "replacement": "᱑"
+    },
+    {
+      "pattern": "2",
+      "replacement": "᱒"
+    },
+    {
+      "pattern": "3",
+      "replacement": "᱓"
+    },
+    {
+      "pattern": "4",
+      "replacement": "᱔"
+    },
+    {
+      "pattern": "5",
+      "replacement": "᱕"
+    },
+    {
+      "pattern": "6",
+      "replacement": "᱖"
+    },
+    {
+      "pattern": "7",
+      "replacement": "᱗"
+    },
+    {
+      "pattern": "8",
+      "replacement": "᱘"
+    },
+    {
+      "pattern": "9",
+      "replacement": "᱙"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ᱟ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ᱵ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ᱝ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ᱦ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ᱜ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ᱫ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ᱡ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ᱲ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ᱰ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ᱧ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ᱹ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ᱳ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ᱮ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ᱚ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ᱤ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ᱩ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ᱯ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ᱨ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ᱠ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ᱛ"
+    },
+    {
+      "pattern": "\\;",
+      "replacement": "ᱪ"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "ᱺ"
+    },
+    {
+      "pattern": "\\",
+      "replacement": "ᱴ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ᱽ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ᱷ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ᱸ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ᱬ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ᱢ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ᱱ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ᱶ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ᱣ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ᱞ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ᱥ"
+    },
+    {
+      "pattern": "\\,",
+      "replacement": "᱿"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "᱾"
+    },
+    {
+      "pattern": "\\/",
+      "replacement": "ᱭ"
+    }
+  ]
+}

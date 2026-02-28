@@ -1,0 +1,1696 @@
+{
+  "id": "nan-latn-pehoeji-transliteration",
+  "name": "閩南語白話字IME / Bân-lâm-gí Pe̍h-ōe-jī IME",
+  "description": "Hokkien Pe̍h-ōe-jī Transliteration input method",
+  "date": "2024-11-19",
+  "author": "Winston Sung",
+  "license": "MIT",
+  "version": "1.4",
+  "maxKeyLength": 5,
+  "rules": [
+    {
+      "pattern": "nn",
+      "replacement": "ⁿ"
+    },
+    {
+      "pattern": "hnn",
+      "replacement": "hⁿ"
+    },
+    {
+      "pattern": "nnh",
+      "replacement": "hⁿ"
+    },
+    {
+      "pattern": "ⁿh",
+      "replacement": "hⁿ"
+    },
+    {
+      "pattern": "ⁿg",
+      "replacement": "nng"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(ⁿ|iⁿ?|m|ng?|u)?1",
+      "replacement": "$1a$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(ⁿ|iⁿ?|m|ng?|u)?2",
+      "replacement": "$1á$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(ⁿ|iⁿ?|m|ng?|u)?3",
+      "replacement": "$1à$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(p|t|k|hⁿ?)4",
+      "replacement": "$1a$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])auh4",
+      "replacement": "$1auh"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(ⁿ|iⁿ?|m|ng?|u)?5",
+      "replacement": "$1â$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(ⁿ|iⁿ?|m|ng?|u)?6",
+      "replacement": "$1ã$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(ⁿ|iⁿ?|m|ng?|u)?7",
+      "replacement": "$1ā$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(p|t|k|hⁿ?)8",
+      "replacement": "$1a̍$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])auh8",
+      "replacement": "$1au̍h"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(ⁿ|iⁿ?|m|ng?|u)?9",
+      "replacement": "$1ă$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])a(p|t|k|hⁿ?)9",
+      "replacement": "$1ă$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])auh9",
+      "replacement": "$1aŭh"
+    },
+    {
+      "pattern": "(^|[^oO])e(ⁿ|ng)?1",
+      "replacement": "$1e$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(ⁿ|ng)?2",
+      "replacement": "$1é$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(ⁿ|ng)?3",
+      "replacement": "$1è$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(hⁿ?|k)4",
+      "replacement": "$1e$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(ⁿ|ng)?5",
+      "replacement": "$1ê$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(ⁿ|ng)?6",
+      "replacement": "$1ẽ$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(ⁿ|ng)?7",
+      "replacement": "$1ē$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(hⁿ?|k)8",
+      "replacement": "$1e̍$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(ⁿ|ng)?9",
+      "replacement": "$1ĕ$2"
+    },
+    {
+      "pattern": "(^|[^oO])e(hⁿ?|k)9",
+      "replacement": "$1ĕ$2"
+    },
+    {
+      "pattern": "ia(ⁿ?|m|ng?|uⁿ?)?1",
+      "replacement": "ia$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(ⁿ|m|n)?1",
+      "replacement": "$1i$2"
+    },
+    {
+      "pattern": "(^|[^auAU])iu(ⁿ)?1",
+      "replacement": "$1iu$2"
+    },
+    {
+      "pattern": "io(ng)?1",
+      "replacement": "io$1"
+    },
+    {
+      "pattern": "ia(ⁿ?|m|ng?|uⁿ?)?2",
+      "replacement": "iá$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(ⁿ|m|n)?2",
+      "replacement": "$1í$2"
+    },
+    {
+      "pattern": "(^|[^auAU])iu(ⁿ)?2",
+      "replacement": "$1iú$2"
+    },
+    {
+      "pattern": "io(ng)?2",
+      "replacement": "ió$1"
+    },
+    {
+      "pattern": "ia(ⁿ?|m|ng?|uⁿ?)?3",
+      "replacement": "ià$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(ⁿ|m|n)?3",
+      "replacement": "$1ì$2"
+    },
+    {
+      "pattern": "(^|[^auAU])iu(ⁿ)?3",
+      "replacement": "$1iù$2"
+    },
+    {
+      "pattern": "io(ng)?3",
+      "replacement": "iò$1"
+    },
+    {
+      "pattern": "ia(hⁿ?|k|p|t)4",
+      "replacement": "ia$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(h|p|t)4",
+      "replacement": "$1i$2"
+    },
+    {
+      "pattern": "io(h|k)4",
+      "replacement": "io$1"
+    },
+    {
+      "pattern": "iauh4",
+      "replacement": "iauh"
+    },
+    {
+      "pattern": "iuh(ⁿ)?4",
+      "replacement": "iuh$1"
+    },
+    {
+      "pattern": "ia(ⁿ?|m|ng?|uⁿ?)?5",
+      "replacement": "iâ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(ⁿ|m|n)?5",
+      "replacement": "$1î$2"
+    },
+    {
+      "pattern": "(^|[^auAU])iu(ⁿ)?5",
+      "replacement": "$1iû$2"
+    },
+    {
+      "pattern": "io(ng)?5",
+      "replacement": "iô$1"
+    },
+    {
+      "pattern": "ia(ⁿ?|m|ng?|uⁿ?)?6",
+      "replacement": "iã$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(ⁿ|m|n)?6",
+      "replacement": "$1ĩ$2"
+    },
+    {
+      "pattern": "(^|[^auAU])iu(ⁿ)?6",
+      "replacement": "$1iũ$2"
+    },
+    {
+      "pattern": "io(ng)?6",
+      "replacement": "iõ$1"
+    },
+    {
+      "pattern": "ia(ⁿ?|m|ng?|uⁿ?)?7",
+      "replacement": "iā$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(ⁿ|m|n)?7",
+      "replacement": "$1ī$2"
+    },
+    {
+      "pattern": "(^|[^auAU])iu(ⁿ)?7",
+      "replacement": "$1iū$2"
+    },
+    {
+      "pattern": "io(ng)?7",
+      "replacement": "iō$1"
+    },
+    {
+      "pattern": "ia(hⁿ?|k|p|t)8",
+      "replacement": "ia̍$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(h|p|t)8",
+      "replacement": "$1i̍$2"
+    },
+    {
+      "pattern": "io(h|k)8",
+      "replacement": "io̍$1"
+    },
+    {
+      "pattern": "iauh8",
+      "replacement": "iau̍h"
+    },
+    {
+      "pattern": "iuh(ⁿ)?8",
+      "replacement": "iu̍h$1"
+    },
+    {
+      "pattern": "ia(ⁿ?|m|ng?|uⁿ?)?9",
+      "replacement": "iă$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(ⁿ|m|n)?9",
+      "replacement": "$1ĭ$2"
+    },
+    {
+      "pattern": "(^|[^auAU])iu(ⁿ)?9",
+      "replacement": "$1iŭ$2"
+    },
+    {
+      "pattern": "io(ng)?9",
+      "replacement": "iŏ$1"
+    },
+    {
+      "pattern": "ia(hⁿ?|k|p|t)9",
+      "replacement": "iă$1"
+    },
+    {
+      "pattern": "(^|[^auAU])i(h|p|t)9",
+      "replacement": "$1ĭ$2"
+    },
+    {
+      "pattern": "io(h|k)9",
+      "replacement": "iŏ$1"
+    },
+    {
+      "pattern": "iauh9",
+      "replacement": "iaŭh"
+    },
+    {
+      "pattern": "iuh(ⁿ)?9",
+      "replacement": "iŭh$1"
+    },
+    {
+      "pattern": "(^|[^aioAIO])m1",
+      "replacement": "$1m"
+    },
+    {
+      "pattern": "(^|[^aioAIO])m2",
+      "replacement": "$1ḿ"
+    },
+    {
+      "pattern": "(^|[^aioAIO])m3",
+      "replacement": "$1m̀"
+    },
+    {
+      "pattern": "(^|[^aioAIO])mh4",
+      "replacement": "$1mh"
+    },
+    {
+      "pattern": "(^|[^aioAIO])m5",
+      "replacement": "$1m̂"
+    },
+    {
+      "pattern": "(^|[^aioAIO])m6",
+      "replacement": "$1m̃"
+    },
+    {
+      "pattern": "(^|[^aioAIO])m7",
+      "replacement": "$1m̄"
+    },
+    {
+      "pattern": "(^|[^aioAIO])mh8",
+      "replacement": "$1m̍h"
+    },
+    {
+      "pattern": "(^|[^aioAIO])m9",
+      "replacement": "$1m̆"
+    },
+    {
+      "pattern": "(^|[^aioAIO])mh9",
+      "replacement": "$1m̆h"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])ng1",
+      "replacement": "$1ng"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])ng2",
+      "replacement": "$1ńg"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])ng3",
+      "replacement": "$1ǹg"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])n(g)?h4",
+      "replacement": "$1n$2h"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])ng5",
+      "replacement": "$1n̂g"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])ng6",
+      "replacement": "$1ñg"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])ng7",
+      "replacement": "$1n̄g"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])n(g)?h8",
+      "replacement": "$1n̍$2h"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])ng9",
+      "replacement": "$1n̆g"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])n(g)?h9",
+      "replacement": "$1n̆$2h"
+    },
+    {
+      "pattern": "(^|[^iI])oa(iⁿ?|ng?)1",
+      "replacement": "$1oa$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(ⁿ|aⁿ?|e|m|ng)?1",
+      "replacement": "$1o$2"
+    },
+    {
+      "pattern": "(^|[^iI])oa(iⁿ?|ng?)2",
+      "replacement": "$1oá$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(ⁿ|aⁿ?|e|m|ng)?2",
+      "replacement": "$1ó$2"
+    },
+    {
+      "pattern": "(^|[^iI])oa(iⁿ?|ng?)3",
+      "replacement": "$1oà$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(ⁿ|aⁿ?|e|m|ng)?3",
+      "replacement": "$1ò$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(hⁿ?|k)4",
+      "replacement": "$1o$2"
+    },
+    {
+      "pattern": "(^|[^iI])oa(h|t)4",
+      "replacement": "$1oa$2"
+    },
+    {
+      "pattern": "(^|[^iI])oeh4",
+      "replacement": "$1oeh"
+    },
+    {
+      "pattern": "(^|[^iI])oa(iⁿ?|ng?)5",
+      "replacement": "$1oâ$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(ⁿ|aⁿ?|e|m|ng)?5",
+      "replacement": "$1ô$2"
+    },
+    {
+      "pattern": "(^|[^iI])oa(iⁿ?|ng?)6",
+      "replacement": "$1oã$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(ⁿ|aⁿ?|e|m|ng)?6",
+      "replacement": "$1õ$2"
+    },
+    {
+      "pattern": "(^|[^iI])oa(iⁿ?|ng?)7",
+      "replacement": "$1oā$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(ⁿ|aⁿ?|e|m|ng)?7",
+      "replacement": "$1ō$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(hⁿ?|k)8",
+      "replacement": "$1o̍$2"
+    },
+    {
+      "pattern": "(^|[^iI])oa(h|t)8",
+      "replacement": "$1oa̍$2"
+    },
+    {
+      "pattern": "(^|[^iI])oeh8",
+      "replacement": "$1oe̍h"
+    },
+    {
+      "pattern": "(^|[^iI])oa(iⁿ?|ng?)9",
+      "replacement": "$1oă$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(ⁿ|aⁿ?|e|m|ng)?9",
+      "replacement": "$1ŏ$2"
+    },
+    {
+      "pattern": "(^|[^iI])o(hⁿ?|k)9",
+      "replacement": "$1ŏ$2"
+    },
+    {
+      "pattern": "(^|[^iI])oa(h|t)9",
+      "replacement": "$1oă$2"
+    },
+    {
+      "pattern": "(^|[^iI])oeh9",
+      "replacement": "$1oĕh"
+    },
+    {
+      "pattern": "oo",
+      "replacement": "o͘"
+    },
+    {
+      "pattern": "o͘1",
+      "replacement": "o͘"
+    },
+    {
+      "pattern": "o͘2",
+      "replacement": "ó͘"
+    },
+    {
+      "pattern": "óo",
+      "replacement": "ó͘"
+    },
+    {
+      "pattern": "o͘3",
+      "replacement": "ò͘"
+    },
+    {
+      "pattern": "òo",
+      "replacement": "ò͘"
+    },
+    {
+      "pattern": "o͘h4",
+      "replacement": "o͘h"
+    },
+    {
+      "pattern": "o͘5",
+      "replacement": "ô͘"
+    },
+    {
+      "pattern": "ôo",
+      "replacement": "ô͘"
+    },
+    {
+      "pattern": "o͘6",
+      "replacement": "õ͘"
+    },
+    {
+      "pattern": "õo",
+      "replacement": "õ͘"
+    },
+    {
+      "pattern": "o͘7",
+      "replacement": "ō͘"
+    },
+    {
+      "pattern": "ōo",
+      "replacement": "ō͘"
+    },
+    {
+      "pattern": "o͘h8",
+      "replacement": "o̍͘h"
+    },
+    {
+      "pattern": "o̍o",
+      "replacement": "o̍͘"
+    },
+    {
+      "pattern": "o͘9",
+      "replacement": "ŏ͘"
+    },
+    {
+      "pattern": "ŏo",
+      "replacement": "ŏ͘"
+    },
+    {
+      "pattern": "o͘h9",
+      "replacement": "ŏ͘h"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(i|n)?1",
+      "replacement": "$1u$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(i|n)?2",
+      "replacement": "$1ú$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(i|n)?3",
+      "replacement": "$1ù$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(h|t)4",
+      "replacement": "$1u$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(i|n)?5",
+      "replacement": "$1û$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(i|n)?6",
+      "replacement": "$1ũ$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(i|n)?7",
+      "replacement": "$1ū$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(h|t)8",
+      "replacement": "$1u̍$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(i|n)?9",
+      "replacement": "$1ŭ$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])u(h|t)9",
+      "replacement": "$1ŭ$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ⁿ|iⁿ?|m|ng?|u)?1",
+      "replacement": "$1A$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ⁿ|iⁿ?|m|ng?|u)?2",
+      "replacement": "$1Á$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ⁿ|iⁿ?|m|ng?|u)?3",
+      "replacement": "$1À$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(p|t|k|hⁿ?)4",
+      "replacement": "$1A$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])Auh4",
+      "replacement": "$1Auh"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ⁿ|iⁿ?|m|ng?|u)?5",
+      "replacement": "$1Â$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ⁿ|iⁿ?|m|ng?|u)?6",
+      "replacement": "$1Ã$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ⁿ|iⁿ?|m|ng?|u)?7",
+      "replacement": "$1Ā$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(p|t|k|hⁿ?)8",
+      "replacement": "$1A̍$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])Auh4",
+      "replacement": "$1Au̍h"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ⁿ|iⁿ?|m|ng?|u)?9",
+      "replacement": "$1Ă$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(p|t|k|hⁿ?)9",
+      "replacement": "$1Ă$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])Auh4",
+      "replacement": "$1Aŭh"
+    },
+    {
+      "pattern": "(^|[^oO])E(ⁿ|ng)?1",
+      "replacement": "$1E$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ⁿ|ng)?2",
+      "replacement": "$1É$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ⁿ|ng)?3",
+      "replacement": "$1È$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(hⁿ?|k)4",
+      "replacement": "$1E$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ⁿ|ng)?5",
+      "replacement": "$1Ê$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ⁿ|ng)?6",
+      "replacement": "$1Ẽ$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ⁿ|ng)?7",
+      "replacement": "$1Ē$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(hⁿ?|k)8",
+      "replacement": "$1E̍$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ⁿ|ng)?9",
+      "replacement": "$1Ĕ$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(hⁿ?|k)9",
+      "replacement": "$1Ĕ$2"
+    },
+    {
+      "pattern": "Ia(ⁿ?|m|ng?|uⁿ?)?1",
+      "replacement": "Ia$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ⁿ|m|n)?1",
+      "replacement": "$1I$2"
+    },
+    {
+      "pattern": "(^|[^auAU])Iu(ⁿ)?1",
+      "replacement": "$1Iu$2"
+    },
+    {
+      "pattern": "Io(ng)?1",
+      "replacement": "Io$1"
+    },
+    {
+      "pattern": "Ia(ⁿ?|m|ng?|uⁿ?)?2",
+      "replacement": "Iá$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ⁿ|m|n)?2",
+      "replacement": "$1Í$2"
+    },
+    {
+      "pattern": "(^|[^auAU])Iu(ⁿ)?2",
+      "replacement": "$1Iú$2"
+    },
+    {
+      "pattern": "Io(ng)?2",
+      "replacement": "Ió$1"
+    },
+    {
+      "pattern": "Ia(ⁿ?|m|ng?|uⁿ?)?3",
+      "replacement": "Ià$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ⁿ|m|n)?3",
+      "replacement": "$1Ì$2"
+    },
+    {
+      "pattern": "(^|[^auAU])Iu(ⁿ)?3",
+      "replacement": "$1Iù$2"
+    },
+    {
+      "pattern": "Io(ng)?3",
+      "replacement": "Iò$1"
+    },
+    {
+      "pattern": "Ia(hⁿ?|k|p|t)4",
+      "replacement": "Ia$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(h|p|t)4",
+      "replacement": "$1I$2"
+    },
+    {
+      "pattern": "Io(h|k)4",
+      "replacement": "Io$1"
+    },
+    {
+      "pattern": "Iauh4",
+      "replacement": "Iauh"
+    },
+    {
+      "pattern": "Iuh(ⁿ)?4",
+      "replacement": "Iuh$1"
+    },
+    {
+      "pattern": "Ia(ⁿ?|m|ng?|uⁿ?)?5",
+      "replacement": "Iâ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ⁿ|m|n)?5",
+      "replacement": "$1Î$2"
+    },
+    {
+      "pattern": "(^|[^auAU])Iu(ⁿ)?5",
+      "replacement": "$1Iû$2"
+    },
+    {
+      "pattern": "Io(ng)?5",
+      "replacement": "Iô$1"
+    },
+    {
+      "pattern": "Ia(ⁿ?|m|ng?|uⁿ?)?6",
+      "replacement": "Iã$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ⁿ|m|n)?6",
+      "replacement": "$1Ĩ$2"
+    },
+    {
+      "pattern": "(^|[^auAU])Iu(ⁿ)?6",
+      "replacement": "$1Iũ$2"
+    },
+    {
+      "pattern": "Io(ng)?6",
+      "replacement": "Iõ$1"
+    },
+    {
+      "pattern": "Ia(ⁿ?|m|ng?|uⁿ?)?7",
+      "replacement": "Iā$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ⁿ|m|n)?7",
+      "replacement": "$1Ī$2"
+    },
+    {
+      "pattern": "(^|[^auAU])Iu(ⁿ)?7",
+      "replacement": "$1Iū$2"
+    },
+    {
+      "pattern": "Io(ng)?7",
+      "replacement": "Iō$1"
+    },
+    {
+      "pattern": "Ia(hⁿ?|k|p|t)8",
+      "replacement": "Ia̍$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(h|p|t)8",
+      "replacement": "$1I̍$2"
+    },
+    {
+      "pattern": "Io(h|k)8",
+      "replacement": "Io̍$1"
+    },
+    {
+      "pattern": "Iauh8",
+      "replacement": "Iau̍h"
+    },
+    {
+      "pattern": "Iuh(ⁿ)?8",
+      "replacement": "Iu̍h$1"
+    },
+    {
+      "pattern": "Ia(ⁿ?|m|ng?|uⁿ?)?9",
+      "replacement": "Iă$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ⁿ|m|n)?9",
+      "replacement": "$1Ĭ$2"
+    },
+    {
+      "pattern": "(^|[^auAU])Iu(ⁿ)?9",
+      "replacement": "$1Iŭ$2"
+    },
+    {
+      "pattern": "Io(ng)?9",
+      "replacement": "Iŏ$1"
+    },
+    {
+      "pattern": "Ia(hⁿ?|k|p|t)9",
+      "replacement": "Iă$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(h|p|t)9",
+      "replacement": "$1Ĭ$2"
+    },
+    {
+      "pattern": "Io(h|k)9",
+      "replacement": "Iŏ$1"
+    },
+    {
+      "pattern": "Iauh9",
+      "replacement": "Iaŭh"
+    },
+    {
+      "pattern": "Iuh(ⁿ)?9",
+      "replacement": "Iŭh$1"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M1",
+      "replacement": "$1M"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M2",
+      "replacement": "$1Ḿ"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M3",
+      "replacement": "$1M̀"
+    },
+    {
+      "pattern": "(^|[^aioAIO])Mh4",
+      "replacement": "$1Mh"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M5",
+      "replacement": "$1M̂"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M6",
+      "replacement": "$1M̃"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M7",
+      "replacement": "$1M̄"
+    },
+    {
+      "pattern": "(^|[^aioAIO])Mh8",
+      "replacement": "$1M̍h"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M9",
+      "replacement": "$1M̆"
+    },
+    {
+      "pattern": "(^|[^aioAIO])Mh9",
+      "replacement": "$1M̆h"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])Ng1",
+      "replacement": "$1Ng"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])Ng2",
+      "replacement": "$1Ńg"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])Ng3",
+      "replacement": "$1Ǹg"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])N(g)?h4",
+      "replacement": "$1N$2h"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])Ng5",
+      "replacement": "$1N̂g"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])Ng6",
+      "replacement": "$1Ñg"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])Ng7",
+      "replacement": "$1N̄g"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])N(g)?h8",
+      "replacement": "$1N̍$2h"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])Ng9",
+      "replacement": "$1N̆g"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])N(g)?h9",
+      "replacement": "$1N̆$2h"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(iⁿ?|ng?)1",
+      "replacement": "$1Oa$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ⁿ|aⁿ?|e|m|ng)?1",
+      "replacement": "$1O$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(iⁿ?|ng?)2",
+      "replacement": "$1Oá$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ⁿ|aⁿ?|e|m|ng)?2",
+      "replacement": "$1Ó$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(iⁿ?|ng?)3",
+      "replacement": "$1Oà$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ⁿ|aⁿ?|e|m|ng)?3",
+      "replacement": "$1Ò$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(hⁿ?|k)4",
+      "replacement": "$1O$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(h|t)4",
+      "replacement": "$1Oa$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oeh4",
+      "replacement": "$1Oeh"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(iⁿ?|ng?)5",
+      "replacement": "$1Oâ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ⁿ|aⁿ?|e|m|ng)?5",
+      "replacement": "$1Ô$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(iⁿ?|ng?)6",
+      "replacement": "$1Oã$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ⁿ|aⁿ?|e|m|ng)?6",
+      "replacement": "$1Õ$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(iⁿ?|ng?)7",
+      "replacement": "$1Oā$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ⁿ|aⁿ?|e|m|ng)?7",
+      "replacement": "$1Ō$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(hⁿ?|k)8",
+      "replacement": "$1O̍$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(h|t)8",
+      "replacement": "$1Oa̍$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oeh8",
+      "replacement": "$1Oe̍h"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(iⁿ?|ng?)9",
+      "replacement": "$1Oă$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ⁿ|aⁿ?|e|m|ng)?9",
+      "replacement": "$1Ŏ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(hⁿ?|k)9",
+      "replacement": "$1Ŏ$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oa(h|t)9",
+      "replacement": "$1Oă$2"
+    },
+    {
+      "pattern": "(^|[^iI])Oeh9",
+      "replacement": "$1Oĕh"
+    },
+    {
+      "pattern": "Oo",
+      "replacement": "O͘"
+    },
+    {
+      "pattern": "O͘1",
+      "replacement": "O͘"
+    },
+    {
+      "pattern": "O͘2",
+      "replacement": "Ó͘"
+    },
+    {
+      "pattern": "Óu",
+      "replacement": "Ó͘"
+    },
+    {
+      "pattern": "O͘3",
+      "replacement": "Ò͘"
+    },
+    {
+      "pattern": "Òo",
+      "replacement": "Ò͘"
+    },
+    {
+      "pattern": "O͘h4",
+      "replacement": "O͘h"
+    },
+    {
+      "pattern": "O͘5",
+      "replacement": "Ô͘"
+    },
+    {
+      "pattern": "Ôo",
+      "replacement": "Ô͘"
+    },
+    {
+      "pattern": "O͘6",
+      "replacement": "Õ͘"
+    },
+    {
+      "pattern": "Õo",
+      "replacement": "Õ͘"
+    },
+    {
+      "pattern": "O͘7",
+      "replacement": "Ō͘"
+    },
+    {
+      "pattern": "Ōo",
+      "replacement": "Ō͘"
+    },
+    {
+      "pattern": "O͘h8",
+      "replacement": "O̍͘h"
+    },
+    {
+      "pattern": "O̍o",
+      "replacement": "O̍͘"
+    },
+    {
+      "pattern": "O͘9",
+      "replacement": "Ŏ͘"
+    },
+    {
+      "pattern": "Ŏo",
+      "replacement": "Ŏ͘"
+    },
+    {
+      "pattern": "O͘h9",
+      "replacement": "Ŏ͘h"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(i|n)?1",
+      "replacement": "$1U$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(i|n)?2",
+      "replacement": "$1Ú$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(i|n)?3",
+      "replacement": "$1Ù$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(h|t)4",
+      "replacement": "$1U$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(i|n)?5",
+      "replacement": "$1Û$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(i|n)?6",
+      "replacement": "$1Ũ$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(i|n)?7",
+      "replacement": "$1Ū$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(h|t)8",
+      "replacement": "$1U̍$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(i|n)?9",
+      "replacement": "$1Ŭ$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(h|t)9",
+      "replacement": "$1Ŭ$2"
+    },
+    {
+      "pattern": "NN",
+      "replacement": "ᴺ"
+    },
+    {
+      "pattern": "HNN",
+      "replacement": "Hᴺ"
+    },
+    {
+      "pattern": "NNH",
+      "replacement": "Hᴺ"
+    },
+    {
+      "pattern": "ᴺH",
+      "replacement": "Hᴺ"
+    },
+    {
+      "pattern": "ᴺG",
+      "replacement": "NNG"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ᴺ|Iᴺ?|M|NG?|U)?1",
+      "replacement": "$1A$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ᴺ|Iᴺ?|M|NG?|U)?2",
+      "replacement": "$1Á$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ᴺ|Iᴺ?|M|NG?|U)?3",
+      "replacement": "$1À$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(P|T|K|Hᴺ?)4",
+      "replacement": "$1A$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])AUH4",
+      "replacement": "$1AUH"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ᴺ|Iᴺ?|M|NG?|U)?5",
+      "replacement": "$1Â$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ᴺ|Iᴺ?|M|NG?|U)?6",
+      "replacement": "$1Ã$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ᴺ|Iᴺ?|M|NG?|U)?7",
+      "replacement": "$1Ā$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(P|T|K|Hᴺ?)8",
+      "replacement": "$1A̍$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])AUH8",
+      "replacement": "$1AU̍H"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(ᴺ|Iᴺ?|M|NG?|U)?9",
+      "replacement": "$1Ă$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])A(P|T|K|Hᴺ?)9",
+      "replacement": "$1Ă$2"
+    },
+    {
+      "pattern": "(^|[^ioIO])AUH9",
+      "replacement": "$1AŬH"
+    },
+    {
+      "pattern": "(^|[^oO])E(ᴺ|NG)?1",
+      "replacement": "$1E$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ᴺ|NG)?2",
+      "replacement": "$1É$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ᴺ|NG)?3",
+      "replacement": "$1È$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(Hᴺ?|K)4",
+      "replacement": "$1E$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ᴺ|NG)?5",
+      "replacement": "$1Ê$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ᴺ|NG)?6",
+      "replacement": "$1Ẽ$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ᴺ|NG)?7",
+      "replacement": "$1Ē$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(Hᴺ?|K)8",
+      "replacement": "$1E̍$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(ᴺ|NG)?9",
+      "replacement": "$1Ĕ$2"
+    },
+    {
+      "pattern": "(^|[^oO])E(Hᴺ?|K)9",
+      "replacement": "$1Ĕ$2"
+    },
+    {
+      "pattern": "IA(ᴺ?|M|NG?|Uᴺ?)?1",
+      "replacement": "IA$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ᴺ|M|N)?1",
+      "replacement": "$1I$2"
+    },
+    {
+      "pattern": "(^|[^auAU])IU(ᴺ)?1",
+      "replacement": "$1IU$2"
+    },
+    {
+      "pattern": "IO(NG)?1",
+      "replacement": "IO$1"
+    },
+    {
+      "pattern": "IA(ᴺ?|M|NG?|Uᴺ?)?2",
+      "replacement": "IÁ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ᴺ|M|N)?2",
+      "replacement": "$1Í$2"
+    },
+    {
+      "pattern": "(^|[^auAU])IU(ᴺ)?2",
+      "replacement": "$1IÚ$2"
+    },
+    {
+      "pattern": "IO(NG)?2",
+      "replacement": "IÓ$1"
+    },
+    {
+      "pattern": "IA(ᴺ?|M|NG?|Uᴺ?)?3",
+      "replacement": "IÀ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ᴺ|M|N)?3",
+      "replacement": "$1Ì$2"
+    },
+    {
+      "pattern": "(^|[^auAU])IU(ᴺ)?3",
+      "replacement": "$1IÙ$2"
+    },
+    {
+      "pattern": "IO(NG)?3",
+      "replacement": "IÒ$1"
+    },
+    {
+      "pattern": "IA(Hᴺ?|K|P|T)4",
+      "replacement": "IA$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(H|P|T)4",
+      "replacement": "$1I$2"
+    },
+    {
+      "pattern": "IO(H|K)4",
+      "replacement": "IO$1"
+    },
+    {
+      "pattern": "IAUH4",
+      "replacement": "IAUH"
+    },
+    {
+      "pattern": "IUH(ᴺ)?4",
+      "replacement": "IUH$1"
+    },
+    {
+      "pattern": "IA(ᴺ?|M|NG?|Uᴺ?)?5",
+      "replacement": "IÂ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ᴺ|M|N)?5",
+      "replacement": "$1Î$2"
+    },
+    {
+      "pattern": "(^|[^auAU])IU(ᴺ)?5",
+      "replacement": "$1IÛ$2"
+    },
+    {
+      "pattern": "IO(NG)?5",
+      "replacement": "IÔ$1"
+    },
+    {
+      "pattern": "IA(ᴺ?|M|NG?|Uᴺ?)?6",
+      "replacement": "IÃ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ᴺ|M|N)?6",
+      "replacement": "$1Ĩ$2"
+    },
+    {
+      "pattern": "(^|[^auAU])IU(ᴺ)?6",
+      "replacement": "$1IŨ$2"
+    },
+    {
+      "pattern": "IO(NG)?6",
+      "replacement": "IÕ$1"
+    },
+    {
+      "pattern": "IA(ᴺ?|M|NG?|Uᴺ?)?7",
+      "replacement": "IĀ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ᴺ|M|N)?7",
+      "replacement": "$1Ī$2"
+    },
+    {
+      "pattern": "(^|[^auAU])IU(ᴺ)?7",
+      "replacement": "$1IŪ$2"
+    },
+    {
+      "pattern": "IO(NG)?7",
+      "replacement": "IŌ$1"
+    },
+    {
+      "pattern": "IA(Hᴺ?|K|P|T)8",
+      "replacement": "IA̍$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(H|P|T)8",
+      "replacement": "$1I̍$2"
+    },
+    {
+      "pattern": "IO(H|K)8",
+      "replacement": "IO̍$1"
+    },
+    {
+      "pattern": "IAUH8",
+      "replacement": "IAU̍H"
+    },
+    {
+      "pattern": "IUH(ᴺ)?8",
+      "replacement": "IU̍H$1"
+    },
+    {
+      "pattern": "IA(ᴺ?|M|NG?|Uᴺ?)?9",
+      "replacement": "IĂ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(ᴺ|M|N)?9",
+      "replacement": "$1Ĭ$2"
+    },
+    {
+      "pattern": "(^|[^auAU])IU(ᴺ)?9",
+      "replacement": "$1IŬ$2"
+    },
+    {
+      "pattern": "IO(NG)?9",
+      "replacement": "IŎ$1"
+    },
+    {
+      "pattern": "IA(Hᴺ?|K|P|T)9",
+      "replacement": "IĂ$1"
+    },
+    {
+      "pattern": "(^|[^auAU])I(H|P|T)9",
+      "replacement": "$1Ĭ$2"
+    },
+    {
+      "pattern": "IO(H|K)9",
+      "replacement": "IŎ$1"
+    },
+    {
+      "pattern": "IAUH9",
+      "replacement": "IAŬH"
+    },
+    {
+      "pattern": "IUH(ᴺ)?9",
+      "replacement": "IŬH$1"
+    },
+    {
+      "pattern": "(^|[^aoAO])M1",
+      "replacement": "$1M"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M2",
+      "replacement": "$1Ḿ"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M3",
+      "replacement": "$1M̀"
+    },
+    {
+      "pattern": "(^|[^aioAIO])MH4",
+      "replacement": "$1MH"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M5",
+      "replacement": "$1M̂"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M6",
+      "replacement": "$1M̃"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M7",
+      "replacement": "$1M̄"
+    },
+    {
+      "pattern": "(^|[^aioAIO])MH8",
+      "replacement": "$1M̍H"
+    },
+    {
+      "pattern": "(^|[^aioAIO])M9",
+      "replacement": "$1M̆"
+    },
+    {
+      "pattern": "(^|[^aioAIO])MH9",
+      "replacement": "$1M̆H"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])NG1",
+      "replacement": "$1NG"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])NG2",
+      "replacement": "$1ŃG"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])NG3",
+      "replacement": "$1ǸG"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])N(G)?H4",
+      "replacement": "$1N$2H"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])NG5",
+      "replacement": "$1N̂G"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])NG6",
+      "replacement": "$1ÑG"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])NG7",
+      "replacement": "$1N̄G"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])N(G)?H8",
+      "replacement": "$1N̍$2H"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])NG9",
+      "replacement": "$1N̆G"
+    },
+    {
+      "pattern": "(^|[^aeoAEO])N(G)?H9",
+      "replacement": "$1N̆$2H"
+    },
+    {
+      "pattern": "(^|[^iI])OA(Iᴺ?|NG?)1",
+      "replacement": "$1OA$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ᴺ|Aᴺ?|E|M|NG)?1",
+      "replacement": "$1O$2"
+    },
+    {
+      "pattern": "(^|[^iI])OA(Iᴺ?|NG?)2",
+      "replacement": "$1OÁ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ᴺ|Aᴺ?|E|M|NG)?2",
+      "replacement": "$1Ó$2"
+    },
+    {
+      "pattern": "(^|[^iI])OA(Iᴺ?|NG?)3",
+      "replacement": "$1OÀ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ᴺ|Aᴺ?|E|M|NG)?3",
+      "replacement": "$1Ò$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(Hᴺ?|K)4",
+      "replacement": "$1O$2"
+    },
+    {
+      "pattern": "(^|[^iI])OA(H|T)4",
+      "replacement": "$1OA$2"
+    },
+    {
+      "pattern": "(^|[^iI])OEH4",
+      "replacement": "$1OEH"
+    },
+    {
+      "pattern": "(^|[^iI])OA(Iᴺ?|NG?)5",
+      "replacement": "$1OÂ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ᴺ|Aᴺ?|E|M|NG)?5",
+      "replacement": "$1Ô$2"
+    },
+    {
+      "pattern": "(^|[^iI])OA(Iᴺ?|NG?)6",
+      "replacement": "$1OÃ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ᴺ|Aᴺ?|E|M|NG)?6",
+      "replacement": "$1Õ$2"
+    },
+    {
+      "pattern": "(^|[^iI])OA(Iᴺ?|NG?)7",
+      "replacement": "$1OĀ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ᴺ|Aᴺ?|E|M|NG)?7",
+      "replacement": "$1Ō$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(Hᴺ?|K)8",
+      "replacement": "$1O̍$2"
+    },
+    {
+      "pattern": "(^|[^iI])OA(H|T)8",
+      "replacement": "$1OA̍$2"
+    },
+    {
+      "pattern": "(^|[^iI])OEH8",
+      "replacement": "$1OE̍H"
+    },
+    {
+      "pattern": "(^|[^iI])OA(Iᴺ?|NG?)9",
+      "replacement": "$1OĂ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(ᴺ|Aᴺ?|E|M|NG)?9",
+      "replacement": "$1Ŏ$2"
+    },
+    {
+      "pattern": "(^|[^iI])O(Hᴺ?|K)9",
+      "replacement": "$1Ŏ$2"
+    },
+    {
+      "pattern": "(^|[^iI])OA(H|T)9",
+      "replacement": "$1OĂ$2"
+    },
+    {
+      "pattern": "(^|[^iI])OEH9",
+      "replacement": "$1OĔH"
+    },
+    {
+      "pattern": "OO",
+      "replacement": "O͘"
+    },
+    {
+      "pattern": "O͘1",
+      "replacement": "O͘"
+    },
+    {
+      "pattern": "O͘2",
+      "replacement": "Ó͘"
+    },
+    {
+      "pattern": "Óo",
+      "replacement": "Ó͘"
+    },
+    {
+      "pattern": "O͘3",
+      "replacement": "Ò͘"
+    },
+    {
+      "pattern": "ÒO",
+      "replacement": "Ò͘"
+    },
+    {
+      "pattern": "O͘H4",
+      "replacement": "O͘H"
+    },
+    {
+      "pattern": "O͘5",
+      "replacement": "Ô͘"
+    },
+    {
+      "pattern": "ÔO",
+      "replacement": "Ô͘"
+    },
+    {
+      "pattern": "O͘6",
+      "replacement": "Õ͘"
+    },
+    {
+      "pattern": "ÕO",
+      "replacement": "Õ͘"
+    },
+    {
+      "pattern": "O͘7",
+      "replacement": "Ō͘"
+    },
+    {
+      "pattern": "ŌO",
+      "replacement": "Ō͘"
+    },
+    {
+      "pattern": "O͘H8",
+      "replacement": "O̍͘H"
+    },
+    {
+      "pattern": "O̍O",
+      "replacement": "O̍͘"
+    },
+    {
+      "pattern": "O͘9",
+      "replacement": "Ŏ͘"
+    },
+    {
+      "pattern": "ŎO",
+      "replacement": "Ŏ͘"
+    },
+    {
+      "pattern": "O͘H9",
+      "replacement": "Ŏ͘H"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(I|N)?1",
+      "replacement": "$1U$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(I|N)?2",
+      "replacement": "$1Ú$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(I|N)?3",
+      "replacement": "$1Ù$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(H|T)4",
+      "replacement": "$1U$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(I|N)?5",
+      "replacement": "$1Û$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(I|N)?6",
+      "replacement": "$1Ũ$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(I|N)?7",
+      "replacement": "$1Ū$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(H|T)8",
+      "replacement": "$1U̍$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(I|N)?9",
+      "replacement": "$1Ŭ$2"
+    },
+    {
+      "pattern": "(^|[^aiAI])U(H|T)9",
+      "replacement": "$1Ŭ$2"
+    }
+  ]
+}

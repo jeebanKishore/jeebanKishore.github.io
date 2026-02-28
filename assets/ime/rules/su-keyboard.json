@@ -1,0 +1,19 @@
+{
+  "id": "su-keyboard",
+  "name": "su-keyboard",
+  "description": "Sundanese keyboard",
+  "date": "2023-05-07",
+  "author": "Pijri Paijar",
+  "license": "GPLv3",
+  "version": "1",
+  "rules": [
+    {
+      "pattern": "~E",
+      "replacement": "É"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "é"
+    }
+  ]
+}

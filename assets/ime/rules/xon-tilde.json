@@ -1,0 +1,28 @@
+{
+  "id": "xon-tilde",
+  "name": "Likpakpaanl tilde",
+  "description": "Likpakpaanl tilde",
+  "date": "2025-01-13",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ɔ"
+    }
+  ]
+}

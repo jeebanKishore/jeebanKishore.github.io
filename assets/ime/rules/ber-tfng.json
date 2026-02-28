@@ -1,0 +1,153 @@
+{
+  "id": "ber-tfng",
+  "name": "Tifinagh Transliteration",
+  "description": "Transliteration input method for Tifinagh script",
+  "date": "2012-10-10",
+  "author": "",
+  "license": "",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 0,
+  "rules": [
+    {
+      "pattern": "a",
+      "replacement": "ⴰ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ⴱ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ⵛ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ⴷ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ⴹ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ⴻ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ⴼ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ⴼⵯ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ⴳ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ⴳⵯ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ⵀ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ⵉ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ⵊ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ⴽ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ⴽⵯ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ⵍ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ⵎ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ⵏ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ⵄ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ⵃ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ⵇ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ⵈ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ⵔ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ⵕ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ⵙ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ⵚ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ⵜ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ⵟ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ⵖ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ⵓ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ⵡ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ⵢ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ⵅ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ⵣ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ⵥ"
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "id": "bn-avro",
+  "name": "অভ্র",
+  "description": "Bengali Avro input method",
+  "date": "2012-10-10",
+  "author": "Junaid P V",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 4,
+  "maxKeyLength": 5,
+  "rules": [
+    {
+      "pattern": "([ক-হড়ঢ়য়])্?ররi",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ররi",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ঙহo",
+      "replacement": "ঙ্ঘ"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])াZ",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "(([ক-হড়ঢ়য়])|য়)o",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])a",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])i",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])(I|েe)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])u",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])U",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])o",
+      "replacement": "[o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])e",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])োI",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])O",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])োU",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়][িুেো]|[এইওউ])a",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়][াে]|[আএ])o",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([কঙলষস])(k|K)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ঙদল])(g|G)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "গg",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([চশ])c",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([জঞব])j",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "নj",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([কটণনপলষস])T",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ডণনল])D",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([গষহ])N",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([কতনপশসহ])t",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([দনব])d",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([গঘণতধনপমশসহ])n",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([পমলষস])p",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([স])f",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([বমল])b",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([দম])(v|V)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([কগঙটণতদধনমলশষসহ])m",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-ঘচ-ঝট-যলশ-হড়ঢ়য়])r",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([কগপ-বমলশসহ])l",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([কনপ])s",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])w",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "([ক-হড়ঢ়য়])y",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "নc",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ত`",
+      "replacement": "`"
+    },
+    {
+      "pattern": "ক্ক(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "কশ(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ররk",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররg",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররc",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররj",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররT",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররD",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররN",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররt",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররd",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররn",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররp",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররf",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররb",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররv",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররm",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররz",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররl",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররS",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররs",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররh",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ররR",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "রর(y|Y)",
+      "replacement": "(o|a|i|I|u|U|e|O|OI|OU|rri)rr"
+    },
+    {
+      "pattern": "ংo",
+      "replacement": "ঙ্গ"
+    },
+    {
+      "pattern": "ংi",
+      "replacement": "ঙ্গি"
+    },
+    {
+      "pattern": "ংI",
+      "replacement": "ঙ্গী"
+    },
+    {
+      "pattern": "(ংu|ঙ্গo)",
+      "replacement": "ঙ্গু"
+    },
+    {
+      "pattern": "ংU",
+      "replacement": "ঙ্গূ"
+    },
+    {
+      "pattern": "ং",
+      "replacement": "ঙ্গি"
+    },
+    {
+      "pattern": "ং",
+      "replacement": "ঙ্গি"
+    },
+    {
+      "pattern": "শ(h|H)",
+      "replacement": "S"
+    },
+    {
+      "pattern": "অo",
+      "replacement": "[^`]"
+    },
+    {
+      "pattern": "এe",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ক(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "গ(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ণg",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "চ(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "জ(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ণG",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ট(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ড(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ত(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "দ(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "প(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ব(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "(স(h|H))",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ড়(h|H)",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ত্`",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "নg",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ঃ`",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ররi",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ওI",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "ওU",
+      "replacement": "[^o`]"
+    },
+    {
+      "pattern": "আ`",
+      "replacement": "া"
+    },
+    {
+      "pattern": "ই`",
+      "replacement": "ি"
+    },
+    {
+      "pattern": "ঈ`",
+      "replacement": "ী"
+    },
+    {
+      "pattern": "উ`",
+      "replacement": "ু"
+    },
+    {
+      "pattern": "ঊ`",
+      "replacement": "ূ"
+    },
+    {
+      "pattern": "এ`",
+      "replacement": "ে"
+    },
+    {
+      "pattern": "আ`",
+      "replacement": "া"
+    },
+    {
+      "pattern": "আ`",
+      "replacement": "া"
+    },
+    {
+      "pattern": "আ`",
+      "replacement": "া"
+    },
+    {
+      "pattern": "আ`",
+      "replacement": "া"
+    },
+    {
+      "pattern": "আ`",
+      "replacement": "া"
+    },
+    {
+      "pattern": "আ`",
+      "replacement": "া"
+    },
+    {
+      "pattern": "([kKqQ])",
+      "replacement": "ক"
+    },
+    {
+      "pattern": "(g|G)",
+      "replacement": "গ"
+    },
+    {
+      "pattern": "(c|C)",
+      "replacement": "চ"
+    },
+    {
+      "pattern": "(j|J)",
+      "replacement": "জ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ট"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ড"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ণ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ত"
+    },
+    {
+      "pattern": "d",
+      "replacement": "দ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ন"
+    },
+    {
+      "pattern": "(p|P)",
+      "replacement": "প"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ফ"
+    },
+    {
+      "pattern": "(b|B)",
+      "replacement": "ব"
+    },
+    {
+      "pattern": "(v|V)",
+      "replacement": "ভ"
+    },
+    {
+      "pattern": "(m|M)",
+      "replacement": "ম"
+    },
+    {
+      "pattern": "z",
+      "replacement": "য"
+    },
+    {
+      "pattern": "r",
+      "replacement": "র"
+    },
+    {
+      "pattern": "(l|L)",
+      "replacement": "ল"
+    },
+    {
+      "pattern": "S",
+      "replacement": "শ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "স"
+    },
+    {
+      "pattern": "(h|H)",
+      "replacement": "হ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ড়"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ও"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ক্স"
+    },
+    {
+      "pattern": "(y|Y)",
+      "replacement": "য়"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "্য"
+    },
+    {
+      "pattern": "o",
+      "replacement": "অ"
+    },
+    {
+      "pattern": "(a|A)",
+      "replacement": "আ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ই"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ঈ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "উ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ঊ"
+    },
+    {
+      "pattern": "(e|E)",
+      "replacement": "এ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ও"
+    },
+    {
+      "pattern": "0",
+      "replacement": "০"
+    },
+    {
+      "pattern": "1",
+      "replacement": "১"
+    },
+    {
+      "pattern": "2",
+      "replacement": "২"
+    },
+    {
+      "pattern": "3",
+      "replacement": "৩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "৪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "৫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "৬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "৭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "৮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "৯"
+    },
+    {
+      "pattern": "\\\\\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": ",,",
+      "replacement": "্"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "ঃ"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ঁ"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "।"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "৳"
+    },
+    {
+      "pattern": "ঃ`",
+      "replacement": ":"
+    },
+    {
+      "pattern": "`",
+      "replacement": ""
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "ku-tr",
+  "name": "Kurdî-tr",
+  "description": "writing Kurdish-letters using the TR keyboard",
+  "date": "2013-06-26",
+  "author": "Ghybu",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "rules": [
+    {
+      "pattern": "ḧh",
+      "replacement": "h"
+    },
+    {
+      "pattern": "Ḧ(H|h)",
+      "replacement": "(H|h)"
+    },
+    {
+      "pattern": "ğ",
+      "replacement": "ẍ"
+    },
+    {
+      "pattern": "ı",
+      "replacement": "i"
+    },
+    {
+      "pattern": "i",
+      "replacement": "î"
+    },
+    {
+      "pattern": "ö",
+      "replacement": "ê"
+    },
+    {
+      "pattern": "ü",
+      "replacement": "û"
+    },
+    {
+      "pattern": "hh",
+      "replacement": "ḧ"
+    },
+    {
+      "pattern": "Ğ",
+      "replacement": "Ẍ"
+    },
+    {
+      "pattern": "İ",
+      "replacement": "Î"
+    },
+    {
+      "pattern": "Ö",
+      "replacement": "Ê"
+    },
+    {
+      "pattern": "Ü",
+      "replacement": "Û"
+    },
+    {
+      "pattern": "H(H|h)",
+      "replacement": "Ḧ"
+    }
+  ]
+}

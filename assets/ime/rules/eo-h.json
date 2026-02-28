@@ -1,0 +1,155 @@
+{
+  "id": "eo-h",
+  "name": "Esperanto h",
+  "description": "writing Esperanto-letters adding h's.",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "ĉh",
+      "replacement": "ch"
+    },
+    {
+      "pattern": "ĝh",
+      "replacement": "gh"
+    },
+    {
+      "pattern": "ĥh",
+      "replacement": "hh"
+    },
+    {
+      "pattern": "ĵh",
+      "replacement": "jh"
+    },
+    {
+      "pattern": "ŝh",
+      "replacement": "sh"
+    },
+    {
+      "pattern": "ŭh",
+      "replacement": "uh"
+    },
+    {
+      "pattern": "Ĉh",
+      "replacement": "Ch"
+    },
+    {
+      "pattern": "Ĝh",
+      "replacement": "Gh"
+    },
+    {
+      "pattern": "Ĥh",
+      "replacement": "Hh"
+    },
+    {
+      "pattern": "Ĵh",
+      "replacement": "Jh"
+    },
+    {
+      "pattern": "Ŝh",
+      "replacement": "Sh"
+    },
+    {
+      "pattern": "Ŭh",
+      "replacement": "Uh"
+    },
+    {
+      "pattern": "ĈH",
+      "replacement": "CH"
+    },
+    {
+      "pattern": "ĜH",
+      "replacement": "GH"
+    },
+    {
+      "pattern": "ĤH",
+      "replacement": "HH"
+    },
+    {
+      "pattern": "ĴH",
+      "replacement": "JH"
+    },
+    {
+      "pattern": "ŜH",
+      "replacement": "SH"
+    },
+    {
+      "pattern": "ŬH",
+      "replacement": "UH"
+    },
+    {
+      "pattern": "ch",
+      "replacement": "ĉ"
+    },
+    {
+      "pattern": "gh",
+      "replacement": "ĝ"
+    },
+    {
+      "pattern": "hh",
+      "replacement": "ĥ"
+    },
+    {
+      "pattern": "jh",
+      "replacement": "ĵ"
+    },
+    {
+      "pattern": "sh",
+      "replacement": "ŝ"
+    },
+    {
+      "pattern": "uh",
+      "replacement": "ŭ"
+    },
+    {
+      "pattern": "Ch",
+      "replacement": "Ĉ"
+    },
+    {
+      "pattern": "Gh",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "Hh",
+      "replacement": "Ĥ"
+    },
+    {
+      "pattern": "Jh",
+      "replacement": "Ĵ"
+    },
+    {
+      "pattern": "Sh",
+      "replacement": "Ŝ"
+    },
+    {
+      "pattern": "Uh",
+      "replacement": "Ŭ"
+    },
+    {
+      "pattern": "CH",
+      "replacement": "Ĉ"
+    },
+    {
+      "pattern": "GH",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "HH",
+      "replacement": "Ĥ"
+    },
+    {
+      "pattern": "JH",
+      "replacement": "Ĵ"
+    },
+    {
+      "pattern": "SH",
+      "replacement": "Ŝ"
+    },
+    {
+      "pattern": "UH",
+      "replacement": "Ŭ"
+    }
+  ]
+}

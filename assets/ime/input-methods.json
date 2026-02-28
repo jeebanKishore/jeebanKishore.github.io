@@ -1,0 +1,1760 @@
+{
+  "abr": [
+    {
+      "id": "ak-qx",
+      "name": "Akan QX replacement"
+    },
+    {
+      "id": "ak-tilde",
+      "name": "Akan tilde"
+    }
+  ],
+  "ach": [
+    {
+      "id": "ach-tilde",
+      "name": "Acholi tilde"
+    }
+  ],
+  "ady": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "af": [
+    {
+      "id": "af-tilde",
+      "name": "Afrikaans tilde"
+    }
+  ],
+  "ahr": [
+    {
+      "id": "mr-transliteration",
+      "name": "अक्षरांतरण"
+    },
+    {
+      "id": "mr-inscript",
+      "name": "मराठी लिपी"
+    }
+  ],
+  "ajg": [
+    {
+      "id": "ajg-tilde",
+      "name": "Aja tilde"
+    }
+  ],
+  "akb": [
+    {
+      "id": "akb-keyboard",
+      "name": "Angkola Keyboard"
+    }
+  ],
+  "am": [
+    {
+      "id": "am-transliteration",
+      "name": "ትራንስልተራትዖን"
+    }
+  ],
+  "ann": [
+    {
+      "id": "ann-tilde",
+      "name": "Obolo tilde"
+    }
+  ],
+  "ar": [
+    {
+      "id": "ar-kbd",
+      "name": "لوحة المفاتيح العربية"
+    }
+  ],
+  "as": [
+    {
+      "id": "as-transliteration",
+      "name": "প্ৰতিৰূপান্তৰণ"
+    },
+    {
+      "id": "as-avro",
+      "name": "অভ্ৰ"
+    },
+    {
+      "id": "as-bornona",
+      "name": "বৰ্ণনা"
+    },
+    {
+      "id": "as-inscript",
+      "name": "ইনস্ক্ৰিপ্ট"
+    },
+    {
+      "id": "as-phonetic",
+      "name": "ফনেটিক"
+    },
+    {
+      "id": "as-inscript2",
+      "name": "ইনস্ক্ৰিপ্ট ২"
+    },
+    {
+      "id": "as-rodali",
+      "name": "ৰ'দালি"
+    }
+  ],
+  "av": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "azb": [
+    {
+      "id": "azb-kbd",
+      "name": "تۆرکجه"
+    }
+  ],
+  "ban-bali": [
+    {
+      "id": "ban-transliteration",
+      "name": "Balinese Transliteration"
+    }
+  ],
+  "bas": [
+    {
+      "id": "bas-tilde",
+      "name": "Ɓasaá tilde"
+    },
+    {
+      "id": "mul-cm",
+      "name": "General Alphabet of Cameroon Languages tilde keyboard"
+    }
+  ],
+  "bbc": [
+    {
+      "id": "bbc-transliteration",
+      "name": "Toba Transliteration"
+    }
+  ],
+  "bci": [
+    {
+      "id": "bci-tilde",
+      "name": "Baoulé tilde keyboard"
+    }
+  ],
+  "be": [
+    {
+      "id": "be-transliteration",
+      "name": "Транслітэрацыя"
+    },
+    {
+      "id": "be-latin",
+      "name": "Łacinka"
+    },
+    {
+      "id": "be-kbd",
+      "name": "Стандартная"
+    }
+  ],
+  "be-tarask": [
+    {
+      "id": "be-transliteration",
+      "name": "Транслітэрацыя"
+    },
+    {
+      "id": "be-latin",
+      "name": "Łacinka"
+    }
+  ],
+  "bfa": [
+    {
+      "id": "bfa-tilde",
+      "name": "Bari Tilde"
+    }
+  ],
+  "bgn": [
+    {
+      "id": "bgn-kbd",
+      "name": "روچ کپتین بلوچی"
+    }
+  ],
+  "bh": [
+    {
+      "id": "hi-transliteration",
+      "name": "लिप्यंतरण"
+    }
+  ],
+  "bho": [
+    {
+      "id": "hi-transliteration",
+      "name": "लिप्यंतरण"
+    }
+  ],
+  "bin": [
+    {
+      "id": "bin-tilde",
+      "name": "Edo tilde"
+    }
+  ],
+  "bkm": [
+    {
+      "id": "bkm-tilde",
+      "name": "Kom tilde"
+    },
+    {
+      "id": "mul-cm",
+      "name": "General Alphabet of Cameroon Languages tilde keyboard"
+    }
+  ],
+  "bm": [
+    {
+      "id": "bm-alt",
+      "name": "Bamanankan Alt"
+    },
+    {
+      "id": "bm-tilde",
+      "name": "Bamanankan tilde"
+    }
+  ],
+  "bn": [
+    {
+      "id": "bn-avro",
+      "name": "অভ্র"
+    },
+    {
+      "id": "bn-inscript",
+      "name": "ইনস্ক্ৰিপ্ট"
+    },
+    {
+      "id": "bn-nkb",
+      "name": "জাতীয় কিবোর্ড"
+    },
+    {
+      "id": "bn-probhat",
+      "name": "প্রভাত"
+    },
+    {
+      "id": "bn-inscript2",
+      "name": "ইনস্ক্ৰিপ্ট ২"
+    }
+  ],
+  "bo": [
+    {
+      "id": "bo-ewts",
+      "name": "Tibetan EWTS"
+    },
+    {
+      "id": "bo-sambhota",
+      "name": "Tibetan Sambhota"
+    }
+  ],
+  "bol": [
+    {
+      "id": "bol-tilde",
+      "name": "Bole - tilde"
+    }
+  ],
+  "bom": [
+    {
+      "id": "bom-tilde",
+      "name": "Bèrom Tilde"
+    }
+  ],
+  "brx": [
+    {
+      "id": "brx-inscript",
+      "name": "इनस्क्रिप्ट"
+    },
+    {
+      "id": "brx-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    }
+  ],
+  "btd": [
+    {
+      "id": "btd-keyboard",
+      "name": "Pakpak (Dairi) Keyboard"
+    }
+  ],
+  "btm": [
+    {
+      "id": "btm-keyboard",
+      "name": "Mandailing Keyboard"
+    },
+    {
+      "id": "btm-transliteration",
+      "name": "Mandailing Transliteration"
+    }
+  ],
+  "bts": [
+    {
+      "id": "bts-keyboard",
+      "name": "Simalungun Keyboard"
+    }
+  ],
+  "btx": [
+    {
+      "id": "btx-keyboard",
+      "name": "Karo Keyboard"
+    }
+  ],
+  "btz": [
+    {
+      "id": "btz-keyboard",
+      "name": "Alas Kluet Keyboard"
+    }
+  ],
+  "bum": [
+    {
+      "id": "mul-cm",
+      "name": "General Alphabet of Cameroon Languages tilde keyboard"
+    }
+  ],
+  "bwr": [
+    {
+      "id": "bwr-tilde",
+      "name": "Bura tilde"
+    }
+  ],
+  "byn": [
+    {
+      "id": "byn-geezim",
+      "name": "ብሊን"
+    }
+  ],
+  "byv": [
+    {
+      "id": "mul-cm",
+      "name": "General Alphabet of Cameroon Languages tilde keyboard"
+    }
+  ],
+  "ce": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "chn": [
+    {
+      "id": "chn-tilde",
+      "name": "Chinook wawa tilde"
+    }
+  ],
+  "chr": [
+    {
+      "id": "chr-translit",
+      "name": "Cherokee Transliteration"
+    }
+  ],
+  "ckb": [
+    {
+      "id": "ckb-transliteration-arkbd",
+      "name": "باشووری"
+    },
+    {
+      "id": "ckb-transliteration-fakbd",
+      "name": "ڕۆژھەڵاتی"
+    },
+    {
+      "id": "ckb-transliteration-lakbd",
+      "name": "لاتینی"
+    }
+  ],
+  "cko": [
+    {
+      "id": "cko-tilde",
+      "name": "Anufo tilde"
+    }
+  ],
+  "cv": [
+    {
+      "id": "cv-cyr-altgr",
+      "name": "Чăвашла (AltGr)"
+    },
+    {
+      "id": "cv-lat-altgr",
+      "name": "Căvašla (AltGr)"
+    },
+    {
+      "id": "cv-cyr-numbers",
+      "name": "Чăвашла (цифрилисем)"
+    }
+  ],
+  "da": [
+    {
+      "id": "da-normforms",
+      "name": "Brug translitteration"
+    }
+  ],
+  "dag": [
+    {
+      "id": "dag-alt",
+      "name": "Dagbani Alt"
+    },
+    {
+      "id": "dag-tilde",
+      "name": "Dagbani tilde"
+    }
+  ],
+  "dar": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "ddn": [
+    {
+      "id": "ddn-tilde",
+      "name": "Dinde Tilde"
+    }
+  ],
+  "de": [
+    {
+      "id": "de-transliteration",
+      "name": "Deutsch Tilde"
+    }
+  ],
+  "dga": [
+    {
+      "id": "mul-bf",
+      "name": "Burkina Faso tilde keyboard"
+    }
+  ],
+  "din": [
+    {
+      "id": "din-fqsx",
+      "name": "Dinka FQSX"
+    },
+    {
+      "id": "din-tilde",
+      "name": "Dinka tilde"
+    }
+  ],
+  "diq": [
+    {
+      "id": "ku-h",
+      "name": "Kurdî-h"
+    },
+    {
+      "id": "ku-tr",
+      "name": "Kurdî-tr"
+    }
+  ],
+  "doi": [
+    {
+      "id": "doi-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    }
+  ],
+  "dua": [
+    {
+      "id": "dua-tilde",
+      "name": "Duala tilde keyboard"
+    }
+  ],
+  "ee": [
+    {
+      "id": "ee-tilde",
+      "name": "Ewe Tilde"
+    }
+  ],
+  "efi": [
+    {
+      "id": "efi-tilde",
+      "name": "Efik - tilde"
+    }
+  ],
+  "ekp": [
+    {
+      "id": "ekp-tilde",
+      "name": "Ẹkpeye"
+    }
+  ],
+  "el": [
+    {
+      "id": "el-kbd",
+      "name": "Τυπική πληκτρολόγιο"
+    }
+  ],
+  "en": [
+    {
+      "id": "ipa-sil",
+      "name": "International Phonetic Alphabet - SIL"
+    },
+    {
+      "id": "ipa-x-sampa",
+      "name": "International Phonetic Alphabet - X-SAMPA"
+    }
+  ],
+  "eo": [
+    {
+      "id": "eo-h",
+      "name": "Esperanto h"
+    },
+    {
+      "id": "eo-h-f",
+      "name": "Esperanto h fundamente"
+    },
+    {
+      "id": "eo-plena",
+      "name": "Esperanto plena"
+    },
+    {
+      "id": "eo-q",
+      "name": "Esperanto q sistemo"
+    },
+    {
+      "id": "eo-vi",
+      "name": "Esperanto vi sistemo"
+    },
+    {
+      "id": "eo-x",
+      "name": "Esperanto x sistemo"
+    }
+  ],
+  "fa": [
+    {
+      "id": "fa-kbd",
+      "name": "فارسی"
+    }
+  ],
+  "fat": [
+    {
+      "id": "ak-qx",
+      "name": "Akan QX replacement"
+    },
+    {
+      "id": "ak-tilde",
+      "name": "Akan tilde"
+    }
+  ],
+  "ff": [
+    {
+      "id": "ff-alt",
+      "name": "Fulfulde alt"
+    },
+    {
+      "id": "ff-tilde",
+      "name": "Fulfulde tilde"
+    }
+  ],
+  "fi": [
+    {
+      "id": "fi-transliteration",
+      "name": "translitterointi"
+    }
+  ],
+  "fo": [
+    {
+      "id": "fo-normforms",
+      "name": "Føroyskt"
+    }
+  ],
+  "fon": [
+    {
+      "id": "fon-tilde",
+      "name": "Fon Tilde"
+    }
+  ],
+  "fvr": [
+    {
+      "id": "fvr-tilde",
+      "name": "Fur Tilde"
+    }
+  ],
+  "fonipa": [
+    {
+      "id": "ipa-sil",
+      "name": "International Phonetic Alphabet - SIL"
+    },
+    {
+      "id": "ipa-x-sampa",
+      "name": "International Phonetic Alphabet - X-SAMPA"
+    }
+  ],
+  "gaa": [
+    {
+      "id": "gaa-cqx",
+      "name": "Ga CQX replacement"
+    },
+    {
+      "id": "gaa-tilde",
+      "name": "Ga tilde"
+    }
+  ],
+  "gom": [
+    {
+      "id": "hi-transliteration",
+      "name": "लिप्यंतरण"
+    },
+    {
+      "id": "hi-inscript",
+      "name": "इनस्क्रिप्ट"
+    },
+    {
+      "id": "gom-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    }
+  ],
+  "got": [
+    {
+      "id": "got-standard",
+      "name": "𐌲𐌿𐍄𐌹𐍃𐌺𐌰 𐍂𐌰𐌶𐌳𐌰"
+    }
+  ],
+  "gu": [
+    {
+      "id": "gu-transliteration",
+      "name": "લિપ્યંતરણ"
+    },
+    {
+      "id": "gu-inscript",
+      "name": "ઇનસ્ક્રિપ્ટ"
+    },
+    {
+      "id": "gu-inscript2",
+      "name": "ઇનસ્ક્રિપ્ટ ૨"
+    },
+    {
+      "id": "gu-phonetic",
+      "name": "ફોનૅટિક"
+    }
+  ],
+  "gur": [
+    {
+      "id": "gur-tilde",
+      "name": "Farefare tilde"
+    }
+  ],
+  "ha": [
+    {
+      "id": "ha-tilde",
+      "name": "Hausa - tilde"
+    }
+  ],
+  "he": [
+    {
+      "id": "he-standard-2012-extonly",
+      "name": "עברית עם ניקוד"
+    },
+    {
+      "id": "he-standard-2012",
+      "name": "עברית עם ניקוד על בסיס אנגלית"
+    }
+  ],
+  "hi": [
+    {
+      "id": "hi-transliteration",
+      "name": "लिप्यंतरण"
+    },
+    {
+      "id": "hi-inscript",
+      "name": "इनस्क्रिप्ट"
+    },
+    {
+      "id": "hi-bolnagri",
+      "name": "बोलनागरी"
+    },
+    {
+      "id": "hi-phonetic",
+      "name": "फोनेटिक"
+    },
+    {
+      "id": "hi-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    }
+  ],
+  "hne": [
+    {
+      "id": "hi-transliteration",
+      "name": "लिप्यंतरण"
+    }
+  ],
+  "hoc": [
+    {
+      "id": "hoc-transliteration",
+      "name": "Ho transliteration"
+    }
+  ],
+  "hoc-latn": [
+    {
+      "id": "hoc-latn-tilde",
+      "name": "Ho Latin Tilde"
+    }
+  ],
+  "hr": [
+    {
+      "id": "hr-kbd",
+      "name": "Croatian kbd"
+    }
+  ],
+  "hy": [
+    {
+      "id": "hy-ephonetic",
+      "name": "Հնչյունային դասավորություն"
+    },
+    {
+      "id": "hy-typewriter",
+      "name": "Գրամեքենայի դասավորություն"
+    },
+    {
+      "id": "hy-ephoneticalt",
+      "name": "Հնչյունային նոր (R→Ր, F→Թ)"
+    },
+    {
+      "id": "hy-emslegacy",
+      "name": "Մայքրոսոֆթի հին արևելահայերեն"
+    },
+    {
+      "id": "hy-wmslegacy",
+      "name": "Մայքրոսոֆթի հին արևմտահայերեն"
+    }
+  ],
+  "ibb": [
+    {
+      "id": "ibb-tilde",
+      "name": "Ibibio - tilde"
+    }
+  ],
+  "id": [
+    {
+      "id": "id-keyboard",
+      "name": "Indonesian - Suku"
+    },
+    {
+      "id": "id-jawi",
+      "name": "Jawi Keyboard"
+    }
+  ],
+  "ig": [
+    {
+      "id": "ig-tilde",
+      "name": "Igbo - tilde"
+    }
+  ],
+  "igl": [
+    {
+      "id": "igl-tilde",
+      "name": "Igala - tilde"
+    }
+  ],
+  "inh": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "is": [
+    {
+      "id": "is-normforms",
+      "name": "Venjuleg eyðublöð"
+    }
+  ],
+  "ish": [
+    {
+      "id": "ish-tilde",
+      "name": "Esan Awain tilde"
+    }
+  ],
+  "jac": [
+    {
+      "id": "jac-tilde",
+      "name": "Jakaltek tilde"
+    }
+  ],
+  "jv": [
+    {
+      "id": "jv-keyboard",
+      "name": "Jawa Latin extended"
+    },
+    {
+      "id": "jv-transliteration",
+      "name": "Transliteration"
+    },
+    {
+      "id": "jv-kongres",
+      "name": "Kongres Aksara Jawa"
+    }
+  ],
+  "jv-java": [
+    {
+      "id": "jv-transliteration",
+      "name": "Transliteration"
+    },
+    {
+      "id": "jv-kongres",
+      "name": "Kongres Aksara Jawa"
+    },
+    {
+      "id": "jv-keyboard",
+      "name": "Jawa Latin extended"
+    }
+  ],
+  "ka": [
+    {
+      "id": "ka-transliteration",
+      "name": "ტრანსლიტერაცია"
+    },
+    {
+      "id": "ka-kbd",
+      "name": "სტანდარტული კლავიატურის"
+    }
+  ],
+  "kab": [
+    {
+      "id": "kab-tilde",
+      "name": "Taqbaylit Alatin tilde"
+    },
+    {
+      "id": "ber-tfng",
+      "name": "Tifinagh"
+    }
+  ],
+  "kaj": [
+    {
+      "id": "kaj-tilde",
+      "name": "Jju tilde"
+    }
+  ],
+  "kbd": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "kbp": [
+    {
+      "id": "kbp-tilde",
+      "name": "Kabɩyɛ tilde"
+    }
+  ],
+  "kcg": [
+    {
+      "id": "kcg-tilde",
+      "name": "Tyap tilde"
+    }
+  ],
+  "ken": [
+    {
+      "id": "mul-cm",
+      "name": "General Alphabet of Cameroon Languages tilde keyboard"
+    }
+  ],
+  "ki": [
+    {
+      "id": "ki-tilde",
+      "name": "Gĩkũyũ"
+    }
+  ],
+  "kk": [
+    {
+      "id": "kk-kbd",
+      "name": "Кирил"
+    },
+    {
+      "id": "kk-arabic",
+      "name": "Kazakh Arabic transliteration"
+    }
+  ],
+  "km": [
+    {
+      "id": "km-nidakyk",
+      "name": "ក្តារ​ចុច​យូនីកូដ​ខ្មែរ (NiDA)"
+    }
+  ],
+  "kn": [
+    {
+      "id": "kn-transliteration",
+      "name": "ಲಿಪ್ಯಂತರಣ"
+    },
+    {
+      "id": "kn-inscript",
+      "name": "ಇನ್ಸ್ಕ್ರಿಪ್ಟ್"
+    },
+    {
+      "id": "kn-kgp",
+      "name": "KGP/Nudi/KP Rao"
+    },
+    {
+      "id": "kn-inscript2",
+      "name": "ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್ ೨"
+    }
+  ],
+  "ko": [
+    {
+      "id": "ko-rr",
+      "name": "Korean Revised Romanization"
+    }
+  ],
+  "kr": [
+    {
+      "id": "kr-tilde",
+      "name": "Kanuri tilde"
+    }
+  ],
+  "kri": [
+    {
+      "id": "kri-tilde",
+      "name": "Krio tilde"
+    }
+  ],
+  "ks": [
+    {
+      "id": "ks-inscript",
+      "name": "इनस्क्रिप्ट"
+    },
+    {
+      "id": "ks-kbd",
+      "name": "Kashmiri Arabic"
+    }
+  ],
+  "ky": [
+    {
+      "id": "ky-cyrl-alt",
+      "name": "Кыргыз Alt"
+    }
+  ],
+  "ku": [
+    {
+      "id": "ku-h",
+      "name": "Kurdî-h"
+    },
+    {
+      "id": "ku-tr",
+      "name": "Kurdî-tr"
+    }
+  ],
+  "kus": [
+    {
+      "id": "kus-tilde",
+      "name": "Kusaal tilde"
+    }
+  ],
+  "laj": [
+    {
+      "id": "laj-tilde",
+      "name": "Lango tilde"
+    }
+  ],
+  "lbe": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "lez": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "lg": [
+    {
+      "id": "lg-tilde",
+      "name": "Luganda tilde"
+    }
+  ],
+  "ln": [
+    {
+      "id": "ln-tilde",
+      "name": "Lingála tilde"
+    }
+  ],
+  "lo": [
+    {
+      "id": "lo-kbd",
+      "name": "າຶກ"
+    }
+  ],
+  "lrc": [
+    {
+      "id": "lrc-kbd",
+      "name": "لۊری شومالی"
+    }
+  ],
+  "lud": [
+    {
+      "id": "lud-transliteration",
+      "name": "lud"
+    }
+  ],
+  "lut": [
+    {
+      "id": "lut-tulalip",
+      "name": "Lushootseed Tulalip"
+    }
+  ],
+  "mad": [
+    {
+      "id": "mad-tilde",
+      "name": "Madhurâ tilde"
+    }
+  ],
+  "mai": [
+    {
+      "id": "mai-inscript",
+      "name": "इनस्क्रिप्ट",
+      "depends": "hi-inscript"
+    },
+    {
+      "id": "mai-inscript2",
+      "name": "इनस्क्रिप्ट २",
+      "depends": "hi-inscript2"
+    }
+  ],
+  "maw": [
+    {
+      "id": "maw-tilde",
+      "name": "Mampruli tilde"
+    }
+  ],
+  "mg": [
+    {
+      "id": "mg-tilde",
+      "name": "Malagasy tilde"
+    }
+  ],
+  "mh": [
+    {
+      "id": "mh-replace",
+      "name": "Kajin M̧ajeļ"
+    }
+  ],
+  "ml": [
+    {
+      "id": "ml-transliteration",
+      "name": "ലിപ്യന്തരണം"
+    },
+    {
+      "id": "ml-inscript",
+      "name": "ഇൻസ്ക്രിപ്റ്റ്"
+    },
+    {
+      "id": "ml-inscript2",
+      "name": "ഇൻസ്ക്രിപ്റ്റ് 2"
+    }
+  ],
+  "mn": [
+    {
+      "id": "mn-cyrl",
+      "name": "Кирилл"
+    },
+    {
+      "id": "mn-trad",
+      "name": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ᠌"
+    },
+    {
+      "id": "mn-todo",
+      "name": "ᡐᡆᡑᡆ ᡋᡅᡔᡅᡎ᠌"
+    },
+    {
+      "id": "mn-tradali",
+      "name": "Traditional Mongolian Ali-gali"
+    },
+    {
+      "id": "mn-todoali",
+      "name": "Todo Mongolian Ali-gali"
+    },
+    {
+      "id": "phagspa",
+      "name": "PhagsPa"
+    }
+  ],
+  "mnc": [
+    {
+      "id": "mnc-scripts",
+      "name": "ᠮᠠᠨᠵᡠ"
+    },
+    {
+      "id": "mnc-ali",
+      "name": "Manchu Ali-gali"
+    }
+  ],
+  "mni": [
+    {
+      "id": "mni-inscript2",
+      "name": "ইনস্ক্ৰিপ্ট ২"
+    }
+  ],
+  "mns": [
+    {
+      "id": "mns-backslash",
+      "name": "Mansi backslash"
+    }
+  ],
+  "mnw": [
+    {
+      "id": "mnw-simplified-anonta",
+      "name": "Mon Simplified Anonta"
+    }
+  ],
+  "mos": [
+    {
+      "id": "mul-bf",
+      "name": "Burkina Faso tilde keyboard"
+    }
+  ],
+  "mr": [
+    {
+      "id": "mr-transliteration",
+      "name": "अक्षरांतरण"
+    },
+    {
+      "id": "mr-inscript2",
+      "name": "मराठी इनस्क्रिप्ट २"
+    },
+    {
+      "id": "mr-inscript",
+      "name": "मराठी लिपी"
+    },
+    {
+      "id": "mr-phonetic",
+      "name": "फोनेटिक"
+    }
+  ],
+  "my": [
+    {
+      "id": "my-mm3",
+      "name": "မြန်မာ၃ လက်ကွက်"
+    },
+    {
+      "id": "my-xkb",
+      "name": "မြန်မာဘာသာ xkb"
+    }
+  ],
+  "nan": [
+    {
+      "id": "nan-latn-pehoeji-transliteration",
+      "name": "閩南語白話字IME / Bân-lâm-gí Pe̍h-ōe-jī IME"
+    }
+  ],
+  "nan-hani": [
+    {
+      "id": "nan-latn-pehoeji-transliteration",
+      "name": "閩南語白話字IME / Bân-lâm-gí Pe̍h-ōe-jī IME"
+    }
+  ],
+  "nan-hant": [
+    {
+      "id": "nan-latn-pehoeji-transliteration",
+      "name": "閩南語白話字IME / Bân-lâm-gí Pe̍h-ōe-jī IME"
+    }
+  ],
+  "nan-latn-pehoeji": [
+    {
+      "id": "nan-latn-pehoeji-transliteration",
+      "name": "閩南語白話字IME / Bân-lâm-gí Pe̍h-ōe-jī IME"
+    }
+  ],
+  "nan-latn-tailo": [
+    {
+      "id": "nan-latn-pehoeji-transliteration",
+      "name": "閩南語白話字IME / Bân-lâm-gí Pe̍h-ōe-jī IME"
+    }
+  ],
+  "naq": [
+    {
+      "id": "mul-click-tilde",
+      "name": "Click consonants keyboard"
+    }
+  ],
+  "nb": [
+    {
+      "id": "nb-normforms",
+      "name": "Normal transliterasjon"
+    },
+    {
+      "id": "nb-tildeforms",
+      "name": "Tildemerket transliterasjon"
+    }
+  ],
+  "ne": [
+    {
+      "id": "ne-transliteration",
+      "name": "ट्रांस्लितेरेशन"
+    },
+    {
+      "id": "ne-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    },
+    {
+      "id": "ne-inscript",
+      "name": "इनस्क्रिप्ट"
+    },
+    {
+      "id": "ne-rom",
+      "name": "Romanized"
+    },
+    {
+      "id": "ne-trad",
+      "name": "Traditional"
+    }
+  ],
+  "new": [
+    {
+      "id": "hi-transliteration",
+      "name": "लिप्यंतरण"
+    },
+    {
+      "id": "hi-inscript",
+      "name": "इनस्क्रिप्ट"
+    }
+  ],
+  "nia": [
+    {
+      "id": "nia-tilde",
+      "name": "Li Niha tilde"
+    }
+  ],
+  "nmz": [
+    {
+      "id": "nmz-tilde",
+      "name": "Nawdm tilde"
+    }
+  ],
+  "nn": [
+    {
+      "id": "nb-normforms",
+      "name": "Normal transliterasjon"
+    },
+    {
+      "id": "nb-tildeforms",
+      "name": "Tildemerket transliterasjon"
+    }
+  ],
+  "nnh": [
+    {
+      "id": "mul-cm",
+      "name": "General Alphabet of Cameroon Languages tilde keyboard"
+    }
+  ],
+  "nqo": [
+    {
+      "id": "nqo-standard-qwerty",
+      "name": "N'Ko standard QWERTY"
+    },
+    {
+      "id": "nqo-transliteration",
+      "name": "N'Ko transliteration"
+    }
+  ],
+  "nso": [
+    {
+      "id": "nso-tilde",
+      "name": "Sesotho sa Leboa tilde"
+    }
+  ],
+  "nus": [
+    {
+      "id": "nus-tilde",
+      "name": "Thok Naath tilde"
+    }
+  ],
+  "ny": [
+    {
+      "id": "ny-tilde",
+      "name": "Chichewa / Nyanja tilde"
+    }
+  ],
+  "nzi": [
+    {
+      "id": "ak-tilde",
+      "name": "Akan tilde"
+    }
+  ],
+  "or": [
+    {
+      "id": "or-phonetic",
+      "name": "ଫୋନେଟିକ"
+    },
+    {
+      "id": "or-transliteration",
+      "name": "ଟ୍ରାନ୍ସଲିଟରେସନ"
+    },
+    {
+      "id": "or-inscript",
+      "name": "ଇନସ୍କ୍ରିପ୍ଟ"
+    },
+    {
+      "id": "or-inscript2",
+      "name": "ଇନସ୍କ୍ରିପ୍ଟ2"
+    },
+    {
+      "id": "or-lekhani",
+      "name": "ଲେଖନୀ"
+    },
+    {
+      "id": "or-OdiScript",
+      "name": "ଓଡ଼ିସ୍କ୍ରିପ୍ଟ"
+    }
+  ],
+  "pa": [
+    {
+      "id": "pa-transliteration",
+      "name": "ਲਿਪਾਂਤਰਨ"
+    },
+    {
+      "id": "pa-inscript",
+      "name": "ਇਨਸਕ੍ਰਿਪਟ"
+    },
+    {
+      "id": "pa-phonetic",
+      "name": "ਫੋਨੇਟਿਕ"
+    },
+    {
+      "id": "pa-inscript2",
+      "name": "ਇਨਸਕ੍ਰਿਪਟ2"
+    },
+    {
+      "id": "pa-jhelum",
+      "name": "ਜੇਹਲਮ"
+    }
+  ],
+  "pms": [
+    {
+      "id": "pms",
+      "name": "Piemontèis"
+    }
+  ],
+  "pnt": [
+    {
+      "id": "pnt-tilde",
+      "name": "Pontic tilde"
+    }
+  ],
+  "raj": [
+    {
+      "id": "hi-transliteration",
+      "name": "लिप्यंतरण"
+    },
+    {
+      "id": "hi-inscript",
+      "name": "इनस्क्रिप्ट"
+    },
+    {
+      "id": "hi-bolnagri",
+      "name": "बोलनागरी"
+    },
+    {
+      "id": "hi-phonetic",
+      "name": "फोनेटिक"
+    },
+    {
+      "id": "hi-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    }
+  ],
+  "rif": [
+    {
+      "id": "ber-tfng",
+      "name": "Tifinagh"
+    }
+  ],
+  "roa-tara": [
+    {
+      "id": "roa-tara-GVU",
+      "name": "Tarandine"
+    }
+  ],
+  "ru": [
+    {
+      "id": "ru-jcuken",
+      "name": "ЙЦУКЕН"
+    },
+    {
+      "id": "ru-kbd",
+      "name": "кбд"
+    },
+    {
+      "id": "ru-phonetic",
+      "name": "фонетический"
+    },
+    {
+      "id": "ru-yawerty",
+      "name": "yawerty"
+    }
+  ],
+  "sa": [
+    {
+      "id": "sa-transliteration",
+      "name": "लिप्यन्तरणम्"
+    },
+    {
+      "id": "sa-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    },
+    {
+      "id": "sa-inscript",
+      "name": "इनस्क्रिप्ट"
+    },
+    {
+      "id": "sa-iast",
+      "name": "Romanized"
+    }
+  ],
+  "sah": [
+    {
+      "id": "sah-transliteration",
+      "name": "Transliteration"
+    }
+  ],
+  "sat": [
+    {
+      "id": "sat-sarjom-baha",
+      "name": "sarjom baha"
+    },
+    {
+      "id": "sat-inscript2-ol-chiki",
+      "name": "inscript2 ᱚᱞ ᱪᱤᱠᱤ"
+    },
+    {
+      "id": "sat-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    }
+  ],
+  "sd": [
+    {
+      "id": "sd-inscript2",
+      "name": "इनस्क्रिप्ट २"
+    }
+  ],
+  "sdh": [
+    {
+      "id": "sdh-kbd",
+      "name": "کوردی خوارگ"
+    }
+  ],
+  "se": [
+    {
+      "id": "se-normforms",
+      "name": "Normal forms"
+    }
+  ],
+  "ses": [
+    {
+      "id": "ses-tilde",
+      "name": "Koyraboro Senni tilde"
+    }
+  ],
+  "sg": [
+    {
+      "id": "sg-tilde",
+      "name": "Sängö"
+    }
+  ],
+  "shi": [
+    {
+      "id": "ber-tfng",
+      "name": "Tifinagh"
+    }
+  ],
+  "shn": [
+    {
+      "id": "shn-standard",
+      "name": "တႆး"
+    }
+  ],
+  "si": [
+    {
+      "id": "si-singlish",
+      "name": "සිංග්ලිෂ්"
+    },
+    {
+      "id": "si-wijesekara",
+      "name": "විජේසේකර"
+    }
+  ],
+  "sjo": [
+    {
+      "id": "sjo-scripts",
+      "name": "ᠰᡞᠪᡝ"
+    }
+  ],
+  "sk": [
+    {
+      "id": "sk-kbd",
+      "name": "Štandardná"
+    }
+  ],
+  "sr": [
+    {
+      "id": "sr-kbd",
+      "name": "Стандардна"
+    }
+  ],
+  "st": [
+    {
+      "id": "st-tilde",
+      "name": "Sesotho tilde"
+    }
+  ],
+  "str": [
+    {
+      "id": "str-sencoten",
+      "name": "SENĆOŦEN keyboard"
+    }
+  ],
+  "su": [
+    {
+      "id": "su-keyboard",
+      "name": "Sundanese keyboard"
+    }
+  ],
+  "sv": [
+    {
+      "id": "sv-normforms",
+      "name": "Normal forms"
+    }
+  ],
+  "szl": [
+    {
+      "id": "szl-tilde",
+      "name": "Silesian tilde"
+    }
+  ],
+  "ta": [
+    {
+      "id": "ta-transliteration",
+      "name": "எழுத்துப்பெயர்ப்பு"
+    },
+    {
+      "id": "ta-99",
+      "name": "தமிழ்99"
+    },
+    {
+      "id": "ta-inscript",
+      "name": "இன்ஸ்கிரிப்ட்"
+    },
+    {
+      "id": "ta-bamini",
+      "name": "பாமினி"
+    },
+    {
+      "id": "ta-inscript2",
+      "name": "இன்ஸ்கிரிப்ட் 2"
+    }
+  ],
+  "tcy": [
+    {
+      "id": "kn-transliteration",
+      "name": "ಲಿಪ್ಯಂತರಣ"
+    },
+    {
+      "id": "kn-inscript",
+      "name": "ಇನ್ಸ್ಕ್ರಿಪ್ಟ್"
+    },
+    {
+      "id": "kn-kgp",
+      "name": "KGP/Nudi/KP Rao"
+    },
+    {
+      "id": "kn-inscript2",
+      "name": "ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್ ೨"
+    }
+  ],
+  "te": [
+    {
+      "id": "te-transliteration",
+      "name": "లిప్యంతరీకరణ"
+    },
+    {
+      "id": "te-inscript",
+      "name": "ఇన్‍స్క్రిప్ట్"
+    },
+    {
+      "id": "te-inscript2",
+      "name": "ఇన్‍స్క్రిప్ట్ 2"
+    },
+    {
+      "id": "te-apple",
+      "name": "ఆపిల్"
+    },
+    {
+      "id": "te-modular",
+      "name": "మాడ్యులర్"
+    }
+  ],
+  "th": [
+    {
+      "id": "th-kedmanee",
+      "name": "เกษมณี"
+    },
+    {
+      "id": "th-pattachote",
+      "name": "ปัตตะโชติ"
+    }
+  ],
+  "ti": [
+    {
+      "id": "ti-geezim",
+      "name": "ትግርኛ"
+    }
+  ],
+  "tig": [
+    {
+      "id": "tig-geezim",
+      "name": "Tigre GeezIM"
+    }
+  ],
+  "tkr": [
+    {
+      "id": "cyrl-palochka",
+      "name": "Palochka"
+    }
+  ],
+  "tn": [
+    {
+      "id": "tn-tilde",
+      "name": "Setswana tilde"
+    }
+  ],
+  "tum": [
+    {
+      "id": "tum-tilde",
+      "name": "ChiTumbuka tilde"
+    }
+  ],
+  "tw": [
+    {
+      "id": "ak-qx",
+      "name": "Akan QX replacement"
+    },
+    {
+      "id": "ak-tilde",
+      "name": "Akan tilde"
+    }
+  ],
+  "tzm": [
+    {
+      "id": "ber-tfng",
+      "name": "Tifinagh"
+    }
+  ],
+  "udm": [
+    {
+      "id": "udm-alt",
+      "name": "Удмурт ALT"
+    }
+  ],
+  "uk": [
+    {
+      "id": "uk-kbd",
+      "name": "кбд"
+    }
+  ],
+  "ur": [
+    {
+      "id": "ur-transliteration",
+      "name": "ٹرانسلٹریشن"
+    },
+    {
+      "id": "ur-phonetic",
+      "name": "صوتی"
+    }
+  ],
+  "uz": [
+    {
+      "id": "uz-kbd",
+      "name": "Uzbek kbd"
+    }
+  ],
+  "vai": [
+    {
+      "id": "vai-transliteration",
+      "name": "Vai transliteration"
+    }
+  ],
+  "ve": [
+    {
+      "id": "ve-tilde",
+      "name": "TshiVenḓa tilde"
+    }
+  ],
+  "vec": [
+    {
+      "id": "vec-GVU",
+      "name": "Vèneto"
+    }
+  ],
+  "wlx": [
+    {
+      "id": "wlx-tilde",
+      "name": "Waale tilde"
+    }
+  ],
+  "wo": [
+    {
+      "id": "wo-alt",
+      "name": "Wolof Alt"
+    },
+    {
+      "id": "wo-tilde",
+      "name": "Wolof tilde"
+    }
+  ],
+  "xon": [
+    {
+      "id": "xon-tilde",
+      "name": "Likpakpaanl tilde"
+    }
+  ],
+  "yo": [
+    {
+      "id": "yo-alt",
+      "name": "Yorùbá Alt"
+    },
+    {
+      "id": "yo-tilde",
+      "name": "Yorùbá tilde"
+    }
+  ],
+  "zh": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ],
+  "zh-cn": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ],
+  "zh-hans": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ],
+  "zh-hant": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ],
+  "zh-hk": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ],
+  "zh-mo": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ],
+  "zh-my": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ],
+  "zh-sg": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ],
+  "zh-tw": [
+    {
+      "id": "zh-latn-pinyin-transliteration",
+      "name": "拼音符号输入法 / 拼音符號輸入法"
+    }
+  ]
+}

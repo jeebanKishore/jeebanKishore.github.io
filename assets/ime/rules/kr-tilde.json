@@ -1,0 +1,44 @@
+{
+  "id": "kr-tilde",
+  "name": "Kanuri tilde",
+  "description": "Kanuri tilde keyboard",
+  "date": "2022-06-11",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "~E",
+      "replacement": "Ǝ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ǝ"
+    },
+    {
+      "pattern": "~R",
+      "replacement": "Ɍ"
+    },
+    {
+      "pattern": "~r",
+      "replacement": "ɍ"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~v",
+      "replacement": "̌"
+    }
+  ]
+}

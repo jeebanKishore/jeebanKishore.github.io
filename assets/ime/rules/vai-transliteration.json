@@ -1,0 +1,1133 @@
+{
+  "id": "vai-transliteration",
+  "name": "Vai Transliteration",
+  "description": "Vai Transliteration, based on the SIL Keyman layout found at https://github.com/keymanapp/keyboards/tree/master/release/sil/sil_vai/source, with extensions",
+  "date": "2019-05-08",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 3,
+  "maxKeyLength": 4,
+  "rules": [
+    {
+      "pattern": "[XN]",
+      "replacement": "ꘋ"
+    },
+    {
+      "pattern": "ꘌ=",
+      "replacement": "="
+    },
+    {
+      "pattern": "=",
+      "replacement": "ꘌ"
+    },
+    {
+      "pattern": "꘍,",
+      "replacement": ","
+    },
+    {
+      "pattern": ",",
+      "replacement": "꘍"
+    },
+    {
+      "pattern": "꘎\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "꘎"
+    },
+    {
+      "pattern": "꘎꘎!",
+      "replacement": "!"
+    },
+    {
+      "pattern": "!",
+      "replacement": "꘎꘎"
+    },
+    {
+      "pattern": "꘏\\?",
+      "replacement": "?"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "꘏"
+    },
+    {
+      "pattern": "FꗡꘋG",
+      "replacement": "FEN"
+    },
+    {
+      "pattern": "FAH?A",
+      "replacement": "ꘘ"
+    },
+    {
+      "pattern": "we",
+      "replacement": "ꔃ"
+    },
+    {
+      "pattern": "ꔃ~",
+      "replacement": "ꔄ"
+    },
+    {
+      "pattern": "bhe",
+      "replacement": "ꔆ"
+    },
+    {
+      "pattern": "mbe",
+      "replacement": "ꔈ"
+    },
+    {
+      "pattern": "kpe",
+      "replacement": "ꔉ"
+    },
+    {
+      "pattern": "mgbe",
+      "replacement": "ꔊ"
+    },
+    {
+      "pattern": "gbe",
+      "replacement": "ꔋ"
+    },
+    {
+      "pattern": "fe",
+      "replacement": "ꔌ"
+    },
+    {
+      "pattern": "ve",
+      "replacement": "ꔍ"
+    },
+    {
+      "pattern": "te",
+      "replacement": "ꔎ"
+    },
+    {
+      "pattern": "the",
+      "replacement": "ꔏ"
+    },
+    {
+      "pattern": "dhe",
+      "replacement": "ꔑ"
+    },
+    {
+      "pattern": "re",
+      "replacement": "ꔓ"
+    },
+    {
+      "pattern": "n[dD]e",
+      "replacement": "ꔕ"
+    },
+    {
+      "pattern": "(dl|D)e",
+      "replacement": "ꔔ"
+    },
+    {
+      "pattern": "se",
+      "replacement": "ꔖ"
+    },
+    {
+      "pattern": "she",
+      "replacement": "ꔗ"
+    },
+    {
+      "pattern": "ze",
+      "replacement": "ꔘ"
+    },
+    {
+      "pattern": "zhe",
+      "replacement": "ꔙ"
+    },
+    {
+      "pattern": "ce",
+      "replacement": "ꔚ"
+    },
+    {
+      "pattern": "nje",
+      "replacement": "ꔜ"
+    },
+    {
+      "pattern": "ke",
+      "replacement": "ꔞ"
+    },
+    {
+      "pattern": "nge",
+      "replacement": "ꔟ"
+    },
+    {
+      "pattern": "me",
+      "replacement": "ꔡ"
+    },
+    {
+      "pattern": "ne",
+      "replacement": "ꔢ"
+    },
+    {
+      "pattern": "nye",
+      "replacement": "ꔣ"
+    },
+    {
+      "pattern": "he",
+      "replacement": "ꔂ"
+    },
+    {
+      "pattern": "pe",
+      "replacement": "ꔅ"
+    },
+    {
+      "pattern": "be",
+      "replacement": "ꔇ"
+    },
+    {
+      "pattern": "de",
+      "replacement": "ꔐ"
+    },
+    {
+      "pattern": "le",
+      "replacement": "ꔒ"
+    },
+    {
+      "pattern": "je",
+      "replacement": "ꔛ"
+    },
+    {
+      "pattern": "ye",
+      "replacement": "ꔝ"
+    },
+    {
+      "pattern": "ge",
+      "replacement": "ꔠ"
+    },
+    {
+      "pattern": "wi",
+      "replacement": "ꔨ"
+    },
+    {
+      "pattern": "ꔨ~",
+      "replacement": "ꔩ"
+    },
+    {
+      "pattern": "bhi",
+      "replacement": "ꔫ"
+    },
+    {
+      "pattern": "ꔦ~",
+      "replacement": "ꔧ"
+    },
+    {
+      "pattern": "mbi",
+      "replacement": "ꔭ"
+    },
+    {
+      "pattern": "kpi",
+      "replacement": "ꔮ"
+    },
+    {
+      "pattern": "mgbi",
+      "replacement": "ꔯ"
+    },
+    {
+      "pattern": "gbi",
+      "replacement": "ꔰ"
+    },
+    {
+      "pattern": "fi",
+      "replacement": "ꔱ"
+    },
+    {
+      "pattern": "vi",
+      "replacement": "ꔲ"
+    },
+    {
+      "pattern": "ti",
+      "replacement": "ꔳ"
+    },
+    {
+      "pattern": "thi",
+      "replacement": "ꔴ"
+    },
+    {
+      "pattern": "dhi",
+      "replacement": "ꔶ"
+    },
+    {
+      "pattern": "ri",
+      "replacement": "ꔸ"
+    },
+    {
+      "pattern": "n[dD]i",
+      "replacement": "ꔺ"
+    },
+    {
+      "pattern": "(dl|D)i",
+      "replacement": "ꔹ"
+    },
+    {
+      "pattern": "si",
+      "replacement": "ꔻ"
+    },
+    {
+      "pattern": "shi",
+      "replacement": "ꔼ"
+    },
+    {
+      "pattern": "zi",
+      "replacement": "ꔽ"
+    },
+    {
+      "pattern": "zhi",
+      "replacement": "ꔾ"
+    },
+    {
+      "pattern": "ci",
+      "replacement": "ꔿ"
+    },
+    {
+      "pattern": "nji",
+      "replacement": "ꕁ"
+    },
+    {
+      "pattern": "ki",
+      "replacement": "ꕃ"
+    },
+    {
+      "pattern": "ngi",
+      "replacement": "ꕄ"
+    },
+    {
+      "pattern": "mi",
+      "replacement": "ꕆ"
+    },
+    {
+      "pattern": "ni",
+      "replacement": "ꕇ"
+    },
+    {
+      "pattern": "nyi",
+      "replacement": "ꕈ"
+    },
+    {
+      "pattern": "hi",
+      "replacement": "ꔦ"
+    },
+    {
+      "pattern": "pi",
+      "replacement": "ꔪ"
+    },
+    {
+      "pattern": "bi",
+      "replacement": "ꔬ"
+    },
+    {
+      "pattern": "di",
+      "replacement": "ꔵ"
+    },
+    {
+      "pattern": "li",
+      "replacement": "ꔷ"
+    },
+    {
+      "pattern": "ji",
+      "replacement": "ꕀ"
+    },
+    {
+      "pattern": "yi",
+      "replacement": "ꕂ"
+    },
+    {
+      "pattern": "gi",
+      "replacement": "ꕅ"
+    },
+    {
+      "pattern": "ꕬ~",
+      "replacement": "ꕋ"
+    },
+    {
+      "pattern": "wa",
+      "replacement": "ꕎ"
+    },
+    {
+      "pattern": "ꕎ~",
+      "replacement": "ꕏ"
+    },
+    {
+      "pattern": "bha",
+      "replacement": "ꕑ"
+    },
+    {
+      "pattern": "ꕌ~",
+      "replacement": "ꕍ"
+    },
+    {
+      "pattern": "mba",
+      "replacement": "ꕓ"
+    },
+    {
+      "pattern": "kpa",
+      "replacement": "ꕔ"
+    },
+    {
+      "pattern": "ꕔ~",
+      "replacement": "ꕕ"
+    },
+    {
+      "pattern": "mgba",
+      "replacement": "ꕖ"
+    },
+    {
+      "pattern": "gba",
+      "replacement": "ꕗ"
+    },
+    {
+      "pattern": "fa",
+      "replacement": "ꕘ"
+    },
+    {
+      "pattern": "va",
+      "replacement": "ꕙ"
+    },
+    {
+      "pattern": "ta",
+      "replacement": "ꕚ"
+    },
+    {
+      "pattern": "tha",
+      "replacement": "ꕛ"
+    },
+    {
+      "pattern": "dha",
+      "replacement": "ꕝ"
+    },
+    {
+      "pattern": "ra",
+      "replacement": "ꕟ"
+    },
+    {
+      "pattern": "n[dD]a",
+      "replacement": "ꕡ"
+    },
+    {
+      "pattern": "(dl|D)a",
+      "replacement": "ꕠ"
+    },
+    {
+      "pattern": "sa",
+      "replacement": "ꕢ"
+    },
+    {
+      "pattern": "sha",
+      "replacement": "ꕣ"
+    },
+    {
+      "pattern": "za",
+      "replacement": "ꕤ"
+    },
+    {
+      "pattern": "zha",
+      "replacement": "ꕥ"
+    },
+    {
+      "pattern": "ca",
+      "replacement": "ꕦ"
+    },
+    {
+      "pattern": "nja",
+      "replacement": "ꕨ"
+    },
+    {
+      "pattern": "ka",
+      "replacement": "ꕪ"
+    },
+    {
+      "pattern": "ꕪ~",
+      "replacement": "ꕫ"
+    },
+    {
+      "pattern": "nga",
+      "replacement": "ꕬ"
+    },
+    {
+      "pattern": "ma",
+      "replacement": "ꕮ"
+    },
+    {
+      "pattern": "na",
+      "replacement": "ꕯ"
+    },
+    {
+      "pattern": "nya",
+      "replacement": "ꕰ"
+    },
+    {
+      "pattern": "ha",
+      "replacement": "ꕌ"
+    },
+    {
+      "pattern": "pa",
+      "replacement": "ꕐ"
+    },
+    {
+      "pattern": "ba",
+      "replacement": "ꕒ"
+    },
+    {
+      "pattern": "da",
+      "replacement": "ꕜ"
+    },
+    {
+      "pattern": "la",
+      "replacement": "ꕞ"
+    },
+    {
+      "pattern": "ja",
+      "replacement": "ꕧ"
+    },
+    {
+      "pattern": "ya",
+      "replacement": "ꕩ"
+    },
+    {
+      "pattern": "ga",
+      "replacement": "ꕭ"
+    },
+    {
+      "pattern": "wo",
+      "replacement": "ꕴ"
+    },
+    {
+      "pattern": "ꕴ~",
+      "replacement": "ꕵ"
+    },
+    {
+      "pattern": "bho",
+      "replacement": "ꕷ"
+    },
+    {
+      "pattern": "mbo",
+      "replacement": "ꕹ"
+    },
+    {
+      "pattern": "kpo",
+      "replacement": "ꕺ"
+    },
+    {
+      "pattern": "mgbo",
+      "replacement": "ꕻ"
+    },
+    {
+      "pattern": "gbo",
+      "replacement": "ꕼ"
+    },
+    {
+      "pattern": "fo",
+      "replacement": "ꕽ"
+    },
+    {
+      "pattern": "vo",
+      "replacement": "ꕾ"
+    },
+    {
+      "pattern": "to",
+      "replacement": "ꕿ"
+    },
+    {
+      "pattern": "tho",
+      "replacement": "ꖀ"
+    },
+    {
+      "pattern": "dho",
+      "replacement": "ꖂ"
+    },
+    {
+      "pattern": "ro",
+      "replacement": "ꖄ"
+    },
+    {
+      "pattern": "n[dD]o",
+      "replacement": "ꖆ"
+    },
+    {
+      "pattern": "(dl|D)o",
+      "replacement": "ꖅ"
+    },
+    {
+      "pattern": "so",
+      "replacement": "ꖇ"
+    },
+    {
+      "pattern": "sho",
+      "replacement": "ꖈ"
+    },
+    {
+      "pattern": "zo",
+      "replacement": "ꖉ"
+    },
+    {
+      "pattern": "zho",
+      "replacement": "ꖊ"
+    },
+    {
+      "pattern": "co",
+      "replacement": "ꖋ"
+    },
+    {
+      "pattern": "njo",
+      "replacement": "ꖍ"
+    },
+    {
+      "pattern": "ko",
+      "replacement": "ꖏ"
+    },
+    {
+      "pattern": "ngo",
+      "replacement": "ꖐ"
+    },
+    {
+      "pattern": "mo",
+      "replacement": "ꖒ"
+    },
+    {
+      "pattern": "no",
+      "replacement": "ꖓ"
+    },
+    {
+      "pattern": "nyo",
+      "replacement": "ꖔ"
+    },
+    {
+      "pattern": "ho",
+      "replacement": "ꕳ"
+    },
+    {
+      "pattern": "po",
+      "replacement": "ꕶ"
+    },
+    {
+      "pattern": "bo",
+      "replacement": "ꕸ"
+    },
+    {
+      "pattern": "do",
+      "replacement": "ꖁ"
+    },
+    {
+      "pattern": "lo",
+      "replacement": "ꖃ"
+    },
+    {
+      "pattern": "jo",
+      "replacement": "ꖌ"
+    },
+    {
+      "pattern": "yo",
+      "replacement": "ꖎ"
+    },
+    {
+      "pattern": "go",
+      "replacement": "ꖑ"
+    },
+    {
+      "pattern": "wu",
+      "replacement": "ꖙ"
+    },
+    {
+      "pattern": "ꖙ~",
+      "replacement": "ꖚ"
+    },
+    {
+      "pattern": "bhu",
+      "replacement": "ꖜ"
+    },
+    {
+      "pattern": "ꖗ~",
+      "replacement": "ꖘ"
+    },
+    {
+      "pattern": "mbu",
+      "replacement": "ꖞ"
+    },
+    {
+      "pattern": "kpu",
+      "replacement": "ꖟ"
+    },
+    {
+      "pattern": "mgbu",
+      "replacement": "ꖠ"
+    },
+    {
+      "pattern": "gbu",
+      "replacement": "ꖡ"
+    },
+    {
+      "pattern": "fu",
+      "replacement": "ꖢ"
+    },
+    {
+      "pattern": "vu",
+      "replacement": "ꖣ"
+    },
+    {
+      "pattern": "tu",
+      "replacement": "ꖤ"
+    },
+    {
+      "pattern": "thu",
+      "replacement": "ꖥ"
+    },
+    {
+      "pattern": "dhu",
+      "replacement": "ꖧ"
+    },
+    {
+      "pattern": "ru",
+      "replacement": "ꖩ"
+    },
+    {
+      "pattern": "n[dD]u",
+      "replacement": "ꖫ"
+    },
+    {
+      "pattern": "(dl|D)u",
+      "replacement": "ꖪ"
+    },
+    {
+      "pattern": "su",
+      "replacement": "ꖬ"
+    },
+    {
+      "pattern": "shu",
+      "replacement": "ꖭ"
+    },
+    {
+      "pattern": "zu",
+      "replacement": "ꖮ"
+    },
+    {
+      "pattern": "zhu",
+      "replacement": "ꖯ"
+    },
+    {
+      "pattern": "cu",
+      "replacement": "ꖰ"
+    },
+    {
+      "pattern": "nju",
+      "replacement": "ꖲ"
+    },
+    {
+      "pattern": "ku",
+      "replacement": "ꖴ"
+    },
+    {
+      "pattern": "ngu",
+      "replacement": "ꖵ"
+    },
+    {
+      "pattern": "mu",
+      "replacement": "ꖷ"
+    },
+    {
+      "pattern": "nu",
+      "replacement": "ꖸ"
+    },
+    {
+      "pattern": "nyu",
+      "replacement": "ꖹ"
+    },
+    {
+      "pattern": "hu",
+      "replacement": "ꖗ"
+    },
+    {
+      "pattern": "pu",
+      "replacement": "ꖛ"
+    },
+    {
+      "pattern": "bu",
+      "replacement": "ꖝ"
+    },
+    {
+      "pattern": "du",
+      "replacement": "ꖦ"
+    },
+    {
+      "pattern": "lu",
+      "replacement": "ꖨ"
+    },
+    {
+      "pattern": "ju",
+      "replacement": "ꖱ"
+    },
+    {
+      "pattern": "yu",
+      "replacement": "ꖳ"
+    },
+    {
+      "pattern": "gu",
+      "replacement": "ꖶ"
+    },
+    {
+      "pattern": "ꗜ~",
+      "replacement": "ꖼ"
+    },
+    {
+      "pattern": "w[xO]",
+      "replacement": "ꖿ"
+    },
+    {
+      "pattern": "ꖿ~",
+      "replacement": "ꗀ"
+    },
+    {
+      "pattern": "bh[xO]",
+      "replacement": "ꗂ"
+    },
+    {
+      "pattern": "ꖽ~",
+      "replacement": "ꖾ"
+    },
+    {
+      "pattern": "mb[xO]",
+      "replacement": "ꗄ"
+    },
+    {
+      "pattern": "kp[xO]",
+      "replacement": "ꗅ"
+    },
+    {
+      "pattern": "mgb[xO]",
+      "replacement": "ꗆ"
+    },
+    {
+      "pattern": "gb[xO]",
+      "replacement": "ꗇ"
+    },
+    {
+      "pattern": "ꗇ~",
+      "replacement": "ꗈ"
+    },
+    {
+      "pattern": "f[xO]",
+      "replacement": "ꗉ"
+    },
+    {
+      "pattern": "v[xO]",
+      "replacement": "ꗊ"
+    },
+    {
+      "pattern": "t[xO]",
+      "replacement": "ꗋ"
+    },
+    {
+      "pattern": "th[xO]",
+      "replacement": "ꗌ"
+    },
+    {
+      "pattern": "dh[xO]",
+      "replacement": "ꗎ"
+    },
+    {
+      "pattern": "r[xO]",
+      "replacement": "ꗐ"
+    },
+    {
+      "pattern": "n[dD][xO]",
+      "replacement": "ꗒ"
+    },
+    {
+      "pattern": "(dl|D)[xO]",
+      "replacement": "ꗑ"
+    },
+    {
+      "pattern": "s[xO]",
+      "replacement": "ꗓ"
+    },
+    {
+      "pattern": "sh[xO]",
+      "replacement": "ꗔ"
+    },
+    {
+      "pattern": "z[xO]",
+      "replacement": "ꗕ"
+    },
+    {
+      "pattern": "zh[xO]",
+      "replacement": "ꗖ"
+    },
+    {
+      "pattern": "c[xO]",
+      "replacement": "ꗗ"
+    },
+    {
+      "pattern": "nj[xO]",
+      "replacement": "ꗙ"
+    },
+    {
+      "pattern": "k[xO]",
+      "replacement": "ꗛ"
+    },
+    {
+      "pattern": "ng[xO]",
+      "replacement": "ꗜ"
+    },
+    {
+      "pattern": "m[xO]",
+      "replacement": "ꗞ"
+    },
+    {
+      "pattern": "n[xO]",
+      "replacement": "ꗟ"
+    },
+    {
+      "pattern": "ny[xO]",
+      "replacement": "ꗠ"
+    },
+    {
+      "pattern": "h[xO]",
+      "replacement": "ꖽ"
+    },
+    {
+      "pattern": "p[xO]",
+      "replacement": "ꗁ"
+    },
+    {
+      "pattern": "b[xO]",
+      "replacement": "ꗃ"
+    },
+    {
+      "pattern": "d[xO]",
+      "replacement": "ꗍ"
+    },
+    {
+      "pattern": "l[xO]",
+      "replacement": "ꗏ"
+    },
+    {
+      "pattern": "j[xO]",
+      "replacement": "ꗘ"
+    },
+    {
+      "pattern": "y[xO]",
+      "replacement": "ꗚ"
+    },
+    {
+      "pattern": "g[xO]",
+      "replacement": "ꗝ"
+    },
+    {
+      "pattern": "ꘄ~",
+      "replacement": "ng[qE]"
+    },
+    {
+      "pattern": "w[qE]",
+      "replacement": "ꗦ"
+    },
+    {
+      "pattern": "ꗦ~",
+      "replacement": "ꗧ"
+    },
+    {
+      "pattern": "bh[qE]",
+      "replacement": "ꗩ"
+    },
+    {
+      "pattern": "ꗤ~",
+      "replacement": "ꗥ"
+    },
+    {
+      "pattern": "mb[qE]",
+      "replacement": "ꗫ"
+    },
+    {
+      "pattern": "kp[qE]",
+      "replacement": "ꗬ"
+    },
+    {
+      "pattern": "ꗬ~",
+      "replacement": "ꗭ"
+    },
+    {
+      "pattern": "mgb[qE]",
+      "replacement": "ꗮ"
+    },
+    {
+      "pattern": "gb[qE]",
+      "replacement": "ꗯ"
+    },
+    {
+      "pattern": "ꗯ~",
+      "replacement": "ꗰ"
+    },
+    {
+      "pattern": "f[qE]",
+      "replacement": "ꗱ"
+    },
+    {
+      "pattern": "v[qE]",
+      "replacement": "ꗲ"
+    },
+    {
+      "pattern": "t[qE]",
+      "replacement": "ꗳ"
+    },
+    {
+      "pattern": "th[qE]",
+      "replacement": "ꗴ"
+    },
+    {
+      "pattern": "dh[qE]",
+      "replacement": "ꗶ"
+    },
+    {
+      "pattern": "r[qE]",
+      "replacement": "ꗸ"
+    },
+    {
+      "pattern": "n[dD][qE]",
+      "replacement": "ꗺ"
+    },
+    {
+      "pattern": "(dl|D)[qE]",
+      "replacement": "ꗹ"
+    },
+    {
+      "pattern": "s[qE]",
+      "replacement": "ꗻ"
+    },
+    {
+      "pattern": "sh[qE]",
+      "replacement": "ꗼ"
+    },
+    {
+      "pattern": "z[qE]",
+      "replacement": "ꗽ"
+    },
+    {
+      "pattern": "zh[qE]",
+      "replacement": "ꗾ"
+    },
+    {
+      "pattern": "c[qE]",
+      "replacement": "ꗿ"
+    },
+    {
+      "pattern": "nj[qE]",
+      "replacement": "ꘁ"
+    },
+    {
+      "pattern": "k[qE]",
+      "replacement": "ꘃ"
+    },
+    {
+      "pattern": "ngg?[qE]",
+      "replacement": "ꘄ"
+    },
+    {
+      "pattern": "ꘄ~",
+      "replacement": "gg[qE]"
+    },
+    {
+      "pattern": "ꘆ~",
+      "replacement": "ꘇ"
+    },
+    {
+      "pattern": "m[qE]",
+      "replacement": "ꘈ"
+    },
+    {
+      "pattern": "n[qE]",
+      "replacement": "ꘉ"
+    },
+    {
+      "pattern": "ny[qE]",
+      "replacement": "ꘊ"
+    },
+    {
+      "pattern": "h[qE]",
+      "replacement": "ꗤ"
+    },
+    {
+      "pattern": "p[qE]",
+      "replacement": "ꗨ"
+    },
+    {
+      "pattern": "b[qE]",
+      "replacement": "ꗪ"
+    },
+    {
+      "pattern": "d[qE]",
+      "replacement": "ꗵ"
+    },
+    {
+      "pattern": "l[qE]",
+      "replacement": "ꗷ"
+    },
+    {
+      "pattern": "j[qE]",
+      "replacement": "ꘀ"
+    },
+    {
+      "pattern": "y[qE]",
+      "replacement": "ꘂ"
+    },
+    {
+      "pattern": "g[qE]",
+      "replacement": "ꘆ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ꔀ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ꔤ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ꕉ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ꕱ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ꖕ"
+    },
+    {
+      "pattern": "[xO]",
+      "replacement": "ꖺ"
+    },
+    {
+      "pattern": "[qE]",
+      "replacement": "ꗡ"
+    },
+    {
+      "pattern": "ꔀ~",
+      "replacement": "ꔁ"
+    },
+    {
+      "pattern": "ꔤ~",
+      "replacement": "ꔥ"
+    },
+    {
+      "pattern": "ꕉ~",
+      "replacement": "ꕊ"
+    },
+    {
+      "pattern": "ꕱ~",
+      "replacement": "ꕲ"
+    },
+    {
+      "pattern": "ꖕ~",
+      "replacement": "ꖖ"
+    },
+    {
+      "pattern": "ꖺ~",
+      "replacement": "ꖻ"
+    },
+    {
+      "pattern": "ꗡ~",
+      "replacement": "ꗢ"
+    }
+  ]
+}

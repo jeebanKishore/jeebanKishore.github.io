@@ -1,0 +1,124 @@
+{
+  "id": "ku-h",
+  "name": "Kurdî-h",
+  "description": "writing Kurdish-letters adding h's",
+  "date": "2013-06-26",
+  "author": "Ghybu",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "rules": [
+    {
+      "pattern": "çh",
+      "replacement": "h"
+    },
+    {
+      "pattern": "şh",
+      "replacement": "h"
+    },
+    {
+      "pattern": "ḧh",
+      "replacement": "h"
+    },
+    {
+      "pattern": "ẍh",
+      "replacement": "h"
+    },
+    {
+      "pattern": "êe",
+      "replacement": "e"
+    },
+    {
+      "pattern": "îi",
+      "replacement": "i"
+    },
+    {
+      "pattern": "ûu",
+      "replacement": "u"
+    },
+    {
+      "pattern": "Ç(H|h)",
+      "replacement": "(H|h)"
+    },
+    {
+      "pattern": "Ş(H|h)",
+      "replacement": "(H|h)"
+    },
+    {
+      "pattern": "Ḧ(H|h)",
+      "replacement": "(H|h)"
+    },
+    {
+      "pattern": "Ẍ(H|h)",
+      "replacement": "(H|h)"
+    },
+    {
+      "pattern": "Ê(E|e)",
+      "replacement": "(E|e)"
+    },
+    {
+      "pattern": "Î(I|i)",
+      "replacement": "(I|i)"
+    },
+    {
+      "pattern": "Û(U|u)",
+      "replacement": "(U|u)"
+    },
+    {
+      "pattern": "ch",
+      "replacement": "ç"
+    },
+    {
+      "pattern": "sh",
+      "replacement": "ş"
+    },
+    {
+      "pattern": "hh",
+      "replacement": "ḧ"
+    },
+    {
+      "pattern": "xh",
+      "replacement": "ẍ"
+    },
+    {
+      "pattern": "ee",
+      "replacement": "ê"
+    },
+    {
+      "pattern": "ii",
+      "replacement": "î"
+    },
+    {
+      "pattern": "uu",
+      "replacement": "û"
+    },
+    {
+      "pattern": "C(H|h)",
+      "replacement": "Ç"
+    },
+    {
+      "pattern": "S(H|h)",
+      "replacement": "Ş"
+    },
+    {
+      "pattern": "H(H|h)",
+      "replacement": "Ḧ"
+    },
+    {
+      "pattern": "X(H|h)",
+      "replacement": "Ẍ"
+    },
+    {
+      "pattern": "E(E|e)",
+      "replacement": "Ê"
+    },
+    {
+      "pattern": "I(I|i)",
+      "replacement": "Î"
+    },
+    {
+      "pattern": "U(U|u)",
+      "replacement": "Û"
+    }
+  ]
+}

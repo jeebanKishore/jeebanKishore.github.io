@@ -1,0 +1,238 @@
+{
+  "id": "bbc-transliteration",
+  "name": "Toba Transliteration",
+  "description": "QWERTY-based Batak Toba transliteration",
+  "date": "2014-04-20",
+  "author": "design by Michael Everson, implementation by Amir E. Aharoni and Benny Lin",
+  "version": "1.1",
+  "rules": [
+    {
+      "pattern": "q",
+      "replacement": "ᯥ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ᯋ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ᯧ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ᯒ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ᯖ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ᯛ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ᯮ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ᯪ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ᯬ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ᯇ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ᯀ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ᯘ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ᯑ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "᯲"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ᯎ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ᯂ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ᯐ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ᯤ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ᯞ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ᯝ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ᯢ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ᯡ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ᯣ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ᯅ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ᯉ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ᯔ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ᯍ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ᯌ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ᯨ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ᯓ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ᯗ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ᯜ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ᯯ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ᯫ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ᯭ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ᯈ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ᯁ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ᯙ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ᯩ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "᯳"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ᯏ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ᯃ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ᯄ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ᯱ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ᯟ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ᯚ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ᯰ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ᯠ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "᯦"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ᯆ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ᯊ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ᯕ"
+    },
+    {
+      "pattern": "4",
+      "replacement": "᯼",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "᯽",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "᯾",
+      "context": "x"
+    },
+    {
+      "pattern": "7",
+      "replacement": "᯿",
+      "context": "x"
+    }
+  ]
+}

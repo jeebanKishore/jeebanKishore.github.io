@@ -1,0 +1,1405 @@
+{
+  "id": "tig-geezim",
+  "name": "Tigre GeezIM",
+  "description": "Tigre input method based on GeezIME scheme",
+  "date": "2017-01-22",
+  "author": "Fitsum Gaim, <fitsum@geezlab.com>",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "h",
+      "replacement": "ህ"
+    },
+    {
+      "pattern": "(l|L)",
+      "replacement": "ል"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ሕ"
+    },
+    {
+      "pattern": "(m|M)",
+      "replacement": "ም"
+    },
+    {
+      "pattern": "(r|R)",
+      "replacement": "ር"
+    },
+    {
+      "pattern": "ስs",
+      "replacement": "ሥ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ስ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ሽ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ቅ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ቕ"
+    },
+    {
+      "pattern": "(b|B)",
+      "replacement": "ብ"
+    },
+    {
+      "pattern": "(v|V)",
+      "replacement": "ቭ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ት"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ች"
+    },
+    {
+      "pattern": "ህh",
+      "replacement": "ኅ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ን"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ኝ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ክ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ኽ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ው"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ዝ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ዥ"
+    },
+    {
+      "pattern": "(y|Y)",
+      "replacement": "ይ"
+    },
+    {
+      "pattern": "(d|D)",
+      "replacement": "ድ"
+    },
+    {
+      "pattern": "(j|J)",
+      "replacement": "ጅ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ግ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ጝ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ጥ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ጭ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ጵ"
+    },
+    {
+      "pattern": "(x|X)",
+      "replacement": "ጽ"
+    },
+    {
+      "pattern": "(ጽx|ጽX)",
+      "replacement": "ፅ"
+    },
+    {
+      "pattern": "(f|F)",
+      "replacement": "ፍ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ፕ"
+    },
+    {
+      "pattern": "ህe",
+      "replacement": "ሀ"
+    },
+    {
+      "pattern": "ህu",
+      "replacement": "ሁ"
+    },
+    {
+      "pattern": "ህi",
+      "replacement": "ሂ"
+    },
+    {
+      "pattern": "ህa",
+      "replacement": "ሃ"
+    },
+    {
+      "pattern": "(ሂe|ህE)",
+      "replacement": "ሄ"
+    },
+    {
+      "pattern": "ህo",
+      "replacement": "ሆ"
+    },
+    {
+      "pattern": "ልe",
+      "replacement": "ለ"
+    },
+    {
+      "pattern": "ልu",
+      "replacement": "ሉ"
+    },
+    {
+      "pattern": "ልi",
+      "replacement": "ሊ"
+    },
+    {
+      "pattern": "ልa",
+      "replacement": "ላ"
+    },
+    {
+      "pattern": "(ሊe|ልE)",
+      "replacement": "ሌ"
+    },
+    {
+      "pattern": "ልo",
+      "replacement": "ሎ"
+    },
+    {
+      "pattern": "ሉa",
+      "replacement": "ሏ"
+    },
+    {
+      "pattern": "ሕe",
+      "replacement": "ሐ"
+    },
+    {
+      "pattern": "ሕu",
+      "replacement": "ሑ"
+    },
+    {
+      "pattern": "ሕi",
+      "replacement": "ሒ"
+    },
+    {
+      "pattern": "ሕa",
+      "replacement": "ሓ"
+    },
+    {
+      "pattern": "(ሒe|ሕE)",
+      "replacement": "ሔ"
+    },
+    {
+      "pattern": "ሕo",
+      "replacement": "ሖ"
+    },
+    {
+      "pattern": "ሑa",
+      "replacement": "ሗ"
+    },
+    {
+      "pattern": "ምe",
+      "replacement": "መ"
+    },
+    {
+      "pattern": "ምu",
+      "replacement": "ሙ"
+    },
+    {
+      "pattern": "ምi",
+      "replacement": "ሚ"
+    },
+    {
+      "pattern": "ምa",
+      "replacement": "ማ"
+    },
+    {
+      "pattern": "(ሚe|ምE)",
+      "replacement": "ሜ"
+    },
+    {
+      "pattern": "ምo",
+      "replacement": "ሞ"
+    },
+    {
+      "pattern": "ሙa",
+      "replacement": "ሟ"
+    },
+    {
+      "pattern": "ርe",
+      "replacement": "ረ"
+    },
+    {
+      "pattern": "ርu",
+      "replacement": "ሩ"
+    },
+    {
+      "pattern": "ርi",
+      "replacement": "ሪ"
+    },
+    {
+      "pattern": "ርa",
+      "replacement": "ራ"
+    },
+    {
+      "pattern": "(ሪe|ርE)",
+      "replacement": "ሬ"
+    },
+    {
+      "pattern": "ርo",
+      "replacement": "ሮ"
+    },
+    {
+      "pattern": "ሩa",
+      "replacement": "ሯ"
+    },
+    {
+      "pattern": "ሥe",
+      "replacement": "ሠ"
+    },
+    {
+      "pattern": "ሥu",
+      "replacement": "ሡ"
+    },
+    {
+      "pattern": "ሥi",
+      "replacement": "ሢ"
+    },
+    {
+      "pattern": "ሥa",
+      "replacement": "ሣ"
+    },
+    {
+      "pattern": "(ሢe|ሥE)",
+      "replacement": "ሤ"
+    },
+    {
+      "pattern": "ሥo",
+      "replacement": "ሦ"
+    },
+    {
+      "pattern": "ሡa",
+      "replacement": "ሧ"
+    },
+    {
+      "pattern": "ስe",
+      "replacement": "ሰ"
+    },
+    {
+      "pattern": "ስu",
+      "replacement": "ሱ"
+    },
+    {
+      "pattern": "ስi",
+      "replacement": "ሲ"
+    },
+    {
+      "pattern": "ስa",
+      "replacement": "ሳ"
+    },
+    {
+      "pattern": "(ሲe|ስE)",
+      "replacement": "ሴ"
+    },
+    {
+      "pattern": "ስo",
+      "replacement": "ሶ"
+    },
+    {
+      "pattern": "ሱa",
+      "replacement": "ሷ"
+    },
+    {
+      "pattern": "ሽe",
+      "replacement": "ሸ"
+    },
+    {
+      "pattern": "ሽu",
+      "replacement": "ሹ"
+    },
+    {
+      "pattern": "ሽi",
+      "replacement": "ሺ"
+    },
+    {
+      "pattern": "ሽa",
+      "replacement": "ሻ"
+    },
+    {
+      "pattern": "(ሺe|ሽE)",
+      "replacement": "ሼ"
+    },
+    {
+      "pattern": "ሽo",
+      "replacement": "ሾ"
+    },
+    {
+      "pattern": "ሹa",
+      "replacement": "ሿ"
+    },
+    {
+      "pattern": "ቅe",
+      "replacement": "ቀ"
+    },
+    {
+      "pattern": "ቅu",
+      "replacement": "ቁ"
+    },
+    {
+      "pattern": "ቅi",
+      "replacement": "ቂ"
+    },
+    {
+      "pattern": "ቅa",
+      "replacement": "ቃ"
+    },
+    {
+      "pattern": "(ቂe|ቅE)",
+      "replacement": "ቄ"
+    },
+    {
+      "pattern": "ቅo",
+      "replacement": "ቆ"
+    },
+    {
+      "pattern": "ቁe",
+      "replacement": "ቈ"
+    },
+    {
+      "pattern": "ቁi",
+      "replacement": "ቊ"
+    },
+    {
+      "pattern": "ቁa",
+      "replacement": "ቋ"
+    },
+    {
+      "pattern": "ቊe",
+      "replacement": "ቌ"
+    },
+    {
+      "pattern": "ቅW",
+      "replacement": "ቍ"
+    },
+    {
+      "pattern": "ቕe",
+      "replacement": "ቐ"
+    },
+    {
+      "pattern": "ቕu",
+      "replacement": "ቑ"
+    },
+    {
+      "pattern": "ቕi",
+      "replacement": "ቒ"
+    },
+    {
+      "pattern": "ቕa",
+      "replacement": "ቓ"
+    },
+    {
+      "pattern": "(ቒe|ቕE)",
+      "replacement": "ቔ"
+    },
+    {
+      "pattern": "ቕo",
+      "replacement": "ቖ"
+    },
+    {
+      "pattern": "ቑe",
+      "replacement": "ቘ"
+    },
+    {
+      "pattern": "ቑi",
+      "replacement": "ቚ"
+    },
+    {
+      "pattern": "ቑa",
+      "replacement": "ቛ"
+    },
+    {
+      "pattern": "ቚe",
+      "replacement": "ቜ"
+    },
+    {
+      "pattern": "ቕW",
+      "replacement": "ቝ"
+    },
+    {
+      "pattern": "ብe",
+      "replacement": "በ"
+    },
+    {
+      "pattern": "ብu",
+      "replacement": "ቡ"
+    },
+    {
+      "pattern": "ብi",
+      "replacement": "ቢ"
+    },
+    {
+      "pattern": "ብa",
+      "replacement": "ባ"
+    },
+    {
+      "pattern": "(ቢe|ብE)",
+      "replacement": "ቤ"
+    },
+    {
+      "pattern": "ብo",
+      "replacement": "ቦ"
+    },
+    {
+      "pattern": "ቡa",
+      "replacement": "ቧ"
+    },
+    {
+      "pattern": "ቭe",
+      "replacement": "ቨ"
+    },
+    {
+      "pattern": "ቭu",
+      "replacement": "ቩ"
+    },
+    {
+      "pattern": "ቭi",
+      "replacement": "ቪ"
+    },
+    {
+      "pattern": "ቭa",
+      "replacement": "ቫ"
+    },
+    {
+      "pattern": "(ቪe|ቭE)",
+      "replacement": "ቬ"
+    },
+    {
+      "pattern": "ቭo",
+      "replacement": "ቮ"
+    },
+    {
+      "pattern": "ቩa",
+      "replacement": "ቯ"
+    },
+    {
+      "pattern": "ትe",
+      "replacement": "ተ"
+    },
+    {
+      "pattern": "ትu",
+      "replacement": "ቱ"
+    },
+    {
+      "pattern": "ትi",
+      "replacement": "ቲ"
+    },
+    {
+      "pattern": "ትa",
+      "replacement": "ታ"
+    },
+    {
+      "pattern": "(ቲe|ትE)",
+      "replacement": "ቴ"
+    },
+    {
+      "pattern": "ትo",
+      "replacement": "ቶ"
+    },
+    {
+      "pattern": "ቱa",
+      "replacement": "ቷ"
+    },
+    {
+      "pattern": "ችe",
+      "replacement": "ቸ"
+    },
+    {
+      "pattern": "ችu",
+      "replacement": "ቹ"
+    },
+    {
+      "pattern": "ችi",
+      "replacement": "ቺ"
+    },
+    {
+      "pattern": "ችa",
+      "replacement": "ቻ"
+    },
+    {
+      "pattern": "(ቺe|ችE)",
+      "replacement": "ቼ"
+    },
+    {
+      "pattern": "ችo",
+      "replacement": "ቾ"
+    },
+    {
+      "pattern": "ቹa",
+      "replacement": "ቿ"
+    },
+    {
+      "pattern": "ኅe",
+      "replacement": "ኀ"
+    },
+    {
+      "pattern": "ኅu",
+      "replacement": "ኁ"
+    },
+    {
+      "pattern": "ኅi",
+      "replacement": "ኂ"
+    },
+    {
+      "pattern": "ኅa",
+      "replacement": "ኃ"
+    },
+    {
+      "pattern": "(ኂe|ኅE)",
+      "replacement": "ኄ"
+    },
+    {
+      "pattern": "ኅo",
+      "replacement": "ኆ"
+    },
+    {
+      "pattern": "ኁe",
+      "replacement": "ኈ"
+    },
+    {
+      "pattern": "ኈi",
+      "replacement": "ኊ"
+    },
+    {
+      "pattern": "ኈa",
+      "replacement": "ኋ"
+    },
+    {
+      "pattern": "ኊe",
+      "replacement": "ኌ"
+    },
+    {
+      "pattern": "ኅW",
+      "replacement": "ኍ"
+    },
+    {
+      "pattern": "ንe",
+      "replacement": "ነ"
+    },
+    {
+      "pattern": "ንu",
+      "replacement": "ኑ"
+    },
+    {
+      "pattern": "ንi",
+      "replacement": "ኒ"
+    },
+    {
+      "pattern": "ንa",
+      "replacement": "ና"
+    },
+    {
+      "pattern": "(ኒe|ንE)",
+      "replacement": "ኔ"
+    },
+    {
+      "pattern": "ንo",
+      "replacement": "ኖ"
+    },
+    {
+      "pattern": "ኑa",
+      "replacement": "ኗ"
+    },
+    {
+      "pattern": "ኝe",
+      "replacement": "ኘ"
+    },
+    {
+      "pattern": "ኝu",
+      "replacement": "ኙ"
+    },
+    {
+      "pattern": "ኝi",
+      "replacement": "ኚ"
+    },
+    {
+      "pattern": "ኝa",
+      "replacement": "ኛ"
+    },
+    {
+      "pattern": "(ኚe|ኝE)",
+      "replacement": "ኜ"
+    },
+    {
+      "pattern": "ኝo",
+      "replacement": "ኞ"
+    },
+    {
+      "pattern": "ኙa",
+      "replacement": "ኟ"
+    },
+    {
+      "pattern": "ክe",
+      "replacement": "ከ"
+    },
+    {
+      "pattern": "ክu",
+      "replacement": "ኩ"
+    },
+    {
+      "pattern": "ክi",
+      "replacement": "ኪ"
+    },
+    {
+      "pattern": "ክa",
+      "replacement": "ካ"
+    },
+    {
+      "pattern": "(ኪe|ክE)",
+      "replacement": "ኬ"
+    },
+    {
+      "pattern": "ክo",
+      "replacement": "ኮ"
+    },
+    {
+      "pattern": "ኩe",
+      "replacement": "ኰ"
+    },
+    {
+      "pattern": "ኩi",
+      "replacement": "ኲ"
+    },
+    {
+      "pattern": "ኩa",
+      "replacement": "ኳ"
+    },
+    {
+      "pattern": "ኲe",
+      "replacement": "ኴ"
+    },
+    {
+      "pattern": "ክW",
+      "replacement": "ኵ"
+    },
+    {
+      "pattern": "ኽe",
+      "replacement": "ኸ"
+    },
+    {
+      "pattern": "ኽu",
+      "replacement": "ኹ"
+    },
+    {
+      "pattern": "ኽi",
+      "replacement": "ኺ"
+    },
+    {
+      "pattern": "ኽa",
+      "replacement": "ኻ"
+    },
+    {
+      "pattern": "(ኺe|ኽE)",
+      "replacement": "ኼ"
+    },
+    {
+      "pattern": "ኽo",
+      "replacement": "ኾ"
+    },
+    {
+      "pattern": "ኹe",
+      "replacement": "ዀ"
+    },
+    {
+      "pattern": "ኹi",
+      "replacement": "ዂ"
+    },
+    {
+      "pattern": "ኹa",
+      "replacement": "ዃ"
+    },
+    {
+      "pattern": "ዂe",
+      "replacement": "ዄ"
+    },
+    {
+      "pattern": "ኽW",
+      "replacement": "ዅ"
+    },
+    {
+      "pattern": "ውe",
+      "replacement": "ወ"
+    },
+    {
+      "pattern": "ውu",
+      "replacement": "ዉ"
+    },
+    {
+      "pattern": "ውi",
+      "replacement": "ዊ"
+    },
+    {
+      "pattern": "ውa",
+      "replacement": "ዋ"
+    },
+    {
+      "pattern": "(ዊe|ውE)",
+      "replacement": "ዌ"
+    },
+    {
+      "pattern": "ውo",
+      "replacement": "ዎ"
+    },
+    {
+      "pattern": "ዝe",
+      "replacement": "ዘ"
+    },
+    {
+      "pattern": "ዝu",
+      "replacement": "ዙ"
+    },
+    {
+      "pattern": "ዝi",
+      "replacement": "ዚ"
+    },
+    {
+      "pattern": "ዝa",
+      "replacement": "ዛ"
+    },
+    {
+      "pattern": "(ዚe|ዝE)",
+      "replacement": "ዜ"
+    },
+    {
+      "pattern": "ዝo",
+      "replacement": "ዞ"
+    },
+    {
+      "pattern": "ዙa",
+      "replacement": "ዟ"
+    },
+    {
+      "pattern": "ዥe",
+      "replacement": "ዠ"
+    },
+    {
+      "pattern": "ዥu",
+      "replacement": "ዡ"
+    },
+    {
+      "pattern": "ዥi",
+      "replacement": "ዢ"
+    },
+    {
+      "pattern": "ዥa",
+      "replacement": "ዣ"
+    },
+    {
+      "pattern": "(ዢe|ዥE)",
+      "replacement": "ዤ"
+    },
+    {
+      "pattern": "ዥo",
+      "replacement": "ዦ"
+    },
+    {
+      "pattern": "ዡa",
+      "replacement": "ዧ"
+    },
+    {
+      "pattern": "ይe",
+      "replacement": "የ"
+    },
+    {
+      "pattern": "ይu",
+      "replacement": "ዩ"
+    },
+    {
+      "pattern": "ይi",
+      "replacement": "ዪ"
+    },
+    {
+      "pattern": "ይa",
+      "replacement": "ያ"
+    },
+    {
+      "pattern": "(ዪe|ይE)",
+      "replacement": "ዬ"
+    },
+    {
+      "pattern": "ይo",
+      "replacement": "ዮ"
+    },
+    {
+      "pattern": "ድe",
+      "replacement": "ደ"
+    },
+    {
+      "pattern": "ድu",
+      "replacement": "ዱ"
+    },
+    {
+      "pattern": "ድi",
+      "replacement": "ዲ"
+    },
+    {
+      "pattern": "ድa",
+      "replacement": "ዳ"
+    },
+    {
+      "pattern": "(ዲe|ድE)",
+      "replacement": "ዴ"
+    },
+    {
+      "pattern": "ድo",
+      "replacement": "ዶ"
+    },
+    {
+      "pattern": "ዱa",
+      "replacement": "ዷ"
+    },
+    {
+      "pattern": "ጅe",
+      "replacement": "ጀ"
+    },
+    {
+      "pattern": "ጅu",
+      "replacement": "ጁ"
+    },
+    {
+      "pattern": "ጅi",
+      "replacement": "ጂ"
+    },
+    {
+      "pattern": "ጅa",
+      "replacement": "ጃ"
+    },
+    {
+      "pattern": "(ጂe|ጅE)",
+      "replacement": "ጄ"
+    },
+    {
+      "pattern": "ጅo",
+      "replacement": "ጆ"
+    },
+    {
+      "pattern": "ጁa",
+      "replacement": "ጇ"
+    },
+    {
+      "pattern": "ግe",
+      "replacement": "ገ"
+    },
+    {
+      "pattern": "ግu",
+      "replacement": "ጉ"
+    },
+    {
+      "pattern": "ግi",
+      "replacement": "ጊ"
+    },
+    {
+      "pattern": "ግa",
+      "replacement": "ጋ"
+    },
+    {
+      "pattern": "(ጊe|ግE)",
+      "replacement": "ጌ"
+    },
+    {
+      "pattern": "ግo",
+      "replacement": "ጎ"
+    },
+    {
+      "pattern": "ጉe",
+      "replacement": "ጐ"
+    },
+    {
+      "pattern": "ጉi",
+      "replacement": "ጒ"
+    },
+    {
+      "pattern": "ጉa",
+      "replacement": "ጓ"
+    },
+    {
+      "pattern": "ጒe",
+      "replacement": "ጔ"
+    },
+    {
+      "pattern": "ግW",
+      "replacement": "ጕ"
+    },
+    {
+      "pattern": "ጝe",
+      "replacement": "ጘ"
+    },
+    {
+      "pattern": "ጝu",
+      "replacement": "ጙ"
+    },
+    {
+      "pattern": "ጝi",
+      "replacement": "ጚ"
+    },
+    {
+      "pattern": "ጝa",
+      "replacement": "ጛ"
+    },
+    {
+      "pattern": "(ጚe|ጝE)",
+      "replacement": "ጜ"
+    },
+    {
+      "pattern": "ጝo",
+      "replacement": "ጞ"
+    },
+    {
+      "pattern": "ጙe",
+      "replacement": "ⶓ"
+    },
+    {
+      "pattern": "ጙi",
+      "replacement": "ⶔ"
+    },
+    {
+      "pattern": "ጙa",
+      "replacement": "ጟ"
+    },
+    {
+      "pattern": "(ⶔe|ⶔE)",
+      "replacement": "ⶕ"
+    },
+    {
+      "pattern": "ጝW",
+      "replacement": "ⶖ"
+    },
+    {
+      "pattern": "ጥe",
+      "replacement": "ጠ"
+    },
+    {
+      "pattern": "ጥu",
+      "replacement": "ጡ"
+    },
+    {
+      "pattern": "ጥi",
+      "replacement": "ጢ"
+    },
+    {
+      "pattern": "ጥa",
+      "replacement": "ጣ"
+    },
+    {
+      "pattern": "(ጢe|ጥE)",
+      "replacement": "ጤ"
+    },
+    {
+      "pattern": "ጥo",
+      "replacement": "ጦ"
+    },
+    {
+      "pattern": "ጡa",
+      "replacement": "ጧ"
+    },
+    {
+      "pattern": "ጭe",
+      "replacement": "ጨ"
+    },
+    {
+      "pattern": "ጭu",
+      "replacement": "ጩ"
+    },
+    {
+      "pattern": "ጭi",
+      "replacement": "ጪ"
+    },
+    {
+      "pattern": "ጭa",
+      "replacement": "ጫ"
+    },
+    {
+      "pattern": "(ጪe|ጭE)",
+      "replacement": "ጬ"
+    },
+    {
+      "pattern": "ጭo",
+      "replacement": "ጮ"
+    },
+    {
+      "pattern": "ጩa",
+      "replacement": "ጯ"
+    },
+    {
+      "pattern": "ጵe",
+      "replacement": "ጰ"
+    },
+    {
+      "pattern": "ጵu",
+      "replacement": "ጱ"
+    },
+    {
+      "pattern": "ጵi",
+      "replacement": "ጲ"
+    },
+    {
+      "pattern": "ጵa",
+      "replacement": "ጳ"
+    },
+    {
+      "pattern": "(ጲe|ጵE)",
+      "replacement": "ጴ"
+    },
+    {
+      "pattern": "ጵo",
+      "replacement": "ጶ"
+    },
+    {
+      "pattern": "ጱa",
+      "replacement": "ጷ"
+    },
+    {
+      "pattern": "ጽe",
+      "replacement": "ጸ"
+    },
+    {
+      "pattern": "ጽu",
+      "replacement": "ጹ"
+    },
+    {
+      "pattern": "ጽi",
+      "replacement": "ጺ"
+    },
+    {
+      "pattern": "ጽa",
+      "replacement": "ጻ"
+    },
+    {
+      "pattern": "(ጺe|ጽE)",
+      "replacement": "ጼ"
+    },
+    {
+      "pattern": "ጽo",
+      "replacement": "ጾ"
+    },
+    {
+      "pattern": "ጹa",
+      "replacement": "ጿ"
+    },
+    {
+      "pattern": "ፅe",
+      "replacement": "ፀ"
+    },
+    {
+      "pattern": "ፅu",
+      "replacement": "ፁ"
+    },
+    {
+      "pattern": "ፅi",
+      "replacement": "ፂ"
+    },
+    {
+      "pattern": "ፅa",
+      "replacement": "ፃ"
+    },
+    {
+      "pattern": "(ፂe|ፅE)",
+      "replacement": "ፄ"
+    },
+    {
+      "pattern": "ፅo",
+      "replacement": "ፆ"
+    },
+    {
+      "pattern": "ፍe",
+      "replacement": "ፈ"
+    },
+    {
+      "pattern": "ፍu",
+      "replacement": "ፉ"
+    },
+    {
+      "pattern": "ፍi",
+      "replacement": "ፊ"
+    },
+    {
+      "pattern": "ፍa",
+      "replacement": "ፋ"
+    },
+    {
+      "pattern": "(ፈe|ፍE)",
+      "replacement": "ፌ"
+    },
+    {
+      "pattern": "ፍo",
+      "replacement": "ፎ"
+    },
+    {
+      "pattern": "ፉa",
+      "replacement": "ፏ"
+    },
+    {
+      "pattern": "ፕe",
+      "replacement": "ፐ"
+    },
+    {
+      "pattern": "ፕu",
+      "replacement": "ፑ"
+    },
+    {
+      "pattern": "ፕi",
+      "replacement": "ፒ"
+    },
+    {
+      "pattern": "ፕa",
+      "replacement": "ፓ"
+    },
+    {
+      "pattern": "(ፒe|ፕE)",
+      "replacement": "ፔ"
+    },
+    {
+      "pattern": "ፕo",
+      "replacement": "ፖ"
+    },
+    {
+      "pattern": "ፑa",
+      "replacement": "ፗ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ዕ"
+    },
+    {
+      "pattern": "ዕe",
+      "replacement": "ዐ"
+    },
+    {
+      "pattern": "ዕu",
+      "replacement": "ዑ"
+    },
+    {
+      "pattern": "ዕi",
+      "replacement": "ዒ"
+    },
+    {
+      "pattern": "ዕa",
+      "replacement": "ዓ"
+    },
+    {
+      "pattern": "(ዒe|ዕE)",
+      "replacement": "ዔ"
+    },
+    {
+      "pattern": "ዕo",
+      "replacement": "ዖ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "እ"
+    },
+    {
+      "pattern": "(እu|u)",
+      "replacement": "ኡ"
+    },
+    {
+      "pattern": "(እi|i)",
+      "replacement": "ኢ"
+    },
+    {
+      "pattern": "(እa|a)",
+      "replacement": "ኣ"
+    },
+    {
+      "pattern": "(ኢe|እE)",
+      "replacement": "ኤ"
+    },
+    {
+      "pattern": "(እe|e)",
+      "replacement": "አ"
+    },
+    {
+      "pattern": "(እo|o)",
+      "replacement": "ኦ"
+    },
+    {
+      "pattern": "አa",
+      "replacement": "ኧ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "፣"
+    },
+    {
+      "pattern": "።\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": "(\\.|፡;)",
+      "replacement": "።"
+    },
+    {
+      "pattern": "\\;",
+      "replacement": "፡"
+    },
+    {
+      "pattern": "\\?\\?",
+      "replacement": "፧"
+    },
+    {
+      "pattern": "፡-",
+      "replacement": "፦"
+    },
+    {
+      "pattern": "።-",
+      "replacement": "፨"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "፤"
+    },
+    {
+      "pattern": "1^",
+      "replacement": "፩"
+    },
+    {
+      "pattern": "2^",
+      "replacement": "፪"
+    },
+    {
+      "pattern": "3^",
+      "replacement": "፫"
+    },
+    {
+      "pattern": "4^",
+      "replacement": "፬"
+    },
+    {
+      "pattern": "5^",
+      "replacement": "፭"
+    },
+    {
+      "pattern": "6^",
+      "replacement": "፮"
+    },
+    {
+      "pattern": "7^",
+      "replacement": "፯"
+    },
+    {
+      "pattern": "8^",
+      "replacement": "፰"
+    },
+    {
+      "pattern": "9^",
+      "replacement": "፱"
+    },
+    {
+      "pattern": "፩0",
+      "replacement": "፲"
+    },
+    {
+      "pattern": "፪0",
+      "replacement": "፳"
+    },
+    {
+      "pattern": "፫0",
+      "replacement": "፴"
+    },
+    {
+      "pattern": "፬0",
+      "replacement": "፵"
+    },
+    {
+      "pattern": "፭0",
+      "replacement": "፶"
+    },
+    {
+      "pattern": "፮0",
+      "replacement": "፷"
+    },
+    {
+      "pattern": "፯0",
+      "replacement": "፸"
+    },
+    {
+      "pattern": "፰0",
+      "replacement": "፹"
+    },
+    {
+      "pattern": "፱0",
+      "replacement": "፺"
+    },
+    {
+      "pattern": "፲0",
+      "replacement": "፻"
+    },
+    {
+      "pattern": "፳0",
+      "replacement": "፪፻"
+    },
+    {
+      "pattern": "፴0",
+      "replacement": "፫፻"
+    },
+    {
+      "pattern": "፵0",
+      "replacement": "፬፻"
+    },
+    {
+      "pattern": "፶0",
+      "replacement": "፭፻"
+    },
+    {
+      "pattern": "፷0",
+      "replacement": "፮፻"
+    },
+    {
+      "pattern": "፸0",
+      "replacement": "፯፻"
+    },
+    {
+      "pattern": "፹0",
+      "replacement": "፰፻"
+    },
+    {
+      "pattern": "፺0",
+      "replacement": "፱፻"
+    },
+    {
+      "pattern": "፻0",
+      "replacement": "፲፻"
+    },
+    {
+      "pattern": "፲፻0",
+      "replacement": "፼"
+    }
+  ]
+}

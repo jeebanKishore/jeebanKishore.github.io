@@ -1,0 +1,97 @@
+{
+  "id": "da-normforms",
+  "name": "Dansk",
+  "description": "Danish input method with most common form transliterated",
+  "date": "2012-12-04",
+  "author": "John Erling Blad",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 3,
+  "rules": [
+    {
+      "pattern": "aa",
+      "replacement": "å"
+    },
+    {
+      "pattern": "AA",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "Aa",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "ae",
+      "replacement": "æ"
+    },
+    {
+      "pattern": "AE",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "Ae",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "oe",
+      "replacement": "ø"
+    },
+    {
+      "pattern": "OE",
+      "replacement": "Ø"
+    },
+    {
+      "pattern": "Oe",
+      "replacement": "Ø"
+    },
+    {
+      "pattern": "åa",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ÅA",
+      "replacement": "A"
+    },
+    {
+      "pattern": "Åa",
+      "replacement": "A"
+    },
+    {
+      "pattern": "åA",
+      "replacement": "a"
+    },
+    {
+      "pattern": "æe",
+      "replacement": "e"
+    },
+    {
+      "pattern": "ÆE",
+      "replacement": "E"
+    },
+    {
+      "pattern": "Æe",
+      "replacement": "E"
+    },
+    {
+      "pattern": "æE",
+      "replacement": "e"
+    },
+    {
+      "pattern": "øe",
+      "replacement": "e"
+    },
+    {
+      "pattern": "ØE",
+      "replacement": "E"
+    },
+    {
+      "pattern": "Øe",
+      "replacement": "E"
+    },
+    {
+      "pattern": "øE",
+      "replacement": "e"
+    }
+  ]
+}

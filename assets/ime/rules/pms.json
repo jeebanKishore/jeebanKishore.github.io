@@ -1,0 +1,85 @@
+{
+  "id": "pms",
+  "name": "Piemontèis",
+  "description": "Piedmontese input method.",
+  "date": "2014-02-27",
+  "author": "pms.wiki community",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": ":e",
+      "replacement": "ë"
+    },
+    {
+      "pattern": ",o",
+      "replacement": "ó"
+    },
+    {
+      "pattern": "\\\\A",
+      "replacement": "À"
+    },
+    {
+      "pattern": "\\\\E",
+      "replacement": "È"
+    },
+    {
+      "pattern": "\\\\I",
+      "replacement": "Ì"
+    },
+    {
+      "pattern": "\\\\O",
+      "replacement": "Ò"
+    },
+    {
+      "pattern": "\\\\U",
+      "replacement": "Ù"
+    },
+    {
+      "pattern": ",E",
+      "replacement": "É"
+    },
+    {
+      "pattern": ":E",
+      "replacement": "Ë"
+    },
+    {
+      "pattern": ",O",
+      "replacement": "Ó"
+    },
+    {
+      "pattern": "\\^g",
+      "replacement": "ĝ"
+    },
+    {
+      "pattern": "\\^l",
+      "replacement": "l̂"
+    },
+    {
+      "pattern": "\\^r",
+      "replacement": "r̂"
+    },
+    {
+      "pattern": ":a",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "\\^G",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "\\^L",
+      "replacement": "L̂"
+    },
+    {
+      "pattern": "\\^R",
+      "replacement": "R̂"
+    },
+    {
+      "pattern": ":A",
+      "replacement": "Ä"
+    }
+  ]
+}

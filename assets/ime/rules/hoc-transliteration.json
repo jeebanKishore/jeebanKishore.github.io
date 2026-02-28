@@ -1,0 +1,325 @@
+{
+  "id": "hoc-transliteration",
+  "name": "ho transliteration",
+  "description": "Phonetic keyboard for Ho",
+  "date": "2018-09-29",
+  "author": "Purty",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 3,
+  "rules": [
+    {
+      "pattern": "\\\\([A-Za-z\\>_~\\.0-9@])",
+      "replacement": "\\\\"
+    },
+    {
+      "pattern": "a",
+      "replacement": "𑣁"
+    },
+    {
+      "pattern": "𑣁i",
+      "replacement": "𑣆"
+    },
+    {
+      "pattern": "𑣁u",
+      "replacement": "𑣇"
+    },
+    {
+      "pattern": "b",
+      "replacement": "𑣗"
+    },
+    {
+      "pattern": "c",
+      "replacement": "c"
+    },
+    {
+      "pattern": "ch",
+      "replacement": "𑣏"
+    },
+    {
+      "pattern": "d",
+      "replacement": "𑣑"
+    },
+    {
+      "pattern": "𑣑h",
+      "replacement": "𑣔"
+    },
+    {
+      "pattern": "e",
+      "replacement": "𑣈"
+    },
+    {
+      "pattern": "k",
+      "replacement": "𑣌"
+    },
+    {
+      "pattern": "l",
+      "replacement": "𑣚"
+    },
+    {
+      "pattern": "m",
+      "replacement": "𑣖"
+    },
+    {
+      "pattern": "𑣓g",
+      "replacement": "𑣊"
+    },
+    {
+      "pattern": "𑣓j",
+      "replacement": "𑣍"
+    },
+    {
+      "pattern": "𑣓n",
+      "replacement": "𑣐"
+    },
+    {
+      "pattern": "o",
+      "replacement": "𑣉"
+    },
+    {
+      "pattern": "p",
+      "replacement": "𑣘"
+    },
+    {
+      "pattern": "q",
+      "replacement": "𑣄"
+    },
+    {
+      "pattern": "𑣜r",
+      "replacement": "𑣛"
+    },
+    {
+      "pattern": "s",
+      "replacement": "𑣞"
+    },
+    {
+      "pattern": "t",
+      "replacement": "𑣒"
+    },
+    {
+      "pattern": "𑣒h",
+      "replacement": "𑣕"
+    },
+    {
+      "pattern": "v",
+      "replacement": "𑣀"
+    },
+    {
+      "pattern": "w",
+      "replacement": "𑣟"
+    },
+    {
+      "pattern": "x",
+      "replacement": "𑣝"
+    },
+    {
+      "pattern": "y",
+      "replacement": "𑣅"
+    },
+    {
+      "pattern": "A",
+      "replacement": "𑢡"
+    },
+    {
+      "pattern": "𑢡(i|I)",
+      "replacement": "𑢦"
+    },
+    {
+      "pattern": "𑢡(U|u)",
+      "replacement": "𑢧"
+    },
+    {
+      "pattern": "B",
+      "replacement": "𑢷"
+    },
+    {
+      "pattern": "C",
+      "replacement": "C"
+    },
+    {
+      "pattern": "C(H|h)",
+      "replacement": "𑢯"
+    },
+    {
+      "pattern": "D",
+      "replacement": "𑢱"
+    },
+    {
+      "pattern": "𑢱(H|h)",
+      "replacement": "𑢴"
+    },
+    {
+      "pattern": "E",
+      "replacement": "𑢨"
+    },
+    {
+      "pattern": "I",
+      "replacement": "𑢢"
+    },
+    {
+      "pattern": "K",
+      "replacement": "𑢬"
+    },
+    {
+      "pattern": "L",
+      "replacement": "𑢺"
+    },
+    {
+      "pattern": "M",
+      "replacement": "𑢶"
+    },
+    {
+      "pattern": "𑢳(G|g)",
+      "replacement": "𑢪"
+    },
+    {
+      "pattern": "𑢳(J|j)",
+      "replacement": "𑢭"
+    },
+    {
+      "pattern": "𑢳(N|n)",
+      "replacement": "𑢰"
+    },
+    {
+      "pattern": "O",
+      "replacement": "𑢩"
+    },
+    {
+      "pattern": "P",
+      "replacement": "𑢸"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "𑢤"
+    },
+    {
+      "pattern": "𑢼(R|r)",
+      "replacement": "𑢻"
+    },
+    {
+      "pattern": "S",
+      "replacement": "𑢾"
+    },
+    {
+      "pattern": "T",
+      "replacement": "𑢲"
+    },
+    {
+      "pattern": "𑢲(H|h)",
+      "replacement": "𑢵"
+    },
+    {
+      "pattern": "U",
+      "replacement": "𑢣"
+    },
+    {
+      "pattern": "V",
+      "replacement": "𑢠"
+    },
+    {
+      "pattern": "W",
+      "replacement": "𑢿"
+    },
+    {
+      "pattern": "X",
+      "replacement": "𑢽"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "𑢥"
+    },
+    {
+      "pattern": "G",
+      "replacement": "𑢫"
+    },
+    {
+      "pattern": "J",
+      "replacement": "𑢮"
+    },
+    {
+      "pattern": "N",
+      "replacement": "𑢳"
+    },
+    {
+      "pattern": "R",
+      "replacement": "𑢼"
+    },
+    {
+      "pattern": "H",
+      "replacement": "𑢹"
+    },
+    {
+      "pattern": "h",
+      "replacement": "𑣙"
+    },
+    {
+      "pattern": "g",
+      "replacement": "𑣋"
+    },
+    {
+      "pattern": "j",
+      "replacement": "𑣎"
+    },
+    {
+      "pattern": "@",
+      "replacement": "𑣿"
+    },
+    {
+      "pattern": "r",
+      "replacement": "𑣜"
+    },
+    {
+      "pattern": "n",
+      "replacement": "𑣓"
+    },
+    {
+      "pattern": "i",
+      "replacement": "𑣂"
+    },
+    {
+      "pattern": "u",
+      "replacement": "𑣃"
+    },
+    {
+      "pattern": "0",
+      "replacement": "𑣠"
+    },
+    {
+      "pattern": "1",
+      "replacement": "𑣡"
+    },
+    {
+      "pattern": "2",
+      "replacement": "𑣢"
+    },
+    {
+      "pattern": "3",
+      "replacement": "𑣣"
+    },
+    {
+      "pattern": "4",
+      "replacement": "𑣤"
+    },
+    {
+      "pattern": "5",
+      "replacement": "𑣥"
+    },
+    {
+      "pattern": "6",
+      "replacement": "𑣦"
+    },
+    {
+      "pattern": "7",
+      "replacement": "𑣧"
+    },
+    {
+      "pattern": "8",
+      "replacement": "𑣨"
+    },
+    {
+      "pattern": "9",
+      "replacement": "𑣩"
+    }
+  ]
+}

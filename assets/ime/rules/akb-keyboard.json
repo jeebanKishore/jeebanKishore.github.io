@@ -1,0 +1,175 @@
+{
+  "id": "akb-keyboard",
+  "name": "Surat Angkola",
+  "description": "QWERTY-based Batak Angkola keyboard",
+  "date": "2023-07-28",
+  "author": "Benny Lin",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "(q|Q)",
+      "replacement": "᯲"
+    },
+    {
+      "pattern": "(w|W)",
+      "replacement": "ᯋ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ᯩ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ᯧ"
+    },
+    {
+      "pattern": "(r|R)",
+      "replacement": "ᯒ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ᯖ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ᯗ"
+    },
+    {
+      "pattern": "(y|Y)",
+      "replacement": "ᯛ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ᯮ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ᯥ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ᯪ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ᯤ"
+    },
+    {
+      "pattern": "(o|O)",
+      "replacement": "ᯬ"
+    },
+    {
+      "pattern": "(p|P)",
+      "replacement": "ᯇ"
+    },
+    {
+      "pattern": "(a|A)",
+      "replacement": "ᯀ"
+    },
+    {
+      "pattern": "(s|S)",
+      "replacement": "ᯘ"
+    },
+    {
+      "pattern": "(d|D)",
+      "replacement": "ᯑ"
+    },
+    {
+      "pattern": "(f|F)",
+      "replacement": "᯳"
+    },
+    {
+      "pattern": "(g|G)",
+      "replacement": "ᯎ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ᯂ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ᯱ"
+    },
+    {
+      "pattern": "(j|J)",
+      "replacement": "ᯐ"
+    },
+    {
+      "pattern": "(k|K)",
+      "replacement": "ᯂ"
+    },
+    {
+      "pattern": "(l|L)",
+      "replacement": "ᯞ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ᯝ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ᯰ"
+    },
+    {
+      "pattern": "(x|X)",
+      "replacement": "ᯠ"
+    },
+    {
+      "pattern": "(c|C)",
+      "replacement": "ᯡ"
+    },
+    {
+      "pattern": "(v|V)",
+      "replacement": "᯦"
+    },
+    {
+      "pattern": "(b|B)",
+      "replacement": "ᯅ"
+    },
+    {
+      "pattern": "(n|N)",
+      "replacement": "ᯉ"
+    },
+    {
+      "pattern": "(m|M)",
+      "replacement": "ᯔ"
+    },
+    {
+      "pattern": "^^",
+      "replacement": "^"
+    },
+    {
+      "pattern": "^",
+      "replacement": "ᯰ"
+    },
+    {
+      "pattern": "<<",
+      "replacement": "<"
+    },
+    {
+      "pattern": "<",
+      "replacement": "ᯝ"
+    },
+    {
+      "pattern": "4",
+      "replacement": "᯼",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "᯽",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "᯾",
+      "context": "x"
+    },
+    {
+      "pattern": "7",
+      "replacement": "᯿",
+      "context": "x"
+    }
+  ]
+}

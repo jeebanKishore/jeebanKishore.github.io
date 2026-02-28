@@ -1,0 +1,32 @@
+{
+  "id": "af-tilde",
+  "name": "Afrikaans tilde",
+  "description": "Afrikaans tilde",
+  "date": "2019-04-30",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "~\\'",
+      "replacement": "’"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~:",
+      "replacement": "̈"
+    }
+  ]
+}

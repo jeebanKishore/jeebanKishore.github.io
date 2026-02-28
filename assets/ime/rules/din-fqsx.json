@@ -1,0 +1,129 @@
+{
+  "id": "din-fqsx",
+  "name": "FQSX replacement",
+  "description": "Dinka input method with F, Q, S and X replaced by Ɣ, Ŋ, Ɛ, and Ɔ",
+  "date": "2017-04-26",
+  "author": "Amir E. Aharoni, based on Keyman",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 2,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "\\\\F",
+      "replacement": "F"
+    },
+    {
+      "pattern": "\\\\f",
+      "replacement": "f"
+    },
+    {
+      "pattern": "\\\\Q",
+      "replacement": "Q"
+    },
+    {
+      "pattern": "\\\\q",
+      "replacement": "q"
+    },
+    {
+      "pattern": "\\\\S",
+      "replacement": "S"
+    },
+    {
+      "pattern": "\\\\s",
+      "replacement": "s"
+    },
+    {
+      "pattern": "\\\\X",
+      "replacement": "X"
+    },
+    {
+      "pattern": "\\\\x",
+      "replacement": "x"
+    },
+    {
+      "pattern": "\\\\;",
+      "replacement": ";"
+    },
+    {
+      "pattern": "A;",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "a;",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "E;",
+      "replacement": "Ë"
+    },
+    {
+      "pattern": "e;",
+      "replacement": "ë"
+    },
+    {
+      "pattern": "Ɛ;",
+      "replacement": "Ɛ̈"
+    },
+    {
+      "pattern": "ɛ;",
+      "replacement": "ɛ̈"
+    },
+    {
+      "pattern": "I;",
+      "replacement": "Ï"
+    },
+    {
+      "pattern": "i;",
+      "replacement": "ï"
+    },
+    {
+      "pattern": "O;",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "o;",
+      "replacement": "ö"
+    },
+    {
+      "pattern": "Ɔ;",
+      "replacement": "Ɔ̈"
+    },
+    {
+      "pattern": "ɔ;",
+      "replacement": "ɔ̈"
+    },
+    {
+      "pattern": "F",
+      "replacement": "Ɣ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ɣ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ɔ"
+    }
+  ]
+}

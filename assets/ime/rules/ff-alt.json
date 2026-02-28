@@ -1,0 +1,89 @@
+{
+  "id": "ff-alt",
+  "name": "Fulfulde Alt",
+  "description": "Fulfulde Alt",
+  "date": "2017-05-30",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "n~",
+      "replacement": "ñ"
+    },
+    {
+      "pattern": "N~",
+      "replacement": "Ñ"
+    },
+    {
+      "pattern": "ñ~",
+      "replacement": "n~"
+    },
+    {
+      "pattern": "Ñ~",
+      "replacement": "N~"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ɓ",
+      "context": "x"
+    },
+    {
+      "pattern": "B",
+      "replacement": "Ɓ",
+      "context": "x"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ɗ",
+      "context": "x"
+    },
+    {
+      "pattern": "D",
+      "replacement": "Ɗ",
+      "context": "x"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ɠ",
+      "context": "x"
+    },
+    {
+      "pattern": "G",
+      "replacement": "Ɠ",
+      "context": "x"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ɲ",
+      "context": "x"
+    },
+    {
+      "pattern": "J",
+      "replacement": "Ɲ",
+      "context": "x"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ŋ",
+      "context": "x"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Ŋ",
+      "context": "x"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ƴ",
+      "context": "x"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Ƴ",
+      "context": "x"
+    }
+  ]
+}

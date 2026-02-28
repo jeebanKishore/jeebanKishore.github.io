@@ -1,1 +1,0 @@
-addEventListener("message",({data:s})=>{try{let{nodes:e,query:a}=s,r=a.toLowerCase(),n={type:"SEARCH_COMPLETE",matches:e.filter(t=>!!(t.key.toLowerCase().includes(r)||String(t.value).toLowerCase().includes(r)||t.meta&&t.meta.toLowerCase().includes(r)))};postMessage(n)}catch(e){postMessage({type:"SEARCH_ERROR",error:e instanceof Error?e.message:"Unknown error occurred"})}});

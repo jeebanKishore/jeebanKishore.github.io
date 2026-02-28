@@ -1,0 +1,60 @@
+{
+  "id": "dag-tilde",
+  "name": "Dagbani tilde",
+  "description": "Dagbani tilde",
+  "date": "2019-05-07",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "~E",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "~G",
+      "replacement": "Ɣ"
+    },
+    {
+      "pattern": "~g",
+      "replacement": "ɣ"
+    },
+    {
+      "pattern": "~Y",
+      "replacement": "Ɣ"
+    },
+    {
+      "pattern": "~y",
+      "replacement": "ɣ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ɔ"
+    },
+    {
+      "pattern": "~Z",
+      "replacement": "Ʒ"
+    },
+    {
+      "pattern": "~z",
+      "replacement": "ʒ"
+    }
+  ]
+}

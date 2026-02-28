@@ -1,0 +1,665 @@
+{
+  "id": "te-transliteration",
+  "name": "లిప్యంతరీకరణ",
+  "description": "Telugu Transliteration based on RTS",
+  "date": "2012-10-16",
+  "author": "Veeven, Junaid P V, Rahimanuddin Shaik",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 4,
+  "rules": [
+    {
+      "pattern": "(మ్|న్)b",
+      "replacement": "ంబ్"
+    },
+    {
+      "pattern": "(మ్|న్)B",
+      "replacement": "ంభ్"
+    },
+    {
+      "pattern": "(మ్|న్)c",
+      "replacement": "ంచ్"
+    },
+    {
+      "pattern": "(మ్|న్)C",
+      "replacement": "ంఛ్"
+    },
+    {
+      "pattern": "(మ్|న్)d",
+      "replacement": "ంద్"
+    },
+    {
+      "pattern": "(మ్|న్)D",
+      "replacement": "ండ్"
+    },
+    {
+      "pattern": "(మ్|న్)[fFP]",
+      "replacement": "ంఫ్"
+    },
+    {
+      "pattern": "(మ్|న్)g",
+      "replacement": "ంగ్"
+    },
+    {
+      "pattern": "(మ్|న్)h",
+      "replacement": "ంహ్"
+    },
+    {
+      "pattern": "(మ్|న్)j",
+      "replacement": "ంజ్"
+    },
+    {
+      "pattern": "(మ్|న్)J",
+      "replacement": "ంఝ్"
+    },
+    {
+      "pattern": "(మ్|న్)k",
+      "replacement": "ంక్"
+    },
+    {
+      "pattern": "(మ్|న్)L",
+      "replacement": "ంళ్"
+    },
+    {
+      "pattern": "(మ్|న్)p",
+      "replacement": "ంప్"
+    },
+    {
+      "pattern": "(మ్|న్)r",
+      "replacement": "ంర్"
+    },
+    {
+      "pattern": "(మ్|న్)s",
+      "replacement": "ంస్"
+    },
+    {
+      "pattern": "(మ్|న్)t",
+      "replacement": "ంత్"
+    },
+    {
+      "pattern": "(మ్|న్)T",
+      "replacement": "ంట్"
+    },
+    {
+      "pattern": "(మ్|న్)[vwVW]",
+      "replacement": "ంవ్"
+    },
+    {
+      "pattern": "(మ్|న్)[xX]",
+      "replacement": "ంక్ష్"
+    },
+    {
+      "pattern": "(మ్|న్)&b",
+      "replacement": "$1బ్"
+    },
+    {
+      "pattern": "(మ్|న్)&B",
+      "replacement": "$1బ్"
+    },
+    {
+      "pattern": "(మ్|న్)&c",
+      "replacement": "$1చ్"
+    },
+    {
+      "pattern": "(మ్|న్)&C",
+      "replacement": "$1ఛ్"
+    },
+    {
+      "pattern": "(మ్|న్)&d",
+      "replacement": "$1ద్"
+    },
+    {
+      "pattern": "(మ్|న్)&D",
+      "replacement": "$1డ్"
+    },
+    {
+      "pattern": "(మ్|న్)&[fFP]",
+      "replacement": "$1ఫ్"
+    },
+    {
+      "pattern": "(మ్|న్)&g",
+      "replacement": "$1గ్"
+    },
+    {
+      "pattern": "(మ్|న్)&h",
+      "replacement": "$1హ్"
+    },
+    {
+      "pattern": "(మ్|న్)&j",
+      "replacement": "$1జ్"
+    },
+    {
+      "pattern": "(మ్|న్)&J",
+      "replacement": "$1ఝ్"
+    },
+    {
+      "pattern": "(మ్|న్)&k",
+      "replacement": "$1క్"
+    },
+    {
+      "pattern": "(మ్|న్)&L",
+      "replacement": "$1ళ్"
+    },
+    {
+      "pattern": "(మ్|న్)&p",
+      "replacement": "$1ప్"
+    },
+    {
+      "pattern": "(మ్|న్)&r",
+      "replacement": "$1ర్"
+    },
+    {
+      "pattern": "(మ్|న్)&s",
+      "replacement": "$1స్"
+    },
+    {
+      "pattern": "(మ్|న్)&t",
+      "replacement": "$1త్"
+    },
+    {
+      "pattern": "(మ్|న్)&T",
+      "replacement": "$1ట్"
+    },
+    {
+      "pattern": "(మ్|న్)&[vwVW]",
+      "replacement": "$1వ్"
+    },
+    {
+      "pattern": "(మ్|న్)&[xX]",
+      "replacement": "$1క్ష్"
+    },
+    {
+      "pattern": "(మ్|న్)&(\\s|\\.|\\, |\\))",
+      "replacement": "$1$2"
+    },
+    {
+      "pattern": "([క-హ]|ౘ|ౙ)్a",
+      "replacement": "$1"
+    },
+    {
+      "pattern": "([క-హ])(్A|a|')",
+      "replacement": "$1ా"
+    },
+    {
+      "pattern": "([క-హ])్i",
+      "replacement": "$1ి"
+    },
+    {
+      "pattern": "([క-హ])(్I|ిi|ి'|ెe)",
+      "replacement": "$1ీ"
+    },
+    {
+      "pattern": "([క-హ])్u",
+      "replacement": "$1ు"
+    },
+    {
+      "pattern": "([క-హ])(ుu|ు'|ుa|్U)",
+      "replacement": "$1ూ"
+    },
+    {
+      "pattern": "([క-హ])ొo",
+      "replacement": "o"
+    },
+    {
+      "pattern": "([క-హ])్R",
+      "replacement": "$1ృ"
+    },
+    {
+      "pattern": "([క-హ])్ర్'",
+      "replacement": "$1ృ"
+    },
+    {
+      "pattern": "([క-హ])ృu",
+      "replacement": "$1ౄ"
+    },
+    {
+      "pattern": "([క-హ])్~l",
+      "replacement": "$1ౢ"
+    },
+    {
+      "pattern": "([క-హ])ౢ(l|')",
+      "replacement": "$1ౣ"
+    },
+    {
+      "pattern": "([క-హ])్e",
+      "replacement": "$1ె"
+    },
+    {
+      "pattern": "([క-హ])(్E|ెa|ె')",
+      "replacement": "$1ే"
+    },
+    {
+      "pattern": "([క-హ])e",
+      "replacement": "a"
+    },
+    {
+      "pattern": "([క-హ])ెi",
+      "replacement": "$1ై"
+    },
+    {
+      "pattern": "([క-హ])i",
+      "replacement": "a"
+    },
+    {
+      "pattern": "([క-హ])్o",
+      "replacement": "$1ొ"
+    },
+    {
+      "pattern": "([క-హ])(్O|ొa|ొ')",
+      "replacement": "$1ో"
+    },
+    {
+      "pattern": "([క-హ])(ొu|ొw)",
+      "replacement": "$1ౌ"
+    },
+    {
+      "pattern": "([క-హ])u",
+      "replacement": "a"
+    },
+    {
+      "pattern": "(్)\\^",
+      "replacement": "$1‌"
+    },
+    {
+      "pattern": "మ్(\\s|\\.|\\, |\\))",
+      "replacement": "ం$1"
+    },
+    {
+      "pattern": "అ(a|')",
+      "replacement": "ఆ"
+    },
+    {
+      "pattern": "ఇ(i|')",
+      "replacement": "ఈ"
+    },
+    {
+      "pattern": "ఎe",
+      "replacement": "ఈ"
+    },
+    {
+      "pattern": "ఉ(u|')",
+      "replacement": "ఊ"
+    },
+    {
+      "pattern": "ఒo",
+      "replacement": "ఊ"
+    },
+    {
+      "pattern": "ఎ(a|')",
+      "replacement": "ఏ"
+    },
+    {
+      "pattern": "అe",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ఎi",
+      "replacement": "ఐ"
+    },
+    {
+      "pattern": "అi",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ఒ(a|')",
+      "replacement": ""
+    },
+    {
+      "pattern": "అo",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ఒ(u|w)",
+      "replacement": "ఔ"
+    },
+    {
+      "pattern": "అu",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ఋ(u|')",
+      "replacement": "ౠ"
+    },
+    {
+      "pattern": "ర్'",
+      "replacement": "ఋ"
+    },
+    {
+      "pattern": "క్h",
+      "replacement": "ఖ్"
+    },
+    {
+      "pattern": "గ్h",
+      "replacement": "ఘ్"
+    },
+    {
+      "pattern": "జ్h",
+      "replacement": "ఝ్"
+    },
+    {
+      "pattern": "చ్'",
+      "replacement": "ఛ్"
+    },
+    {
+      "pattern": "చ్h",
+      "replacement": "చ్"
+    },
+    {
+      "pattern": "స్h",
+      "replacement": "ష్"
+    },
+    {
+      "pattern": "స్'",
+      "replacement": "శ్"
+    },
+    {
+      "pattern": "త్'",
+      "replacement": "ట్"
+    },
+    {
+      "pattern": "ట్h",
+      "replacement": "ఠ్"
+    },
+    {
+      "pattern": "ద్'",
+      "replacement": "డ్"
+    },
+    {
+      "pattern": "డ్h",
+      "replacement": "ఢ్"
+    },
+    {
+      "pattern": "న్'",
+      "replacement": "ణ్"
+    },
+    {
+      "pattern": "త్h",
+      "replacement": "థ్"
+    },
+    {
+      "pattern": "ద్h",
+      "replacement": "ధ్"
+    },
+    {
+      "pattern": "ప్h",
+      "replacement": "ఫ్"
+    },
+    {
+      "pattern": "బ్h",
+      "replacement": "భ్"
+    },
+    {
+      "pattern": "ల్'",
+      "replacement": "ళ్"
+    },
+    {
+      "pattern": "a",
+      "replacement": "అ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "బ్"
+    },
+    {
+      "pattern": "~c",
+      "replacement": "ౘ్"
+    },
+    {
+      "pattern": "c",
+      "replacement": "చ్"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ద్"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ఎ"
+    },
+    {
+      "pattern": "(f|F|P)",
+      "replacement": "ఫ్"
+    },
+    {
+      "pattern": "g",
+      "replacement": "గ్"
+    },
+    {
+      "pattern": "@h",
+      "replacement": "ః"
+    },
+    {
+      "pattern": "h",
+      "replacement": "హ్"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ఇ"
+    },
+    {
+      "pattern": "~j",
+      "replacement": "ౙ్"
+    },
+    {
+      "pattern": "j",
+      "replacement": "జ్"
+    },
+    {
+      "pattern": "k",
+      "replacement": "క్"
+    },
+    {
+      "pattern": "~l",
+      "replacement": "ఌ"
+    },
+    {
+      "pattern": "ఌu",
+      "replacement": "l"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ల్"
+    },
+    {
+      "pattern": "@m",
+      "replacement": "ఁ"
+    },
+    {
+      "pattern": "~m",
+      "replacement": "ఙ్"
+    },
+    {
+      "pattern": "m",
+      "replacement": "మ్"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ఞ్"
+    },
+    {
+      "pattern": "n",
+      "replacement": "న్"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ఒ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ప్"
+    },
+    {
+      "pattern": "q",
+      "replacement": "క్వ్"
+    },
+    {
+      "pattern": "~r",
+      "replacement": "ఱ్"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ర్"
+    },
+    {
+      "pattern": "s",
+      "replacement": "స్"
+    },
+    {
+      "pattern": "t",
+      "replacement": "త్"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ఉ"
+    },
+    {
+      "pattern": "(v|w|V|W)",
+      "replacement": "వ్"
+    },
+    {
+      "pattern": "(x|X)",
+      "replacement": "క్ష్"
+    },
+    {
+      "pattern": "(y|Y)",
+      "replacement": "య్"
+    },
+    {
+      "pattern": "(z|Z)",
+      "replacement": "జ్"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ఆ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "భ్"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ఛ్"
+    },
+    {
+      "pattern": "D",
+      "replacement": "డ్"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ఏ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ఘ్"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ః"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ఈ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ఝ్"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ఖ్"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ళ్"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ం"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ణ్"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ఓ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "క్వ్"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ఋ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "శ్"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ట్"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ఊ"
+    },
+    {
+      "pattern": "~0",
+      "replacement": "౦"
+    },
+    {
+      "pattern": "~1",
+      "replacement": "౧"
+    },
+    {
+      "pattern": "~2",
+      "replacement": "౨"
+    },
+    {
+      "pattern": "~3",
+      "replacement": "౩"
+    },
+    {
+      "pattern": "~4",
+      "replacement": "౪"
+    },
+    {
+      "pattern": "~5",
+      "replacement": "౫"
+    },
+    {
+      "pattern": "~6",
+      "replacement": "౬"
+    },
+    {
+      "pattern": "~7",
+      "replacement": "౭"
+    },
+    {
+      "pattern": "~8",
+      "replacement": "౮"
+    },
+    {
+      "pattern": "~9",
+      "replacement": "౯"
+    },
+    {
+      "pattern": "।~\\.",
+      "replacement": "॥"
+    },
+    {
+      "pattern": "~\\.",
+      "replacement": "।"
+    },
+    {
+      "pattern": "//",
+      "replacement": "ఽ"
+    },
+    {
+      "pattern": "~\\$",
+      "replacement": "₹"
+    }
+  ]
+}

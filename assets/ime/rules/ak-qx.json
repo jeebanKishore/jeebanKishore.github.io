@@ -1,0 +1,43 @@
+{
+  "id": "ak-qx",
+  "name": "Akan QX replacement",
+  "description": "Akan input method with Q and X replaced by Ɛ and Ɔ",
+  "date": "2016-06-23",
+  "author": "Amir E. Aharoni, based on Kasahorow",
+  "license": "GPLv3",
+  "version": "1.1",
+  "rules": [
+    {
+      "pattern": "\\\\Q",
+      "replacement": "Q"
+    },
+    {
+      "pattern": "\\\\q",
+      "replacement": "q"
+    },
+    {
+      "pattern": "\\\\X",
+      "replacement": "X"
+    },
+    {
+      "pattern": "\\\\x",
+      "replacement": "x"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ɔ"
+    }
+  ]
+}

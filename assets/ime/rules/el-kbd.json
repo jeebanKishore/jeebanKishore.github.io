@@ -1,0 +1,324 @@
+{
+  "id": "el-kbd",
+  "name": "Greek kbd",
+  "description": "Greek kbd keyboard layout",
+  "date": "2013-02-11",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "΄¨i",
+      "replacement": "ΐ"
+    },
+    {
+      "pattern": "¨΄i",
+      "replacement": "ΐ"
+    },
+    {
+      "pattern": "΄¨y",
+      "replacement": "ΰ"
+    },
+    {
+      "pattern": "¨΄y",
+      "replacement": "ΰ"
+    },
+    {
+      "pattern": "¨i",
+      "replacement": "ϊ"
+    },
+    {
+      "pattern": "¨y",
+      "replacement": "ϋ"
+    },
+    {
+      "pattern": "¨I",
+      "replacement": "Ϊ"
+    },
+    {
+      "pattern": "¨Y",
+      "replacement": "Ϋ"
+    },
+    {
+      "pattern": "΄a",
+      "replacement": "ά"
+    },
+    {
+      "pattern": "΄e",
+      "replacement": "έ"
+    },
+    {
+      "pattern": "΄h",
+      "replacement": "ή"
+    },
+    {
+      "pattern": "΄i",
+      "replacement": "ί"
+    },
+    {
+      "pattern": "΄o",
+      "replacement": "ό"
+    },
+    {
+      "pattern": "΄y",
+      "replacement": "ύ"
+    },
+    {
+      "pattern": "΄v",
+      "replacement": "ώ"
+    },
+    {
+      "pattern": "΄A",
+      "replacement": "Ά"
+    },
+    {
+      "pattern": "΄E",
+      "replacement": "Έ"
+    },
+    {
+      "pattern": "΄H",
+      "replacement": "Ή"
+    },
+    {
+      "pattern": "΄I",
+      "replacement": "Ί"
+    },
+    {
+      "pattern": "΄O",
+      "replacement": "Ό"
+    },
+    {
+      "pattern": "΄Y",
+      "replacement": "Ύ"
+    },
+    {
+      "pattern": "΄V",
+      "replacement": "Ώ"
+    },
+    {
+      "pattern": "q",
+      "replacement": ";"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ς"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ε"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ρ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "τ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "υ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "θ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ι"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ο"
+    },
+    {
+      "pattern": "p",
+      "replacement": "π"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "["
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "]"
+    },
+    {
+      "pattern": "a",
+      "replacement": "α"
+    },
+    {
+      "pattern": "s",
+      "replacement": "σ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "δ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "φ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "γ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "η"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ξ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "κ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "λ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "΄"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ζ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "χ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ψ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ω"
+    },
+    {
+      "pattern": "b",
+      "replacement": "β"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ν"
+    },
+    {
+      "pattern": "m",
+      "replacement": "μ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": ":"
+    },
+    {
+      "pattern": "W",
+      "replacement": "Σ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "Ε"
+    },
+    {
+      "pattern": "R",
+      "replacement": "Ρ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "Τ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Υ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "Θ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "Ι"
+    },
+    {
+      "pattern": "O",
+      "replacement": "Ο"
+    },
+    {
+      "pattern": "P",
+      "replacement": "Π"
+    },
+    {
+      "pattern": "A",
+      "replacement": "Α"
+    },
+    {
+      "pattern": "S",
+      "replacement": "Σ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "Δ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "Φ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "Γ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "Η"
+    },
+    {
+      "pattern": "J",
+      "replacement": "Ξ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "Κ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "Λ"
+    },
+    {
+      "pattern": ":",
+      "replacement": "¨"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "Ζ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Χ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "Ψ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "Ω"
+    },
+    {
+      "pattern": "B",
+      "replacement": "Β"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Ν"
+    },
+    {
+      "pattern": "M",
+      "replacement": "Μ"
+    }
+  ]
+}

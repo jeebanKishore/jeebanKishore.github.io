@@ -1,0 +1,427 @@
+{
+  "id": "lo-kbd",
+  "name": "Lao kbd",
+  "description": "Lao kbd keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "\\!",
+      "replacement": "1"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "="
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "3"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "4"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "5"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "໌"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ງ"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "7"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "8"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "6"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ໍ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "ມ"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "ຊ"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ໃ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ຝ"
+    },
+    {
+      "pattern": "0",
+      "replacement": "ຂ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "ຢ"
+    },
+    {
+      "pattern": "2",
+      "replacement": "ຟ"
+    },
+    {
+      "pattern": "3",
+      "replacement": "ໂ"
+    },
+    {
+      "pattern": "4",
+      "replacement": "ຖ"
+    },
+    {
+      "pattern": "5",
+      "replacement": "ຸ"
+    },
+    {
+      "pattern": "6",
+      "replacement": "ູ"
+    },
+    {
+      "pattern": "7",
+      "replacement": "ຄ"
+    },
+    {
+      "pattern": "8",
+      "replacement": "ຕ"
+    },
+    {
+      "pattern": "9",
+      "replacement": "ຈ"
+    },
+    {
+      "pattern": ":",
+      "replacement": "%"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ວ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ໝ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ໍ"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "$"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "2"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ັ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ຶ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ຯ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "."
+    },
+    {
+      "pattern": "E",
+      "replacement": "ຳ"
+    },
+    {
+      "pattern": "F",
+      "replacement": ","
+    },
+    {
+      "pattern": "G",
+      "replacement": ":"
+    },
+    {
+      "pattern": "H",
+      "replacement": "໊"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ຮ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "໋"
+    },
+    {
+      "pattern": "K",
+      "replacement": "!"
+    },
+    {
+      "pattern": "L",
+      "replacement": "?"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ໆ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ື"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ໜ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ຽ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ົ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "_"
+    },
+    {
+      "pattern": "S",
+      "replacement": ";"
+    },
+    {
+      "pattern": "T",
+      "replacement": "+"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ີ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "x"
+    },
+    {
+      "pattern": "W",
+      "replacement": "0"
+    },
+    {
+      "pattern": "X",
+      "replacement": "("
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ິ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "\""
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ບ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ລ"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ຼ"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "9"
+    },
+    {
+      "pattern": "`",
+      "replacement": "*"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ັ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ຶ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ແ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ກ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ຳ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ດ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ເ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "້"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ຣ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "່"
+    },
+    {
+      "pattern": "k",
+      "replacement": "າ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ສ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ທ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ື"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ນ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ຍ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ົ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ພ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ຫ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ະ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ີ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ອ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ໄ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ປ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ິ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ຜ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ຫຼ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "/"
+    },
+    {
+      "pattern": "~",
+      "replacement": "໌"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "\\"
+    },
+    {
+      "pattern": "0",
+      "replacement": "໐"
+    },
+    {
+      "pattern": "1",
+      "replacement": "໑"
+    },
+    {
+      "pattern": "2",
+      "replacement": "໒"
+    },
+    {
+      "pattern": "3",
+      "replacement": "໓"
+    },
+    {
+      "pattern": "4",
+      "replacement": "໔"
+    },
+    {
+      "pattern": "5",
+      "replacement": "໕"
+    },
+    {
+      "pattern": "6",
+      "replacement": "໖"
+    },
+    {
+      "pattern": "7",
+      "replacement": "໗"
+    },
+    {
+      "pattern": "8",
+      "replacement": "໘"
+    },
+    {
+      "pattern": "9",
+      "replacement": "໙"
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": "he-standard-2012",
+  "name": "Hebrew 2012 (from English)",
+  "description": "Hebrew keyboard according to Israeli Standard 1452",
+  "date": "2012-10-15",
+  "author": "Amir E. Aharoni (אָמִיר אֱלִישָׁע אַהֲרוֹנִי, [[User:Amire80]])",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 0,
+  "rules": [
+    {
+      "pattern": "q",
+      "replacement": "/"
+    },
+    {
+      "pattern": "w",
+      "replacement": "'"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ק"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ר"
+    },
+    {
+      "pattern": "t",
+      "replacement": "א"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ט"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ו"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ן"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ם"
+    },
+    {
+      "pattern": "p",
+      "replacement": "פ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ש"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ד"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ג"
+    },
+    {
+      "pattern": "f",
+      "replacement": "כ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ע"
+    },
+    {
+      "pattern": "h",
+      "replacement": "י"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ח"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ל"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ך"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ף"
+    },
+    {
+      "pattern": "'",
+      "replacement": ","
+    },
+    {
+      "pattern": "z",
+      "replacement": "ז"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ס"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ב"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ה"
+    },
+    {
+      "pattern": "b",
+      "replacement": "נ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "מ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "צ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "ת"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ץ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "."
+    },
+    {
+      "pattern": "`",
+      "replacement": ";"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "]"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "["
+    },
+    {
+      "pattern": "{",
+      "replacement": "}"
+    },
+    {
+      "pattern": "}",
+      "replacement": "{"
+    },
+    {
+      "pattern": "<",
+      "replacement": ">"
+    },
+    {
+      "pattern": ">",
+      "replacement": "<"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ְ",
+      "context": "x"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ָ",
+      "context": "x"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ֳ",
+      "context": "x"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ַ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ֲ",
+      "context": "x"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ֵ",
+      "context": "x"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ֶ",
+      "context": "x"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ֱ",
+      "context": "x"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ִ",
+      "context": "x"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ֹ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ֻ",
+      "context": "x"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ּ",
+      "context": "x"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ׂ",
+      "context": "x"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ׁ",
+      "context": "x"
+    },
+    {
+      "pattern": "-",
+      "replacement": "־",
+      "context": "x"
+    },
+    {
+      "pattern": "=",
+      "replacement": "–",
+      "context": "x"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ֿ",
+      "context": "x"
+    },
+    {
+      "pattern": "1",
+      "replacement": "ֽ",
+      "context": "x"
+    },
+    {
+      "pattern": "3",
+      "replacement": "€",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "₪",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "°",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "֫",
+      "context": "x"
+    },
+    {
+      "pattern": "8",
+      "replacement": "×",
+      "context": "x"
+    },
+    {
+      "pattern": "9",
+      "replacement": "‎",
+      "context": "x"
+    },
+    {
+      "pattern": "0",
+      "replacement": "‏",
+      "context": "x"
+    },
+    {
+      "pattern": "/",
+      "replacement": "÷",
+      "context": "x"
+    },
+    {
+      "pattern": "y",
+      "replacement": "װ",
+      "context": "x"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ײ",
+      "context": "x"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ײַ",
+      "context": "x"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ױ",
+      "context": "x"
+    },
+    {
+      "pattern": "`",
+      "replacement": "׳",
+      "context": "x"
+    },
+    {
+      "pattern": "'",
+      "replacement": "״",
+      "context": "x"
+    },
+    {
+      "pattern": ";",
+      "replacement": "„",
+      "context": "x"
+    },
+    {
+      "pattern": "l",
+      "replacement": "”",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "‚",
+      "context": "x"
+    },
+    {
+      "pattern": ",",
+      "replacement": "’",
+      "context": "x"
+    }
+  ]
+}

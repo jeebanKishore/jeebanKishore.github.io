@@ -1,0 +1,404 @@
+{
+  "id": "te-inscript",
+  "name": "ఇన్‍స్క్రిప్ట్",
+  "description": "Inscript keyboard for Telugu script",
+  "date": "2012-10-16",
+  "author": "Veeven",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "D",
+      "replacement": "అ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ఆ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ఇ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ఈ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ఉ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ఊ"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ఋ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ఎ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ఏ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ఐ"
+    },
+    {
+      "pattern": "~",
+      "replacement": "ఒ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ఓ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ఔ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "క"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ఖ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "గ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ఘ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ఙ"
+    },
+    {
+      "pattern": "\\;",
+      "replacement": "చ"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "ఛ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "జ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ఝ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ఞ"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ట"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ఠ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\{",
+      "replacement": ""
+    },
+    {
+      "pattern": "C",
+      "replacement": "ణ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "త"
+    },
+    {
+      "pattern": "L",
+      "replacement": "థ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ద"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ధ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "న"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ప"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ఫ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "బ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "భ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "మ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "య"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ర"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ఱ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ల"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ళ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "వ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "శ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": ""
+    },
+    {
+      "pattern": "m",
+      "replacement": "స"
+    },
+    {
+      "pattern": "u",
+      "replacement": "హ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ా"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ి"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ీ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ు"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ూ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ృ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ె"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ే"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ై"
+    },
+    {
+      "pattern": "`",
+      "replacement": "ొ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ో"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ౌ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ం"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "ః"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ఁ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "్"
+    },
+    {
+      "pattern": "0",
+      "replacement": ""
+    },
+    {
+      "pattern": "1",
+      "replacement": ""
+    },
+    {
+      "pattern": "2",
+      "replacement": "౨"
+    },
+    {
+      "pattern": "3",
+      "replacement": "౩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "౪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "౫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "౬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "౭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "౮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "౯"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "్ర"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "ర్"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "జ్ఞ"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "త్ర"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "క్ష"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "శ్ర"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "।"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ॐ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\;",
+      "replacement": "ౘ",
+      "context": "x"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ౙ",
+      "context": "x"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ౢ",
+      "context": "x"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ౣ",
+      "context": "x"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ఌ",
+      "context": "x"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ౡ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "॥",
+      "context": "x"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "ఽ",
+      "context": "x"
+    },
+    {
+      "pattern": "2",
+      "replacement": "‌",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "₹",
+      "context": "x"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ౄ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ౠ",
+      "context": "x"
+    }
+  ]
+}

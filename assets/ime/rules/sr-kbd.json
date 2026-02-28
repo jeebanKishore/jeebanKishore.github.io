@@ -1,0 +1,331 @@
+{
+  "id": "sr-kbd",
+  "name": "Serbian keyboard",
+  "description": "Serbian keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "'g",
+      "replacement": "ѓ"
+    },
+    {
+      "pattern": "'G",
+      "replacement": "Ѓ"
+    },
+    {
+      "pattern": "'k",
+      "replacement": "ќ"
+    },
+    {
+      "pattern": "'K",
+      "replacement": "Ќ"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "\""
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "&"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "/"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "="
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "'"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "?"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "+"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "*"
+    },
+    {
+      "pattern": "q",
+      "replacement": "љ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "Љ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "њ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "Њ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "е"
+    },
+    {
+      "pattern": "E",
+      "replacement": "Е"
+    },
+    {
+      "pattern": "r",
+      "replacement": "р"
+    },
+    {
+      "pattern": "R",
+      "replacement": "Р"
+    },
+    {
+      "pattern": "t",
+      "replacement": "т"
+    },
+    {
+      "pattern": "T",
+      "replacement": "Т"
+    },
+    {
+      "pattern": "y",
+      "replacement": "з"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "З"
+    },
+    {
+      "pattern": "u",
+      "replacement": "у"
+    },
+    {
+      "pattern": "U",
+      "replacement": "У"
+    },
+    {
+      "pattern": "i",
+      "replacement": "и"
+    },
+    {
+      "pattern": "I",
+      "replacement": "И"
+    },
+    {
+      "pattern": "o",
+      "replacement": "о"
+    },
+    {
+      "pattern": "O",
+      "replacement": "О"
+    },
+    {
+      "pattern": "p",
+      "replacement": "п"
+    },
+    {
+      "pattern": "P",
+      "replacement": "П"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ш"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "Ш"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ђ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "Ђ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "а"
+    },
+    {
+      "pattern": "A",
+      "replacement": "А"
+    },
+    {
+      "pattern": "s",
+      "replacement": "с"
+    },
+    {
+      "pattern": "S",
+      "replacement": "С"
+    },
+    {
+      "pattern": "d",
+      "replacement": "д"
+    },
+    {
+      "pattern": "D",
+      "replacement": "Д"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ф"
+    },
+    {
+      "pattern": "F",
+      "replacement": "Ф"
+    },
+    {
+      "pattern": "g",
+      "replacement": "г"
+    },
+    {
+      "pattern": "G",
+      "replacement": "Г"
+    },
+    {
+      "pattern": "h",
+      "replacement": "х"
+    },
+    {
+      "pattern": "H",
+      "replacement": "Х"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ј"
+    },
+    {
+      "pattern": "J",
+      "replacement": "Ј"
+    },
+    {
+      "pattern": "k",
+      "replacement": "к"
+    },
+    {
+      "pattern": "K",
+      "replacement": "К"
+    },
+    {
+      "pattern": "l",
+      "replacement": "л"
+    },
+    {
+      "pattern": "L",
+      "replacement": "Л"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ч"
+    },
+    {
+      "pattern": ":",
+      "replacement": "Ч"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ћ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "Ћ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ж"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "Ж"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ѕ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "Ѕ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "џ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Џ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ц"
+    },
+    {
+      "pattern": "C",
+      "replacement": "Ц"
+    },
+    {
+      "pattern": "v",
+      "replacement": "в"
+    },
+    {
+      "pattern": "V",
+      "replacement": "В"
+    },
+    {
+      "pattern": "b",
+      "replacement": "б"
+    },
+    {
+      "pattern": "B",
+      "replacement": "Б"
+    },
+    {
+      "pattern": "n",
+      "replacement": "н"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Н"
+    },
+    {
+      "pattern": "m",
+      "replacement": "м"
+    },
+    {
+      "pattern": "M",
+      "replacement": "М"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": ";"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": ":"
+    },
+    {
+      "pattern": "/",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "_"
+    }
+  ]
+}

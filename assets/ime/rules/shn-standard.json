@@ -1,0 +1,315 @@
+{
+  "id": "shn-standard",
+  "name": "တႆး",
+  "description": "Shan Standard Keyboard per SIIT",
+  "date": "2022-09-15",
+  "author": "SIIT",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "u",
+      "replacement": ""
+    },
+    {
+      "pattern": "c",
+      "replacement": ""
+    },
+    {
+      "pattern": "C",
+      "replacement": ""
+    },
+    {
+      "pattern": "i",
+      "replacement": ""
+    },
+    {
+      "pattern": "p",
+      "replacement": ""
+    },
+    {
+      "pattern": "q",
+      "replacement": ""
+    },
+    {
+      "pattern": "Z",
+      "replacement": ""
+    },
+    {
+      "pattern": "Q",
+      "replacement": ""
+    },
+    {
+      "pattern": "n",
+      "replacement": ""
+    },
+    {
+      "pattern": "N",
+      "replacement": ""
+    },
+    {
+      "pattern": "X",
+      "replacement": ""
+    },
+    {
+      "pattern": "P",
+      "replacement": ""
+    },
+    {
+      "pattern": "w",
+      "replacement": ""
+    },
+    {
+      "pattern": "x",
+      "replacement": ""
+    },
+    {
+      "pattern": "e",
+      "replacement": ""
+    },
+    {
+      "pattern": "y",
+      "replacement": ""
+    },
+    {
+      "pattern": "z",
+      "replacement": ""
+    },
+    {
+      "pattern": "u",
+      "replacement": ""
+    },
+    {
+      "pattern": "U",
+      "replacement": ""
+    },
+    {
+      "pattern": "b",
+      "replacement": ""
+    },
+    {
+      "pattern": "r",
+      "replacement": ""
+    },
+    {
+      "pattern": "B",
+      "replacement": ""
+    },
+    {
+      "pattern": "&",
+      "replacement": ""
+    },
+    {
+      "pattern": "v",
+      "replacement": ""
+    },
+    {
+      "pattern": "W",
+      "replacement": ""
+    },
+    {
+      "pattern": "o",
+      "replacement": ""
+    },
+    {
+      "pattern": "E",
+      "replacement": ""
+    },
+    {
+      "pattern": "Y",
+      "replacement": ""
+    },
+    {
+      "pattern": "V",
+      "replacement": ""
+    },
+    {
+      "pattern": "t",
+      "replacement": ""
+    },
+    {
+      "pattern": "I",
+      "replacement": ""
+    },
+    {
+      "pattern": "O",
+      "replacement": ""
+    },
+    {
+      "pattern": "m",
+      "replacement": ""
+    },
+    {
+      "pattern": "g",
+      "replacement": ""
+    },
+    {
+      "pattern": "d",
+      "replacement": ""
+    },
+    {
+      "pattern": "D",
+      "replacement": ""
+    },
+    {
+      "pattern": "k",
+      "replacement": ""
+    },
+    {
+      "pattern": "l",
+      "replacement": ""
+    },
+    {
+      "pattern": "a",
+      "replacement": ""
+    },
+    {
+      "pattern": "J",
+      "replacement": ""
+    },
+    {
+      "pattern": "H",
+      "replacement": ""
+    },
+    {
+      "pattern": "h",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\;",
+      "replacement": ""
+    },
+    {
+      "pattern": "f",
+      "replacement": ""
+    },
+    {
+      "pattern": "F",
+      "replacement": ""
+    },
+    {
+      "pattern": "M",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\>",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\<",
+      "replacement": ""
+    },
+    {
+      "pattern": "A",
+      "replacement": ""
+    },
+    {
+      "pattern": "K",
+      "replacement": ""
+    },
+    {
+      "pattern": "L",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\#",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\~",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\!",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\:",
+      "replacement": ""
+    },
+    {
+      "pattern": "s",
+      "replacement": ""
+    },
+    {
+      "pattern": "j",
+      "replacement": ""
+    },
+    {
+      "pattern": "G",
+      "replacement": ""
+    },
+    {
+      "pattern": "S",
+      "replacement": ""
+    },
+    {
+      "pattern": "R",
+      "replacement": ""
+    },
+    {
+      "pattern": "T",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\{",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\]",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\[",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\}",
+      "replacement": ""
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": ""
+    },
+    {
+      "pattern": "0",
+      "replacement": ""
+    },
+    {
+      "pattern": "1",
+      "replacement": ""
+    },
+    {
+      "pattern": "2",
+      "replacement": ""
+    },
+    {
+      "pattern": "3",
+      "replacement": ""
+    },
+    {
+      "pattern": "4",
+      "replacement": ""
+    },
+    {
+      "pattern": "5",
+      "replacement": ""
+    },
+    {
+      "pattern": "6",
+      "replacement": ""
+    },
+    {
+      "pattern": "7",
+      "replacement": ""
+    },
+    {
+      "pattern": "8",
+      "replacement": ""
+    },
+    {
+      "pattern": "9",
+      "replacement": ""
+    }
+  ]
+}

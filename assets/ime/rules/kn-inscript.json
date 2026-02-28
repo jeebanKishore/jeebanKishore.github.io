@@ -1,0 +1,400 @@
+{
+  "id": "kn-inscript",
+  "name": "ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್",
+  "description": "Inscript keyboard for Kannada script",
+  "date": "2012-10-14",
+  "author": "Junaid P V",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "x",
+      "replacement": "ಂ"
+    },
+    {
+      "pattern": "_",
+      "replacement": "ಃ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ಅ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ಆ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ಇ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ಈ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ಉ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ಊ"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ಋ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ಎ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ಏ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ಐ"
+    },
+    {
+      "pattern": "~",
+      "replacement": "ಒ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ಓ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ಔ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ಕ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ಖ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ಗ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ಘ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ಙ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ಚ"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "ಛ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ಜ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ಝ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ಞ"
+    },
+    {
+      "pattern": "'",
+      "replacement": ""
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ಠ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ಡ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ಢ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ಣ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ತ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ಥ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ದ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ಧ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ನ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ಪ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ಫ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ಬ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ಭ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ಮ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ಯ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ರ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ಱ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ಲ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ಳ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ವ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ಶ"
+    },
+    {
+      "pattern": ",",
+      "replacement": "ಷ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ಸ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ಹ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "಼"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ಾ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ಿ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ೀ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ು"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ೂ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ೃ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ೆ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ೇ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ೈ"
+    },
+    {
+      "pattern": "`",
+      "replacement": "ೊ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ೋ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ೌ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "್"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ೂ"
+    },
+    {
+      "pattern": "0",
+      "replacement": "೦"
+    },
+    {
+      "pattern": "1",
+      "replacement": "೧"
+    },
+    {
+      "pattern": "2",
+      "replacement": "೨"
+    },
+    {
+      "pattern": "3",
+      "replacement": "೩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "೪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "೫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "೬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "೭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "೮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "೯"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "್ರ"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "ಜ್ಞ"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ತ್ರ"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "ಕ್ರ"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "‍"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "F",
+      "replacement": "좌",
+      "context": "x"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "ಽ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ೄ",
+      "context": "x"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ೞ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "ೠ",
+      "context": "x"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ೡ",
+      "context": "x"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ೢ",
+      "context": "x"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ೣ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "೤",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "೥",
+      "context": "x"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ೱ",
+      "context": "x"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ೲ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "₹",
+      "context": "x"
+    }
+  ]
+}

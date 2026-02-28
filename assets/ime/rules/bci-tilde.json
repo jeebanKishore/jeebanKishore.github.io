@@ -1,0 +1,51 @@
+{
+  "id": "bci-tilde",
+  "name": "bci-tilde",
+  "description": "Baoulé tilde keyboard",
+  "date": "2020-06-06",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~E",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ɲ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ɲ"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ɔ"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~\\{",
+      "replacement": "̃"
+    }
+  ]
+}

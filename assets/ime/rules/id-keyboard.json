@@ -1,0 +1,27 @@
+{
+  "id": "id-keyboard",
+  "name": "id-keyboard",
+  "description": "Indonesian - Suku keyboard",
+  "date": "2023-06-04",
+  "author": "Benny Lin",
+  "license": "GPLv3",
+  "version": "1",
+  "rules": [
+    {
+      "pattern": "~E",
+      "replacement": "É"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "é"
+    },
+    {
+      "pattern": "`E",
+      "replacement": "È"
+    },
+    {
+      "pattern": "`e",
+      "replacement": "è"
+    }
+  ]
+}

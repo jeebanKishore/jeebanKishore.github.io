@@ -1,0 +1,187 @@
+{
+  "id": "kk-arabic",
+  "name": "Kazak arabic",
+  "description": "Kazak arabic in Arabic script keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "a",
+      "replacement": "ا"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ٵ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ب"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ۆ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "گ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ع"
+    },
+    {
+      "pattern": "d",
+      "replacement": "د"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ە"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ج"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ز"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ي"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ك"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ق"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ل"
+    },
+    {
+      "pattern": "m",
+      "replacement": "م"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ن"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ڭ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "و"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ٶ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "پ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ر"
+    },
+    {
+      "pattern": "s",
+      "replacement": "س"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ت"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ۋ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ۇ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ٷ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ف"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ح"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ه"
+    },
+    {
+      "pattern": "c",
+      "replacement": "چ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ش"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ى"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ٸ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "؛"
+    },
+    {
+      "pattern": ",",
+      "replacement": "،"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "?"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": ">"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "<"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "]"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "["
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "}"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "{"
+    }
+  ]
+}

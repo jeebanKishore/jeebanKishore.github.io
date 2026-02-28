@@ -1,0 +1,60 @@
+{
+  "id": "bm-tilde",
+  "name": "Bamanankan tilde",
+  "description": "Bamanankan tilde",
+  "date": "2019-05-06",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": "~E",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ɲ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ɲ"
+    },
+    {
+      "pattern": "~G",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~g",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ɔ"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~v",
+      "replacement": "̌"
+    }
+  ]
+}

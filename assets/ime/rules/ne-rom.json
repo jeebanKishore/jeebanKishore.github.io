@@ -1,0 +1,371 @@
+{
+  "id": "ne-rom",
+  "name": "Nepali Romanized",
+  "description": "Nepali Romanized keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "\\!",
+      "replacement": "!"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "\""
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "#"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "रु"
+    },
+    {
+      "pattern": "'",
+      "replacement": "'"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "\\)",
+      "replacement": ")"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "+"
+    },
+    {
+      "pattern": ",",
+      "replacement": ","
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "-"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "।"
+    },
+    {
+      "pattern": "/",
+      "replacement": "्"
+    },
+    {
+      "pattern": "0",
+      "replacement": "०"
+    },
+    {
+      "pattern": "1",
+      "replacement": "१"
+    },
+    {
+      "pattern": "2",
+      "replacement": "२"
+    },
+    {
+      "pattern": "3",
+      "replacement": "३"
+    },
+    {
+      "pattern": "4",
+      "replacement": "४"
+    },
+    {
+      "pattern": "5",
+      "replacement": "५"
+    },
+    {
+      "pattern": "6",
+      "replacement": "६"
+    },
+    {
+      "pattern": "7",
+      "replacement": "७"
+    },
+    {
+      "pattern": "8",
+      "replacement": "८"
+    },
+    {
+      "pattern": "9",
+      "replacement": "९"
+    },
+    {
+      "pattern": ":",
+      "replacement": ":"
+    },
+    {
+      "pattern": ";",
+      "replacement": ";"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ङ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "="
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "॥"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "?"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "@"
+    },
+    {
+      "pattern": "A",
+      "replacement": "आ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "भ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "च"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ध"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ै"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ऊ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "घ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "अ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ी"
+    },
+    {
+      "pattern": "J",
+      "replacement": "झ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ख"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ळ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ं"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ण"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ओ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "फ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ठ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ृ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "श"
+    },
+    {
+      "pattern": "T",
+      "replacement": "थ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ू"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ँ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "औ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ढ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ञ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ऋ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "इ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ॐ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ए"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "`",
+      "replacement": "़"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ा"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ब"
+    },
+    {
+      "pattern": "c",
+      "replacement": "छ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "द"
+    },
+    {
+      "pattern": "e",
+      "replacement": "े"
+    },
+    {
+      "pattern": "f",
+      "replacement": "उ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ग"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ह"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ि"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ज"
+    },
+    {
+      "pattern": "k",
+      "replacement": "क"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ल"
+    },
+    {
+      "pattern": "m",
+      "replacement": "म"
+    },
+    {
+      "pattern": "n",
+      "replacement": "न"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ो"
+    },
+    {
+      "pattern": "p",
+      "replacement": "प"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ट"
+    },
+    {
+      "pattern": "r",
+      "replacement": "र"
+    },
+    {
+      "pattern": "s",
+      "replacement": "स"
+    },
+    {
+      "pattern": "t",
+      "replacement": "त"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ु"
+    },
+    {
+      "pattern": "v",
+      "replacement": "व"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ौ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ड"
+    },
+    {
+      "pattern": "y",
+      "replacement": "य"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ष"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ई"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ः"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ऐ"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "ऽ"
+    }
+  ]
+}

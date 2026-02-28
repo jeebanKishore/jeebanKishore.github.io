@@ -1,0 +1,335 @@
+{
+  "id": "my-xkb",
+  "name": "မြန်မာဘာသာ xkb",
+  "description": "Myanmar xkb keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.01",
+  "rules": [
+    {
+      "pattern": "`",
+      "replacement": "ၐ"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "ဎ"
+    },
+    {
+      "pattern": "1",
+      "replacement": "၁"
+    },
+    {
+      "pattern": "\\!",
+      "replacement": "ဍ"
+    },
+    {
+      "pattern": "2",
+      "replacement": "၂"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "ၒ"
+    },
+    {
+      "pattern": "3",
+      "replacement": "၃"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "ဋ"
+    },
+    {
+      "pattern": "4",
+      "replacement": "၄"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "ၓ"
+    },
+    {
+      "pattern": "5",
+      "replacement": "၅"
+    },
+    {
+      "pattern": "\\%",
+      "replacement": "ၔ"
+    },
+    {
+      "pattern": "6",
+      "replacement": "၆"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ၕ"
+    },
+    {
+      "pattern": "7",
+      "replacement": "၇"
+    },
+    {
+      "pattern": "\\&",
+      "replacement": "ရ"
+    },
+    {
+      "pattern": "8",
+      "replacement": "၈"
+    },
+    {
+      "pattern": "9",
+      "replacement": "၉"
+    },
+    {
+      "pattern": "0",
+      "replacement": "၀"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ဆ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ဈ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "တ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ဝ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "န"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ဣ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "မ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "၎"
+    },
+    {
+      "pattern": "t",
+      "replacement": "အ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ဤ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ပ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "၌"
+    },
+    {
+      "pattern": "u",
+      "replacement": "က"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ဥ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "င"
+    },
+    {
+      "pattern": "I",
+      "replacement": "၍"
+    },
+    {
+      "pattern": "o",
+      "replacement": "သ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ဿ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "စ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ဏ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ဟ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ဧ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "ဩ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ဪ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "၏"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ၑ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ေ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ဗ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ျ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ှ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ိ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ီ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "်"
+    },
+    {
+      "pattern": "F",
+      "replacement": "္"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ါ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ွ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "့"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ံ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ြ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ဲ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ု"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ဒ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ူ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ဓ"
+    },
+    {
+      "pattern": ";",
+      "replacement": "း"
+    },
+    {
+      "pattern": ":",
+      "replacement": "ဂ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ဖ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ဇ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ထ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ဌ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ခ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ဃ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "လ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ဠ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ဘ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ယ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ည"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ဉ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ာ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ဦ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "၊"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "။"
+    }
+  ]
+}

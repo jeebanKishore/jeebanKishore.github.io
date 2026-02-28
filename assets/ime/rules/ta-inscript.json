@@ -1,0 +1,322 @@
+{
+  "id": "ta-inscript",
+  "name": "இன்ஸ்கிரிப்ட்",
+  "description": "Tamil InScript Keyboard",
+  "date": "2012-11-20",
+  "author": "Junaid P V",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 4,
+  "rules": [
+    {
+      "pattern": "`",
+      "replacement": "ொ"
+    },
+    {
+      "pattern": "~",
+      "replacement": "ஒ"
+    },
+    {
+      "pattern": "&",
+      "replacement": "க்ஷ"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "ஷ்ர"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "‌"
+    },
+    {
+      "pattern": "_",
+      "replacement": "ஃ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ௌ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ஔ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ை"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ஐ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ா"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ஆ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ீ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ஈ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ூ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ஊ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ஹ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ங"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ஜ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ஞ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ோ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ஓ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ே"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ஏ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "்"
+    },
+    {
+      "pattern": "D",
+      "replacement": "அ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ி"
+    },
+    {
+      "pattern": "F",
+      "replacement": "இ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ு"
+    },
+    {
+      "pattern": "G",
+      "replacement": "உ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ப"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ர"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ற"
+    },
+    {
+      "pattern": "k",
+      "replacement": "க"
+    },
+    {
+      "pattern": "l",
+      "replacement": "த"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ச"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ட"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ெ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "எ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ம"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ண"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ந"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ன"
+    },
+    {
+      "pattern": "b",
+      "replacement": "வ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ழ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ல"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ள"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ஸ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ஶ"
+    },
+    {
+      "pattern": "<",
+      "replacement": "ஷ"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ய"
+    },
+    {
+      "pattern": "1",
+      "replacement": "௧"
+    },
+    {
+      "pattern": "2",
+      "replacement": "௨"
+    },
+    {
+      "pattern": "3",
+      "replacement": "௩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "௪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "௫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "௬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "௭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "௮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "௯"
+    },
+    {
+      "pattern": "0",
+      "replacement": "௦"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ௐ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "௰",
+      "context": "x"
+    },
+    {
+      "pattern": "-",
+      "replacement": "௱",
+      "context": "x"
+    },
+    {
+      "pattern": "=",
+      "replacement": "௲",
+      "context": "x"
+    },
+    {
+      "pattern": "n",
+      "replacement": "௳",
+      "context": "x"
+    },
+    {
+      "pattern": "c",
+      "replacement": "௴",
+      "context": "x"
+    },
+    {
+      "pattern": "b",
+      "replacement": "௵",
+      "context": "x"
+    },
+    {
+      "pattern": "h",
+      "replacement": "௶",
+      "context": "x"
+    },
+    {
+      "pattern": "y",
+      "replacement": "௷",
+      "context": "x"
+    },
+    {
+      "pattern": "C",
+      "replacement": "௸",
+      "context": "x"
+    },
+    {
+      "pattern": ",",
+      "replacement": "௹",
+      "context": "x"
+    },
+    {
+      "pattern": "V",
+      "replacement": "௺",
+      "context": "x"
+    },
+    {
+      "pattern": "4",
+      "replacement": "₹",
+      "context": "x"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "sa-iast",
+  "name": "Romanized",
+  "description": "Romanized input method for Sanskrit with IAST/ISO 15919 convention. Original author William Giddings <wjgiddings@googlemail.com>",
+  "date": "2013-03-18",
+  "author": "Runa Bhattacharjee",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "aa",
+      "replacement": "ā"
+    },
+    {
+      "pattern": "AA",
+      "replacement": "Ā"
+    },
+    {
+      "pattern": "\\^a",
+      "replacement": "â"
+    },
+    {
+      "pattern": "\\^A",
+      "replacement": "Â"
+    },
+    {
+      "pattern": "ii",
+      "replacement": "ī"
+    },
+    {
+      "pattern": "II",
+      "replacement": "Ī"
+    },
+    {
+      "pattern": "uu",
+      "replacement": "ū"
+    },
+    {
+      "pattern": "UU",
+      "replacement": "Ū"
+    },
+    {
+      "pattern": "\\.r",
+      "replacement": "ṛ"
+    },
+    {
+      "pattern": "\\.R",
+      "replacement": "Ṛ"
+    },
+    {
+      "pattern": "ṛr",
+      "replacement": "ṝ"
+    },
+    {
+      "pattern": "ṚR",
+      "replacement": "Ṝ"
+    },
+    {
+      "pattern": "\\.l",
+      "replacement": "ḷ"
+    },
+    {
+      "pattern": "\\.L",
+      "replacement": "Ḷ"
+    },
+    {
+      "pattern": "ḷl",
+      "replacement": "ḹ"
+    },
+    {
+      "pattern": "ḶL",
+      "replacement": "Ḹ"
+    },
+    {
+      "pattern": "\\.M",
+      "replacement": "Ṃ"
+    },
+    {
+      "pattern": "\\.m",
+      "replacement": "ṃ"
+    },
+    {
+      "pattern": "\\.h",
+      "replacement": "ḥ"
+    },
+    {
+      "pattern": "\\.H",
+      "replacement": "Ḥ"
+    },
+    {
+      "pattern": ";n",
+      "replacement": "ṅ"
+    },
+    {
+      "pattern": ";N",
+      "replacement": "Ṅ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ñ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ñ"
+    },
+    {
+      "pattern": "\\.t",
+      "replacement": "ṭ"
+    },
+    {
+      "pattern": "\\.T",
+      "replacement": "Ṭ"
+    },
+    {
+      "pattern": "\\.d",
+      "replacement": "ḍ"
+    },
+    {
+      "pattern": "\\.D",
+      "replacement": "Ḍ"
+    },
+    {
+      "pattern": "\\.n",
+      "replacement": "ṇ"
+    },
+    {
+      "pattern": "\\.N",
+      "replacement": "Ṇ"
+    },
+    {
+      "pattern": ";s",
+      "replacement": "ś"
+    },
+    {
+      "pattern": ";S",
+      "replacement": "Ś"
+    },
+    {
+      "pattern": "\\.s",
+      "replacement": "ṣ"
+    },
+    {
+      "pattern": "\\.S",
+      "replacement": "Ṣ"
+    },
+    {
+      "pattern": "ee",
+      "replacement": "ē"
+    },
+    {
+      "pattern": "oo",
+      "replacement": "ō"
+    },
+    {
+      "pattern": ";m",
+      "replacement": "ṁ"
+    },
+    {
+      "pattern": ",r",
+      "replacement": "r̥"
+    },
+    {
+      "pattern": "r̥r",
+      "replacement": "r̥̄"
+    }
+  ]
+}

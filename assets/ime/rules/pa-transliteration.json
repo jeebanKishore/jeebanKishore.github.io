@@ -1,0 +1,365 @@
+{
+  "id": "pa-transliteration",
+  "name": "Punjabi Transliteration",
+  "description": "Punjabi transliteration",
+  "date": "2012-10-16",
+  "author": "Amir E. Aharoni, inputs from Saurabh Choudhary and Surinder Wadhawan",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 2,
+  "maxKeyLength": 4,
+  "rules": [
+    {
+      "pattern": "ਕ੍h",
+      "replacement": "c"
+    },
+    {
+      "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
+      "replacement": "\\\\"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)੍a",
+      "replacement": "$1"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)੍A",
+      "replacement": "$1ਾ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)a",
+      "replacement": "$1ਾ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)੍i",
+      "replacement": "$1ਿ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)(ਿi|੍I|ੇe)",
+      "replacement": "$1ੀ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)੍u",
+      "replacement": "$1ੁ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)(ੁu|੍U|ੋo)",
+      "replacement": "$1ੂ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)੍e",
+      "replacement": "$1ੇ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)(i|੍E)",
+      "replacement": "$1ੈ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)੍[oO]",
+      "replacement": "$1ੋ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ]਼?)u",
+      "replacement": "$1ੌ"
+    },
+    {
+      "pattern": "([ਕ-ਹੜ])੍\\`",
+      "replacement": "$1਼੍"
+    },
+    {
+      "pattern": "ਅa",
+      "replacement": "ਆ"
+    },
+    {
+      "pattern": "(ਓo|ਉu)",
+      "replacement": "ਊ"
+    },
+    {
+      "pattern": "ਅi",
+      "replacement": "ਐ"
+    },
+    {
+      "pattern": "ਅ\\^",
+      "replacement": "ੲ"
+    },
+    {
+      "pattern": "ਉ\\^",
+      "replacement": "ੳ"
+    },
+    {
+      "pattern": "(ਏe|ਇi)",
+      "replacement": "ਈ"
+    },
+    {
+      "pattern": "ਅu",
+      "replacement": "ਔ"
+    },
+    {
+      "pattern": "ਂ[Mm^]",
+      "replacement": "ਁ"
+    },
+    {
+      "pattern": "ਣ੍N",
+      "replacement": "ੰ"
+    },
+    {
+      "pattern": "ਕ੍h",
+      "replacement": "ਖ੍"
+    },
+    {
+      "pattern": "ਗ੍h",
+      "replacement": "ਘ੍"
+    },
+    {
+      "pattern": "ਨ੍g",
+      "replacement": "ਙ੍"
+    },
+    {
+      "pattern": "ਚ੍h",
+      "replacement": "ਛ੍"
+    },
+    {
+      "pattern": "ਜ੍h",
+      "replacement": "ਝ੍"
+    },
+    {
+      "pattern": "ਨ੍j",
+      "replacement": "ਞ੍"
+    },
+    {
+      "pattern": "ਟ੍h",
+      "replacement": "ਠ੍"
+    },
+    {
+      "pattern": "ਡ੍h",
+      "replacement": "ਢ੍"
+    },
+    {
+      "pattern": "ਤ੍h",
+      "replacement": "ਥ੍"
+    },
+    {
+      "pattern": "ਦ੍h",
+      "replacement": "ਧ੍"
+    },
+    {
+      "pattern": "ਪ੍h",
+      "replacement": "ਫ੍"
+    },
+    {
+      "pattern": "ਬ੍h",
+      "replacement": "ਭ੍"
+    },
+    {
+      "pattern": "ਸ੍h",
+      "replacement": "ਸ਼੍"
+    },
+    {
+      "pattern": "ਕ਼੍h",
+      "replacement": "ਖ਼੍"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ਅ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ਬ੍"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ਚ੍"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ਦ੍"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ਏ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ਫ੍"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ਫ਼੍"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ਗ੍"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ਹ੍"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ਇ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ਜ੍"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ਕ੍"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ਲ੍"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ਮ੍"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ਨ੍"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ਓ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ਪ੍"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ੑ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ਰ੍"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ਸ੍"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ਤ੍"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ਉ"
+    },
+    {
+      "pattern": "(v|w)",
+      "replacement": "ਵ੍"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ਯ੍"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ੱ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ਆ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ਡ੍"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ਃ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ਈ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ਂ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ਣ੍"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ੜ੍"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ਸ਼੍"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ਟ੍"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ਊ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ੴ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ੵ"
+    },
+    {
+      "pattern": "0",
+      "replacement": "੦"
+    },
+    {
+      "pattern": "1",
+      "replacement": "੧"
+    },
+    {
+      "pattern": "2",
+      "replacement": "੨"
+    },
+    {
+      "pattern": "3",
+      "replacement": "੩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "੪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "੫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "੬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "੭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "੮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "੯"
+    },
+    {
+      "pattern": "~",
+      "replacement": "੍"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "਼"
+    },
+    {
+      "pattern": "।\\.",
+      "replacement": "॥"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "।"
+    }
+  ]
+}

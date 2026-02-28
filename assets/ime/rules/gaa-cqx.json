@@ -1,0 +1,61 @@
+{
+  "id": "gaa-cqx",
+  "name": "Ga - CQX replacement",
+  "description": "Ga input method with C, Q and X replaced by Ŋ, Ɛ and Ɔ",
+  "date": "2016-06-23",
+  "author": "Amir E. Aharoni, based on Kasahorow Akan",
+  "license": "GPLv3",
+  "version": "1.1",
+  "contextLength": 1,
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": "\\\\C",
+      "replacement": "C"
+    },
+    {
+      "pattern": "\\\\c",
+      "replacement": "c"
+    },
+    {
+      "pattern": "\\\\Q",
+      "replacement": "Q"
+    },
+    {
+      "pattern": "\\\\q",
+      "replacement": "q"
+    },
+    {
+      "pattern": "\\\\X",
+      "replacement": "X"
+    },
+    {
+      "pattern": "\\\\x",
+      "replacement": "x"
+    },
+    {
+      "pattern": "C",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ɔ"
+    }
+  ]
+}

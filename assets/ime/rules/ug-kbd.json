@@ -1,0 +1,255 @@
+{
+  "id": "ug-kbd",
+  "name": "Uyghur kbd",
+  "description": "Uyghur kbd keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "q",
+      "replacement": "چ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ۋ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ې"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ر"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ت"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ي"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ۇ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ڭ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "و"
+    },
+    {
+      "pattern": "p",
+      "replacement": "پ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ھ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "س"
+    },
+    {
+      "pattern": "d",
+      "replacement": "د"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ا"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ە"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ى"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ق"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ك"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ل"
+    },
+    {
+      "pattern": ";",
+      "replacement": "؛"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ز"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ش"
+    },
+    {
+      "pattern": "c",
+      "replacement": "غ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ۈ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ب"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ن"
+    },
+    {
+      "pattern": "m",
+      "replacement": "م"
+    },
+    {
+      "pattern": ",",
+      "replacement": "،"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ئ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "چ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ۋ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ې"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ر"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ت"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ي"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ۇ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ڭ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "و"
+    },
+    {
+      "pattern": "P",
+      "replacement": "پ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "«"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "»"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ھ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "س"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ژ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ف"
+    },
+    {
+      "pattern": "G",
+      "replacement": "گ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "خ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ج"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ۆ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ل"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ز"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ش"
+    },
+    {
+      "pattern": "C",
+      "replacement": "غ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ۈ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ب"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ن"
+    },
+    {
+      "pattern": "M",
+      "replacement": "م"
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "؟"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "‹"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "›"
+    },
+    {
+      "pattern": "\\_",
+      "replacement": "—"
+    }
+  ]
+}

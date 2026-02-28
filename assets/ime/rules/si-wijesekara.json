@@ -1,0 +1,356 @@
+{
+  "id": "si-wijesekara",
+  "name": "Sinhalese Wijesekara",
+  "description": "Wijesekara layout for Sinhalese",
+  "date": "2012-10-16",
+  "author": "Junaid P V",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "`",
+      "replacement": "්‍ර"
+    },
+    {
+      "pattern": "~",
+      "replacement": "ර්‍"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ු"
+    },
+    {
+      "pattern": "w",
+      "replacement": "අ"
+    },
+    {
+      "pattern": "අe",
+      "replacement": "ඇ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ැ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ර"
+    },
+    {
+      "pattern": "ෙt",
+      "replacement": "ඓ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "එ"
+    },
+    {
+      "pattern": "y",
+      "replacement": "හ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ම"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ස"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ද"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ච"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ඤ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": ";"
+    },
+    {
+      "pattern": "එa",
+      "replacement": "ඒ"
+    },
+    {
+      "pattern": "ඔa",
+      "replacement": "ඕ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "්"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ි"
+    },
+    {
+      "pattern": "අd",
+      "replacement": "ආ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "ා"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ෙ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "ට"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ය"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ව"
+    },
+    {
+      "pattern": "k",
+      "replacement": "න"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ක"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ත"
+    },
+    {
+      "pattern": "'",
+      "replacement": "."
+    },
+    {
+      "pattern": "z",
+      "replacement": "'"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ං"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ජ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ඩ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ඉ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "බ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ප"
+    },
+    {
+      "pattern": "\\,",
+      "replacement": "ල"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ග"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ූ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "උ"
+    },
+    {
+      "pattern": "අE",
+      "replacement": "ඈ"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ෑ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ඍ"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ඔ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ශ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ඹ"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ෂ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ධ"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ඡ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ඥ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": ":"
+    },
+    {
+      "pattern": "උA",
+      "replacement": "ඌ"
+    },
+    {
+      "pattern": "ඏA",
+      "replacement": "ඐ"
+    },
+    {
+      "pattern": "ඔA",
+      "replacement": "ඖ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "ෟ"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ී"
+    },
+    {
+      "pattern": "ඍD",
+      "replacement": "ඎ"
+    },
+    {
+      "pattern": "ෘD",
+      "replacement": "ෲ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ෘ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ෆ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ඨ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ය"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ළ"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ණ"
+    },
+    {
+      "pattern": "L",
+      "replacement": "ඛ"
+    },
+    {
+      "pattern": "\\:",
+      "replacement": "ථ"
+    },
+    {
+      "pattern": "\"",
+      "replacement": ","
+    },
+    {
+      "pattern": "Z",
+      "replacement": "\""
+    },
+    {
+      "pattern": "X",
+      "replacement": "ඃ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ඣ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ඪ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ඊ"
+    },
+    {
+      "pattern": "N",
+      "replacement": "භ"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ඵ"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "ළ"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "ඝ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ඳ",
+      "context": "x"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ඬ",
+      "context": "x"
+    },
+    {
+      "pattern": "'",
+      "replacement": "෴",
+      "context": "x"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ෳ",
+      "context": "x"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "ඟ",
+      "context": "x"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ඦ",
+      "context": "x"
+    },
+    {
+      "pattern": ",",
+      "replacement": "ඏ",
+      "context": "x"
+    }
+  ]
+}

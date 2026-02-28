@@ -1,0 +1,167 @@
+{
+  "id": "ka-kbd",
+  "name": "Georgian kbd",
+  "description": "Georgian kbd keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": ".k",
+      "replacement": "კ"
+    },
+    {
+      "pattern": ".p",
+      "replacement": "პ"
+    },
+    {
+      "pattern": "+z",
+      "replacement": "ჟ"
+    },
+    {
+      "pattern": ".t",
+      "replacement": "ტ"
+    },
+    {
+      "pattern": ".g",
+      "replacement": "ღ"
+    },
+    {
+      "pattern": "+s",
+      "replacement": "შ"
+    },
+    {
+      "pattern": ".+c",
+      "replacement": "ჭ"
+    },
+    {
+      "pattern": "+c",
+      "replacement": "ჩ"
+    },
+    {
+      "pattern": ".c",
+      "replacement": "წ"
+    },
+    {
+      "pattern": "+j",
+      "replacement": "ჯ"
+    },
+    {
+      "pattern": "ყ1",
+      "replacement": "ჴ"
+    },
+    {
+      "pattern": "ე0",
+      "replacement": "ჱ"
+    },
+    {
+      "pattern": "ო1",
+      "replacement": "ჵ"
+    },
+    {
+      "pattern": "ი1",
+      "replacement": "ჲ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ა"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ბ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "გ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "დ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ე"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ვ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ზ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "თ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ი"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ლ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "მ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ნ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ო"
+    },
+    {
+      "pattern": "r",
+      "replacement": "რ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "ს"
+    },
+    {
+      "pattern": "u",
+      "replacement": "უ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "ფ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ქ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ყ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ც"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ძ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ხ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ჰ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ჳ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ჶ"
+    }
+  ]
+}

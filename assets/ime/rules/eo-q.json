@@ -1,0 +1,155 @@
+{
+  "id": "eo-q",
+  "name": "Espernto q",
+  "description": "writing Esperanto-letters adding q's.",
+  "date": "2013-02-09",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "ĉq",
+      "replacement": "cq"
+    },
+    {
+      "pattern": "ĝq",
+      "replacement": "gq"
+    },
+    {
+      "pattern": "ĥq",
+      "replacement": "hq"
+    },
+    {
+      "pattern": "ĵq",
+      "replacement": "jq"
+    },
+    {
+      "pattern": "ŝq",
+      "replacement": "sq"
+    },
+    {
+      "pattern": "ŭq",
+      "replacement": "uq"
+    },
+    {
+      "pattern": "Ĉq",
+      "replacement": "Cq"
+    },
+    {
+      "pattern": "Ĝq",
+      "replacement": "Gq"
+    },
+    {
+      "pattern": "Ĥq",
+      "replacement": "Hq"
+    },
+    {
+      "pattern": "Ĵq",
+      "replacement": "Jq"
+    },
+    {
+      "pattern": "Ŝq",
+      "replacement": "Sq"
+    },
+    {
+      "pattern": "Ŭq",
+      "replacement": "Uq"
+    },
+    {
+      "pattern": "ĈQ",
+      "replacement": "CQ"
+    },
+    {
+      "pattern": "ĜQ",
+      "replacement": "GQ"
+    },
+    {
+      "pattern": "ĤQ",
+      "replacement": "HQ"
+    },
+    {
+      "pattern": "ĴQ",
+      "replacement": "JQ"
+    },
+    {
+      "pattern": "ŜQ",
+      "replacement": "SQ"
+    },
+    {
+      "pattern": "ŬQ",
+      "replacement": "UQ"
+    },
+    {
+      "pattern": "cq",
+      "replacement": "ĉ"
+    },
+    {
+      "pattern": "gq",
+      "replacement": "ĝ"
+    },
+    {
+      "pattern": "hq",
+      "replacement": "ĥ"
+    },
+    {
+      "pattern": "jq",
+      "replacement": "ĵ"
+    },
+    {
+      "pattern": "sq",
+      "replacement": "ŝ"
+    },
+    {
+      "pattern": "uq",
+      "replacement": "ŭ"
+    },
+    {
+      "pattern": "Cq",
+      "replacement": "Ĉ"
+    },
+    {
+      "pattern": "Gq",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "Hq",
+      "replacement": "Ĥ"
+    },
+    {
+      "pattern": "Jq",
+      "replacement": "Ĵ"
+    },
+    {
+      "pattern": "Sq",
+      "replacement": "Ŝ"
+    },
+    {
+      "pattern": "Uq",
+      "replacement": "Ŭ"
+    },
+    {
+      "pattern": "CQ",
+      "replacement": "Ĉ"
+    },
+    {
+      "pattern": "GQ",
+      "replacement": "Ĝ"
+    },
+    {
+      "pattern": "HQ",
+      "replacement": "Ĥ"
+    },
+    {
+      "pattern": "JQ",
+      "replacement": "Ĵ"
+    },
+    {
+      "pattern": "SQ",
+      "replacement": "Ŝ"
+    },
+    {
+      "pattern": "UQ",
+      "replacement": "Ŭ"
+    }
+  ]
+}

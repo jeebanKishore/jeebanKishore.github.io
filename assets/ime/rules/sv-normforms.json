@@ -1,0 +1,97 @@
+{
+  "id": "sv-normforms",
+  "name": "Svenska",
+  "description": "Swedish input method with most common form transliterated",
+  "date": "2012-12-04",
+  "author": "John Erling Blad",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 3,
+  "rules": [
+    {
+      "pattern": "aa",
+      "replacement": "å"
+    },
+    {
+      "pattern": "AA",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "Aa",
+      "replacement": "Å"
+    },
+    {
+      "pattern": "ae",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "AE",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "Ae",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "oe",
+      "replacement": "ö"
+    },
+    {
+      "pattern": "OE",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "Oe",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "åa",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ÅA",
+      "replacement": "A"
+    },
+    {
+      "pattern": "Åa",
+      "replacement": "A"
+    },
+    {
+      "pattern": "åA",
+      "replacement": "a"
+    },
+    {
+      "pattern": "äe",
+      "replacement": "e"
+    },
+    {
+      "pattern": "ÄE",
+      "replacement": "E"
+    },
+    {
+      "pattern": "Äe",
+      "replacement": "E"
+    },
+    {
+      "pattern": "äE",
+      "replacement": "e"
+    },
+    {
+      "pattern": "öe",
+      "replacement": "e"
+    },
+    {
+      "pattern": "ÖE",
+      "replacement": "E"
+    },
+    {
+      "pattern": "Öe",
+      "replacement": "E"
+    },
+    {
+      "pattern": "öE",
+      "replacement": "e"
+    }
+  ]
+}

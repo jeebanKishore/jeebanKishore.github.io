@@ -1,0 +1,45 @@
+{
+  "id": "de-transliteration",
+  "name": "Deutsch Tilde",
+  "description": "German input method",
+  "date": "2012-11-20",
+  "author": "Erik Moeller",
+  "license": "Public domain",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 1,
+  "rules": [
+    {
+      "pattern": "~A",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "~U",
+      "replacement": "Ü"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ö"
+    },
+    {
+      "pattern": "~u",
+      "replacement": "ü"
+    },
+    {
+      "pattern": "~s",
+      "replacement": "ß"
+    },
+    {
+      "pattern": "~S",
+      "replacement": "ß"
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "id": "ru-yawerty",
+  "name": "Russian YAWERTY",
+  "description": "Russian YAWERTY keyboard layout",
+  "date": "2013-02-12",
+  "author": "Parag Nemade",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "/q",
+      "replacement": "ђ"
+    },
+    {
+      "pattern": "/w",
+      "replacement": "ѓ"
+    },
+    {
+      "pattern": "/e",
+      "replacement": "є"
+    },
+    {
+      "pattern": "/r",
+      "replacement": "ѕ"
+    },
+    {
+      "pattern": "/t",
+      "replacement": "і"
+    },
+    {
+      "pattern": "/y",
+      "replacement": "ї"
+    },
+    {
+      "pattern": "/u",
+      "replacement": "ј"
+    },
+    {
+      "pattern": "/i",
+      "replacement": "љ"
+    },
+    {
+      "pattern": "/o",
+      "replacement": "њ"
+    },
+    {
+      "pattern": "/p",
+      "replacement": "ћ"
+    },
+    {
+      "pattern": "/a",
+      "replacement": "ќ"
+    },
+    {
+      "pattern": "/s",
+      "replacement": "ў"
+    },
+    {
+      "pattern": "/d",
+      "replacement": "џ"
+    },
+    {
+      "pattern": "/Q",
+      "replacement": "Ђ"
+    },
+    {
+      "pattern": "/W",
+      "replacement": "Ѓ"
+    },
+    {
+      "pattern": "/E",
+      "replacement": "Є"
+    },
+    {
+      "pattern": "/R",
+      "replacement": "Ѕ"
+    },
+    {
+      "pattern": "/T",
+      "replacement": "І"
+    },
+    {
+      "pattern": "/Y",
+      "replacement": "Ї"
+    },
+    {
+      "pattern": "/U",
+      "replacement": "Ј"
+    },
+    {
+      "pattern": "/I",
+      "replacement": "Љ"
+    },
+    {
+      "pattern": "/O",
+      "replacement": "Њ"
+    },
+    {
+      "pattern": "/P",
+      "replacement": "Ћ"
+    },
+    {
+      "pattern": "/A",
+      "replacement": "Ќ"
+    },
+    {
+      "pattern": "/S",
+      "replacement": "Ў"
+    },
+    {
+      "pattern": "/D",
+      "replacement": "Џ"
+    },
+    {
+      "pattern": "\\=",
+      "replacement": "ч"
+    },
+    {
+      "pattern": "`",
+      "replacement": "ю"
+    },
+    {
+      "pattern": "q",
+      "replacement": "я"
+    },
+    {
+      "pattern": "w",
+      "replacement": "в"
+    },
+    {
+      "pattern": "e",
+      "replacement": "е"
+    },
+    {
+      "pattern": "r",
+      "replacement": "р"
+    },
+    {
+      "pattern": "t",
+      "replacement": "т"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ы"
+    },
+    {
+      "pattern": "u",
+      "replacement": "у"
+    },
+    {
+      "pattern": "i",
+      "replacement": "и"
+    },
+    {
+      "pattern": "o",
+      "replacement": "о"
+    },
+    {
+      "pattern": "p",
+      "replacement": "п"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ш"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "щ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "а"
+    },
+    {
+      "pattern": "s",
+      "replacement": "с"
+    },
+    {
+      "pattern": "d",
+      "replacement": "д"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ф"
+    },
+    {
+      "pattern": "g",
+      "replacement": "г"
+    },
+    {
+      "pattern": "h",
+      "replacement": "х"
+    },
+    {
+      "pattern": "j",
+      "replacement": "й"
+    },
+    {
+      "pattern": "k",
+      "replacement": "к"
+    },
+    {
+      "pattern": "l",
+      "replacement": "л"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "э"
+    },
+    {
+      "pattern": "z",
+      "replacement": "з"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ь"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ц"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ж"
+    },
+    {
+      "pattern": "b",
+      "replacement": "б"
+    },
+    {
+      "pattern": "n",
+      "replacement": "н"
+    },
+    {
+      "pattern": "m",
+      "replacement": "м"
+    },
+    {
+      "pattern": "\\@",
+      "replacement": "ё"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "ъ"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "Ё"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "Ч"
+    },
+    {
+      "pattern": "\\~",
+      "replacement": "Ю"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "Я"
+    },
+    {
+      "pattern": "W",
+      "replacement": "В"
+    },
+    {
+      "pattern": "E",
+      "replacement": "Е"
+    },
+    {
+      "pattern": "R",
+      "replacement": "Р"
+    },
+    {
+      "pattern": "T",
+      "replacement": "Т"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "Ы"
+    },
+    {
+      "pattern": "U",
+      "replacement": "У"
+    },
+    {
+      "pattern": "I",
+      "replacement": "И"
+    },
+    {
+      "pattern": "O",
+      "replacement": "О"
+    },
+    {
+      "pattern": "P",
+      "replacement": "П"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "Ш"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "Щ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "А"
+    },
+    {
+      "pattern": "S",
+      "replacement": "С"
+    },
+    {
+      "pattern": "D",
+      "replacement": "Д"
+    },
+    {
+      "pattern": "F",
+      "replacement": "Ф"
+    },
+    {
+      "pattern": "G",
+      "replacement": "Г"
+    },
+    {
+      "pattern": "H",
+      "replacement": "Х"
+    },
+    {
+      "pattern": "J",
+      "replacement": "Й"
+    },
+    {
+      "pattern": "K",
+      "replacement": "К"
+    },
+    {
+      "pattern": "L",
+      "replacement": "Л"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "Э"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "З"
+    },
+    {
+      "pattern": "X",
+      "replacement": "Ь"
+    },
+    {
+      "pattern": "C",
+      "replacement": "Ц"
+    },
+    {
+      "pattern": "V",
+      "replacement": "Ж"
+    },
+    {
+      "pattern": "B",
+      "replacement": "Б"
+    },
+    {
+      "pattern": "N",
+      "replacement": "Н"
+    },
+    {
+      "pattern": "M",
+      "replacement": "М"
+    }
+  ]
+}

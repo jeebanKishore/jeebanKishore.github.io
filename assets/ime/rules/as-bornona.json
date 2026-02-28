@@ -1,0 +1,273 @@
+{
+  "id": "as-bornona",
+  "name": "বৰ্ণনা",
+  "description": "Bornona input method for Assamese",
+  "date": "2012-10-10",
+  "author": "Junaid P V",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 0,
+  "rules": [
+    {
+      "pattern": "q",
+      "replacement": "ং"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "ঙ"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ঢ"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ঠ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ে"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ৈ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ৰ"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ৃ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ত"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ট"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ধ"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "থ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ু"
+    },
+    {
+      "pattern": "U",
+      "replacement": "ূ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ি"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ী"
+    },
+    {
+      "pattern": "o",
+      "replacement": "ো"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ৌ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "প"
+    },
+    {
+      "pattern": "P",
+      "replacement": "্ৰ"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "র"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ৱ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "া"
+    },
+    {
+      "pattern": "A",
+      "replacement": "অ"
+    },
+    {
+      "pattern": "s",
+      "replacement": "স"
+    },
+    {
+      "pattern": "S",
+      "replacement": "শ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "দ"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ড"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ফ"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ৰ্ফ"
+    },
+    {
+      "pattern": "g",
+      "replacement": "গ"
+    },
+    {
+      "pattern": "G",
+      "replacement": "ঘ"
+    },
+    {
+      "pattern": "h",
+      "replacement": "্"
+    },
+    {
+      "pattern": "H",
+      "replacement": "হ"
+    },
+    {
+      "pattern": "j",
+      "replacement": "জ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "ঝ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ক"
+    },
+    {
+      "pattern": "K",
+      "replacement": "খ"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ল"
+    },
+    {
+      "pattern": "L",
+      "replacement": "।"
+    },
+    {
+      "pattern": "z",
+      "replacement": "য"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ড়"
+    },
+    {
+      "pattern": "x",
+      "replacement": "ষ"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ঢ়"
+    },
+    {
+      "pattern": "c",
+      "replacement": "চ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ছ"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ভ"
+    },
+    {
+      "pattern": "V",
+      "replacement": "্য"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ব"
+    },
+    {
+      "pattern": "B",
+      "replacement": "য়"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ন"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ণ"
+    },
+    {
+      "pattern": "m",
+      "replacement": "ম"
+    },
+    {
+      "pattern": "M",
+      "replacement": "ঞ"
+    },
+    {
+      "pattern": "0",
+      "replacement": "০"
+    },
+    {
+      "pattern": "1",
+      "replacement": "১"
+    },
+    {
+      "pattern": "2",
+      "replacement": "২"
+    },
+    {
+      "pattern": "3",
+      "replacement": "৩"
+    },
+    {
+      "pattern": "4",
+      "replacement": "৪"
+    },
+    {
+      "pattern": "5",
+      "replacement": "৫"
+    },
+    {
+      "pattern": "6",
+      "replacement": "৬"
+    },
+    {
+      "pattern": "7",
+      "replacement": "৭"
+    },
+    {
+      "pattern": "8",
+      "replacement": "৮"
+    },
+    {
+      "pattern": "9",
+      "replacement": "৯"
+    },
+    {
+      "pattern": "\\`",
+      "replacement": "‌"
+    }
+  ]
+}

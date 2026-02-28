@@ -1,0 +1,19 @@
+{
+  "id": "lg-tilde",
+  "name": "lg-tilde",
+  "description": "Luganda tilde keyboard",
+  "date": "2019-03-28",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    }
+  ]
+}

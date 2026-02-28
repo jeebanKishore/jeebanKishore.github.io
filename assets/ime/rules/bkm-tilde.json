@@ -1,0 +1,100 @@
+{
+  "id": "bkm-tilde",
+  "name": "bkm-tilde",
+  "description": "Kom tilde keyboard",
+  "date": "2021-03-31",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "AE",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "Ae",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "ae",
+      "replacement": "æ"
+    },
+    {
+      "pattern": "A~E",
+      "replacement": "AE"
+    },
+    {
+      "pattern": "A~e",
+      "replacement": "Ae"
+    },
+    {
+      "pattern": "a~e",
+      "replacement": "ae"
+    },
+    {
+      "pattern": "~A",
+      "replacement": "Æ"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "æ"
+    },
+    {
+      "pattern": "~I",
+      "replacement": "Ɨ"
+    },
+    {
+      "pattern": "~i",
+      "replacement": "ɨ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "OE",
+      "replacement": "Œ"
+    },
+    {
+      "pattern": "Oe",
+      "replacement": "Œ"
+    },
+    {
+      "pattern": "oe",
+      "replacement": "œ"
+    },
+    {
+      "pattern": "O~E",
+      "replacement": "OE"
+    },
+    {
+      "pattern": "O~e",
+      "replacement": "Oe"
+    },
+    {
+      "pattern": "o~e",
+      "replacement": "oe"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Œ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "œ"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    }
+  ]
+}

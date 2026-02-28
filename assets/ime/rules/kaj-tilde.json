@@ -1,0 +1,35 @@
+{
+  "id": "kaj-tilde",
+  "name": "kaj-tilde",
+  "description": "Jju input keyboard",
+  "date": "2024-09-03",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~A",
+      "replacement": "A̱"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "a̱"
+    },
+    {
+      "pattern": "~U",
+      "replacement": "U̱"
+    },
+    {
+      "pattern": "~u",
+      "replacement": "u̱"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~_",
+      "replacement": "̱"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "ha-tilde",
+  "name": "ha-tilde",
+  "description": "Hausa input keyboard",
+  "date": "2018-11-30",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~B",
+      "replacement": "Ɓ"
+    },
+    {
+      "pattern": "~b",
+      "replacement": "ɓ"
+    },
+    {
+      "pattern": "~D",
+      "replacement": "Ɗ"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "ɗ"
+    },
+    {
+      "pattern": "~E",
+      "replacement": "Ɛ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ɛ"
+    },
+    {
+      "pattern": "~K",
+      "replacement": "Ƙ"
+    },
+    {
+      "pattern": "~k",
+      "replacement": "ƙ"
+    },
+    {
+      "pattern": "~R",
+      "replacement": "R̃"
+    },
+    {
+      "pattern": "~r",
+      "replacement": "r̃"
+    },
+    {
+      "pattern": "~Y",
+      "replacement": "Ƴ"
+    },
+    {
+      "pattern": "~y",
+      "replacement": "ƴ"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    }
+  ]
+}

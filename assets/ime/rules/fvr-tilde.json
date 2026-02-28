@@ -1,0 +1,59 @@
+{
+  "id": "fvr-tilde",
+  "name": "fvr-tilde",
+  "description": "Fur tilde keyboard",
+  "date": "2024-10-31",
+  "author": "Amir E. Aharoni",
+  "license": "GPLv3",
+  "version": "1.0",
+  "rules": [
+    {
+      "pattern": "~A",
+      "replacement": "A̱"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "a̱"
+    },
+    {
+      "pattern": "~I",
+      "replacement": "Ɨ"
+    },
+    {
+      "pattern": "~i",
+      "replacement": "ɨ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "Ŋ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ŋ"
+    },
+    {
+      "pattern": "~U",
+      "replacement": "Ʉ"
+    },
+    {
+      "pattern": "~u",
+      "replacement": "ʉ"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~v",
+      "replacement": "̌"
+    },
+    {
+      "pattern": "~_",
+      "replacement": "̱"
+    }
+  ]
+}

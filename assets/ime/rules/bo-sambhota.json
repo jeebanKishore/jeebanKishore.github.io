@@ -1,0 +1,373 @@
+{
+  "id": "bo-sambhota",
+  "name": "Tibetan Sambhota",
+  "description": "Tibetan Sambhota Input Method.",
+  "date": "2015-08-04",
+  "author": "Elie Roux <elie.roux@telecom-bretagne.eu>",
+  "license": "GPLv3",
+  "version": "1.0",
+  "maxKeyLength": 5,
+  "rules": [
+    {
+      "pattern": " "
+    },
+    {
+      "pattern": "\\."
+    },
+    {
+      "pattern": ","
+    },
+    {
+      "pattern": ";"
+    },
+    {
+      "pattern": "f"
+    },
+    {
+      "pattern": "a"
+    },
+    {
+      "pattern": "k"
+    },
+    {
+      "pattern": "K"
+    },
+    {
+      "pattern": "g"
+    },
+    {
+      "pattern": "G"
+    },
+    {
+      "pattern": "c"
+    },
+    {
+      "pattern": "C"
+    },
+    {
+      "pattern": "j"
+    },
+    {
+      "pattern": "N"
+    },
+    {
+      "pattern": "q"
+    },
+    {
+      "pattern": "Q"
+    },
+    {
+      "pattern": "v"
+    },
+    {
+      "pattern": "V"
+    },
+    {
+      "pattern": "t"
+    },
+    {
+      "pattern": "T"
+    },
+    {
+      "pattern": "d"
+    },
+    {
+      "pattern": "གྷn"
+    },
+    {
+      "pattern": "n"
+    },
+    {
+      "pattern": "p"
+    },
+    {
+      "pattern": "P"
+    },
+    {
+      "pattern": "b"
+    },
+    {
+      "pattern": "རྨm"
+    },
+    {
+      "pattern": "m"
+    },
+    {
+      "pattern": "x"
+    },
+    {
+      "pattern": "X"
+    },
+    {
+      "pattern": "D"
+    },
+    {
+      "pattern": "ྭw"
+    },
+    {
+      "pattern": "w"
+    },
+    {
+      "pattern": "W"
+    },
+    {
+      "pattern": "Z"
+    },
+    {
+      "pattern": "z"
+    },
+    {
+      "pattern": "ཱ'"
+    },
+    {
+      "pattern": "'"
+    },
+    {
+      "pattern": "ྱy"
+    },
+    {
+      "pattern": "y"
+    },
+    {
+      "pattern": "l"
+    },
+    {
+      "pattern": "i"
+    },
+    {
+      "pattern": "u"
+    },
+    {
+      "pattern": "e"
+    },
+    {
+      "pattern": "o"
+    },
+    {
+      "pattern": "ལ([ྐ-ྷ]+)r"
+    },
+    {
+      "pattern": "ྐr"
+    },
+    {
+      "pattern": "ྒr"
+    },
+    {
+      "pattern": "ྣr"
+    },
+    {
+      "pattern": "ྤr"
+    },
+    {
+      "pattern": "ྦr"
+    },
+    {
+      "pattern": "ྨr"
+    },
+    {
+      "pattern": "སྡr"
+    },
+    {
+      "pattern": "ྡr"
+    },
+    {
+      "pattern": "ྦྷr"
+    },
+    {
+      "pattern": "ྡྷr"
+    },
+    {
+      "pattern": "ྒྷr"
+    },
+    {
+      "pattern": "ྜྷr"
+    },
+    {
+      "pattern": "ྟr"
+    },
+    {
+      "pattern": "r"
+    },
+    {
+      "pattern": "S"
+    },
+    {
+      "pattern": "ཀB"
+    },
+    {
+      "pattern": "ྐB"
+    },
+    {
+      "pattern": "B"
+    },
+    {
+      "pattern": "s"
+    },
+    {
+      "pattern": "གh"
+    },
+    {
+      "pattern": "ཌh"
+    },
+    {
+      "pattern": "དh"
+    },
+    {
+      "pattern": "བh"
+    },
+    {
+      "pattern": "ཛh"
+    },
+    {
+      "pattern": "ྒh"
+    },
+    {
+      "pattern": "ྜh"
+    },
+    {
+      "pattern": "ྡh"
+    },
+    {
+      "pattern": "ྦh"
+    },
+    {
+      "pattern": "ྫh"
+    },
+    {
+      "pattern": "ྷh"
+    },
+    {
+      "pattern": "h"
+    },
+    {
+      "pattern": "A"
+    },
+    {
+      "pattern": "R"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ྻ"
+    },
+    {
+      "pattern": "ྲI"
+    },
+    {
+      "pattern": "ླI"
+    },
+    {
+      "pattern": "I"
+    },
+    {
+      "pattern": "E"
+    },
+    {
+      "pattern": "O"
+    },
+    {
+      "pattern": "J"
+    },
+    {
+      "pattern": "U"
+    },
+    {
+      "pattern": "F"
+    },
+    {
+      "pattern": "L"
+    },
+    {
+      "pattern": "`"
+    },
+    {
+      "pattern": "~"
+    },
+    {
+      "pattern": "\\^"
+    },
+    {
+      "pattern": "\\!"
+    },
+    {
+      "pattern": "\\#"
+    },
+    {
+      "pattern": "\\%"
+    },
+    {
+      "pattern": "\\+"
+    },
+    {
+      "pattern": "\\&"
+    },
+    {
+      "pattern": "\\<"
+    },
+    {
+      "pattern": "\\="
+    },
+    {
+      "pattern": "\\>"
+    },
+    {
+      "pattern": "\\:"
+    },
+    {
+      "pattern": "\""
+    },
+    {
+      "pattern": "@"
+    },
+    {
+      "pattern": "\\$"
+    },
+    {
+      "pattern": "\\/"
+    },
+    {
+      "pattern": "\\?"
+    },
+    {
+      "pattern": "\\|"
+    },
+    {
+      "pattern": "-"
+    },
+    {
+      "pattern": "\\("
+    },
+    {
+      "pattern": "\\)"
+    },
+    {
+      "pattern": "0"
+    },
+    {
+      "pattern": "1"
+    },
+    {
+      "pattern": "2"
+    },
+    {
+      "pattern": "3"
+    },
+    {
+      "pattern": "4"
+    },
+    {
+      "pattern": "5"
+    },
+    {
+      "pattern": "6"
+    },
+    {
+      "pattern": "7"
+    },
+    {
+      "pattern": "8"
+    },
+    {
+      "pattern": "9"
+    }
+  ]
+}

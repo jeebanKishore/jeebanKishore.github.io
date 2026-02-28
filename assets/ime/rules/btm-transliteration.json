@@ -1,0 +1,277 @@
+{
+  "id": "btm-transliteration",
+  "name": "Mandailing",
+  "description": "Batak Mandailing transliteration",
+  "date": "2023-07-29",
+  "author": "Benny Lin",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 2,
+  "maxKeyLength": 2,
+  "rules": [
+    {
+      "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
+      "replacement": "\\\\"
+    },
+    {
+      "pattern": "᯲(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯲(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯲(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯲(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯲(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯲(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯳(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯳(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯳(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯳(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯳(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "᯳(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯰ(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯰ(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯰ(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯰ(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯰ(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯰ(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯱ(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯱ(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯱ(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯱ(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯱ(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯱ(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "ᯤ(h|H)",
+      "replacement": "(i|I)"
+    },
+    {
+      "pattern": "ᯥ(h|H)",
+      "replacement": "(u|U)"
+    },
+    {
+      "pattern": "ᯤ(n|N)",
+      "replacement": "(i|I)"
+    },
+    {
+      "pattern": "ᯥ(n|N)",
+      "replacement": "(u|U)"
+    },
+    {
+      "pattern": "ᯊ᯲(g|G)",
+      "replacement": "(a|A|e|E|i|I|o|O|u|U|x|X)n"
+    },
+    {
+      "pattern": "ᯊ᯲(g|G)",
+      "replacement": "n"
+    },
+    {
+      "pattern": "ᯊ᯲(y|Y)",
+      "replacement": "n"
+    },
+    {
+      "pattern": "(a|A)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(b|B)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(c|C)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(d|D)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(e|E)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(f|F)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(g|G)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(h|H)",
+      "replacement": "(a|e|i|o|u|x)"
+    },
+    {
+      "pattern": "H",
+      "replacement": ""
+    },
+    {
+      "pattern": "h",
+      "replacement": ""
+    },
+    {
+      "pattern": "(i|I)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(j|J)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(k|K)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(l|L)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(m|M)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(n|N)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(o|O)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(p|P)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(q|Q)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(r|R)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(s|S)",
+      "replacement": ""
+    },
+    {
+      "pattern": "t",
+      "replacement": ""
+    },
+    {
+      "pattern": "T",
+      "replacement": ""
+    },
+    {
+      "pattern": "(u|U)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(v|V)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(w|W)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(x|X)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(y|Y)",
+      "replacement": ""
+    },
+    {
+      "pattern": "(z|Z)",
+      "replacement": ""
+    },
+    {
+      "pattern": "4",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "5",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "6",
+      "replacement": "",
+      "context": "x"
+    },
+    {
+      "pattern": "7",
+      "replacement": "",
+      "context": "x"
+    }
+  ]
+}
