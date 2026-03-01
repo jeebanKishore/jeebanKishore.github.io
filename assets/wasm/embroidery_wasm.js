@@ -44,7 +44,7 @@ function __wbg_get_imports() {
             }
         },
         __wbg_log_6b5ca2e6124b2808: function(arg0) {
-            console.log(arg0);
+            // console.log(arg0);
         },
         __wbg_new_8a6f238a6ece86ea: function() {
             const ret = new Error();
