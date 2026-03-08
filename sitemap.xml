@@ -1,101 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yourdomain.com/</loc>
+    <loc>https://jeebanKishore.github.io/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/projects</loc>
+    <loc>https://jeebanKishore.github.io/projects</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/projects/json-viewer</loc>
+    <loc>https://jeebanKishore.github.io/projects/json-viewer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/projects/json-viewer-highperf</loc>
+    <loc>https://jeebanKishore.github.io/projects/json-viewer-highperf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/projects/webgl-json-viewer</loc>
+    <loc>https://jeebanKishore.github.io/projects/webgl-json-viewer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/projects/rich-text-lab</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://yourdomain.com/projects/png-to-svg</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/projects/png-to-svg-potrace</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/projects/background-remover</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/projects/meme-generator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/projects/svg-sticker-effect</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/projects/aspect-ratio-demo</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/projects/embroidery-digitizer</loc>
+    <loc>https://jeebanKishore.github.io/projects/rich-text-lab</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/projects/calculator</loc>
+    <loc>https://jeebanKishore.github.io/projects/png-to-svg</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jeebanKishore.github.io/projects/png-to-svg-potrace</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jeebanKishore.github.io/projects/background-remover</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jeebanKishore.github.io/projects/meme-generator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jeebanKishore.github.io/projects/svg-sticker-effect</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jeebanKishore.github.io/projects/aspect-ratio-demo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jeebanKishore.github.io/projects/embroidery-digitizer</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jeebanKishore.github.io/projects/calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/projects/loan-calculator</loc>
+    <loc>https://jeebanKishore.github.io/projects/loan-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/projects/ppf-calculator</loc>
+    <loc>https://jeebanKishore.github.io/projects/ppf-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/projects/rent-receipt</loc>
+    <loc>https://jeebanKishore.github.io/projects/rent-receipt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/projects/todo</loc>
+    <loc>https://jeebanKishore.github.io/projects/todo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/projects/dashboard-analytics</loc>
+    <loc>https://jeebanKishore.github.io/projects/dashboard-analytics</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
