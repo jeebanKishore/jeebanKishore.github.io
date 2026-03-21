@@ -31,6 +31,7 @@ export class JsonVisualizer {
     set_dark_mode(is_dark: boolean): void;
     set_limits(max_depth: number, max_array_items: number, max_nodes: number): void;
     set_theme(theme: number): void;
+    update_config(config_json: string): void;
     zoom(delta: number, center_x: number, center_y: number): void;
     is_dark_mode: boolean;
     theme: number;
@@ -72,6 +73,7 @@ export interface InitOutput {
     readonly jsonvisualizer_set_dark_mode: (a: number, b: number) => void;
     readonly jsonvisualizer_set_limits: (a: number, b: number, c: number, d: number) => void;
     readonly jsonvisualizer_set_theme: (a: number, b: number) => void;
+    readonly jsonvisualizer_update_config: (a: number, b: number, c: number, d: number) => void;
     readonly jsonvisualizer_zoom: (a: number, b: number, c: number, d: number) => void;
     readonly __wbindgen_export: (a: number, b: number) => number;
     readonly __wbindgen_export2: (a: number, b: number, c: number, d: number) => number;

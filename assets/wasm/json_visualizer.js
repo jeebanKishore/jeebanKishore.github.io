@@ -262,6 +262,24 @@ export class JsonVisualizer {
         wasm.jsonvisualizer_set_theme(this.__wbg_ptr, theme);
     }
     /**
+     * @param {string} config_json
+     */
+    update_config(config_json) {
+        try {
+            const retptr = wasm.__wbindgen_add_to_stack_pointer(-16);
+            const ptr0 = passStringToWasm0(config_json, wasm.__wbindgen_export, wasm.__wbindgen_export2);
+            const len0 = WASM_VECTOR_LEN;
+            wasm.jsonvisualizer_update_config(retptr, this.__wbg_ptr, ptr0, len0);
+            var r0 = getDataViewMemory0().getInt32(retptr + 4 * 0, true);
+            var r1 = getDataViewMemory0().getInt32(retptr + 4 * 1, true);
+            if (r1) {
+                throw takeObject(r0);
+            }
+        } finally {
+            wasm.__wbindgen_add_to_stack_pointer(16);
+        }
+    }
+    /**
      * @param {number} delta
      * @param {number} center_x
      * @param {number} center_y

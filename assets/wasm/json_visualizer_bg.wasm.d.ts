@@ -33,6 +33,7 @@ export const jsonvisualizer_search: (a: number, b: number, c: number) => number;
 export const jsonvisualizer_set_dark_mode: (a: number, b: number) => void;
 export const jsonvisualizer_set_limits: (a: number, b: number, c: number, d: number) => void;
 export const jsonvisualizer_set_theme: (a: number, b: number) => void;
+export const jsonvisualizer_update_config: (a: number, b: number, c: number, d: number) => void;
 export const jsonvisualizer_zoom: (a: number, b: number, c: number, d: number) => void;
 export const __wbindgen_export: (a: number, b: number) => number;
 export const __wbindgen_export2: (a: number, b: number, c: number, d: number) => number;
