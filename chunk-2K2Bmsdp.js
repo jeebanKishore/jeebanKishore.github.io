@@ -1,0 +1,1 @@
+import {aV as kc,aW as mo,dB as ro,aj as Wt,aX as y0}from'./main-ZDHV7TIP.js';var E=(()=>{class r{static \u0275fac=function(M){return new(M||r)};static \u0275mod=kc({type:r});static \u0275inj=mo({imports:[ro,Wt,y0]})}return r})();export{E};
