@@ -1,1 +1,0 @@
-import {aV as kc,aW as mo,dy as ro,aj as jt,aX as y0}from'./main-2Y2TJ5LM.js';var E=(()=>{class r{static \u0275fac=function(M){return new(M||r)};static \u0275mod=kc({type:r});static \u0275inj=mo({imports:[ro,jt,y0]})}return r})();export{E};
