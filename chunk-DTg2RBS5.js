@@ -1,0 +1,1 @@
+import {au as kc,av as mo,ay as y0}from'./main-JQB2RYXI.js';var f=(()=>{class e{static \u0275fac=function(r){return new(r||e)};static \u0275mod=kc({type:e});static \u0275inj=mo({imports:[y0]})}return e})();export{f};
