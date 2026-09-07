@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Roboto",
+    "styles": [
+      {
+        "id": "Roboto-Regular",
+        "name": "Regular",
+        "file": "/assets/wordart-assets/fonts/files/Roboto-Regular.ttf"
+      }
+    ]
+  },
+  {
+    "name": "emoji",
+    "styles": [],
+    "glyphs": [
+      [128512, 128591]
+    ]
+  }
+]

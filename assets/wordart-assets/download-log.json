@@ -1,0 +1,22 @@
+{
+  "completedAt": "2026-06-27T15:32:17.999Z",
+  "totals": {
+    "ok": 3114,
+    "cached": 0,
+    "notFound": 2,
+    "errored": 0,
+    "totalJobs": 3116
+  },
+  "failures": [
+    {
+      "url": "https://cdn.wordart.com/static/creator/shapes/png/cloud_cloud.png",
+      "kind": "shape-full",
+      "status": "404"
+    },
+    {
+      "url": "https://cdn.wordart.com/static/creator/shapes/thumbs/cloud_cloud.png",
+      "kind": "shape-thumb",
+      "status": "404"
+    }
+  ]
+}

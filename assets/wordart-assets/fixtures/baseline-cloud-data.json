@@ -1,0 +1,39 @@
+{
+  "tags": [
+    { "id": 1, "text": "WORDART", "weight": 100 },
+    { "id": 2, "text": "VECTOR", "weight": 80 },
+    { "id": 3, "text": "DESIGN", "weight": 65 },
+    { "id": 4, "text": "CREATIVE", "weight": 55 },
+    { "id": 5, "text": "CANVAS", "weight": 45 },
+    { "id": 6, "text": "SHAPE", "weight": 38 },
+    { "id": 7, "text": "COLOR", "weight": 32 },
+    { "id": 8, "text": "TYPOGRAPHY", "weight": 27 },
+    { "id": 9, "text": "CLOUD", "weight": 22 },
+    { "id": 10, "text": "ENGINE", "weight": 18 },
+    { "id": 11, "text": "MATRIX", "weight": 15 },
+    { "id": 12, "text": "GLYPH", "weight": 12 }
+  ],
+  "fonts": [
+    "Roboto-Regular"
+  ],
+  "shape": {
+    "name": "circle",
+    "src": "/assets/wordart-assets/shapes/png/circle.png",
+    "useShapeColors": false
+  },
+  "angles": [0],
+  "colors": [
+    "2b5c8f",
+    "d9534f",
+    "5cb85c",
+    "f0ad4e"
+  ],
+  "density": 0.15,
+  "maxWordSize": 1,
+  "placementMode": 0,
+  "prominentWords": 0,
+  "tagsAmount": 12,
+  "styleOptions": {
+    "backgroundColor": "ffffff"
+  }
+}
