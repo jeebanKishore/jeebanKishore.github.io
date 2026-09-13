@@ -1,1 +1,0 @@
-import {au as Pc,av as Io,ay as D0}from'./main-BWYFQUFO.js';var f=(()=>{class e{static \u0275fac=function(r){return new(r||e)};static \u0275mod=Pc({type:e});static \u0275inj=Io({imports:[D0]})}return e})();export{f};
