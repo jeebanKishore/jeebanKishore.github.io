@@ -1,0 +1,1 @@
+import {at as Pc,au as Io,ax as k0}from'./main-FAFPKJ5T.js';var f=(()=>{class e{static \u0275fac=function(r){return new(r||e)};static \u0275mod=Pc({type:e});static \u0275inj=Io({imports:[k0]})}return e})();export{f};
