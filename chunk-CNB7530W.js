@@ -1,0 +1,1 @@
+import {dv as wE}from'./main-YSCUGSSG.js';var t=class i{transform(r,e){if(!e||!r)return r;let a=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),s=new RegExp(`(${a})`,"gi");return r.replace(s,'<mark class="search-highlight">$1</mark>')}static \u0275fac=function(e){return new(e||i)};static \u0275pipe=wE({name:"highlight",type:i,pure:true})};export{t};

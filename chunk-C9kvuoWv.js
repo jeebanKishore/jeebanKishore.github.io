@@ -1,0 +1,1 @@
+import {at as Pc,au as Io,av as io,ao as jt,ax as R0}from'./main-YSCUGSSG.js';var E=(()=>{class r{static \u0275fac=function(M){return new(M||r)};static \u0275mod=Pc({type:r});static \u0275inj=Io({imports:[io,jt,R0]})}return r})();export{E};
