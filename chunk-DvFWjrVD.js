@@ -1,0 +1,1 @@
+import {as as Pc,at as Io,au as io,an as jt,aw as R0}from'./main-V3K6FMV6.js';var E=(()=>{class r{static \u0275fac=function(M){return new(M||r)};static \u0275mod=Pc({type:r});static \u0275inj=Io({imports:[io,jt,R0]})}return r})();export{E};
