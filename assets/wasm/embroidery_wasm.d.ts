@@ -1,7 +1,13 @@
 /* tslint:disable */
 /* eslint-disable */
 
+export function export_design(format: string, flat_instructions: Int32Array, colors: Uint8Array): Uint8Array;
+
+export function import_design(format: string, data: Uint8Array): Int32Array;
+
 export function init_panic_hook(): void;
+
+export function process_advanced_embroidery(vertices: Float32Array, path_lengths: Uint32Array, layer_path_counts: Uint32Array, _design_width_mm: number, row_spacing_mm: number, stitch_len_mm: number, angle_deg: number, use_auto_angle: boolean, max_satin_mm: number, fill_pattern: string, satin_style: string, underlay_style: string, plan_mode: string, stagger: number, randomness: number, pull_comp_mm: number, push_comp_mm: number, edge_jitter_mm: number, density_gradient: boolean, gradient_start_spacing_mm: number, gradient_end_spacing_mm: number, overlap_margin_mm: number, carve_pitch_mm: number, carve_angle_a_deg: number, carve_angle_b_deg: number): Uint8Array;
 
 export function process_bitmap(image_data: Uint8Array, width: number, height: number, density: number, angle_deg: number, use_underlay: boolean, auto_angle: boolean): Uint8Array;
 
@@ -9,7 +15,10 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
+    readonly export_design: (a: number, b: number, c: number, d: number, e: number, f: number) => [number, number, number, number];
+    readonly import_design: (a: number, b: number, c: number, d: number) => [number, number, number, number];
     readonly init_panic_hook: () => void;
+    readonly process_advanced_embroidery: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number, j: number, k: number, l: number, m: number, n: number, o: number, p: number, q: number, r: number, s: number, t: number, u: number, v: number, w: number, x: number, y: number, z: number, a1: number, b1: number, c1: number, d1: number, e1: number, f1: number) => [number, number, number, number];
     readonly process_bitmap: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number) => [number, number, number, number];
     readonly __wbindgen_free: (a: number, b: number, c: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
@@ -18,8 +27,6 @@ export interface InitOutput {
     readonly __externref_table_dealloc: (a: number) => void;
     readonly __wbindgen_start: () => void;
 }
-
-
 
 export type SyncInitInput = BufferSource | WebAssembly.Module;
 

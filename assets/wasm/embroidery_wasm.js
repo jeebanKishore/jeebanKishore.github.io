@@ -1,7 +1,100 @@
 /* @ts-self-types="./embroidery_wasm.d.ts" */
 
+/**
+ * @param {string} format
+ * @param {Int32Array} flat_instructions
+ * @param {Uint8Array} colors
+ * @returns {Uint8Array}
+ */
+export function export_design(format, flat_instructions, colors) {
+    const ptr0 = passStringToWasm0(format, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len0 = WASM_VECTOR_LEN;
+    const ptr1 = passArray32ToWasm0(flat_instructions, wasm.__wbindgen_malloc);
+    const len1 = WASM_VECTOR_LEN;
+    const ptr2 = passArray8ToWasm0(colors, wasm.__wbindgen_malloc);
+    const len2 = WASM_VECTOR_LEN;
+    const ret = wasm.export_design(ptr0, len0, ptr1, len1, ptr2, len2);
+    if (ret[3]) {
+        throw takeFromExternrefTable0(ret[2]);
+    }
+    var v4 = getArrayU8FromWasm0(ret[0], ret[1]).slice();
+    wasm.__wbindgen_free(ret[0], ret[1] * 1, 1);
+    return v4;
+}
+
+/**
+ * @param {string} format
+ * @param {Uint8Array} data
+ * @returns {Int32Array}
+ */
+export function import_design(format, data) {
+    const ptr0 = passStringToWasm0(format, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len0 = WASM_VECTOR_LEN;
+    const ptr1 = passArray8ToWasm0(data, wasm.__wbindgen_malloc);
+    const len1 = WASM_VECTOR_LEN;
+    const ret = wasm.import_design(ptr0, len0, ptr1, len1);
+    if (ret[3]) {
+        throw takeFromExternrefTable0(ret[2]);
+    }
+    var v3 = getArrayI32FromWasm0(ret[0], ret[1]).slice();
+    wasm.__wbindgen_free(ret[0], ret[1] * 4, 4);
+    return v3;
+}
+
 export function init_panic_hook() {
     wasm.init_panic_hook();
+}
+
+/**
+ * @param {Float32Array} vertices
+ * @param {Uint32Array} path_lengths
+ * @param {Uint32Array} layer_path_counts
+ * @param {number} _design_width_mm
+ * @param {number} row_spacing_mm
+ * @param {number} stitch_len_mm
+ * @param {number} angle_deg
+ * @param {boolean} use_auto_angle
+ * @param {number} max_satin_mm
+ * @param {string} fill_pattern
+ * @param {string} satin_style
+ * @param {string} underlay_style
+ * @param {string} plan_mode
+ * @param {number} stagger
+ * @param {number} randomness
+ * @param {number} pull_comp_mm
+ * @param {number} push_comp_mm
+ * @param {number} edge_jitter_mm
+ * @param {boolean} density_gradient
+ * @param {number} gradient_start_spacing_mm
+ * @param {number} gradient_end_spacing_mm
+ * @param {number} overlap_margin_mm
+ * @param {number} carve_pitch_mm
+ * @param {number} carve_angle_a_deg
+ * @param {number} carve_angle_b_deg
+ * @returns {Uint8Array}
+ */
+export function process_advanced_embroidery(vertices, path_lengths, layer_path_counts, _design_width_mm, row_spacing_mm, stitch_len_mm, angle_deg, use_auto_angle, max_satin_mm, fill_pattern, satin_style, underlay_style, plan_mode, stagger, randomness, pull_comp_mm, push_comp_mm, edge_jitter_mm, density_gradient, gradient_start_spacing_mm, gradient_end_spacing_mm, overlap_margin_mm, carve_pitch_mm, carve_angle_a_deg, carve_angle_b_deg) {
+    const ptr0 = passArrayF32ToWasm0(vertices, wasm.__wbindgen_malloc);
+    const len0 = WASM_VECTOR_LEN;
+    const ptr1 = passArray32ToWasm0(path_lengths, wasm.__wbindgen_malloc);
+    const len1 = WASM_VECTOR_LEN;
+    const ptr2 = passArray32ToWasm0(layer_path_counts, wasm.__wbindgen_malloc);
+    const len2 = WASM_VECTOR_LEN;
+    const ptr3 = passStringToWasm0(fill_pattern, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len3 = WASM_VECTOR_LEN;
+    const ptr4 = passStringToWasm0(satin_style, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len4 = WASM_VECTOR_LEN;
+    const ptr5 = passStringToWasm0(underlay_style, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len5 = WASM_VECTOR_LEN;
+    const ptr6 = passStringToWasm0(plan_mode, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len6 = WASM_VECTOR_LEN;
+    const ret = wasm.process_advanced_embroidery(ptr0, len0, ptr1, len1, ptr2, len2, _design_width_mm, row_spacing_mm, stitch_len_mm, angle_deg, use_auto_angle, max_satin_mm, ptr3, len3, ptr4, len4, ptr5, len5, ptr6, len6, stagger, randomness, pull_comp_mm, push_comp_mm, edge_jitter_mm, density_gradient, gradient_start_spacing_mm, gradient_end_spacing_mm, overlap_margin_mm, carve_pitch_mm, carve_angle_a_deg, carve_angle_b_deg);
+    if (ret[3]) {
+        throw takeFromExternrefTable0(ret[2]);
+    }
+    var v8 = getArrayU8FromWasm0(ret[0], ret[1]).slice();
+    wasm.__wbindgen_free(ret[0], ret[1] * 1, 1);
+    return v8;
 }
 
 /**
@@ -44,7 +137,7 @@ function __wbg_get_imports() {
             }
         },
         __wbg_log_6b5ca2e6124b2808: function(arg0) {
-            // console.log(arg0);
+            console.log(arg0);
         },
         __wbg_new_8a6f238a6ece86ea: function() {
             const ret = new Error();
@@ -78,6 +171,11 @@ function __wbg_get_imports() {
     };
 }
 
+function getArrayI32FromWasm0(ptr, len) {
+    ptr = ptr >>> 0;
+    return getInt32ArrayMemory0().subarray(ptr / 4, ptr / 4 + len);
+}
+
 function getArrayU8FromWasm0(ptr, len) {
     ptr = ptr >>> 0;
     return getUint8ArrayMemory0().subarray(ptr / 1, ptr / 1 + len);
@@ -91,9 +189,33 @@ function getDataViewMemory0() {
     return cachedDataViewMemory0;
 }
 
+let cachedFloat32ArrayMemory0 = null;
+function getFloat32ArrayMemory0() {
+    if (cachedFloat32ArrayMemory0 === null || cachedFloat32ArrayMemory0.byteLength === 0) {
+        cachedFloat32ArrayMemory0 = new Float32Array(wasm.memory.buffer);
+    }
+    return cachedFloat32ArrayMemory0;
+}
+
+let cachedInt32ArrayMemory0 = null;
+function getInt32ArrayMemory0() {
+    if (cachedInt32ArrayMemory0 === null || cachedInt32ArrayMemory0.byteLength === 0) {
+        cachedInt32ArrayMemory0 = new Int32Array(wasm.memory.buffer);
+    }
+    return cachedInt32ArrayMemory0;
+}
+
 function getStringFromWasm0(ptr, len) {
     ptr = ptr >>> 0;
     return decodeText(ptr, len);
+}
+
+let cachedUint32ArrayMemory0 = null;
+function getUint32ArrayMemory0() {
+    if (cachedUint32ArrayMemory0 === null || cachedUint32ArrayMemory0.byteLength === 0) {
+        cachedUint32ArrayMemory0 = new Uint32Array(wasm.memory.buffer);
+    }
+    return cachedUint32ArrayMemory0;
 }
 
 let cachedUint8ArrayMemory0 = null;
@@ -104,9 +226,23 @@ function getUint8ArrayMemory0() {
     return cachedUint8ArrayMemory0;
 }
 
+function passArray32ToWasm0(arg, malloc) {
+    const ptr = malloc(arg.length * 4, 4) >>> 0;
+    getUint32ArrayMemory0().set(arg, ptr / 4);
+    WASM_VECTOR_LEN = arg.length;
+    return ptr;
+}
+
 function passArray8ToWasm0(arg, malloc) {
     const ptr = malloc(arg.length * 1, 1) >>> 0;
     getUint8ArrayMemory0().set(arg, ptr / 1);
+    WASM_VECTOR_LEN = arg.length;
+    return ptr;
+}
+
+function passArrayF32ToWasm0(arg, malloc) {
+    const ptr = malloc(arg.length * 4, 4) >>> 0;
+    getFloat32ArrayMemory0().set(arg, ptr / 4);
     WASM_VECTOR_LEN = arg.length;
     return ptr;
 }
@@ -188,6 +324,9 @@ function __wbg_finalize_init(instance, module) {
     wasm = instance.exports;
     wasmModule = module;
     cachedDataViewMemory0 = null;
+    cachedFloat32ArrayMemory0 = null;
+    cachedInt32ArrayMemory0 = null;
+    cachedUint32ArrayMemory0 = null;
     cachedUint8ArrayMemory0 = null;
     wasm.__wbindgen_start();
     return wasm;
