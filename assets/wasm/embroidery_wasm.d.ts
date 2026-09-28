@@ -1,6 +1,10 @@
 /* tslint:disable */
 /* eslint-disable */
 
+export function analyze_design(flat_instructions: Int32Array): string;
+
+export function auto_repair_design(flat_instructions: Int32Array): Int32Array;
+
 export function export_design(format: string, flat_instructions: Int32Array, colors: Uint8Array): Uint8Array;
 
 export function import_design(format: string, data: Uint8Array): Int32Array;
@@ -15,6 +19,8 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
+    readonly analyze_design: (a: number, b: number) => [number, number, number, number];
+    readonly auto_repair_design: (a: number, b: number) => [number, number];
     readonly export_design: (a: number, b: number, c: number, d: number, e: number, f: number) => [number, number, number, number];
     readonly import_design: (a: number, b: number, c: number, d: number) => [number, number, number, number];
     readonly init_panic_hook: () => void;

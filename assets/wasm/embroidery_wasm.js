@@ -1,6 +1,44 @@
 /* @ts-self-types="./embroidery_wasm.d.ts" */
 
 /**
+ * @param {Int32Array} flat_instructions
+ * @returns {string}
+ */
+export function analyze_design(flat_instructions) {
+    let deferred3_0;
+    let deferred3_1;
+    try {
+        const ptr0 = passArray32ToWasm0(flat_instructions, wasm.__wbindgen_malloc);
+        const len0 = WASM_VECTOR_LEN;
+        const ret = wasm.analyze_design(ptr0, len0);
+        var ptr2 = ret[0];
+        var len2 = ret[1];
+        if (ret[3]) {
+            ptr2 = 0; len2 = 0;
+            throw takeFromExternrefTable0(ret[2]);
+        }
+        deferred3_0 = ptr2;
+        deferred3_1 = len2;
+        return getStringFromWasm0(ptr2, len2);
+    } finally {
+        wasm.__wbindgen_free(deferred3_0, deferred3_1, 1);
+    }
+}
+
+/**
+ * @param {Int32Array} flat_instructions
+ * @returns {Int32Array}
+ */
+export function auto_repair_design(flat_instructions) {
+    const ptr0 = passArray32ToWasm0(flat_instructions, wasm.__wbindgen_malloc);
+    const len0 = WASM_VECTOR_LEN;
+    const ret = wasm.auto_repair_design(ptr0, len0);
+    var v2 = getArrayI32FromWasm0(ret[0], ret[1]).slice();
+    wasm.__wbindgen_free(ret[0], ret[1] * 4, 4);
+    return v2;
+}
+
+/**
  * @param {string} format
  * @param {Int32Array} flat_instructions
  * @param {Uint8Array} colors

@@ -1,6 +1,8 @@
 /* tslint:disable */
 /* eslint-disable */
 export const memory: WebAssembly.Memory;
+export const analyze_design: (a: number, b: number) => [number, number, number, number];
+export const auto_repair_design: (a: number, b: number) => [number, number];
 export const export_design: (a: number, b: number, c: number, d: number, e: number, f: number) => [number, number, number, number];
 export const import_design: (a: number, b: number, c: number, d: number) => [number, number, number, number];
 export const init_panic_hook: () => void;
