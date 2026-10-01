@@ -109,9 +109,21 @@ export function init_panic_hook() {
  * @param {number} carve_pitch_mm
  * @param {number} carve_angle_a_deg
  * @param {number} carve_angle_b_deg
+ * @param {number} tartan_stripe_width_mm
+ * @param {number} tartan_weft_angle_deg
+ * @param {number} satin_jitter_mm
+ * @param {boolean} satin_jitter_asymmetric
+ * @param {boolean} satin_split_stagger
+ * @param {Float32Array} stroke_vertices
+ * @param {Uint32Array} stroke_path_lengths
+ * @param {string} stroke_stitch_type
+ * @param {number} stroke_width_mm
+ * @param {number} bean_repeats
+ * @param {boolean} use_knockdown
+ * @param {number} knockdown_margin_mm
  * @returns {Uint8Array}
  */
-export function process_advanced_embroidery(vertices, path_lengths, layer_path_counts, _design_width_mm, row_spacing_mm, stitch_len_mm, angle_deg, use_auto_angle, max_satin_mm, fill_pattern, satin_style, underlay_style, plan_mode, stagger, randomness, pull_comp_mm, push_comp_mm, edge_jitter_mm, density_gradient, gradient_start_spacing_mm, gradient_end_spacing_mm, overlap_margin_mm, carve_pitch_mm, carve_angle_a_deg, carve_angle_b_deg) {
+export function process_advanced_embroidery(vertices, path_lengths, layer_path_counts, _design_width_mm, row_spacing_mm, stitch_len_mm, angle_deg, use_auto_angle, max_satin_mm, fill_pattern, satin_style, underlay_style, plan_mode, stagger, randomness, pull_comp_mm, push_comp_mm, edge_jitter_mm, density_gradient, gradient_start_spacing_mm, gradient_end_spacing_mm, overlap_margin_mm, carve_pitch_mm, carve_angle_a_deg, carve_angle_b_deg, tartan_stripe_width_mm, tartan_weft_angle_deg, satin_jitter_mm, satin_jitter_asymmetric, satin_split_stagger, stroke_vertices, stroke_path_lengths, stroke_stitch_type, stroke_width_mm, bean_repeats, use_knockdown, knockdown_margin_mm) {
     const ptr0 = passArrayF32ToWasm0(vertices, wasm.__wbindgen_malloc);
     const len0 = WASM_VECTOR_LEN;
     const ptr1 = passArray32ToWasm0(path_lengths, wasm.__wbindgen_malloc);
@@ -126,13 +138,19 @@ export function process_advanced_embroidery(vertices, path_lengths, layer_path_c
     const len5 = WASM_VECTOR_LEN;
     const ptr6 = passStringToWasm0(plan_mode, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
     const len6 = WASM_VECTOR_LEN;
-    const ret = wasm.process_advanced_embroidery(ptr0, len0, ptr1, len1, ptr2, len2, _design_width_mm, row_spacing_mm, stitch_len_mm, angle_deg, use_auto_angle, max_satin_mm, ptr3, len3, ptr4, len4, ptr5, len5, ptr6, len6, stagger, randomness, pull_comp_mm, push_comp_mm, edge_jitter_mm, density_gradient, gradient_start_spacing_mm, gradient_end_spacing_mm, overlap_margin_mm, carve_pitch_mm, carve_angle_a_deg, carve_angle_b_deg);
+    const ptr7 = passArrayF32ToWasm0(stroke_vertices, wasm.__wbindgen_malloc);
+    const len7 = WASM_VECTOR_LEN;
+    const ptr8 = passArray32ToWasm0(stroke_path_lengths, wasm.__wbindgen_malloc);
+    const len8 = WASM_VECTOR_LEN;
+    const ptr9 = passStringToWasm0(stroke_stitch_type, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len9 = WASM_VECTOR_LEN;
+    const ret = wasm.process_advanced_embroidery(ptr0, len0, ptr1, len1, ptr2, len2, _design_width_mm, row_spacing_mm, stitch_len_mm, angle_deg, use_auto_angle, max_satin_mm, ptr3, len3, ptr4, len4, ptr5, len5, ptr6, len6, stagger, randomness, pull_comp_mm, push_comp_mm, edge_jitter_mm, density_gradient, gradient_start_spacing_mm, gradient_end_spacing_mm, overlap_margin_mm, carve_pitch_mm, carve_angle_a_deg, carve_angle_b_deg, tartan_stripe_width_mm, tartan_weft_angle_deg, satin_jitter_mm, satin_jitter_asymmetric, satin_split_stagger, ptr7, len7, ptr8, len8, ptr9, len9, stroke_width_mm, bean_repeats, use_knockdown, knockdown_margin_mm);
     if (ret[3]) {
         throw takeFromExternrefTable0(ret[2]);
     }
-    var v8 = getArrayU8FromWasm0(ret[0], ret[1]).slice();
+    var v11 = getArrayU8FromWasm0(ret[0], ret[1]).slice();
     wasm.__wbindgen_free(ret[0], ret[1] * 1, 1);
-    return v8;
+    return v11;
 }
 
 /**

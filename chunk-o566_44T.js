@@ -1,0 +1,1 @@
+import {as as Lc,at as Eo,aw as k0}from'./main-QVTGD62Q.js';var f=(()=>{class e{static \u0275fac=function(r){return new(r||e)};static \u0275mod=Lc({type:e});static \u0275inj=Eo({imports:[k0]})}return e})();export{f};
