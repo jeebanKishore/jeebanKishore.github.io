@@ -1,0 +1,1 @@
+import {as as Lc,at as Eo,au as io,an as jt,aw as k0}from'./main-CM5CMT7L.js';var E=(()=>{class r{static \u0275fac=function(M){return new(M||r)};static \u0275mod=Lc({type:r});static \u0275inj=Eo({imports:[io,jt,k0]})}return r})();export{E};
