@@ -7,42 +7,62 @@
   "license": "Public domain",
   "version": "1.0",
   "contextLength": 1,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "េa",
-      "replacement": "e"
+      "replacement": "ោ",
+      "contextRegex": "e",
+      "context": "e"
     },
     {
       "pattern": "ាe",
-      "replacement": "a"
+      "replacement": "ោ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "េI",
-      "replacement": "e"
+      "replacement": "ើ",
+      "contextRegex": "e",
+      "context": "e"
     },
     {
       "pattern": "ីe",
-      "replacement": "I"
+      "replacement": "ើ",
+      "contextRegex": "I",
+      "context": "I"
     },
     {
       "pattern": "ំa",
-      "replacement": "M"
+      "replacement": "ាំ",
+      "contextRegex": "M",
+      "context": "M"
     },
     {
       "pattern": "ំu",
-      "replacement": "M"
+      "replacement": "ុំ",
+      "contextRegex": "M",
+      "context": "M"
     },
     {
       "pattern": "ះe",
-      "replacement": "H"
+      "replacement": "េះ",
+      "contextRegex": "H",
+      "context": "H"
     },
     {
       "pattern": "ះu",
-      "replacement": "H"
+      "replacement": "ុះ",
+      "contextRegex": "H",
+      "context": "H"
     },
     {
       "pattern": "ះo",
-      "replacement": "H"
+      "replacement": "ោះ",
+      "contextRegex": "H",
+      "context": "H"
     },
     {
       "pattern": "q",
@@ -427,372 +447,452 @@
     {
       "pattern": "e",
       "replacement": "ឯ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ឫ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "i",
       "replacement": "ឦ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "o",
       "replacement": "ឱ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "p",
       "replacement": "ឰ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "ឩ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\]",
       "replacement": "ឳ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "3",
       "replacement": "៑",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "=",
       "replacement": "៎",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "'",
       "replacement": "ៈ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "@",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "$",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "5",
       "replacement": "€",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "6",
       "replacement": "៙",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "7",
       "replacement": "៚",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "8",
       "replacement": "*",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "9",
       "replacement": "{",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "}",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "-",
       "replacement": "x",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\\\",
       "replacement": "\\",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ";",
       "replacement": "៖",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": ",",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": ".",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "/",
       "replacement": "/",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": " ",
       "replacement": " ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "`",
       "replacement": "‍",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "1",
       "replacement": "‌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "b",
       "replacement": "ឞ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "k",
       "replacement": "ឝ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "t",
       "replacement": "ឨ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "q",
       "replacement": "ៜ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "w",
       "replacement": "៝",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\!",
       "replacement": "៱",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "@",
       "replacement": "៲",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "#",
       "replacement": "៳",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\$",
       "replacement": "៴",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "%",
       "replacement": "៵",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\^",
       "replacement": "៶",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "&",
       "replacement": "៷",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\*",
       "replacement": "៸",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\(",
       "replacement": "៹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\)",
       "replacement": "៰",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Q",
       "replacement": "᧠",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "W",
       "replacement": "᧡",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "E",
       "replacement": "᧢",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "᧣",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "T",
       "replacement": "᧤",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Y",
       "replacement": "᧥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "U",
       "replacement": "᧦",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "I",
       "replacement": "᧧",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "O",
       "replacement": "᧨",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "P",
       "replacement": "᧩",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\{",
       "replacement": "᧪",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\}",
       "replacement": "᧫",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "A",
       "replacement": "᧬",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "S",
       "replacement": "᧭",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "D",
       "replacement": "᧮",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "F",
       "replacement": "᧯",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "G",
       "replacement": "᧰",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "H",
       "replacement": "᧱",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "J",
       "replacement": "᧲",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "K",
       "replacement": "᧳",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "L",
       "replacement": "᧴",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ":",
       "replacement": "᧵",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\"",
       "replacement": "᧶",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Z",
       "replacement": "᧷",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "X",
       "replacement": "᧸",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "C",
       "replacement": "᧹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "V",
       "replacement": "᧺",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "B",
       "replacement": "᧻",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "N",
       "replacement": "᧼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "M",
       "replacement": "᧽",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "<",
       "replacement": "᧾",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ">",
       "replacement": "᧿",
+      "altGr": true,
       "context": "x"
+    },
+    {
+      "pattern": " ",
+      "replacement": " ",
+      "shift": true,
+      "context": "shift"
     }
   ]
 }

@@ -8,14 +8,19 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "ச்h",
-      "replacement": "h"
+      "replacement": "ச்ஹ்",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "ழ்h",
-      "replacement": "h"
+      "replacement": "ழ்ஹ்",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "ஸ்ர்i",

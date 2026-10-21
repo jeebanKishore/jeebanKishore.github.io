@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 6,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "/([A-Za-z\\>_\\-\\!@#\\$\\^\\&\\%\\*\\~\\.\\|\\\\0-9])",

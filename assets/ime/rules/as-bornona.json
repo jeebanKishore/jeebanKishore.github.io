@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 0,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "q",

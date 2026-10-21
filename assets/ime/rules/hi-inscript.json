@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "X",
@@ -340,96 +341,115 @@
     {
       "pattern": "F",
       "replacement": "ऌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "N",
       "replacement": "ळ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ऽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "ॄ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "X",
       "replacement": "ॐ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "॑",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "d",
       "replacement": "॒",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "k",
       "replacement": "क़",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "K",
       "replacement": "ख़",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "i",
       "replacement": "ग़",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "p",
       "replacement": "ज़",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "ड़",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\+",
       "replacement": "ॠ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ॡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ॢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ॣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "॥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": "॰",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\$",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     }
   ]

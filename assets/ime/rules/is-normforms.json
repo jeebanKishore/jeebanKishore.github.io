@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 3,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "'a",
@@ -139,67 +140,99 @@
     },
     {
       "pattern": "þh",
-      "replacement": "h"
+      "replacement": "th",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "ÞA",
-      "replacement": "H"
+      "replacement": "TH",
+      "contextRegex": "H",
+      "context": "H"
     },
     {
       "pattern": "Þh",
-      "replacement": "H"
+      "replacement": "Th",
+      "contextRegex": "H",
+      "context": "H"
     },
     {
       "pattern": "þA",
-      "replacement": "h"
+      "replacement": "tH",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "åa",
-      "replacement": "a"
+      "replacement": "aa",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ÅA",
-      "replacement": "A"
+      "replacement": "AA",
+      "contextRegex": "A",
+      "context": "A"
     },
     {
       "pattern": "Åa",
-      "replacement": "A"
+      "replacement": "Aa",
+      "contextRegex": "A",
+      "context": "A"
     },
     {
       "pattern": "åA",
-      "replacement": "a"
+      "replacement": "aA",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "æe",
-      "replacement": "e"
+      "replacement": "ae",
+      "contextRegex": "e",
+      "context": "e"
     },
     {
       "pattern": "ÆE",
-      "replacement": "E"
+      "replacement": "AE",
+      "contextRegex": "E",
+      "context": "E"
     },
     {
       "pattern": "Æe",
-      "replacement": "E"
+      "replacement": "Ae",
+      "contextRegex": "E",
+      "context": "E"
     },
     {
       "pattern": "æE",
-      "replacement": "e"
+      "replacement": "aE",
+      "contextRegex": "e",
+      "context": "e"
     },
     {
       "pattern": "öe",
-      "replacement": "e"
+      "replacement": "oe",
+      "contextRegex": "e",
+      "context": "e"
     },
     {
       "pattern": "ÖE",
-      "replacement": "E"
+      "replacement": "OE",
+      "contextRegex": "E",
+      "context": "E"
     },
     {
       "pattern": "Öe",
-      "replacement": "E"
+      "replacement": "Oe",
+      "contextRegex": "E",
+      "context": "E"
     },
     {
       "pattern": "öE",
-      "replacement": "e"
+      "replacement": "oE",
+      "contextRegex": "e",
+      "context": "e"
     }
   ]
 }

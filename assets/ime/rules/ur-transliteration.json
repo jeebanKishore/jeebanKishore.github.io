@@ -6,6 +6,9 @@
   "author": "Mohammed Imran Tabani",
   "license": "",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "x",
@@ -181,7 +184,9 @@
     },
     {
       "pattern": "\\<",
-      "replacement": ""
+      "replacement": ">",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "m",
@@ -193,7 +198,9 @@
     },
     {
       "pattern": "\\]",
-      "replacement": ""
+      "replacement": "[",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "e",
@@ -217,7 +224,9 @@
     },
     {
       "pattern": "\\=",
-      "replacement": ""
+      "replacement": "=",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\\\",
@@ -301,19 +310,27 @@
     },
     {
       "pattern": "\\#",
-      "replacement": ""
+      "replacement": "#",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\$",
-      "replacement": ""
+      "replacement": "$",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\%",
-      "replacement": ""
+      "replacement": "٪",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\^",
-      "replacement": ""
+      "replacement": "^",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\&",

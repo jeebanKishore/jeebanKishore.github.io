@@ -6,7 +6,9 @@
   "author": "John Erling Blad",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
   "maxKeyLength": 3,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "'a",

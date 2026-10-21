@@ -2,10 +2,13 @@
   "id": "jv-keyboard",
   "name": "Jawa Latin extended keyboard",
   "description": "Javanese keyboard that include several accented letters",
-  "date": "2024-06-05",
+  "date": "2025-11-04",
   "author": "Benny Lin",
   "license": "GPLv3",
-  "version": "1.1",
+  "version": "1.2",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "~E",
@@ -124,6 +127,14 @@
       "replacement": "ṭ"
     },
     {
+      "pattern": "~N",
+      "replacement": "Ṇ"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ṇ"
+    },
+    {
       "pattern": "\\.D",
       "replacement": "Ḍ"
     },
@@ -138,6 +149,14 @@
     {
       "pattern": "\\.t",
       "replacement": "ṭ"
+    },
+    {
+      "pattern": "\\.N",
+      "replacement": "Ṇ"
+    },
+    {
+      "pattern": "\\.n",
+      "replacement": "ṇ"
     }
   ]
 }

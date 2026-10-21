@@ -6,530 +6,795 @@
   "author": "Lionslayer",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "ေu",
-      "replacement": "a"
+      "replacement": "ကေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေc",
-      "replacement": "a"
+      "replacement": "ခေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေ:",
-      "replacement": "a"
+      "replacement": "ဂေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေC",
-      "replacement": "a"
+      "replacement": "ဃေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေi",
-      "replacement": "a"
+      "replacement": "ငေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေp",
-      "replacement": "a"
+      "replacement": "စေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေq",
-      "replacement": "a"
+      "replacement": "ဆေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေZ",
-      "replacement": "a"
+      "replacement": "ဇေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေQ",
-      "replacement": "a"
+      "replacement": "ဈေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေn",
-      "replacement": "a"
+      "replacement": "ညေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေN",
-      "replacement": "a"
+      "replacement": "ဉေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေ!",
-      "replacement": "a"
+      "replacement": "ဍေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေX",
-      "replacement": "a"
+      "replacement": "ဌေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေ#",
-      "replacement": "a"
+      "replacement": "ဋေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေ~",
-      "replacement": "a"
+      "replacement": "ဎေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေP",
-      "replacement": "a"
+      "replacement": "ဏေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေw",
-      "replacement": "a"
+      "replacement": "တေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေx",
-      "replacement": "a"
+      "replacement": "ထေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေK",
-      "replacement": "a"
+      "replacement": "ဒေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေL",
-      "replacement": "a"
+      "replacement": "ဓေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေe",
-      "replacement": "a"
+      "replacement": "နေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေy",
-      "replacement": "a"
+      "replacement": "ပေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေz",
-      "replacement": "a"
+      "replacement": "ဖေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေA",
-      "replacement": "a"
+      "replacement": "ဗေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေb",
-      "replacement": "a"
+      "replacement": "ဘေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေr",
-      "replacement": "a"
+      "replacement": "မေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေB",
-      "replacement": "a"
+      "replacement": "ယေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေ&",
-      "replacement": "a"
+      "replacement": "ရေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေv",
-      "replacement": "a"
+      "replacement": "လေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေW",
-      "replacement": "a"
+      "replacement": "ဝေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေo",
-      "replacement": "a"
+      "replacement": "သေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေ\\[",
-      "replacement": "a"
+      "replacement": "ဟေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေV",
-      "replacement": "a"
+      "replacement": "ဠေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေt",
-      "replacement": "a"
+      "replacement": "အေ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ေG",
-      "replacement": ""
+      "replacement": "ွေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ေj",
-      "replacement": ""
+      "replacement": "ြေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ေs",
-      "replacement": ""
+      "replacement": "ျေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ေS",
-      "replacement": ""
+      "replacement": "ှေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ေြG",
-      "replacement": ""
+      "replacement": "ြွေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ေျG",
-      "replacement": ""
+      "replacement": "ျွေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ေြS",
-      "replacement": ""
+      "replacement": "ြှေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ေျS",
-      "replacement": ""
+      "replacement": "ျှေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "စs",
-      "replacement": ""
+      "replacement": "ဈ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "သj",
-      "replacement": ""
+      "replacement": "ဩ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ဥf",
-      "replacement": ""
+      "replacement": "ဉ်",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ဥD",
-      "replacement": ""
+      "replacement": "ဦ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ုd",
-      "replacement": ""
+      "replacement": "ို",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "်h",
-      "replacement": ""
+      "replacement": "့်",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ွs",
-      "replacement": ""
+      "replacement": "ျွ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ွj",
-      "replacement": ""
+      "replacement": "ြွ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ှG",
-      "replacement": ""
+      "replacement": "ွှ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ှs",
-      "replacement": ""
+      "replacement": "ျှ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ှj",
-      "replacement": ""
+      "replacement": "ြှ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(ှွs)|(ွှs)|(ှျG)|(ျှG)|(ျွS)|(ွျS)",
-      "replacement": ""
+      "replacement": "ျွှ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(ှွj)|(ွှj)|(ှြG)|(ြှG)|(ြွS)|(ွြS)",
-      "replacement": ""
+      "replacement": "ြွှ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "u",
-      "replacement": ""
+      "replacement": "က",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "c",
-      "replacement": ""
+      "replacement": "ခ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": ":",
-      "replacement": ""
+      "replacement": "ဂ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "C",
-      "replacement": ""
+      "replacement": "ဃ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "i",
-      "replacement": ""
+      "replacement": "င",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "p",
-      "replacement": ""
+      "replacement": "စ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "q",
-      "replacement": ""
+      "replacement": "ဆ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "Z",
-      "replacement": ""
+      "replacement": "ဇ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "Q",
-      "replacement": ""
+      "replacement": "ဈ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "n",
-      "replacement": ""
+      "replacement": "ည",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "N",
-      "replacement": ""
+      "replacement": "ဉ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "!",
-      "replacement": ""
+      "replacement": "ဍ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "X",
-      "replacement": ""
+      "replacement": "ဌ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "#",
-      "replacement": ""
+      "replacement": "ဋ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "~",
-      "replacement": ""
+      "replacement": "ဎ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "P",
-      "replacement": ""
+      "replacement": "ဏ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "w",
-      "replacement": ""
+      "replacement": "တ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "x",
-      "replacement": ""
+      "replacement": "ထ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "K",
-      "replacement": ""
+      "replacement": "ဒ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "L",
-      "replacement": ""
+      "replacement": "ဓ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "e",
-      "replacement": ""
+      "replacement": "န",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "y",
-      "replacement": ""
+      "replacement": "ပ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "z",
-      "replacement": ""
+      "replacement": "ဖ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "A",
-      "replacement": ""
+      "replacement": "ဗ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "b",
-      "replacement": ""
+      "replacement": "ဘ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "r",
-      "replacement": ""
+      "replacement": "မ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "B",
-      "replacement": ""
+      "replacement": "ယ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "&",
-      "replacement": ""
+      "replacement": "ရ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "v",
-      "replacement": ""
+      "replacement": "လ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "W",
-      "replacement": ""
+      "replacement": "ဝ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "o",
-      "replacement": ""
+      "replacement": "သ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\[",
-      "replacement": ""
+      "replacement": "ဟ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "V",
-      "replacement": ""
+      "replacement": "ဠ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "t",
-      "replacement": ""
+      "replacement": "အ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "m",
-      "replacement": ""
+      "replacement": "ာ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "g",
-      "replacement": ""
+      "replacement": "ါ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "d",
-      "replacement": ""
+      "replacement": "ိ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "D",
-      "replacement": ""
+      "replacement": "ီ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "k",
-      "replacement": ""
+      "replacement": "ု",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "l",
-      "replacement": ""
+      "replacement": "ူ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "a",
-      "replacement": ""
+      "replacement": "ေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "J",
-      "replacement": ""
+      "replacement": "ဲ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "H",
-      "replacement": ""
+      "replacement": "ံ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "h",
-      "replacement": ""
+      "replacement": "့",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\;",
-      "replacement": ""
+      "replacement": "း",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "f",
-      "replacement": ""
+      "replacement": "်",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "F",
-      "replacement": ""
+      "replacement": "္",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\>",
-      "replacement": ""
+      "replacement": "။",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\<",
-      "replacement": ""
+      "replacement": "၊",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "s",
-      "replacement": ""
+      "replacement": "ျ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "j",
-      "replacement": ""
+      "replacement": "ြ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "G",
-      "replacement": ""
+      "replacement": "ွ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "S",
-      "replacement": ""
+      "replacement": "ှ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "E",
-      "replacement": ""
+      "replacement": "ဣ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "R",
-      "replacement": ""
+      "replacement": "၎",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "T",
-      "replacement": ""
+      "replacement": "ဤ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "Y",
-      "replacement": ""
+      "replacement": "၌",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "I",
-      "replacement": ""
+      "replacement": "၍",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "O",
-      "replacement": ""
+      "replacement": "ဿ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\{",
-      "replacement": ""
+      "replacement": "ဧ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\]",
-      "replacement": ""
+      "replacement": "ဩ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\}",
-      "replacement": ""
+      "replacement": "ဪ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\\\",
-      "replacement": ""
+      "replacement": "၏",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "u",
-      "replacement": ""
+      "replacement": "က",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "U",
-      "replacement": ""
+      "replacement": "ဥ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "M",
-      "replacement": ""
+      "replacement": "ဦ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "0",
-      "replacement": ""
+      "replacement": "၀",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "1",
-      "replacement": ""
+      "replacement": "၁",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "2",
-      "replacement": ""
+      "replacement": "၂",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "3",
-      "replacement": ""
+      "replacement": "၃",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "4",
-      "replacement": ""
+      "replacement": "၄",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "5",
-      "replacement": ""
+      "replacement": "၅",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "6",
-      "replacement": ""
+      "replacement": "၆",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "7",
-      "replacement": ""
+      "replacement": "၇",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "8",
-      "replacement": ""
+      "replacement": "၈",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "9",
-      "replacement": ""
+      "replacement": "၉",
+      "contextRegex": "",
+      "context": ""
     }
   ]
 }

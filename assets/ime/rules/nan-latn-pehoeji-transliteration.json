@@ -6,7 +6,9 @@
   "author": "Winston Sung",
   "license": "MIT",
   "version": "1.4",
+  "contextLength": 0,
   "maxKeyLength": 5,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "nn",

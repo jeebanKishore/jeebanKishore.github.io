@@ -6,6 +6,9 @@
   "author": "Anatoly Mironov, @mirontoli",
   "license": "MIT",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "Q",
@@ -302,41 +305,49 @@
     {
       "pattern": "f|а",
       "replacement": "ӑ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "F|А",
       "replacement": "Ӑ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "t|е",
       "replacement": "ӗ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "T|Е",
       "replacement": "Ӗ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "c|с",
       "replacement": "ҫ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "C|С",
       "replacement": "Ҫ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e|у",
       "replacement": "ӳ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "E|У",
       "replacement": "Ӳ",
+      "altGr": true,
       "context": "x"
     }
   ]

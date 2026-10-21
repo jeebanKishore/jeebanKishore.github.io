@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en" data-beasties-container>
 
-<head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<head>
   <meta charset="utf-8">
   <title>Jeeban Kishore | Frontend Engineer</title>
   <base href="/">
@@ -29,6 +29,8 @@
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#0f172a">
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <style>@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');}.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased;}</style>
   <script type="importmap">
     {
@@ -38,15 +40,20 @@
       }
     }
   </script>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RRKVCHN15Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google Analytics is deferred until the page has loaded so it does not compete with the app shell. -->
+  <script>
+    window.addEventListener('load', function () {
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-RRKVCHN15Y');
 
-  gtag('config', 'G-RRKVCHN15Y');
-</script>
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-RRKVCHN15Y';
+      document.head.appendChild(script);
+    }, { once: true });
+  </script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -94,6 +101,6 @@
       </filter>
     </defs>
   </svg>
-<script src="main-CM5CMT7L.js" type="module"></script></body>
+<script src="main-7LCXQRFM.js" type="module"></script></body>
 
 </html>

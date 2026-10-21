@@ -8,10 +8,13 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 3,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\\\([A-Za-z\\>_~\\.0-9@])",
-      "replacement": "\\\\"
+      "replacement": "$1",
+      "contextRegex": "\\\\",
+      "context": "\\\\"
     },
     {
       "pattern": "a",

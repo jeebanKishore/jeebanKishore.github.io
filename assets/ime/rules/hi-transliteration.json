@@ -8,10 +8,13 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 3,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
-      "replacement": "\\\\"
+      "replacement": "$1",
+      "contextRegex": "\\\\",
+      "context": "\\\\"
     },
     {
       "pattern": "([क-ह]़?)्a",
@@ -23,7 +26,9 @@
     },
     {
       "pattern": "([क-ह]़?)्\\.",
-      "replacement": "\\~"
+      "replacement": "$1्।",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्\\.",
@@ -31,47 +36,69 @@
     },
     {
       "pattern": "([क-ह]़?)्0",
-      "replacement": "\\~"
+      "replacement": "$1्०",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्1",
-      "replacement": "\\~"
+      "replacement": "$1्१",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्2",
-      "replacement": "\\~"
+      "replacement": "$1्२",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्3",
-      "replacement": "\\~"
+      "replacement": "$1्३",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्4",
-      "replacement": "\\~"
+      "replacement": "$1्४",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्5",
-      "replacement": "\\~"
+      "replacement": "$1्५",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्6",
-      "replacement": "\\~"
+      "replacement": "$1्६",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्7",
-      "replacement": "\\~"
+      "replacement": "$1्७",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्8",
-      "replacement": "\\~"
+      "replacement": "$1्८",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्9",
-      "replacement": "\\~"
+      "replacement": "$1्९",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्\\r",
-      "replacement": "\\~"
+      "replacement": "$1्\r",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्0",
@@ -655,7 +682,9 @@
     },
     {
       "pattern": "([क-ह]़?)्(.)",
-      "replacement": "\\~"
+      "replacement": "$1्$2",
+      "contextRegex": "\\~",
+      "context": "\\~"
     },
     {
       "pattern": "([क-ह]़?)्(.)",

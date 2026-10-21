@@ -6,6 +6,9 @@
   "author": "Junaid P V",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "x",
@@ -109,7 +112,9 @@
     },
     {
       "pattern": "'",
-      "replacement": ""
+      "replacement": "ಟ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\"",
@@ -334,66 +339,79 @@
     {
       "pattern": "F",
       "replacement": "좌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ಽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "ೄ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "H",
       "replacement": "ೞ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\+",
       "replacement": "ೠ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ೡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ೢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ೣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "೤",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "೥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "u",
       "replacement": "ೱ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "j",
       "replacement": "ೲ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\$",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     }
   ]

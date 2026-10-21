@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 3,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "[XN]",
@@ -55,7 +56,9 @@
     },
     {
       "pattern": "FꗡꘋG",
-      "replacement": "FEN"
+      "replacement": "ꘓ",
+      "contextRegex": "FEN",
+      "context": "FEN"
     },
     {
       "pattern": "FAH?A",
@@ -915,7 +918,9 @@
     },
     {
       "pattern": "ꘄ~",
-      "replacement": "ng[qE]"
+      "replacement": "ꗣ",
+      "contextRegex": "ng[qE]",
+      "context": "ng[qE]"
     },
     {
       "pattern": "w[qE]",
@@ -1023,7 +1028,9 @@
     },
     {
       "pattern": "ꘄ~",
-      "replacement": "gg[qE]"
+      "replacement": "ꘅ",
+      "contextRegex": "gg[qE]",
+      "context": "gg[qE]"
     },
     {
       "pattern": "ꘆ~",

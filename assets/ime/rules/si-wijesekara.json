@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 2,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "`",
@@ -320,36 +321,43 @@
     {
       "pattern": "o",
       "replacement": "ඳ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "v",
       "replacement": "ඬ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "'",
       "replacement": "෴",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "a",
       "replacement": "ෳ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "ඟ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "x",
       "replacement": "ඦ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": "ඏ",
+      "altGr": true,
       "context": "x"
     }
   ]

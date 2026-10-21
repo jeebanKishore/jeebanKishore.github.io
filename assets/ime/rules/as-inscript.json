@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 0,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "X",
@@ -336,111 +337,133 @@
     {
       "pattern": "F",
       "replacement": "ঌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ঽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "ৠ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "l",
       "replacement": "ৎ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "ড়",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\{",
       "replacement": "ঢ়",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\+",
       "replacement": "ৠ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ৡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ৢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ৣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "৥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "x",
       "replacement": "৺",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\<",
       "replacement": "৲",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": "৳",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\!",
       "replacement": "৴",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\@",
       "replacement": "৵",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\#",
       "replacement": "৶",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\$",
       "replacement": "৷",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\%",
       "replacement": "৸",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\^",
       "replacement": "৹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\?",
       "replacement": "৻",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     }
   ]

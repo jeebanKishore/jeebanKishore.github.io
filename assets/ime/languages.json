@@ -531,7 +531,8 @@
   "hoc-latn": {
     "autonym": "Ho",
     "inputmethods": [
-      "hoc-latn-tilde"
+      "hoc-latn-tilde",
+      "hoc-latn-semicolon"
     ]
   },
   "hr": {
@@ -591,6 +592,18 @@
     "autonym": "awain",
     "inputmethods": [
       "ish-tilde"
+    ]
+  },
+  "izr": {
+    "autonym": "Izere",
+    "inputmethods": [
+      "izr-tilde"
+    ]
+  },
+  "jab": {
+    "autonym": "Hyam",
+    "inputmethods": [
+      "jab-tilde"
     ]
   },
   "jac": {
@@ -663,6 +676,12 @@
     "autonym": "Gĩkũyũ",
     "inputmethods": [
       "ki-tilde"
+    ]
+  },
+  "kix": {
+    "autonym": "Khiamniungan",
+    "inputmethods": [
+      "kix-tilde"
     ]
   },
   "kk": {
@@ -1031,6 +1050,12 @@
       "pnt-tilde"
     ]
   },
+  "pwo": {
+    "autonym": "ဖျိၩ့ၡိ",
+    "inputmethods": [
+      "pwo-tilde"
+    ]
+  },
   "raj": {
     "autonym": "राजस्थानी",
     "inputmethods": [
@@ -1088,6 +1113,8 @@
   "sd": {
     "autonym": "सिंधी",
     "inputmethods": [
+      "sd-persoarabic",
+      "sd-sind-inscript",
       "sd-inscript2"
     ]
   },
@@ -1113,6 +1140,12 @@
     "autonym": "Sängö",
     "inputmethods": [
       "sg-tilde"
+    ]
+  },
+  "sgh": {
+    "autonym": "xuɣ̌nůni",
+    "inputmethods": [
+      "sgh-tilde"
     ]
   },
   "shi": {
@@ -1230,6 +1263,12 @@
       "tig-geezim"
     ]
   },
+  "tiv": {
+    "autonym": "tiv",
+    "inputmethods": [
+      "tiv-tilde"
+    ]
+  },
   "tkr": {
     "autonym": "цӀаӀхна миз",
     "inputmethods": [
@@ -1240,6 +1279,12 @@
     "autonym": "Setswana",
     "inputmethods": [
       "tn-tilde"
+    ]
+  },
+  "tsw": {
+    "autonym": "Tsishingini",
+    "inputmethods": [
+      "tsw-tilde"
     ]
   },
   "tum": {

@@ -6,310 +6,465 @@
   "author": "SIIT",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "u",
-      "replacement": ""
+      "replacement": "ၵ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "c",
-      "replacement": ""
+      "replacement": "ၶ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "C",
-      "replacement": ""
+      "replacement": "ꧠ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "i",
-      "replacement": ""
+      "replacement": "င",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "p",
-      "replacement": ""
+      "replacement": "ႁ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "q",
-      "replacement": ""
+      "replacement": "ၸ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "Z",
-      "replacement": ""
+      "replacement": "ၾ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "Q",
-      "replacement": ""
+      "replacement": "ꩡ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "n",
-      "replacement": ""
+      "replacement": "ၺ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "N",
-      "replacement": ""
+      "replacement": "႟",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "X",
-      "replacement": ""
+      "replacement": "ꩪ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "P",
-      "replacement": ""
+      "replacement": "ႀ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "w",
-      "replacement": ""
+      "replacement": "တ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "x",
-      "replacement": ""
+      "replacement": "ထ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "e",
-      "replacement": ""
+      "replacement": "ၼ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "y",
-      "replacement": ""
+      "replacement": "ပ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "z",
-      "replacement": ""
+      "replacement": "ၽ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "u",
-      "replacement": ""
+      "replacement": "ၵ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "U",
-      "replacement": ""
+      "replacement": "ၷ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "b",
-      "replacement": ""
+      "replacement": "ယ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "r",
-      "replacement": ""
+      "replacement": "မ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "B",
-      "replacement": ""
+      "replacement": "ျ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "&",
-      "replacement": ""
+      "replacement": "&",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "v",
-      "replacement": ""
+      "replacement": "လ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "W",
-      "replacement": ""
+      "replacement": "ၻ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "o",
-      "replacement": ""
+      "replacement": "ဝ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "E",
-      "replacement": ""
+      "replacement": "ꧣ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "Y",
-      "replacement": ""
+      "replacement": "ၿ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "V",
-      "replacement": ""
+      "replacement": "ꩮ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "t",
-      "replacement": ""
+      "replacement": "ဢ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "I",
-      "replacement": ""
+      "replacement": "ရ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "O",
-      "replacement": ""
+      "replacement": "သ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "m",
-      "replacement": ""
+      "replacement": "ၢ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "g",
-      "replacement": ""
+      "replacement": "ွ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "d",
-      "replacement": ""
+      "replacement": "ိ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "D",
-      "replacement": ""
+      "replacement": "ီ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "k",
-      "replacement": ""
+      "replacement": "ု",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "l",
-      "replacement": ""
+      "replacement": "ူ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "a",
-      "replacement": ""
+      "replacement": "ေ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "J",
-      "replacement": ""
+      "replacement": "ႆ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "H",
-      "replacement": ""
+      "replacement": "ံ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "h",
-      "replacement": ""
+      "replacement": "ႉ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\;",
-      "replacement": ""
+      "replacement": "ႈ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "f",
-      "replacement": ""
+      "replacement": "်",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "F",
-      "replacement": ""
+      "replacement": "ႂ်",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "M",
-      "replacement": ""
+      "replacement": "ႃ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\>",
-      "replacement": ""
+      "replacement": "။",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\<",
-      "replacement": ""
+      "replacement": "၊",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "A",
-      "replacement": ""
+      "replacement": "ဵ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "K",
-      "replacement": ""
+      "replacement": "ꧦ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "L",
-      "replacement": ""
+      "replacement": "ႊ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\#",
-      "replacement": ""
+      "replacement": "#",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\~",
-      "replacement": ""
+      "replacement": "~",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\!",
-      "replacement": ""
+      "replacement": "!",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\:",
-      "replacement": ""
+      "replacement": "း",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "s",
-      "replacement": ""
+      "replacement": "ႄ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "j",
-      "replacement": ""
+      "replacement": "ႇ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "G",
-      "replacement": ""
+      "replacement": "ႂ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "S",
-      "replacement": ""
+      "replacement": "ႅ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "R",
-      "replacement": ""
+      "replacement": "႞",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "T",
-      "replacement": ""
+      "replacement": "ြ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\{",
-      "replacement": ""
+      "replacement": "{",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\]",
-      "replacement": ""
+      "replacement": "]",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\[",
-      "replacement": ""
+      "replacement": "[",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\}",
-      "replacement": ""
+      "replacement": "}",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\\\",
-      "replacement": ""
+      "replacement": "'",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "0",
-      "replacement": ""
+      "replacement": "0",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "1",
-      "replacement": ""
+      "replacement": "1",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "2",
-      "replacement": ""
+      "replacement": "2",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "3",
-      "replacement": ""
+      "replacement": "3",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "4",
-      "replacement": ""
+      "replacement": "4",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "5",
-      "replacement": ""
+      "replacement": "5",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "6",
-      "replacement": ""
+      "replacement": "6",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "7",
-      "replacement": ""
+      "replacement": "7",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "8",
-      "replacement": ""
+      "replacement": "8",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "9",
-      "replacement": ""
+      "replacement": "9",
+      "contextRegex": "",
+      "context": ""
     }
   ]
 }

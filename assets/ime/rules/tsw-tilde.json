@@ -1,0 +1,62 @@
+{
+  "id": "tsw-tilde",
+  "name": "Tsishingini tilde",
+  "description": "Tsishingini input keyboard",
+  "date": "2026-08-18",
+  "author": "Toluwanimi Ayodele",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "~B",
+      "replacement": "Ɓ"
+    },
+    {
+      "pattern": "~b",
+      "replacement": "ɓ"
+    },
+    {
+      "pattern": "~D",
+      "replacement": "Ɗ"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "ɗ"
+    },
+    {
+      "pattern": "~O",
+      "replacement": "Ɔ"
+    },
+    {
+      "pattern": "~o",
+      "replacement": "ɔ"
+    },
+    {
+      "pattern": "~_",
+      "replacement": "̱"
+    },
+    {
+      "pattern": "~~",
+      "replacement": "̃"
+    },
+    {
+      "pattern": "~'",
+      "replacement": "ʼ"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    }
+  ]
+}

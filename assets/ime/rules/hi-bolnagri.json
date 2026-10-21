@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "a",
@@ -248,131 +249,157 @@
     {
       "pattern": "a",
       "replacement": "अ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "A",
       "replacement": "आ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "i",
       "replacement": "इ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "I",
       "replacement": "ई",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "u",
       "replacement": "उ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "U",
       "replacement": "ऊ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "ए",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "E",
       "replacement": "ऐ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "o",
       "replacement": "ओ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "O",
       "replacement": "औ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ऱ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ऋ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Z",
       "replacement": "ऍ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "X",
       "replacement": "ऑ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "l",
       "replacement": "ॢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "L",
       "replacement": "ऌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "०",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "1",
       "replacement": "१",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "२",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "3",
       "replacement": "३",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "४",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "5",
       "replacement": "५",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "6",
       "replacement": "६",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "7",
       "replacement": "७",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "8",
       "replacement": "८",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "9",
       "replacement": "९",
+      "altGr": true,
       "context": "x"
     }
   ]

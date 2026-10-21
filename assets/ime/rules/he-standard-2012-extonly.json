@@ -6,180 +6,218 @@
   "author": "Amir E. Aharoni (אָמִיר אֱלִישָׁע אַהֲרוֹנִי, [[User:Amire80]])",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "ש",
       "replacement": "ְ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ק",
       "replacement": "ָ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ר",
       "replacement": "ֳ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "פ",
       "replacement": "ַ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\]",
       "replacement": "ֲ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "צ",
       "replacement": "ֵ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ס",
       "replacement": "ֶ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ב",
       "replacement": "ֱ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ח",
       "replacement": "ִ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ו",
       "replacement": "ֹ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\\\",
       "replacement": "ֻ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ד",
       "replacement": "ּ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "/",
       "replacement": "ׂ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "'",
       "replacement": "ׁ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "-",
       "replacement": "־",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "=",
       "replacement": "–",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "ֿ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "1",
       "replacement": "ֽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "3",
       "replacement": "€",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₪",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "5",
       "replacement": "°",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "6",
       "replacement": "֫",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "8",
       "replacement": "×",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "9",
       "replacement": "‎",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "‏",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "÷",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ט",
       "replacement": "װ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "י",
       "replacement": "ײ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ע",
       "replacement": "ױ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ";",
       "replacement": "׳",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": "״",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ף",
       "replacement": "„",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ך",
       "replacement": "”",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ץ",
       "replacement": "‚",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ת",
       "replacement": "’",
+      "altGr": true,
       "context": "x"
     }
   ]

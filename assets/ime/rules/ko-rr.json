@@ -8,5 +8,6 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": []
 }

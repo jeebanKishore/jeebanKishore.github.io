@@ -6,6 +6,9 @@
   "author": "Junaid P V",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "X",
@@ -105,7 +108,9 @@
     },
     {
       "pattern": "'",
-      "replacement": ""
+      "replacement": "ट",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\"",
@@ -113,11 +118,15 @@
     },
     {
       "pattern": "\\[",
-      "replacement": ""
+      "replacement": "ड",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\{",
-      "replacement": ""
+      "replacement": "ढ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "C",
@@ -165,7 +174,9 @@
     },
     {
       "pattern": "\\?",
-      "replacement": ""
+      "replacement": "य",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "j",
@@ -189,7 +200,9 @@
     },
     {
       "pattern": "\\<",
-      "replacement": ""
+      "replacement": "ष",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "m",
@@ -201,7 +214,9 @@
     },
     {
       "pattern": "\\]",
-      "replacement": ""
+      "replacement": "़",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "e",
@@ -225,7 +240,9 @@
     },
     {
       "pattern": "\\=",
-      "replacement": ""
+      "replacement": "ृ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\\\",
@@ -265,11 +282,15 @@
     },
     {
       "pattern": "0",
-      "replacement": ""
+      "replacement": "०",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "1",
-      "replacement": ""
+      "replacement": "१",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "2",
@@ -309,19 +330,27 @@
     },
     {
       "pattern": "\\#",
-      "replacement": ""
+      "replacement": "्र",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\$",
-      "replacement": ""
+      "replacement": "र्",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\%",
-      "replacement": ""
+      "replacement": "ज्ञ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\^",
-      "replacement": ""
+      "replacement": "त्र",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\&",
@@ -342,56 +371,68 @@
     {
       "pattern": "F",
       "replacement": "ऌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ऽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "X",
       "replacement": "ॐ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "॑",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "d",
       "replacement": "॒",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ॡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ॢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ॣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "॥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\@",
-      "replacement": "",
-      "context": "x"
+      "replacement": "ॅ",
+      "contextRegex": "",
+      "context": "x",
+      "altGr": true
     },
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     }
   ]

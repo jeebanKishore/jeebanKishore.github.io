@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 2,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "n~",
@@ -28,31 +29,37 @@
     {
       "pattern": "E",
       "replacement": "Ë",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "ë",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "N",
       "replacement": "Ŋ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "n",
       "replacement": "ŋ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "/",
       "replacement": "́",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\\\",
       "replacement": "̀",
+      "altGr": true,
       "context": "x"
     }
   ]

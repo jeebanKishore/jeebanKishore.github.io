@@ -6,6 +6,9 @@
   "author": "Parag Nemade",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "1",
@@ -322,51 +325,61 @@
     {
       "pattern": ",",
       "replacement": ">",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "<",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "]",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\]",
       "replacement": "[",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "J",
       "replacement": "‍",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "L",
       "replacement": "‎",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "N",
       "replacement": "‌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "‏",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\{",
       "replacement": "}",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\}",
       "replacement": "{",
+      "altGr": true,
       "context": "x"
     }
   ]

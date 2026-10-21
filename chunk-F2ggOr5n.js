@@ -1,0 +1,1 @@
+function t(r){return navigator.clipboard.writeText(r)}export{t};

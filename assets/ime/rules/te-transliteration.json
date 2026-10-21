@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "(మ్|న్)b",
@@ -199,7 +200,9 @@
     },
     {
       "pattern": "([క-హ])ొo",
-      "replacement": "o"
+      "replacement": "$1ూ",
+      "contextRegex": "o",
+      "context": "o"
     },
     {
       "pattern": "([క-హ])్R",
@@ -231,7 +234,9 @@
     },
     {
       "pattern": "([క-హ])e",
-      "replacement": "a"
+      "replacement": "$1ే",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([క-హ])ెi",
@@ -239,7 +244,9 @@
     },
     {
       "pattern": "([క-హ])i",
-      "replacement": "a"
+      "replacement": "$1ై",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([క-హ])్o",
@@ -255,7 +262,9 @@
     },
     {
       "pattern": "([క-హ])u",
-      "replacement": "a"
+      "replacement": "$1ౌ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "(్)\\^",
@@ -291,7 +300,9 @@
     },
     {
       "pattern": "అe",
-      "replacement": "a"
+      "replacement": "ఏ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ఎi",
@@ -299,15 +310,21 @@
     },
     {
       "pattern": "అi",
-      "replacement": "a"
+      "replacement": "ఐ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ఒ(a|')",
-      "replacement": ""
+      "replacement": "ఓ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "అo",
-      "replacement": "a"
+      "replacement": "ఓ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ఒ(u|w)",
@@ -315,7 +332,9 @@
     },
     {
       "pattern": "అu",
-      "replacement": "a"
+      "replacement": "ఔ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "ఋ(u|')",
@@ -455,7 +474,9 @@
     },
     {
       "pattern": "ఌu",
-      "replacement": "l"
+      "replacement": "ఌు",
+      "contextRegex": "l",
+      "context": "l"
     },
     {
       "pattern": "l",

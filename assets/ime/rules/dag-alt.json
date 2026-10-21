@@ -6,65 +6,80 @@
   "author": "Amir E. Aharoni",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "E",
       "replacement": "Ɛ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "ɛ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "G",
       "replacement": "Ɣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "g",
       "replacement": "ɣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Y",
       "replacement": "Ɣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "y",
       "replacement": "ɣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "N",
       "replacement": "Ŋ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "n",
       "replacement": "ŋ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "O",
       "replacement": "Ɔ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "o",
       "replacement": "ɔ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Z",
       "replacement": "Ʒ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "z",
       "replacement": "ʒ",
+      "altGr": true,
       "context": "x"
     }
   ]

@@ -6,6 +6,9 @@
   "author": "Praveen Illa",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "1",
@@ -438,106 +441,127 @@
     {
       "pattern": "\\!",
       "replacement": "౹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\@",
       "replacement": "౼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\#",
       "replacement": "౺",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\$",
       "replacement": "౽",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\%",
       "replacement": "౻",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\^",
       "replacement": "౾",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "1",
       "replacement": "‍",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "‌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "౸",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\-",
       "replacement": "౿",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ౣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ౡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "p",
       "replacement": "ౙ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "F",
       "replacement": "ఌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ౢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ";",
       "replacement": "ౘ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Z",
       "replacement": "ౖ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "z",
       "replacement": "ౕ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ఽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "॥",
+      "altGr": true,
       "context": "x"
     }
   ]

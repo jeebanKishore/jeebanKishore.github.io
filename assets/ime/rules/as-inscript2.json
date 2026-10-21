@@ -6,6 +6,9 @@
   "author": "Parag Nemade",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\!",
@@ -346,121 +349,145 @@
     {
       "pattern": "\\!",
       "replacement": "৴",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "1",
       "replacement": "‍",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\@",
       "replacement": "৵",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "‌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\#",
       "replacement": "৶",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\$",
       "replacement": "৷",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\%",
       "replacement": "৸",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\^",
       "replacement": "৹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": "৳",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "॥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "/",
       "replacement": "্য",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\<",
       "replacement": "৲",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "ৄ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\+",
       "replacement": "ৠ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ঽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "F",
       "replacement": "ঌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ৡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\{",
       "replacement": "ঢ়",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "ড়",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ৢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "l",
       "replacement": "ৎ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ৣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "x",
       "replacement": "৺",
+      "altGr": true,
       "context": "x"
     }
   ]

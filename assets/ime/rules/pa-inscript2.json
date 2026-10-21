@@ -6,6 +6,9 @@
   "author": "Parag Nemade",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "1",
@@ -310,86 +313,103 @@
     {
       "pattern": "1",
       "replacement": "‍",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "‌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "i",
       "replacement": "ਗ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "p",
       "replacement": "ਜ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "ੜ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "D",
       "replacement": "☬",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "d",
       "replacement": "ੑ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "F",
       "replacement": "ੲ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "G",
       "replacement": "ੳ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "H",
       "replacement": "ਫ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "K",
       "replacement": "ਖ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "X",
       "replacement": "ੴ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "x",
       "replacement": "ਁ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "N",
       "replacement": "ਲ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "॥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "/",
       "replacement": "ੵ",
+      "altGr": true,
       "context": "x"
     }
   ]

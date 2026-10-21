@@ -6,6 +6,9 @@
   "author": "Ebrahim Byagowi",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "`",
@@ -366,227 +369,278 @@
     {
       "pattern": "`",
       "replacement": "~",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "1",
       "replacement": "`",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "@",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "3",
       "replacement": "#",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "$",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "5",
       "replacement": "%",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "6",
       "replacement": "^",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "7",
       "replacement": "&",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "8",
       "replacement": "•",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "9",
       "replacement": "‎",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "‏",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "q",
       "replacement": "°",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "w",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "€",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "t",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "y",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "u",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "i",
       "replacement": "‭",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "o",
       "replacement": "‮",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "p",
       "replacement": "‬",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "‪",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\]",
       "replacement": "‫",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "a",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "s",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "d",
       "replacement": "ى",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "g",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "h",
       "replacement": "ٱ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "j",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "k",
       "replacement": "﴾",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "l",
       "replacement": "﴿",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ";",
       "replacement": ";",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "'",
       "replacement": "\"",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "z",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "x",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "c",
       "replacement": "",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "v",
       "replacement": "ٖ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "b",
       "replacement": "‍",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "n",
       "replacement": "ٕ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "m",
       "replacement": "…",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": ",",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "'",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "/",
       "replacement": "?",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": " ",
       "replacement": " ",
+      "altGr": true,
       "context": "x"
+    },
+    {
+      "pattern": " ",
+      "replacement": "‌",
+      "shift": true,
+      "context": "shift"
     }
   ]
 }

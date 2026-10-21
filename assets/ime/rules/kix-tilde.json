@@ -1,0 +1,38 @@
+{
+  "id": "kix-tilde",
+  "name": "Khiamniungan tilde",
+  "description": "Khiamniungan Naga input keyboard",
+  "date": "2026-07-22",
+  "author": "Toluwanimi Ayodele",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 2,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "~u",
+      "replacement": "ü"
+    },
+    {
+      "pattern": "~U",
+      "replacement": "Ü"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~-",
+      "replacement": "̄"
+    },
+    {
+      "pattern": "~\\^",
+      "replacement": "̂"
+    },
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    }
+  ]
+}

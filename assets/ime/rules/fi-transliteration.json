@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 2,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\.a",
@@ -48,6 +49,7 @@
     {
       "pattern": "e",
       "replacement": "€",
+      "altGr": true,
       "context": "x"
     }
   ]

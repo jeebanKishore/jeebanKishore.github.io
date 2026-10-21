@@ -1,0 +1,1 @@
+import {av as Lc,aw as Eo,az as O0}from'./main-7LCXQRFM.js';var f=(()=>{class e{static \u0275fac=function(r){return new(r||e)};static \u0275mod=Lc({type:e});static \u0275inj=Eo({imports:[O0]})}return e})();export{f};

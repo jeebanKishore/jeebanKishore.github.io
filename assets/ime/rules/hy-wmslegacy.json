@@ -6,6 +6,9 @@
   "author": "Aleksey Chalabyan Ալեքսեյ Չալաբյան a.k.a Xelgen",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "1",
@@ -386,206 +389,247 @@
     {
       "pattern": "1",
       "replacement": "1",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\!",
       "replacement": "!",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "2",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\@",
       "replacement": "@",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "3",
       "replacement": "3",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\#",
       "replacement": "#",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "4",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\$",
       "replacement": "$",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "5",
       "replacement": "5",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\%",
       "replacement": "%",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "6",
       "replacement": "6",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\^",
       "replacement": "^",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "7",
       "replacement": "7",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\&",
       "replacement": "&",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "8",
       "replacement": "8",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\*",
       "replacement": "*",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "9",
       "replacement": "9",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\(",
       "replacement": "(",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "0",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\)",
       "replacement": ")",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\-",
       "replacement": "-",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\_",
       "replacement": "_",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "=",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\+",
       "replacement": "+",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\`",
       "replacement": "`",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\~",
       "replacement": "~",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "[",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\{",
       "replacement": "{",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\]",
       "replacement": "]",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\}",
       "replacement": "}",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\\\",
       "replacement": "\\",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\|",
       "replacement": "|",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ";",
       "replacement": ";",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\:",
       "replacement": ":",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "'",
       "replacement": "'",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\"",
       "replacement": "\"",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\<",
       "replacement": "<",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": ".",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": ">",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "/",
       "replacement": "/",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\?",
       "replacement": "?",
+      "altGr": true,
       "context": "x"
     }
   ]

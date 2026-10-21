@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 2,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "1",
@@ -356,121 +357,145 @@
     {
       "pattern": "1",
       "replacement": "‍",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\!",
       "replacement": "൰",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "‌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\@",
       "replacement": "൱",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\#",
       "replacement": "൲",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\$",
       "replacement": "൳",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\%",
       "replacement": "൴",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\^",
       "replacement": "൵",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\+",
       "replacement": "ൠ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "ൄ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "q",
       "replacement": "ൌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ൡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ൣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "F",
       "replacement": "ഌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ൢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "j",
       "replacement": "ർ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "k",
       "replacement": "ൿ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "c",
       "replacement": "ൺ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "v",
       "replacement": "൹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "N",
       "replacement": "ൾ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "n",
       "replacement": "ൽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ഽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "॥",
+      "altGr": true,
       "context": "x"
     }
   ]

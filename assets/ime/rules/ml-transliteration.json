@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 2,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "(‌)+a",
@@ -59,23 +60,33 @@
     },
     {
       "pattern": "ൻൿh",
-      "replacement": "nc"
+      "replacement": "ഞ്ച്",
+      "contextRegex": "nc",
+      "context": "nc"
     },
     {
       "pattern": "ൿh",
-      "replacement": "c"
+      "replacement": "ച്",
+      "contextRegex": "c",
+      "context": "c"
     },
     {
       "pattern": "ക്ക്h",
-      "replacement": "cc"
+      "replacement": "ച്ച്",
+      "contextRegex": "cc",
+      "context": "cc"
     },
     {
       "pattern": "ല്പ്p",
-      "replacement": "lp"
+      "replacement": "ൽപ്പ്",
+      "contextRegex": "lp",
+      "context": "lp"
     },
     {
       "pattern": "\\\\([A-Za-z\\>_~])",
-      "replacement": "\\\\"
+      "replacement": "$1",
+      "contextRegex": "\\\\",
+      "context": "\\\\"
     },
     {
       "pattern": "([ക-ഹ])്R",
@@ -103,7 +114,9 @@
     },
     {
       "pattern": "([ക-ഹ])്ല്l",
-      "replacement": "L"
+      "replacement": "$1ൢ",
+      "contextRegex": "L",
+      "context": "L"
     },
     {
       "pattern": "([ക-ഹ])ൢl",

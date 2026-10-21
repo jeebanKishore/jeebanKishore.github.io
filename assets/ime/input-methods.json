@@ -483,6 +483,10 @@
   ],
   "eo": [
     {
+      "id": "eo-transliteration",
+      "name": "transliterigo"
+    },
+    {
       "id": "eo-h",
       "name": "Esperanto h"
     },
@@ -675,6 +679,10 @@
     {
       "id": "hoc-latn-tilde",
       "name": "Ho Latin Tilde"
+    },
+    {
+      "id": "hoc-latn-semicolon",
+      "name": "Ho Latin Semicolon"
     }
   ],
   "hr": [
@@ -749,6 +757,18 @@
     {
       "id": "ish-tilde",
       "name": "Esan Awain tilde"
+    }
+  ],
+  "izr": [
+    {
+      "id": "izr-tilde",
+      "name": "Izere tilde"
+    }
+  ],
+  "jab": [
+    {
+      "id": "jab-tilde",
+      "name": "Hyam tilde"
     }
   ],
   "jac": [
@@ -839,6 +859,12 @@
     {
       "id": "ki-tilde",
       "name": "Gĩkũyũ"
+    }
+  ],
+  "kix": [
+    {
+      "id": "kix-tilde",
+      "name": "Khiamniungan tilde"
     }
   ],
   "kk": [
@@ -988,13 +1014,11 @@
   "mai": [
     {
       "id": "mai-inscript",
-      "name": "इनस्क्रिप्ट",
-      "depends": "hi-inscript"
+      "name": "इनस्क्रिप्ट"
     },
     {
       "id": "mai-inscript2",
-      "name": "इनस्क्रिप्ट २",
-      "depends": "hi-inscript2"
+      "name": "इनस्क्रिप्ट २"
     }
   ],
   "maw": [
@@ -1317,6 +1341,12 @@
       "name": "Pontic tilde"
     }
   ],
+  "pwo": [
+    {
+      "id": "pwo-tilde",
+      "name": "ဖျိၩ့ၡိ"
+    }
+  ],
   "raj": [
     {
       "id": "hi-transliteration",
@@ -1409,6 +1439,14 @@
   ],
   "sd": [
     {
+      "id": "sd-persoarabic",
+      "name": "Perso Arabic"
+    },
+    {
+      "id": "sd-sind-inscript",
+      "name": "𑋝𑋡𑋟𑋐𑋢 𑊲𑋑𑋪𑋝𑋪𑊺𑋪𑋙𑋡𑋒𑋪𑋆"
+    },
+    {
       "id": "sd-inscript2",
       "name": "इनस्क्रिप्ट २"
     }
@@ -1435,6 +1473,12 @@
     {
       "id": "sg-tilde",
       "name": "Sängö"
+    }
+  ],
+  "sgh": [
+    {
+      "id": "sgh-tilde",
+      "name": "xuɣ̌nůni"
     }
   ],
   "shi": [
@@ -1591,6 +1635,12 @@
       "name": "Tigre GeezIM"
     }
   ],
+  "tiv": [
+    {
+      "id": "tiv-tilde",
+      "name": "Tiv Tilde"
+    }
+  ],
   "tkr": [
     {
       "id": "cyrl-palochka",
@@ -1601,6 +1651,12 @@
     {
       "id": "tn-tilde",
       "name": "Setswana tilde"
+    }
+  ],
+  "tsw": [
+    {
+      "id": "tsw-tilde",
+      "name": "Tsishingini tilde"
     }
   ],
   "tum": [

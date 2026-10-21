@@ -1,0 +1,322 @@
+{
+  "id": "sd-sind-inscript",
+  "name": "𑋝𑋡𑋟𑋐𑋢 𑊲𑋑𑋪𑋝𑋪𑊺𑋪𑋙𑋡𑋒𑋪𑋆",
+  "description": "Enhanced InScript keyboard for Sindhi language in the Khudabadi script",
+  "date": "2026-08-28",
+  "author": "Parag Nemade, Siddharth Talreja",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "1",
+      "replacement": "𑋱"
+    },
+    {
+      "pattern": "2",
+      "replacement": "𑋲"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "#"
+    },
+    {
+      "pattern": "3",
+      "replacement": "𑋳"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "$"
+    },
+    {
+      "pattern": "4",
+      "replacement": "𑋴"
+    },
+    {
+      "pattern": "5",
+      "replacement": "𑋵"
+    },
+    {
+      "pattern": "6",
+      "replacement": "𑋶"
+    },
+    {
+      "pattern": "7",
+      "replacement": "𑋷"
+    },
+    {
+      "pattern": "8",
+      "replacement": "𑋸"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": "("
+    },
+    {
+      "pattern": "9",
+      "replacement": "𑋹"
+    },
+    {
+      "pattern": "0",
+      "replacement": "𑋰"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "-"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "𑊹"
+    },
+    {
+      "pattern": "q",
+      "replacement": "𑋨"
+    },
+    {
+      "pattern": "W",
+      "replacement": "𑊷"
+    },
+    {
+      "pattern": "w",
+      "replacement": "𑋦"
+    },
+    {
+      "pattern": "E",
+      "replacement": "𑊱"
+    },
+    {
+      "pattern": "e",
+      "replacement": "𑋠"
+    },
+    {
+      "pattern": "R",
+      "replacement": "𑊳"
+    },
+    {
+      "pattern": "r",
+      "replacement": "𑋢"
+    },
+    {
+      "pattern": "T",
+      "replacement": "𑊵"
+    },
+    {
+      "pattern": "t",
+      "replacement": "𑋤"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "𑋖"
+    },
+    {
+      "pattern": "y",
+      "replacement": "𑋔"
+    },
+    {
+      "pattern": "U",
+      "replacement": "𑊿"
+    },
+    {
+      "pattern": "u",
+      "replacement": "𑋞"
+    },
+    {
+      "pattern": "I",
+      "replacement": "𑊾"
+    },
+    {
+      "pattern": "i",
+      "replacement": "𑊼"
+    },
+    {
+      "pattern": "O",
+      "replacement": "𑋐"
+    },
+    {
+      "pattern": "o",
+      "replacement": "𑋏"
+    },
+    {
+      "pattern": "P",
+      "replacement": "𑋄"
+    },
+    {
+      "pattern": "p",
+      "replacement": "𑋂"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "𑋋"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "𑋈"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "𑋅"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "𑋩"
+    },
+    {
+      "pattern": "A",
+      "replacement": "𑊸"
+    },
+    {
+      "pattern": "a",
+      "replacement": "𑋧"
+    },
+    {
+      "pattern": "S",
+      "replacement": "𑊶"
+    },
+    {
+      "pattern": "s",
+      "replacement": "𑋥"
+    },
+    {
+      "pattern": "D",
+      "replacement": "𑊰"
+    },
+    {
+      "pattern": "d",
+      "replacement": "𑋪"
+    },
+    {
+      "pattern": "F",
+      "replacement": "𑊲"
+    },
+    {
+      "pattern": "f",
+      "replacement": "𑋡"
+    },
+    {
+      "pattern": "G",
+      "replacement": "𑊴"
+    },
+    {
+      "pattern": "g",
+      "replacement": "𑋣"
+    },
+    {
+      "pattern": "H",
+      "replacement": "𑋓"
+    },
+    {
+      "pattern": "h",
+      "replacement": "𑋒"
+    },
+    {
+      "pattern": "j",
+      "replacement": "𑋙"
+    },
+    {
+      "pattern": "K",
+      "replacement": "𑊻"
+    },
+    {
+      "pattern": "k",
+      "replacement": "𑊺"
+    },
+    {
+      "pattern": "L",
+      "replacement": "𑋎"
+    },
+    {
+      "pattern": "l",
+      "replacement": "𑋍"
+    },
+    {
+      "pattern": ":",
+      "replacement": "𑋁"
+    },
+    {
+      "pattern": ";",
+      "replacement": "𑋀"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "𑋇"
+    },
+    {
+      "pattern": "'",
+      "replacement": "𑋆"
+    },
+    {
+      "pattern": "X",
+      "replacement": "𑋟"
+    },
+    {
+      "pattern": "x",
+      "replacement": "𑋟"
+    },
+    {
+      "pattern": "C",
+      "replacement": "𑋌"
+    },
+    {
+      "pattern": "c",
+      "replacement": "𑋗"
+    },
+    {
+      "pattern": "v",
+      "replacement": "𑋑"
+    },
+    {
+      "pattern": "b",
+      "replacement": "𑋛"
+    },
+    {
+      "pattern": "n",
+      "replacement": "𑋚"
+    },
+    {
+      "pattern": "M",
+      "replacement": "𑋜"
+    },
+    {
+      "pattern": "m",
+      "replacement": "𑋝"
+    },
+    {
+      "pattern": ",",
+      "replacement": ","
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "।"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": "/",
+      "replacement": "𑋘"
+    },
+    {
+      "pattern": "J",
+      "replacement": "𑋊"
+    },
+    {
+      "pattern": "V",
+      "replacement": "𑋉"
+    },
+    {
+      "pattern": "B",
+      "replacement": "𑋕"
+    },
+    {
+      "pattern": "N",
+      "replacement": "𑋃"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "𑊽"
+    }
+  ]
+}

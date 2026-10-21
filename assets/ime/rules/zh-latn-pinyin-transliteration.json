@@ -6,7 +6,9 @@
   "author": "Yuping Zuo",
   "license": "MIT",
   "version": "1.0",
+  "contextLength": 0,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "iou",

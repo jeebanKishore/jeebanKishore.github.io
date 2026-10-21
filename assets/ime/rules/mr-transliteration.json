@@ -8,18 +8,25 @@
   "version": "1.0",
   "contextLength": 2,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "च्h",
-      "replacement": "c"
+      "replacement": "च्",
+      "contextRegex": "c",
+      "context": "c"
     },
     {
       "pattern": "च्h",
-      "replacement": "ch"
+      "replacement": "छ्",
+      "contextRegex": "ch",
+      "context": "ch"
     },
     {
       "pattern": "\\\\([A-Za-z\\>_~0-9])",
-      "replacement": "\\\\"
+      "replacement": "$1",
+      "contextRegex": "\\\\",
+      "context": "\\\\"
     },
     {
       "pattern": "([क-ह]़?)्a",

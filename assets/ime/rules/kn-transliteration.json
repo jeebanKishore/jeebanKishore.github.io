@@ -8,14 +8,19 @@
   "version": "1.0",
   "contextLength": 5,
   "maxKeyLength": 3,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "ಕ್h",
-      "replacement": "c"
+      "replacement": "ಚ್",
+      "contextRegex": "c",
+      "context": "c"
     },
     {
       "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
-      "replacement": "\\\\"
+      "replacement": "$1",
+      "contextRegex": "\\\\",
+      "context": "\\\\"
     },
     {
       "pattern": "ಜ್್j",
@@ -459,7 +464,9 @@
     },
     {
       "pattern": "W",
-      "replacement": ""
+      "replacement": "ಔ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "Y",

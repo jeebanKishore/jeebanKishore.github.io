@@ -6,368 +6,489 @@
   "author": "Elie Roux <elie.roux@telecom-bretagne.eu>",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
   "maxKeyLength": 5,
+  "dependencies": [],
   "rules": [
     {
-      "pattern": " "
+      "pattern": " ",
+      "replacement": "function () { reinit(); return '་'; }"
     },
     {
-      "pattern": "\\."
+      "pattern": "\\.",
+      "replacement": "function () { reinit(); return ' '; }"
     },
     {
-      "pattern": ","
+      "pattern": ",",
+      "replacement": "function () { reinit(); return '།'; }"
     },
     {
-      "pattern": ";"
+      "pattern": ";",
+      "replacement": "function () { reinit(); return '༔'; }"
     },
     {
-      "pattern": "f"
+      "pattern": "f",
+      "replacement": "function () { switchStacking(); return ''; }"
     },
     {
-      "pattern": "a"
+      "pattern": "a",
+      "replacement": "function () { reinit(); return ''; }"
     },
     {
-      "pattern": "k"
+      "pattern": "k",
+      "replacement": "function () { return normalOrSub( 'ཀ', 'ྐ' ); }"
     },
     {
-      "pattern": "K"
+      "pattern": "K",
+      "replacement": "function () { return normalOrSub( 'ཁ', 'ྑ' ); }"
     },
     {
-      "pattern": "g"
+      "pattern": "g",
+      "replacement": "function () { return normalOrSub( 'ག', 'ྒ' ); }"
     },
     {
-      "pattern": "G"
+      "pattern": "G",
+      "replacement": "function () { return normalOrSub( 'ང', 'ྔ' ); }"
     },
     {
-      "pattern": "c"
+      "pattern": "c",
+      "replacement": "function () { return normalOrSub( 'ཅ', 'ྕ' ); }"
     },
     {
-      "pattern": "C"
+      "pattern": "C",
+      "replacement": "function () { return normalOrSub( 'ཆ', 'ྖ' ); }"
     },
     {
-      "pattern": "j"
+      "pattern": "j",
+      "replacement": "function () { return normalOrSub( 'ཇ', 'ྗ' ); }"
     },
     {
-      "pattern": "N"
+      "pattern": "N",
+      "replacement": "function () { return normalOrSub( 'ཉ', 'ྙ' ); }"
     },
     {
-      "pattern": "q"
+      "pattern": "q",
+      "replacement": "function () { return normalOrSub( 'ཊ', 'ྚ' ); }"
     },
     {
-      "pattern": "Q"
+      "pattern": "Q",
+      "replacement": "function () { return normalOrSub( 'ཋ', 'ྛ' ); }"
     },
     {
-      "pattern": "v"
+      "pattern": "v",
+      "replacement": "function () { return normalOrSub( 'ཌ', 'ྜ' ); }"
     },
     {
-      "pattern": "V"
+      "pattern": "V",
+      "replacement": "function () { return normalOrSub( 'ཎ', 'ྞ' ); }"
     },
     {
-      "pattern": "t"
+      "pattern": "t",
+      "replacement": "function () { return normalOrSub( 'ཏ', 'ྟ' ); }"
     },
     {
-      "pattern": "T"
+      "pattern": "T",
+      "replacement": "function () { return normalOrSub( 'ཐ', 'ྠ' ); }"
     },
     {
-      "pattern": "d"
+      "pattern": "d",
+      "replacement": "function () { return normalOrSub( 'ད', 'ྡ' ); }"
     },
     {
-      "pattern": "གྷn"
+      "pattern": "གྷn",
+      "replacement": "function () { return normalOrSub( 'གྷན', 'གྷྣ' ); }"
     },
     {
-      "pattern": "n"
+      "pattern": "n",
+      "replacement": "function () { return normalOrSub( 'ན', 'ྣ' ); }"
     },
     {
-      "pattern": "p"
+      "pattern": "p",
+      "replacement": "function () { return normalOrSub( 'པ', 'ྤ' ); }"
     },
     {
-      "pattern": "P"
+      "pattern": "P",
+      "replacement": "function () { return normalOrSub( 'ཕ', 'ྥ' ); }"
     },
     {
-      "pattern": "b"
+      "pattern": "b",
+      "replacement": "function () { return normalOrSub( 'བ', 'ྦ' ); }"
     },
     {
-      "pattern": "རྨm"
+      "pattern": "རྨm",
+      "replacement": "function () { return normalOrSub( 'རྨམ', 'རྨྨ', true ); }"
     },
     {
-      "pattern": "m"
+      "pattern": "m",
+      "replacement": "function () { return normalOrSub( 'མ', 'ྨ' ); }"
     },
     {
-      "pattern": "x"
+      "pattern": "x",
+      "replacement": "function () { return normalOrSub( 'ཙ', 'ྩ' ); }"
     },
     {
-      "pattern": "X"
+      "pattern": "X",
+      "replacement": "function () { return normalOrSub( 'ཚ', 'ྪ' ); }"
     },
     {
-      "pattern": "D"
+      "pattern": "D",
+      "replacement": "function () { return normalOrSub( 'ཛ', 'ྫ' ); }"
     },
     {
-      "pattern": "ྭw"
+      "pattern": "ྭw",
+      "replacement": "function () { return normalOrSub( 'ྭཝ', 'ྭྭ' ); }"
     },
     {
-      "pattern": "w"
+      "pattern": "w",
+      "replacement": "function () { return normalOrSub( 'ཝ', 'ྭ', true ); }"
     },
     {
-      "pattern": "W"
+      "pattern": "W",
+      "replacement": "function () { return normalOrSub( 'ཝ', 'ྺ' ); }"
     },
     {
-      "pattern": "Z"
+      "pattern": "Z",
+      "replacement": "function () { return normalOrSub( 'ཞ', 'ྮ' ); }"
     },
     {
-      "pattern": "z"
+      "pattern": "z",
+      "replacement": "function () { return normalOrSub( 'ཟ', 'ྯ' ); }"
     },
     {
-      "pattern": "ཱ'"
+      "pattern": "ཱ'",
+      "replacement": "function () { return normalOrSub( 'ཱ\\'འ', 'ཱཱ' ); }"
     },
     {
-      "pattern": "'"
+      "pattern": "'",
+      "replacement": "function () { return normalOrSub( 'འ', 'ཱ', true ); }"
     },
     {
-      "pattern": "ྱy"
+      "pattern": "ྱy",
+      "replacement": "function () { return normalOrSub( 'ྱཡ', 'ྱྱ' ); }"
     },
     {
-      "pattern": "y"
+      "pattern": "y",
+      "replacement": "function () { return normalOrSub( 'ཡ', 'ྱ', true ); }"
     },
     {
-      "pattern": "l"
+      "pattern": "l",
+      "replacement": "function () { return normalOrSub( 'ལ', 'ླ' ); }"
     },
     {
-      "pattern": "i"
+      "pattern": "i",
+      "replacement": "function () { reinit(); return 'ི'; }"
     },
     {
-      "pattern": "u"
+      "pattern": "u",
+      "replacement": "function () { reinit(); return 'ུ'; }"
     },
     {
-      "pattern": "e"
+      "pattern": "e",
+      "replacement": "function () { reinit(); return 'ེ'; }"
     },
     {
-      "pattern": "o"
+      "pattern": "o",
+      "replacement": "function () { reinit(); return 'ོ'; }"
     },
     {
-      "pattern": "ལ([ྐ-ྷ]+)r"
+      "pattern": "ལ([ྐ-ྷ]+)r",
+      "replacement": "function ( _, capture ) { reinit(); return 'ལ' + capture + 'ར'; }"
     },
     {
-      "pattern": "ྐr"
+      "pattern": "ྐr",
+      "replacement": "function () { return normalOrSub( 'ྐར', 'ྐྲ', true ); }"
     },
     {
-      "pattern": "ྒr"
+      "pattern": "ྒr",
+      "replacement": "function () { return normalOrSub( 'ྒར', 'ྒྲ', true ); }"
     },
     {
-      "pattern": "ྣr"
+      "pattern": "ྣr",
+      "replacement": "function () { return normalOrSub( 'ྣར', 'ྣྲ', true ); }"
     },
     {
-      "pattern": "ྤr"
+      "pattern": "ྤr",
+      "replacement": "function () { return normalOrSub( 'ྤར', 'ྤྲ', true ); }"
     },
     {
-      "pattern": "ྦr"
+      "pattern": "ྦr",
+      "replacement": "function () { return normalOrSub( 'ྦར', 'ྦྲ', true ); }"
     },
     {
-      "pattern": "ྨr"
+      "pattern": "ྨr",
+      "replacement": "function () { return normalOrSub( 'ྨར', 'ྨྲ', true ); }"
     },
     {
-      "pattern": "སྡr"
+      "pattern": "སྡr",
+      "replacement": "function () { reinit(); return 'སྡར'; }"
     },
     {
-      "pattern": "ྡr"
+      "pattern": "ྡr",
+      "replacement": "function () { return normalOrSub( 'ྡར', 'ྡྲ', true ); }"
     },
     {
-      "pattern": "ྦྷr"
+      "pattern": "ྦྷr",
+      "replacement": "function () { return normalOrSub( 'ྦྷར', 'ྦྷྲ', true ); }"
     },
     {
-      "pattern": "ྡྷr"
+      "pattern": "ྡྷr",
+      "replacement": "function () { return normalOrSub( 'ྡྷར', 'ྡྷྲ', true ); }"
     },
     {
-      "pattern": "ྒྷr"
+      "pattern": "ྒྷr",
+      "replacement": "function () { return normalOrSub( 'ྒྷར', 'ྒྷྲ', true ); }"
     },
     {
-      "pattern": "ྜྷr"
+      "pattern": "ྜྷr",
+      "replacement": "function () { return normalOrSub( 'ྜྷར', 'ྜྷྲ', true ); }"
     },
     {
-      "pattern": "ྟr"
+      "pattern": "ྟr",
+      "replacement": "function () { return normalOrSub( 'ྟར', 'ྟྲ', true ); }"
     },
     {
-      "pattern": "r"
+      "pattern": "r",
+      "replacement": "function () { return normalOrSub( 'ར', 'ྲ' ); }"
     },
     {
-      "pattern": "S"
+      "pattern": "S",
+      "replacement": "function () { return normalOrSub( 'ཤ', 'ྴ' ); }"
     },
     {
-      "pattern": "ཀB"
+      "pattern": "ཀB",
+      "replacement": "function () { return normalOrSub( 'ཀཥ', 'ཀྵ', true, true ); }"
     },
     {
-      "pattern": "ྐB"
+      "pattern": "ྐB",
+      "replacement": "function () { return normalOrSub( 'ྐཥ', 'ྐྵ', true, true ); }"
     },
     {
-      "pattern": "B"
+      "pattern": "B",
+      "replacement": "function () { return normalOrSub( 'ཥ', 'ྵ' ); }"
     },
     {
-      "pattern": "s"
+      "pattern": "s",
+      "replacement": "function () { return normalOrSub( 'ས', 'ྶ' ); }"
     },
     {
-      "pattern": "གh"
+      "pattern": "གh",
+      "replacement": "function () { return normalOrSub( 'གཧ', 'གྷ', true, true ); }"
     },
     {
-      "pattern": "ཌh"
+      "pattern": "ཌh",
+      "replacement": "function () { return normalOrSub( 'ཌཧ', 'ཌྷ', true, true ); }"
     },
     {
-      "pattern": "དh"
+      "pattern": "དh",
+      "replacement": "function () { return normalOrSub( 'དཧ', 'དྷ', true, true ); }"
     },
     {
-      "pattern": "བh"
+      "pattern": "བh",
+      "replacement": "function () { return normalOrSub( 'བཧ', 'བྷ', true, true ); }"
     },
     {
-      "pattern": "ཛh"
+      "pattern": "ཛh",
+      "replacement": "function () { return normalOrSub( 'ཛཧ', 'ཛྷ', true, true ); }"
     },
     {
-      "pattern": "ྒh"
+      "pattern": "ྒh",
+      "replacement": "function () { return normalOrSub( 'ྒཧ', 'ྒྷ', true, true ); }"
     },
     {
-      "pattern": "ྜh"
+      "pattern": "ྜh",
+      "replacement": "function () { return normalOrSub( 'ྜཧ', 'ྜྷ', true, true ); }"
     },
     {
-      "pattern": "ྡh"
+      "pattern": "ྡh",
+      "replacement": "function () { return normalOrSub( 'ྡཧ', 'ྡྷ', true, true ); }"
     },
     {
-      "pattern": "ྦh"
+      "pattern": "ྦh",
+      "replacement": "function () { return normalOrSub( 'ྦཧ', 'ྦྷ', true, true ); }"
     },
     {
-      "pattern": "ྫh"
+      "pattern": "ྫh",
+      "replacement": "function () { return normalOrSub( 'ྫཧ', 'ྫྷ', true, true ); }"
     },
     {
-      "pattern": "ྷh"
+      "pattern": "ྷh",
+      "replacement": "function () { return normalOrSub( 'ྷཧ', 'ྷྷ' ); }"
     },
     {
-      "pattern": "h"
+      "pattern": "h",
+      "replacement": "function () { return normalOrSub( 'ཧ', 'ྷ', true ); }"
     },
     {
-      "pattern": "A"
+      "pattern": "A",
+      "replacement": "function () { return normalOrSub( 'ཨ', 'ྸ' ); }"
     },
     {
-      "pattern": "R"
+      "pattern": "R",
+      "replacement": "function () { return normalOrSub( 'ཪ', 'ྼ' ); }"
     },
     {
       "pattern": "Y",
       "replacement": "ྻ"
     },
     {
-      "pattern": "ྲI"
+      "pattern": "ྲI",
+      "replacement": "function () { reinit(); return 'ྲྀ'; }"
     },
     {
-      "pattern": "ླI"
+      "pattern": "ླI",
+      "replacement": "function () { reinit(); return 'ླྀ'; }"
     },
     {
-      "pattern": "I"
+      "pattern": "I",
+      "replacement": "function () { reinit(); return 'ྀ'; }"
     },
     {
-      "pattern": "E"
+      "pattern": "E",
+      "replacement": "function () { reinit(); return 'ཻ'; }"
     },
     {
-      "pattern": "O"
+      "pattern": "O",
+      "replacement": "function () { reinit(); return 'ཽ'; }"
     },
     {
-      "pattern": "J"
+      "pattern": "J",
+      "replacement": "function () { reinit(); return 'ིཾ'; }"
     },
     {
-      "pattern": "U"
+      "pattern": "U",
+      "replacement": "function () { reinit(); return 'ྀཾ'; }"
     },
     {
-      "pattern": "F"
+      "pattern": "F",
+      "replacement": "function () { reinit(); return 'ེཾ'; }"
     },
     {
-      "pattern": "L"
+      "pattern": "L",
+      "replacement": "function () { reinit(); return 'ོཾ'; }"
     },
     {
-      "pattern": "`"
+      "pattern": "`",
+      "replacement": "function () { reinit(); return 'ཽཾ'; }"
     },
     {
-      "pattern": "~"
+      "pattern": "~",
+      "replacement": "function () { reinit(); return 'ཻཾ'; }"
     },
     {
-      "pattern": "\\^"
+      "pattern": "\\^",
+      "replacement": "function () { reinit(); return '྄'; }"
     },
     {
-      "pattern": "\\!"
+      "pattern": "\\!",
+      "replacement": "function () { reinit(); return '༄༅༅'; }"
     },
     {
-      "pattern": "\\#"
+      "pattern": "\\#",
+      "replacement": "function () { reinit(); return '༁ྃ'; }"
     },
     {
-      "pattern": "\\%"
+      "pattern": "\\%",
+      "replacement": "function () { reinit(); return 'ྃ'; }"
     },
     {
-      "pattern": "\\+"
+      "pattern": "\\+",
+      "replacement": "function () { reinit(); return 'ྂ'; }"
     },
     {
-      "pattern": "\\&"
+      "pattern": "\\&",
+      "replacement": "function () { reinit(); return 'ཾ'; }"
     },
     {
-      "pattern": "\\<"
+      "pattern": "\\<",
+      "replacement": "function () { reinit(); return 'ༀ'; }"
     },
     {
-      "pattern": "\\="
+      "pattern": "\\=",
+      "replacement": "function () { reinit(); return 'ཨཱཿ'; }"
     },
     {
-      "pattern": "\\>"
+      "pattern": "\\>",
+      "replacement": "function () { reinit(); return 'ཧཱུྃ'; }"
     },
     {
-      "pattern": "\\:"
+      "pattern": "\\:",
+      "replacement": "function () { reinit(); return 'ཿ'; }"
     },
     {
-      "pattern": "\""
+      "pattern": "\"",
+      "replacement": "function () { reinit(); return '༄༅'; }"
     },
     {
-      "pattern": "@"
+      "pattern": "@",
+      "replacement": "function () { reinit(); return '༄'; }"
     },
     {
-      "pattern": "\\$"
+      "pattern": "\\$",
+      "replacement": "function () { reinit(); return '༅'; }"
     },
     {
-      "pattern": "\\/"
+      "pattern": "\\/",
+      "replacement": "function () { reinit(); return '༴'; }"
     },
     {
-      "pattern": "\\?"
+      "pattern": "\\?",
+      "replacement": "function () { reinit(); return '༈'; }"
     },
     {
-      "pattern": "\\|"
+      "pattern": "\\|",
+      "replacement": "function () { reinit(); return '྅'; }"
     },
     {
-      "pattern": "-"
+      "pattern": "-",
+      "replacement": "function () { reinit(); return '༑'; }"
     },
     {
-      "pattern": "\\("
+      "pattern": "\\(",
+      "replacement": "function () { reinit(); return '༼'; }"
     },
     {
-      "pattern": "\\)"
+      "pattern": "\\)",
+      "replacement": "function () { reinit(); return '༽'; }"
     },
     {
-      "pattern": "0"
+      "pattern": "0",
+      "replacement": "function () { reinit(); return '༠'; }"
     },
     {
-      "pattern": "1"
+      "pattern": "1",
+      "replacement": "function () { reinit(); return '༡'; }"
     },
     {
-      "pattern": "2"
+      "pattern": "2",
+      "replacement": "function () { reinit(); return '༢'; }"
     },
     {
-      "pattern": "3"
+      "pattern": "3",
+      "replacement": "function () { reinit(); return '༣'; }"
     },
     {
-      "pattern": "4"
+      "pattern": "4",
+      "replacement": "function () { reinit(); return '༤'; }"
     },
     {
-      "pattern": "5"
+      "pattern": "5",
+      "replacement": "function () { reinit(); return '༥'; }"
     },
     {
-      "pattern": "6"
+      "pattern": "6",
+      "replacement": "function () { reinit(); return '༦'; }"
     },
     {
-      "pattern": "7"
+      "pattern": "7",
+      "replacement": "function () { reinit(); return '༧'; }"
     },
     {
-      "pattern": "8"
+      "pattern": "8",
+      "replacement": "function () { reinit(); return '༨'; }"
     },
     {
-      "pattern": "9"
+      "pattern": "9",
+      "replacement": "function () { reinit(); return '༩'; }"
     }
   ]
 }

@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 5,
   "maxKeyLength": 5,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "ඬ්h",

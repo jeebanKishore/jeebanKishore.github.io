@@ -6,6 +6,9 @@
   "author": "Kevin K.S. Leung, <sprconan@gmail.com>",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "Q",

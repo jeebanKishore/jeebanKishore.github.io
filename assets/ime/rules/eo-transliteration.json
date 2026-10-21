@@ -1,0 +1,158 @@
+{
+  "id": "eo-transliteration",
+  "name": "Esperanto Transliteration",
+  "description": "Esperanto x-code transliteration",
+  "date": "2012-10-10",
+  "author": "Brooke Vibber",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 1,
+  "maxKeyLength": 1,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "C[Xx]",
+      "replacement": "Ĉ",
+      "contextRegex": "C",
+      "context": "C"
+    },
+    {
+      "pattern": "Ĉ([Xx])",
+      "replacement": "C$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "G[Xx]",
+      "replacement": "Ĝ",
+      "contextRegex": "G",
+      "context": "G"
+    },
+    {
+      "pattern": "Ĝ([Xx])",
+      "replacement": "G$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "H[Xx]",
+      "replacement": "Ĥ",
+      "contextRegex": "H",
+      "context": "H"
+    },
+    {
+      "pattern": "Ĥ([Xx])",
+      "replacement": "H$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "J[Xx]",
+      "replacement": "Ĵ",
+      "contextRegex": "J",
+      "context": "J"
+    },
+    {
+      "pattern": "Ĵ([Xx])",
+      "replacement": "J$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "S[Xx]",
+      "replacement": "Ŝ",
+      "contextRegex": "S",
+      "context": "S"
+    },
+    {
+      "pattern": "Ŝ([Xx])",
+      "replacement": "S$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "U[Xx]",
+      "replacement": "Ŭ",
+      "contextRegex": "U",
+      "context": "U"
+    },
+    {
+      "pattern": "Ŭ([Xx])",
+      "replacement": "U$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "c[Xx]",
+      "replacement": "ĉ",
+      "contextRegex": "c",
+      "context": "c"
+    },
+    {
+      "pattern": "ĉ([Xx])",
+      "replacement": "c$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "g[Xx]",
+      "replacement": "ĝ",
+      "contextRegex": "g",
+      "context": "g"
+    },
+    {
+      "pattern": "ĝ([Xx])",
+      "replacement": "g$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "h[Xx]",
+      "replacement": "ĥ",
+      "contextRegex": "h",
+      "context": "h"
+    },
+    {
+      "pattern": "ĥ([Xx])",
+      "replacement": "h$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "j[Xx]",
+      "replacement": "ĵ",
+      "contextRegex": "j",
+      "context": "j"
+    },
+    {
+      "pattern": "ĵ([Xx])",
+      "replacement": "j$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "s[Xx]",
+      "replacement": "ŝ",
+      "contextRegex": "s",
+      "context": "s"
+    },
+    {
+      "pattern": "ŝ([Xx])",
+      "replacement": "s$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    },
+    {
+      "pattern": "u[Xx]",
+      "replacement": "ŭ",
+      "contextRegex": "u",
+      "context": "u"
+    },
+    {
+      "pattern": "ŭ([Xx])",
+      "replacement": "u$1",
+      "contextRegex": "[Xx]",
+      "context": "[Xx]"
+    }
+  ]
+}

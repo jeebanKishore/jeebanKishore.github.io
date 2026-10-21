@@ -8,130 +8,193 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
-      "replacement": ""
+      "replacement": "$1",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(a|A)",
-      "replacement": ""
+      "replacement": "ا",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(b|B)",
-      "replacement": ""
+      "replacement": "ب",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(c|C)",
-      "replacement": ""
+      "replacement": "ﭺ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(d|D)",
-      "replacement": ""
+      "replacement": "د",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(e|E)",
-      "replacement": ""
+      "replacement": "َ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(f|F)",
-      "replacement": ""
+      "replacement": "ف",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(g|G)",
-      "replacement": ""
+      "replacement": "ݢ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(h|H)",
-      "replacement": ""
+      "replacement": "ه",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(ݢ|ڬ)(h|H)",
-      "replacement": "(g|G)"
+      "replacement": "غ",
+      "contextRegex": "(g|G)",
+      "context": "(g|G)"
     },
     {
       "pattern": "ت(h|H)",
-      "replacement": "(t|T)"
+      "replacement": "ة",
+      "contextRegex": "(t|T)",
+      "context": "(t|T)"
     },
     {
       "pattern": "ى(h|H)",
-      "replacement": "(k|K)"
+      "replacement": "خ",
+      "contextRegex": "(k|K)",
+      "context": "(k|K)"
     },
     {
       "pattern": "(i|I)",
-      "replacement": ""
+      "replacement": "ِ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(j|J)",
-      "replacement": ""
+      "replacement": "ج",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(k|K)",
-      "replacement": ""
+      "replacement": "ى",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(l|L)",
-      "replacement": ""
+      "replacement": "ل",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(m|M)",
-      "replacement": ""
+      "replacement": "م",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(n|N)",
-      "replacement": ""
+      "replacement": "ن",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(o|O)",
-      "replacement": ""
+      "replacement": "ْ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(p|P)",
-      "replacement": ""
+      "replacement": "ڤ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(q|Q)",
-      "replacement": ""
+      "replacement": "ق",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(r|R)",
-      "replacement": ""
+      "replacement": "ر",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(s|S)",
-      "replacement": ""
+      "replacement": "س",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(t|T)",
-      "replacement": ""
+      "replacement": "ت",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(u|U)",
-      "replacement": ""
+      "replacement": "ُ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(v|V)",
-      "replacement": ""
+      "replacement": "ؤ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(w|W)",
-      "replacement": ""
+      "replacement": "و",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(x|X)",
-      "replacement": ""
+      "replacement": "ء",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(y|Y)",
-      "replacement": ""
+      "replacement": "ي",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(z|Z)",
-      "replacement": ""
+      "replacement": "ز",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "`",
-      "replacement": ""
+      "replacement": "ع",
+      "contextRegex": "",
+      "context": ""
     }
   ]
 }

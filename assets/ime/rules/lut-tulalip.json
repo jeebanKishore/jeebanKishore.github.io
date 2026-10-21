@@ -6,6 +6,9 @@
   "author": "Joshua Crowgey, jcrowgey@u.washington.edu",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "e",

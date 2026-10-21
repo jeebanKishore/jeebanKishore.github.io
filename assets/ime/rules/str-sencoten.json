@@ -6,14 +6,17 @@
   "author": "Anne Drew Hu",
   "license": "MIT",
   "version": "1.0",
+  "contextLength": 0,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "S",
       "replacement": "s"
     },
     {
-      "pattern": "([a-z])"
+      "pattern": "([a-z])",
+      "replacement": "function ( $1 ) {\n\t\t\t\treturn $1.toUpperCase();\n\t\t\t}"
     },
     {
       "pattern": "A'",

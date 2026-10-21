@@ -6,35 +6,44 @@
   "author": "Amir (Алексей) Aharoni",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "н",
       "replacement": "ң",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Н",
       "replacement": "Ң",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "о",
       "replacement": "ө",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "О",
       "replacement": "Ө",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "у",
       "replacement": "ү",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "У",
       "replacement": "Ү",
+      "altGr": true,
       "context": "x"
     }
   ]

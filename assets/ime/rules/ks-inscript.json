@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 3,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "्d",
@@ -400,56 +401,67 @@
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Q",
       "replacement": "ॵ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "q",
       "replacement": "ॏ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "T",
       "replacement": "ॷ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "t",
       "replacement": "ॗ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "A",
       "replacement": "ॴ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "a",
       "replacement": "ऻ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "G",
       "replacement": "ॶ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "g",
       "replacement": "ॖ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Z",
       "replacement": "ॳ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "z",
       "replacement": "ऺ",
+      "altGr": true,
       "context": "x"
     }
   ]

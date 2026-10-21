@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 8,
   "maxKeyLength": 0,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "([ক-হড়-য়ৰৱ])(্ড়্ড়্i|্q)",

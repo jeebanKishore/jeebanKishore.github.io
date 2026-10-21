@@ -1,0 +1,390 @@
+{
+  "id": "sd-persoarabic",
+  "name": "Perso Arabic",
+  "description": "This keyboard is based on the Standard keyboard layout by Abdul Majid Bhurgi (MB Sindhi)",
+  "date": "2026-08-22",
+  "author": "Siddharth Talreja",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "~",
+      "replacement": "‘"
+    },
+    {
+      "pattern": "`",
+      "replacement": "’"
+    },
+    {
+      "pattern": "!",
+      "replacement": "!"
+    },
+    {
+      "pattern": "1",
+      "replacement": "1"
+    },
+    {
+      "pattern": "@",
+      "replacement": "ٰ"
+    },
+    {
+      "pattern": "2",
+      "replacement": "2"
+    },
+    {
+      "pattern": "\\#",
+      "replacement": "ءِ"
+    },
+    {
+      "pattern": "3",
+      "replacement": "3"
+    },
+    {
+      "pattern": "\\$",
+      "replacement": "ءَ"
+    },
+    {
+      "pattern": "4",
+      "replacement": "4"
+    },
+    {
+      "pattern": "%",
+      "replacement": "ءُ"
+    },
+    {
+      "pattern": "5",
+      "replacement": "5"
+    },
+    {
+      "pattern": "\\^",
+      "replacement": "ءٌ"
+    },
+    {
+      "pattern": "6",
+      "replacement": "6"
+    },
+    {
+      "pattern": "&",
+      "replacement": "۽"
+    },
+    {
+      "pattern": "7",
+      "replacement": "7"
+    },
+    {
+      "pattern": "\\*",
+      "replacement": "*"
+    },
+    {
+      "pattern": "8",
+      "replacement": "8"
+    },
+    {
+      "pattern": "\\(",
+      "replacement": ")"
+    },
+    {
+      "pattern": "9",
+      "replacement": "9"
+    },
+    {
+      "pattern": "\\)",
+      "replacement": "("
+    },
+    {
+      "pattern": "0",
+      "replacement": "0"
+    },
+    {
+      "pattern": "_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "\\-",
+      "replacement": "ڏ"
+    },
+    {
+      "pattern": "\\+",
+      "replacement": "="
+    },
+    {
+      "pattern": "=",
+      "replacement": "ڌ"
+    },
+    {
+      "pattern": "Q",
+      "replacement": "َ"
+    },
+    {
+      "pattern": "q",
+      "replacement": "ق"
+    },
+    {
+      "pattern": "W",
+      "replacement": "ض"
+    },
+    {
+      "pattern": "w",
+      "replacement": "ص"
+    },
+    {
+      "pattern": "E",
+      "replacement": "ِ"
+    },
+    {
+      "pattern": "e",
+      "replacement": "ي"
+    },
+    {
+      "pattern": "R",
+      "replacement": "ڙ"
+    },
+    {
+      "pattern": "r",
+      "replacement": "ر"
+    },
+    {
+      "pattern": "T",
+      "replacement": "ٽ"
+    },
+    {
+      "pattern": "t",
+      "replacement": "ت"
+    },
+    {
+      "pattern": "Y",
+      "replacement": "ث"
+    },
+    {
+      "pattern": "y",
+      "replacement": "ٿ"
+    },
+    {
+      "pattern": "U",
+      "replacement": "غ"
+    },
+    {
+      "pattern": "u",
+      "replacement": "ع"
+    },
+    {
+      "pattern": "I",
+      "replacement": "ہ"
+    },
+    {
+      "pattern": "i",
+      "replacement": "ڳ"
+    },
+    {
+      "pattern": "O",
+      "replacement": "ُ"
+    },
+    {
+      "pattern": "o",
+      "replacement": "و"
+    },
+    {
+      "pattern": "P",
+      "replacement": "ڦ"
+    },
+    {
+      "pattern": "p",
+      "replacement": "پ"
+    },
+    {
+      "pattern": "\\{",
+      "replacement": "ڃ"
+    },
+    {
+      "pattern": "\\[",
+      "replacement": "ڇ"
+    },
+    {
+      "pattern": "\\}",
+      "replacement": "ڄ"
+    },
+    {
+      "pattern": "\\]",
+      "replacement": "چ"
+    },
+    {
+      "pattern": "\\|",
+      "replacement": "ٺ"
+    },
+    {
+      "pattern": "\\\\",
+      "replacement": "ڍ"
+    },
+    {
+      "pattern": "A",
+      "replacement": "آ"
+    },
+    {
+      "pattern": "a",
+      "replacement": "ا"
+    },
+    {
+      "pattern": "S",
+      "replacement": "ش"
+    },
+    {
+      "pattern": "s",
+      "replacement": "س"
+    },
+    {
+      "pattern": "D",
+      "replacement": "ڊ"
+    },
+    {
+      "pattern": "d",
+      "replacement": "د"
+    },
+    {
+      "pattern": "F",
+      "replacement": "ڦ"
+    },
+    {
+      "pattern": "f",
+      "replacement": "ف"
+    },
+    {
+      "pattern": "G",
+      "replacement": "گه"
+    },
+    {
+      "pattern": "g",
+      "replacement": "گ"
+    },
+    {
+      "pattern": "H",
+      "replacement": "ح"
+    },
+    {
+      "pattern": "h",
+      "replacement": "ھ"
+    },
+    {
+      "pattern": "J",
+      "replacement": "جه"
+    },
+    {
+      "pattern": "j",
+      "replacement": "ج"
+    },
+    {
+      "pattern": "K",
+      "replacement": "ْ"
+    },
+    {
+      "pattern": "k",
+      "replacement": "ڪ"
+    },
+    {
+      "pattern": "L",
+      "replacement": ":"
+    },
+    {
+      "pattern": "l",
+      "replacement": "ل"
+    },
+    {
+      "pattern": ":",
+      "replacement": "؛"
+    },
+    {
+      "pattern": ";",
+      "replacement": "ک"
+    },
+    {
+      "pattern": "\"",
+      "replacement": "ـ"
+    },
+    {
+      "pattern": "'",
+      "replacement": "ڱ"
+    },
+    {
+      "pattern": "Z",
+      "replacement": "ذ"
+    },
+    {
+      "pattern": "z",
+      "replacement": "ز"
+    },
+    {
+      "pattern": "X",
+      "replacement": "ّ"
+    },
+    {
+      "pattern": "x",
+      "replacement": "خ"
+    },
+    {
+      "pattern": "C",
+      "replacement": "ظ"
+    },
+    {
+      "pattern": "c",
+      "replacement": "ط"
+    },
+    {
+      "pattern": "V",
+      "replacement": "ء"
+    },
+    {
+      "pattern": "v",
+      "replacement": "ڀ"
+    },
+    {
+      "pattern": "B",
+      "replacement": "ٻ"
+    },
+    {
+      "pattern": "b",
+      "replacement": "ب"
+    },
+    {
+      "pattern": "N",
+      "replacement": "ڻ"
+    },
+    {
+      "pattern": "n",
+      "replacement": "ن"
+    },
+    {
+      "pattern": "M",
+      "replacement": "۾"
+    },
+    {
+      "pattern": "m",
+      "replacement": "م"
+    },
+    {
+      "pattern": "\\<",
+      "replacement": "“"
+    },
+    {
+      "pattern": ",",
+      "replacement": "،"
+    },
+    {
+      "pattern": "\\>",
+      "replacement": "”"
+    },
+    {
+      "pattern": "\\.",
+      "replacement": "."
+    },
+    {
+      "pattern": "\\?",
+      "replacement": "؟"
+    },
+    {
+      "pattern": "/",
+      "replacement": "ئ"
+    }
+  ]
+}

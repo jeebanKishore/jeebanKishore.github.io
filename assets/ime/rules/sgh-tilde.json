@@ -1,0 +1,138 @@
+{
+  "id": "sgh-tilde",
+  "name": "Shughni tilde",
+  "description": "Shughni input keyboard",
+  "date": "2025-11-29",
+  "author": "Toluwanimi Ayodele",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "~A",
+      "replacement": "Ā"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "ā"
+    },
+    {
+      "pattern": "~C",
+      "replacement": "Č"
+    },
+    {
+      "pattern": "~c",
+      "replacement": "č"
+    },
+    {
+      "pattern": "~D",
+      "replacement": "Δ"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "δ"
+    },
+    {
+      "pattern": "~E",
+      "replacement": "Ê"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "ê"
+    },
+    {
+      "pattern": "~G",
+      "replacement": "Ɣ"
+    },
+    {
+      "pattern": "~g",
+      "replacement": "ɣ"
+    },
+    {
+      "pattern": "~H",
+      "replacement": "Ɣ̌"
+    },
+    {
+      "pattern": "~h",
+      "replacement": "ɣ̌"
+    },
+    {
+      "pattern": "~I",
+      "replacement": "Ī"
+    },
+    {
+      "pattern": "~i",
+      "replacement": "ī"
+    },
+    {
+      "pattern": "~J",
+      "replacement": "J̌"
+    },
+    {
+      "pattern": "~j",
+      "replacement": "ǰ"
+    },
+    {
+      "pattern": "~S",
+      "replacement": "Š"
+    },
+    {
+      "pattern": "~s",
+      "replacement": "š"
+    },
+    {
+      "pattern": "~T",
+      "replacement": "Θ"
+    },
+    {
+      "pattern": "~t",
+      "replacement": "θ"
+    },
+    {
+      "pattern": "~U",
+      "replacement": "Ů"
+    },
+    {
+      "pattern": "~u",
+      "replacement": "ů"
+    },
+    {
+      "pattern": "~V",
+      "replacement": "Ū"
+    },
+    {
+      "pattern": "~v",
+      "replacement": "ū"
+    },
+    {
+      "pattern": "~X",
+      "replacement": "X̌"
+    },
+    {
+      "pattern": "~x",
+      "replacement": "x̌"
+    },
+    {
+      "pattern": "~Z",
+      "replacement": "Ž"
+    },
+    {
+      "pattern": "~z",
+      "replacement": "ž"
+    },
+    {
+      "pattern": "~M",
+      "replacement": "Ʒ"
+    },
+    {
+      "pattern": "~m",
+      "replacement": "ʒ"
+    },
+    {
+      "pattern": "~-",
+      "replacement": "̄"
+    }
+  ]
+}

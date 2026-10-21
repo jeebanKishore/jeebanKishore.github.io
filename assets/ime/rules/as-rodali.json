@@ -8,314 +8,469 @@
   "version": "1.0",
   "contextLength": 4,
   "maxKeyLength": 5,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "([ক-হড়ঢ়য়])্?ৰৰi",
-      "replacement": "[^a`]"
+      "replacement": "$1ৃ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "ৰৰi",
-      "replacement": "[^a`]"
+      "replacement": "ঋ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "(([ক-হড়ঢ়ৰৱয়]))a",
-      "replacement": "[^a`]"
+      "replacement": "$1",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])a",
-      "replacement": "a"
+      "replacement": "$1া",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])i",
-      "replacement": "[^a`]"
+      "replacement": "$1ি",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])(িi|েe)",
-      "replacement": "[^a`]"
+      "replacement": "$1ী",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])u",
-      "replacement": "[^a`]"
+      "replacement": "$1ু",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])ুu",
-      "replacement": "[^a`]"
+      "replacement": "$1ূ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])o",
-      "replacement": "[^a`]"
+      "replacement": "$1ো",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])e",
-      "replacement": "[^a`]"
+      "replacement": "$1ে",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])োi",
-      "replacement": "[^a`]"
+      "replacement": "$1ৈ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়ৰৱয়])োu",
-      "replacement": "[^a`]"
+      "replacement": "$1ৌ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([কঙলষস])(k|K)",
-      "replacement": "[^a`]"
+      "replacement": "$1্ক",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([গঙদল])(g)",
-      "replacement": "[^a`]"
+      "replacement": "$1্গ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([চশ])c",
-      "replacement": "[^a`]"
+      "replacement": "$1্চ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([জঞব])j",
-      "replacement": "[^a`]"
+      "replacement": "$1্জ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "নj",
-      "replacement": "[^a`]"
+      "replacement": "ঞ্জ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([কটণনপলষস])T",
-      "replacement": "[^a`]"
+      "replacement": "$1্ট",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ডণনল])D",
-      "replacement": "[^a`]"
+      "replacement": "$1্ড",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([গষহ])N",
-      "replacement": "[^a`]"
+      "replacement": "$1্ণ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([কতনপশসহ])t",
-      "replacement": "[^a`]"
+      "replacement": "$1্ত",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([গদনব])d",
-      "replacement": "[^a`]"
+      "replacement": "$1্দ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([গঘণতধনপমশসহ])n",
-      "replacement": "[^a`]"
+      "replacement": "$1্ন",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([পমলষস])p",
-      "replacement": "[^a`]"
+      "replacement": "$1্প",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([মস])f",
-      "replacement": "[^a`]"
+      "replacement": "$1্ফ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([বমল])b",
-      "replacement": "[^a`]"
+      "replacement": "$1্ব",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([কগঙটণতদধনমলশষসহ])m",
-      "replacement": "[^a`]"
+      "replacement": "$1্ম",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-ঘচ-ঝট-যলশ-হড়ঢ়য়])r",
-      "replacement": "[^a`]"
+      "replacement": "$1্ৰ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([কগপ-বমলশসহ])l",
-      "replacement": "[^a`]"
+      "replacement": "$1্ল",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([কনপ])s",
-      "replacement": "[^a`]"
+      "replacement": "$1্স",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়য়])(w|b|v)",
-      "replacement": "[^a`]"
+      "replacement": "$1্ব",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "([ক-হড়ঢ়য়])y",
-      "replacement": "[^a`]"
+      "replacement": "$1্য",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "নc",
-      "replacement": "[^a`]"
+      "replacement": "ঞ্চ",
+      "contextRegex": "[^a`]",
+      "context": "[^a`]"
     },
     {
       "pattern": "ৰk",
-      "replacement": "r"
+      "replacement": "ৰ্ক",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰg",
-      "replacement": "r"
+      "replacement": "ৰ্গ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰc",
-      "replacement": "r"
+      "replacement": "ৰ্চ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰj",
-      "replacement": "r"
+      "replacement": "ৰ্জ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰT",
-      "replacement": "r"
+      "replacement": "ৰ্ট",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰD",
-      "replacement": "r"
+      "replacement": "ৰ্ড",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰN",
-      "replacement": "r"
+      "replacement": "ৰ্ণ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰt",
-      "replacement": "r"
+      "replacement": "ৰ্ত",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰd",
-      "replacement": "r"
+      "replacement": "ৰ্দ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰn",
-      "replacement": "r"
+      "replacement": "ৰ্ন",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰp",
-      "replacement": "r"
+      "replacement": "ৰ্প",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰf",
-      "replacement": "r"
+      "replacement": "ৰ্ফ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰb",
-      "replacement": "r"
+      "replacement": "ৰ্ব",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰv",
-      "replacement": "r"
+      "replacement": "ৰ্ভ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰm",
-      "replacement": "r"
+      "replacement": "ৰ্ম",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰz",
-      "replacement": "r"
+      "replacement": "ৰ্য",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰl",
-      "replacement": "r"
+      "replacement": "ৰ্ল",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰx",
-      "replacement": "r"
+      "replacement": "ৰ্শ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰS",
-      "replacement": "r"
+      "replacement": "ৰ্ষ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰs",
-      "replacement": "r"
+      "replacement": "ৰ্স",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰh",
-      "replacement": "r"
+      "replacement": "ৰ্হ",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰR",
-      "replacement": "r"
+      "replacement": "ৰ্ড়",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ৰy",
-      "replacement": "r"
+      "replacement": "ৰ্য়",
+      "contextRegex": "r",
+      "context": "r"
     },
     {
       "pattern": "ত~",
-      "replacement": "t"
+      "replacement": "ৎ",
+      "contextRegex": "t",
+      "context": "t"
     },
     {
       "pattern": "অa",
-      "replacement": "a"
+      "replacement": "আ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "কh",
-      "replacement": "k"
+      "replacement": "খ",
+      "contextRegex": "k",
+      "context": "k"
     },
     {
       "pattern": "গh",
-      "replacement": "g"
+      "replacement": "ঘ",
+      "contextRegex": "g",
+      "context": "g"
     },
     {
       "pattern": "ণg",
-      "replacement": "N"
+      "replacement": "ঙ",
+      "contextRegex": "N",
+      "context": "N"
     },
     {
       "pattern": "চh",
-      "replacement": "c"
+      "replacement": "ছ",
+      "contextRegex": "c",
+      "context": "c"
     },
     {
       "pattern": "জh",
-      "replacement": "j"
+      "replacement": "ঝ",
+      "contextRegex": "j",
+      "context": "j"
     },
     {
       "pattern": "নG",
-      "replacement": "n"
+      "replacement": "ঞ",
+      "contextRegex": "n",
+      "context": "n"
     },
     {
       "pattern": "টh",
-      "replacement": "T"
+      "replacement": "ঠ",
+      "contextRegex": "T",
+      "context": "T"
     },
     {
       "pattern": "ডh",
-      "replacement": "D"
+      "replacement": "ঢ",
+      "contextRegex": "D",
+      "context": "D"
     },
     {
       "pattern": "তh",
-      "replacement": "t"
+      "replacement": "থ",
+      "contextRegex": "t",
+      "context": "t"
     },
     {
       "pattern": "দh",
-      "replacement": "d"
+      "replacement": "ধ",
+      "contextRegex": "d",
+      "context": "d"
     },
     {
       "pattern": "পh",
-      "replacement": "p"
+      "replacement": "ফ",
+      "contextRegex": "p",
+      "context": "p"
     },
     {
       "pattern": "বh",
-      "replacement": "b"
+      "replacement": "ভ",
+      "contextRegex": "b",
+      "context": "b"
     },
     {
       "pattern": "সh",
-      "replacement": "s"
+      "replacement": "শ",
+      "contextRegex": "s",
+      "context": "s"
     },
     {
       "pattern": "ড়h",
-      "replacement": "R"
+      "replacement": "ঢ়",
+      "contextRegex": "R",
+      "context": "R"
     },
     {
       "pattern": "নg",
-      "replacement": "n"
+      "replacement": "ং",
+      "contextRegex": "n",
+      "context": "n"
     },
     {
       "pattern": "ওi",
-      "replacement": "o"
+      "replacement": "ঐ",
+      "contextRegex": "o",
+      "context": "o"
     },
     {
       "pattern": "ওu",
-      "replacement": "o"
+      "replacement": "ঔ",
+      "contextRegex": "o",
+      "context": "o"
     },
     {
       "pattern": "ইi",
-      "replacement": "i"
+      "replacement": "ঈ",
+      "contextRegex": "i",
+      "context": "i"
     },
     {
       "pattern": "উu",
-      "replacement": "u"
+      "replacement": "ঊ",
+      "contextRegex": "u",
+      "context": "u"
     },
     {
       "pattern": "([kK])",

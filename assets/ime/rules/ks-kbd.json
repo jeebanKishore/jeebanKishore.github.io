@@ -6,6 +6,9 @@
   "author": "Parag Nemade, Iflaq, Amir E. Aharoni",
   "license": "GPLv3",
   "version": "2.2",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "`",

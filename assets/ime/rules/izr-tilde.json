@@ -1,0 +1,26 @@
+{
+  "id": "izr-tilde",
+  "name": "Izere tilde",
+  "description": "Izere input keyboard",
+  "date": "2026-08-20",
+  "author": "Toluwanimi Ayodele",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "~/",
+      "replacement": "́"
+    },
+    {
+      "pattern": "~\\\\",
+      "replacement": "̀"
+    },
+    {
+      "pattern": "~_",
+      "replacement": "̱"
+    }
+  ]
+}

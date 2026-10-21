@@ -8,94 +8,139 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 4,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "([க-ஹ])h",
-      "replacement": "a"
+      "replacement": "$1க",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])b",
-      "replacement": "a"
+      "replacement": "$1ங",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])\\[",
-      "replacement": "a"
+      "replacement": "$1ச",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])E",
-      "replacement": "a"
+      "replacement": "$1ஜ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])\\]",
-      "replacement": "a"
+      "replacement": "$1ஞ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])o",
-      "replacement": "a"
+      "replacement": "$1ட",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])p",
-      "replacement": "a"
+      "replacement": "$1ண",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])l",
-      "replacement": "a"
+      "replacement": "$1த",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ]);",
-      "replacement": "a"
+      "replacement": "$1ந",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])i",
-      "replacement": "a"
+      "replacement": "$1ன",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])j",
-      "replacement": "a"
+      "replacement": "$1ப",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])k",
-      "replacement": "a"
+      "replacement": "$1ம",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])'",
-      "replacement": "a"
+      "replacement": "$1ய",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])m",
-      "replacement": "a"
+      "replacement": "$1ர",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])u",
-      "replacement": "a"
+      "replacement": "$1ற",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])n",
-      "replacement": "a"
+      "replacement": "$1ல",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])y",
-      "replacement": "a"
+      "replacement": "$1ள",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])/",
-      "replacement": "a"
+      "replacement": "$1ழ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])v",
-      "replacement": "a"
+      "replacement": "$1வ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])W",
-      "replacement": "a"
+      "replacement": "$1ஷ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])Q",
-      "replacement": "a"
+      "replacement": "$1ஸ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "([க-ஹ])R",
-      "replacement": "a"
+      "replacement": "$1ஹ",
+      "contextRegex": "a",
+      "context": "a"
     },
     {
       "pattern": "க்கh",

@@ -1,0 +1,42 @@
+{
+  "id": "jab-tilde",
+  "name": "Hyam tilde",
+  "description": "Hyam input keyboard",
+  "date": "2025-10-22",
+  "author": "Toluwanimi Ayodele",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "~A",
+      "replacement": "A̱"
+    },
+    {
+      "pattern": "~a",
+      "replacement": "a̱"
+    },
+    {
+      "pattern": "~E",
+      "replacement": "E̱"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "e̱"
+    },
+    {
+      "pattern": "~I",
+      "replacement": "I̱"
+    },
+    {
+      "pattern": "~i",
+      "replacement": "i̱"
+    },
+    {
+      "pattern": "~_",
+      "replacement": "̱"
+    }
+  ]
+}

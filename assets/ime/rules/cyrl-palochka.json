@@ -8,10 +8,13 @@
   "version": "1.1",
   "contextLength": 2,
   "maxKeyLength": 3,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "~~1",
-      "replacement": "~~"
+      "replacement": "~1",
+      "contextRegex": "~~",
+      "context": "~~"
     },
     {
       "pattern": "~1",
@@ -32,21 +35,25 @@
     {
       "pattern": "1",
       "replacement": "Ӏ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "д",
       "replacement": "Ӏ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "ш",
       "replacement": "Ӏ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "Ш",
       "replacement": "Ӏ",
+      "altGr": true,
       "context": "x"
     }
   ]

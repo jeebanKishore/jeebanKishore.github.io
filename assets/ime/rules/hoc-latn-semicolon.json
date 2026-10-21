@@ -1,0 +1,698 @@
+{
+  "id": "hoc-latn-semicolon",
+  "name": "Ho Latin semicolon",
+  "description": "Ho Latin semicolon keyboard",
+  "date": "2026-07-31",
+  "author": "Mangu Purty",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 4,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "Z;",
+      "replacement": "T́"
+    },
+    {
+      "pattern": "K;",
+      "replacement": "Ḱ"
+    },
+    {
+      "pattern": "C;",
+      "replacement": "Ć"
+    },
+    {
+      "pattern": "P;",
+      "replacement": "Ṕ"
+    },
+    {
+      "pattern": "W;",
+      "replacement": "Ṕ"
+    },
+    {
+      "pattern": "Ḱ;",
+      "replacement": "K"
+    },
+    {
+      "pattern": "Ć;",
+      "replacement": "C"
+    },
+    {
+      "pattern": "T́;",
+      "replacement": "Z"
+    },
+    {
+      "pattern": "Ṕ;",
+      "replacement": "P"
+    },
+    {
+      "pattern": "T;",
+      "replacement": "Ṭ"
+    },
+    {
+      "pattern": "D;",
+      "replacement": "Ḍ"
+    },
+    {
+      "pattern": "R;",
+      "replacement": "Ṛ"
+    },
+    {
+      "pattern": "T\\.\\.",
+      "replacement": "Ṭ"
+    },
+    {
+      "pattern": "D\\.\\.",
+      "replacement": "Ḍ"
+    },
+    {
+      "pattern": "R\\.\\.",
+      "replacement": "Ṛ"
+    },
+    {
+      "pattern": "Ṭ;",
+      "replacement": "T"
+    },
+    {
+      "pattern": "Ḍ;",
+      "replacement": "D"
+    },
+    {
+      "pattern": "Ṛ;",
+      "replacement": "R"
+    },
+    {
+      "pattern": "N;",
+      "replacement": "Ṅ"
+    },
+    {
+      "pattern": "J;",
+      "replacement": "Ń"
+    },
+    {
+      "pattern": "Ṅ;",
+      "replacement": "N"
+    },
+    {
+      "pattern": "Ń;",
+      "replacement": "J"
+    },
+    {
+      "pattern": "A;",
+      "replacement": "Á"
+    },
+    {
+      "pattern": "Á;",
+      "replacement": "Ã"
+    },
+    {
+      "pattern": "Ã;",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "Ä;",
+      "replacement": "À"
+    },
+    {
+      "pattern": "À;",
+      "replacement": "Â"
+    },
+    {
+      "pattern": "Â;",
+      "replacement": "A"
+    },
+    {
+      "pattern": "A`",
+      "replacement": "À"
+    },
+    {
+      "pattern": "A~",
+      "replacement": "Ã"
+    },
+    {
+      "pattern": "A\\.\\.",
+      "replacement": "Ạ"
+    },
+    {
+      "pattern": "Ạ\\.\\.",
+      "replacement": "Ä"
+    },
+    {
+      "pattern": "A\\^",
+      "replacement": "Â"
+    },
+    {
+      "pattern": "À`",
+      "replacement": "Á"
+    },
+    {
+      "pattern": "E;",
+      "replacement": "É"
+    },
+    {
+      "pattern": "É;",
+      "replacement": "Ẽ"
+    },
+    {
+      "pattern": "Ẽ;",
+      "replacement": "Ë"
+    },
+    {
+      "pattern": "Ë;",
+      "replacement": "È"
+    },
+    {
+      "pattern": "È;",
+      "replacement": "Ê"
+    },
+    {
+      "pattern": "Ê;",
+      "replacement": "E"
+    },
+    {
+      "pattern": "E`",
+      "replacement": "È"
+    },
+    {
+      "pattern": "E~",
+      "replacement": "Ẽ"
+    },
+    {
+      "pattern": "E\\.\\.",
+      "replacement": "Ẹ"
+    },
+    {
+      "pattern": "Ẹ\\.\\.",
+      "replacement": "Ë"
+    },
+    {
+      "pattern": "E\\^",
+      "replacement": "Ê"
+    },
+    {
+      "pattern": "È`",
+      "replacement": "É"
+    },
+    {
+      "pattern": "I;",
+      "replacement": "Í"
+    },
+    {
+      "pattern": "Í;",
+      "replacement": "Ĩ"
+    },
+    {
+      "pattern": "Ĩ;",
+      "replacement": "Ï"
+    },
+    {
+      "pattern": "Ï;",
+      "replacement": "Ì"
+    },
+    {
+      "pattern": "Ì;",
+      "replacement": "Î"
+    },
+    {
+      "pattern": "Î;",
+      "replacement": "I"
+    },
+    {
+      "pattern": "I`",
+      "replacement": "Ì"
+    },
+    {
+      "pattern": "I~",
+      "replacement": "Ĩ"
+    },
+    {
+      "pattern": "I\\.\\.",
+      "replacement": "Ï"
+    },
+    {
+      "pattern": "I\\^",
+      "replacement": "Î"
+    },
+    {
+      "pattern": "Ì`",
+      "replacement": "Í"
+    },
+    {
+      "pattern": "O;",
+      "replacement": "Ó"
+    },
+    {
+      "pattern": "Ó;",
+      "replacement": "Õ"
+    },
+    {
+      "pattern": "Õ;",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "Ö;",
+      "replacement": "Ò"
+    },
+    {
+      "pattern": "Ò;",
+      "replacement": "Ô"
+    },
+    {
+      "pattern": "Ô;",
+      "replacement": "O"
+    },
+    {
+      "pattern": "O`",
+      "replacement": "Ò"
+    },
+    {
+      "pattern": "O~",
+      "replacement": "Õ"
+    },
+    {
+      "pattern": "O\\.\\.",
+      "replacement": "Ọ"
+    },
+    {
+      "pattern": "Ọ\\.\\.",
+      "replacement": "Ö"
+    },
+    {
+      "pattern": "O\\^",
+      "replacement": "Ô"
+    },
+    {
+      "pattern": "Ò`",
+      "replacement": "Ó"
+    },
+    {
+      "pattern": "U;",
+      "replacement": "Ú"
+    },
+    {
+      "pattern": "Ú;",
+      "replacement": "Ũ"
+    },
+    {
+      "pattern": "Ũ;",
+      "replacement": "Ü"
+    },
+    {
+      "pattern": "Ü;",
+      "replacement": "Ù"
+    },
+    {
+      "pattern": "Ù;",
+      "replacement": "Û"
+    },
+    {
+      "pattern": "Û;",
+      "replacement": "U"
+    },
+    {
+      "pattern": "U`",
+      "replacement": "Ù"
+    },
+    {
+      "pattern": "U~",
+      "replacement": "Ũ"
+    },
+    {
+      "pattern": "U\\.\\.",
+      "replacement": "Ü"
+    },
+    {
+      "pattern": "U\\^",
+      "replacement": "Û"
+    },
+    {
+      "pattern": "Ù`",
+      "replacement": "Ú"
+    },
+    {
+      "pattern": "z;",
+      "replacement": "t́"
+    },
+    {
+      "pattern": "k;",
+      "replacement": "ḱ"
+    },
+    {
+      "pattern": "c;",
+      "replacement": "ć"
+    },
+    {
+      "pattern": "p;",
+      "replacement": "ṕ"
+    },
+    {
+      "pattern": "w;",
+      "replacement": "ṕ"
+    },
+    {
+      "pattern": "ḱ;",
+      "replacement": "k"
+    },
+    {
+      "pattern": "ć;",
+      "replacement": "c"
+    },
+    {
+      "pattern": "t́;",
+      "replacement": "z"
+    },
+    {
+      "pattern": "ṕ;",
+      "replacement": "p"
+    },
+    {
+      "pattern": "t;",
+      "replacement": "ṭ"
+    },
+    {
+      "pattern": "d;",
+      "replacement": "ḍ"
+    },
+    {
+      "pattern": "r;",
+      "replacement": "ṛ"
+    },
+    {
+      "pattern": "t\\.\\.",
+      "replacement": "ṭ"
+    },
+    {
+      "pattern": "d\\.\\.",
+      "replacement": "ḍ"
+    },
+    {
+      "pattern": "r\\.\\.",
+      "replacement": "ṛ"
+    },
+    {
+      "pattern": "ṭ;",
+      "replacement": "t"
+    },
+    {
+      "pattern": "ḍ;",
+      "replacement": "d"
+    },
+    {
+      "pattern": "ṛ;",
+      "replacement": "r"
+    },
+    {
+      "pattern": "n;",
+      "replacement": "ṅ"
+    },
+    {
+      "pattern": "j;",
+      "replacement": "ń"
+    },
+    {
+      "pattern": "ṅ;",
+      "replacement": "n"
+    },
+    {
+      "pattern": "ń;",
+      "replacement": "j"
+    },
+    {
+      "pattern": "a;",
+      "replacement": "á"
+    },
+    {
+      "pattern": "á;",
+      "replacement": "ã"
+    },
+    {
+      "pattern": "ã;",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "ä;",
+      "replacement": "à"
+    },
+    {
+      "pattern": "à;",
+      "replacement": "â"
+    },
+    {
+      "pattern": "â;",
+      "replacement": "a"
+    },
+    {
+      "pattern": "a`",
+      "replacement": "à"
+    },
+    {
+      "pattern": "a~",
+      "replacement": "ã"
+    },
+    {
+      "pattern": "a\\.\\.",
+      "replacement": "ạ"
+    },
+    {
+      "pattern": "ạ\\.\\.",
+      "replacement": "ä"
+    },
+    {
+      "pattern": "a\\^",
+      "replacement": "â"
+    },
+    {
+      "pattern": "à`",
+      "replacement": "á"
+    },
+    {
+      "pattern": "e;",
+      "replacement": "é"
+    },
+    {
+      "pattern": "é;",
+      "replacement": "ẽ"
+    },
+    {
+      "pattern": "ẽ;",
+      "replacement": "ë"
+    },
+    {
+      "pattern": "ë;",
+      "replacement": "è"
+    },
+    {
+      "pattern": "è;",
+      "replacement": "ê"
+    },
+    {
+      "pattern": "ê;",
+      "replacement": "e"
+    },
+    {
+      "pattern": "e`",
+      "replacement": "è"
+    },
+    {
+      "pattern": "e~",
+      "replacement": "ẽ"
+    },
+    {
+      "pattern": "e\\.\\.",
+      "replacement": "ẹ"
+    },
+    {
+      "pattern": "e\\^",
+      "replacement": "ê"
+    },
+    {
+      "pattern": "è`",
+      "replacement": "é"
+    },
+    {
+      "pattern": "i;",
+      "replacement": "í"
+    },
+    {
+      "pattern": "í;",
+      "replacement": "ĩ"
+    },
+    {
+      "pattern": "ĩ;",
+      "replacement": "ï"
+    },
+    {
+      "pattern": "ï;",
+      "replacement": "ì"
+    },
+    {
+      "pattern": "ì;",
+      "replacement": "î"
+    },
+    {
+      "pattern": "î;",
+      "replacement": "i"
+    },
+    {
+      "pattern": "i`",
+      "replacement": "ì"
+    },
+    {
+      "pattern": "i~",
+      "replacement": "ĩ"
+    },
+    {
+      "pattern": "i\\.\\.",
+      "replacement": "ï"
+    },
+    {
+      "pattern": "i\\^",
+      "replacement": "î"
+    },
+    {
+      "pattern": "ì`",
+      "replacement": "í"
+    },
+    {
+      "pattern": "o;",
+      "replacement": "ó"
+    },
+    {
+      "pattern": "ó;",
+      "replacement": "õ"
+    },
+    {
+      "pattern": "õ;",
+      "replacement": "ö"
+    },
+    {
+      "pattern": "ö;",
+      "replacement": "ò"
+    },
+    {
+      "pattern": "ò;",
+      "replacement": "ô"
+    },
+    {
+      "pattern": "ô;",
+      "replacement": "o"
+    },
+    {
+      "pattern": "o`",
+      "replacement": "ò"
+    },
+    {
+      "pattern": "o~",
+      "replacement": "õ"
+    },
+    {
+      "pattern": "o\\.\\.",
+      "replacement": "ọ"
+    },
+    {
+      "pattern": "ọ\\.\\.",
+      "replacement": "ö"
+    },
+    {
+      "pattern": "o\\^",
+      "replacement": "ô"
+    },
+    {
+      "pattern": "ò`",
+      "replacement": "ó"
+    },
+    {
+      "pattern": "u;",
+      "replacement": "ú"
+    },
+    {
+      "pattern": "ú;",
+      "replacement": "ũ"
+    },
+    {
+      "pattern": "ũ;",
+      "replacement": "ü"
+    },
+    {
+      "pattern": "ü;",
+      "replacement": "ù"
+    },
+    {
+      "pattern": "ù;",
+      "replacement": "û"
+    },
+    {
+      "pattern": "û;",
+      "replacement": "u"
+    },
+    {
+      "pattern": "u`",
+      "replacement": "ù"
+    },
+    {
+      "pattern": "u~",
+      "replacement": "ũ"
+    },
+    {
+      "pattern": "u\\.\\.",
+      "replacement": "ü"
+    },
+    {
+      "pattern": "u\\^",
+      "replacement": "û"
+    },
+    {
+      "pattern": "ù`",
+      "replacement": "ú"
+    },
+    {
+      "pattern": "<",
+      "replacement": "‹"
+    },
+    {
+      "pattern": ">",
+      "replacement": "›"
+    },
+    {
+      "pattern": "››",
+      "replacement": "»"
+    },
+    {
+      "pattern": "‹‹",
+      "replacement": "«"
+    },
+    {
+      "pattern": "\\\\;",
+      "replacement": ";"
+    },
+    {
+      "pattern": "\\\\~",
+      "replacement": "~"
+    },
+    {
+      "pattern": "\\\\`",
+      "replacement": "`"
+    },
+    {
+      "pattern": "\\\\\\^",
+      "replacement": "^"
+    },
+    {
+      "pattern": "\\\\‹",
+      "replacement": "<"
+    },
+    {
+      "pattern": "\\\\›",
+      "replacement": ">"
+    },
+    {
+      "pattern": "\\.;",
+      "replacement": "·"
+    },
+    {
+      "pattern": "([A-Za-zẠẸỌạẹọ])\\\\\\.\\.",
+      "replacement": "$1.."
+    }
+  ]
+}

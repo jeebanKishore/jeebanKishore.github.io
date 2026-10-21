@@ -8,10 +8,13 @@
   "version": "1.0",
   "contextLength": 4,
   "maxKeyLength": 2,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
-      "replacement": "\\\\"
+      "replacement": "$1",
+      "contextRegex": "\\\\",
+      "context": "\\\\"
     },
     {
       "pattern": "ଞ୍ଜ୍h",
@@ -247,7 +250,9 @@
     },
     {
       "pattern": "c",
-      "replacement": ""
+      "replacement": "ଚ୍",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "d",
@@ -375,7 +380,9 @@
     },
     {
       "pattern": "H",
-      "replacement": ""
+      "replacement": "ଃ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "‌?I",
@@ -395,7 +402,9 @@
     },
     {
       "pattern": "M",
-      "replacement": ""
+      "replacement": "ଂ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "N",
@@ -451,7 +460,9 @@
     },
     {
       "pattern": "\\~",
-      "replacement": ""
+      "replacement": "୍",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "//",

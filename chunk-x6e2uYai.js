@@ -1,0 +1,1 @@
+function c(n,t){let o=URL.createObjectURL(n),e=document.createElement("a");e.href=o,e.download=t,e.style.display="none",document.body.appendChild(e),e.click(),queueMicrotask(()=>{URL.revokeObjectURL(o),e.remove();});}export{c};

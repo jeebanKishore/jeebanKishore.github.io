@@ -1,0 +1,122 @@
+{
+  "id": "pwo-tilde",
+  "name": "Western Pwo tilde",
+  "description": "Western Pwo input keyboard",
+  "date": "2026-03-18",
+  "author": "Toluwanimi Ayodele",
+  "license": "GPLv3",
+  "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
+  "rules": [
+    {
+      "pattern": "~k",
+      "replacement": "က"
+    },
+    {
+      "pattern": "~K",
+      "replacement": "ခ"
+    },
+    {
+      "pattern": "~y",
+      "replacement": "ဂ"
+    },
+    {
+      "pattern": "~x",
+      "replacement": "ဎ"
+    },
+    {
+      "pattern": "~N",
+      "replacement": "င"
+    },
+    {
+      "pattern": "~s",
+      "replacement": "စ"
+    },
+    {
+      "pattern": "~S",
+      "replacement": "ဆ"
+    },
+    {
+      "pattern": "~z",
+      "replacement": "ဇ"
+    },
+    {
+      "pattern": "~Y",
+      "replacement": "ည"
+    },
+    {
+      "pattern": "~H",
+      "replacement": "ၡ"
+    },
+    {
+      "pattern": "~e",
+      "replacement": "တ"
+    },
+    {
+      "pattern": "~t",
+      "replacement": "ထ"
+    },
+    {
+      "pattern": "~T",
+      "replacement": "ဒ"
+    },
+    {
+      "pattern": "~d",
+      "replacement": "န"
+    },
+    {
+      "pattern": "~n",
+      "replacement": "ပ"
+    },
+    {
+      "pattern": "~p",
+      "replacement": "ဖ"
+    },
+    {
+      "pattern": "~P",
+      "replacement": "ဘ"
+    },
+    {
+      "pattern": "~F",
+      "replacement": "မ"
+    },
+    {
+      "pattern": "~b",
+      "replacement": "ယ"
+    },
+    {
+      "pattern": "~m",
+      "replacement": "ရ"
+    },
+    {
+      "pattern": "~j",
+      "replacement": "လ"
+    },
+    {
+      "pattern": "~r",
+      "replacement": "ဝ"
+    },
+    {
+      "pattern": "~R",
+      "replacement": "ၥ"
+    },
+    {
+      "pattern": "~l",
+      "replacement": "ဟ"
+    },
+    {
+      "pattern": "~w",
+      "replacement": "အ"
+    },
+    {
+      "pattern": "~h",
+      "replacement": "ဧ"
+    },
+    {
+      "pattern": "~q",
+      "replacement": "ၦ"
+    }
+  ]
+}

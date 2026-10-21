@@ -8,10 +8,13 @@
   "version": "1.0",
   "contextLength": 4,
   "maxKeyLength": 2,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
-      "replacement": "\\\\"
+      "replacement": "$1",
+      "contextRegex": "\\\\",
+      "context": "\\\\"
     },
     {
       "pattern": "([କ-ହୟୱଡ଼ଢ଼ଙ୍କଙ୍ଖଙ୍ଗଙ୍ଘଞ୍ଚଞ୍ଛଞ୍ଝଣ୍ଟଣ୍ଠଣ୍ଡଣ୍ଢନ୍ତନ୍ଥନ୍ଦନ୍ଧମ୍ପମ୍ଫମ୍ବମ୍ଭଞ୍ଜ])a",
@@ -359,7 +362,9 @@
     },
     {
       "pattern": "c",
-      "replacement": ""
+      "replacement": "ଚ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "d",

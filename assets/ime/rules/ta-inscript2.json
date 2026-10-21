@@ -6,6 +6,9 @@
   "author": "Parag Nemade",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "1",
@@ -294,81 +297,97 @@
     {
       "pattern": "1",
       "replacement": "‍",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "‌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "௰",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\-",
       "replacement": "௱",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "௲",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "y",
       "replacement": "௷",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "h",
       "replacement": "௶",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "X",
       "replacement": "ௐ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "C",
       "replacement": "௸",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "c",
       "replacement": "௴",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "V",
       "replacement": "௺",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "v",
       "replacement": "௳",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "b",
       "replacement": "௵",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": "௹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "॥",
+      "altGr": true,
       "context": "x"
     }
   ]

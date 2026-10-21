@@ -8,6 +8,7 @@
   "version": "1.1",
   "contextLength": 1,
   "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\\\C",

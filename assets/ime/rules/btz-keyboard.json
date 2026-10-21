@@ -6,6 +6,9 @@
   "author": "Benny Lin",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
@@ -158,21 +161,25 @@
     {
       "pattern": "4",
       "replacement": "᯼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "5",
       "replacement": "᯽",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "6",
       "replacement": "᯾",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "7",
       "replacement": "᯿",
+      "altGr": true,
       "context": "x"
     }
   ]

@@ -7,14 +7,20 @@
   "license": "GPLv3",
   "version": "1.0",
   "contextLength": 1,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "ḧh",
-      "replacement": "h"
+      "replacement": "hh",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "Ḧ(H|h)",
-      "replacement": "(H|h)"
+      "replacement": "H$1",
+      "contextRegex": "(H|h)",
+      "context": "(H|h)"
     },
     {
       "pattern": "ğ",

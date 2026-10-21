@@ -6,6 +6,9 @@
   "author": "Parag Nemade",
   "license": "GPLv3",
   "version": "1.1",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "1",
@@ -322,11 +325,13 @@
     {
       "pattern": "3",
       "replacement": "^",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "=",
       "replacement": "¨",
+      "altGr": true,
       "context": "x"
     }
   ]

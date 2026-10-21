@@ -6,6 +6,9 @@
   "author": "Parag Nemade",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\~",
@@ -386,91 +389,109 @@
     {
       "pattern": "1",
       "replacement": "੧",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "੨",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "3",
       "replacement": "੩",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "੪",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "5",
       "replacement": "੫",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "6",
       "replacement": "੬",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "7",
       "replacement": "੭",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "8",
       "replacement": "੮",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "9",
       "replacement": "੯",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "੦",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "y",
       "replacement": "੍ਰ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "i",
       "replacement": "ਗ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "P",
       "replacement": "ਫ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "h",
       "replacement": "੍ਹ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "j",
       "replacement": "ਜ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "K",
       "replacement": "ਖ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "l",
       "replacement": "ਲ਼",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ";",
       "replacement": "ਸ਼",
+      "altGr": true,
       "context": "x"
     }
   ]

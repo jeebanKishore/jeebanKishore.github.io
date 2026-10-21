@@ -8,65 +8,78 @@
   "version": "1.0",
   "contextLength": 1,
   "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "H",
       "replacement": "̂",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "h",
       "replacement": "́",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "B",
       "replacement": "̌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "b",
       "replacement": "̀",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "E",
       "replacement": "Ɛ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "ɛ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "J",
       "replacement": "Ɲ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "j",
       "replacement": "ɲ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "N",
       "replacement": "Ŋ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "n",
       "replacement": "ŋ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "O",
       "replacement": "Ɔ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "o",
       "replacement": "ɔ",
+      "altGr": true,
       "context": "x"
     }
   ]

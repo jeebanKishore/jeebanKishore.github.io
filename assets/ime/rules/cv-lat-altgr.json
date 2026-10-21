@@ -6,55 +6,68 @@
   "author": "Anatoly Mironov, @mirontoli",
   "license": "MIT",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "a",
       "replacement": "ă",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "A",
       "replacement": "Ă",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "ĕ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "E",
       "replacement": "Ĕ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "s",
       "replacement": "ş",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "S",
       "replacement": "Ş",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "d|h",
       "replacement": "š",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "D|H",
       "replacement": "Š",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "w|u",
       "replacement": "ü",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "W|U",
       "replacement": "Ü",
+      "altGr": true,
       "context": "x"
     }
   ]

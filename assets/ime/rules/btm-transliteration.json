@@ -8,270 +8,401 @@
   "version": "1.0",
   "contextLength": 2,
   "maxKeyLength": 2,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "\\\\([A-Za-z\\>_~\\.0-9])",
-      "replacement": "\\\\"
+      "replacement": "$1",
+      "contextRegex": "\\\\",
+      "context": "\\\\"
     },
     {
       "pattern": "᯲(a|A)",
-      "replacement": ""
+      "replacement": "",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯲(e|E)",
-      "replacement": ""
+      "replacement": "ᯩ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯲(i|I)",
-      "replacement": ""
+      "replacement": "ᯪ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯲(o|O)",
-      "replacement": ""
+      "replacement": "ᯬ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯲(u|U)",
-      "replacement": ""
+      "replacement": "ᯮ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯲(x|X)",
-      "replacement": ""
+      "replacement": "ᯧ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯳(a|A)",
-      "replacement": ""
+      "replacement": "",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯳(e|E)",
-      "replacement": ""
+      "replacement": "ᯩ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯳(i|I)",
-      "replacement": ""
+      "replacement": "ᯪ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯳(o|O)",
-      "replacement": ""
+      "replacement": "ᯬ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯳(u|U)",
-      "replacement": ""
+      "replacement": "ᯮ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "᯳(x|X)",
-      "replacement": ""
+      "replacement": "ᯧ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯰ(a|A)",
-      "replacement": ""
+      "replacement": "ᯝ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯰ(e|E)",
-      "replacement": ""
+      "replacement": "ᯝᯩ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯰ(i|I)",
-      "replacement": ""
+      "replacement": "ᯝᯪ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯰ(o|O)",
-      "replacement": ""
+      "replacement": "ᯝᯬ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯰ(u|U)",
-      "replacement": ""
+      "replacement": "ᯝᯮ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯰ(x|X)",
-      "replacement": ""
+      "replacement": "ᯝᯧ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯱ(a|A)",
-      "replacement": ""
+      "replacement": "ᯂ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯱ(e|E)",
-      "replacement": ""
+      "replacement": "ᯂᯩ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯱ(i|I)",
-      "replacement": ""
+      "replacement": "ᯂᯪ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯱ(o|O)",
-      "replacement": ""
+      "replacement": "ᯂᯬ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯱ(u|U)",
-      "replacement": ""
+      "replacement": "ᯂᯮ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯱ(x|X)",
-      "replacement": ""
+      "replacement": "ᯂᯧ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "ᯤ(h|H)",
-      "replacement": "(i|I)"
+      "replacement": "ᯀᯪᯱ",
+      "contextRegex": "(i|I)",
+      "context": "(i|I)"
     },
     {
       "pattern": "ᯥ(h|H)",
-      "replacement": "(u|U)"
+      "replacement": "ᯀᯮᯱ",
+      "contextRegex": "(u|U)",
+      "context": "(u|U)"
     },
     {
       "pattern": "ᯤ(n|N)",
-      "replacement": "(i|I)"
+      "replacement": "ᯀᯪᯊ᯲",
+      "contextRegex": "(i|I)",
+      "context": "(i|I)"
     },
     {
       "pattern": "ᯥ(n|N)",
-      "replacement": "(u|U)"
+      "replacement": "ᯀᯮᯊ᯲",
+      "contextRegex": "(u|U)",
+      "context": "(u|U)"
     },
     {
       "pattern": "ᯊ᯲(g|G)",
-      "replacement": "(a|A|e|E|i|I|o|O|u|U|x|X)n"
+      "replacement": "ᯰ",
+      "contextRegex": "(a|A|e|E|i|I|o|O|u|U|x|X)n",
+      "context": "(a|A|e|E|i|I|o|O|u|U|x|X)n"
     },
     {
       "pattern": "ᯊ᯲(g|G)",
-      "replacement": "n"
+      "replacement": "ᯝ᯲",
+      "contextRegex": "n",
+      "context": "n"
     },
     {
       "pattern": "ᯊ᯲(y|Y)",
-      "replacement": "n"
+      "replacement": "ᯠ᯲",
+      "contextRegex": "n",
+      "context": "n"
     },
     {
       "pattern": "(a|A)",
-      "replacement": ""
+      "replacement": "ᯀ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(b|B)",
-      "replacement": ""
+      "replacement": "ᯅ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(c|C)",
-      "replacement": ""
+      "replacement": "ᯚ᯦᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(d|D)",
-      "replacement": ""
+      "replacement": "ᯑ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(e|E)",
-      "replacement": ""
+      "replacement": "ᯀᯩ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(f|F)",
-      "replacement": ""
+      "replacement": "᯳",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(g|G)",
-      "replacement": ""
+      "replacement": "ᯎ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(h|H)",
-      "replacement": "(a|e|i|o|u|x)"
+      "replacement": "ᯱ",
+      "contextRegex": "(a|e|i|o|u|x)",
+      "context": "(a|e|i|o|u|x)"
     },
     {
       "pattern": "H",
-      "replacement": ""
+      "replacement": "ᯱ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "h",
-      "replacement": ""
+      "replacement": "ᯄ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(i|I)",
-      "replacement": ""
+      "replacement": "ᯤ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(j|J)",
-      "replacement": ""
+      "replacement": "ᯐ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(k|K)",
-      "replacement": ""
+      "replacement": "ᯄ᯦᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(l|L)",
-      "replacement": ""
+      "replacement": "ᯞ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(m|M)",
-      "replacement": ""
+      "replacement": "ᯔ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(n|N)",
-      "replacement": ""
+      "replacement": "ᯊ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(o|O)",
-      "replacement": ""
+      "replacement": "ᯀᯬ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(p|P)",
-      "replacement": ""
+      "replacement": "ᯇ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(q|Q)",
-      "replacement": ""
+      "replacement": "᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(r|R)",
-      "replacement": ""
+      "replacement": "ᯒ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(s|S)",
-      "replacement": ""
+      "replacement": "ᯚ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "t",
-      "replacement": ""
+      "replacement": "ᯖ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "T",
-      "replacement": ""
+      "replacement": "ᯗ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(u|U)",
-      "replacement": ""
+      "replacement": "ᯥ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(v|V)",
-      "replacement": ""
+      "replacement": "᯦",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(w|W)",
-      "replacement": ""
+      "replacement": "ᯋ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(x|X)",
-      "replacement": ""
+      "replacement": "ᯀᯧ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(y|Y)",
-      "replacement": ""
+      "replacement": "ᯛ᯲",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "(z|Z)",
-      "replacement": ""
+      "replacement": "ᯰ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "4",
-      "replacement": "",
-      "context": "x"
+      "replacement": "᯼",
+      "contextRegex": "",
+      "context": "x",
+      "altGr": true
     },
     {
       "pattern": "5",
-      "replacement": "",
-      "context": "x"
+      "replacement": "᯽",
+      "contextRegex": "",
+      "context": "x",
+      "altGr": true
     },
     {
       "pattern": "6",
-      "replacement": "",
-      "context": "x"
+      "replacement": "᯾",
+      "contextRegex": "",
+      "context": "x",
+      "altGr": true
     },
     {
       "pattern": "7",
-      "replacement": "",
-      "context": "x"
+      "replacement": "᯿",
+      "contextRegex": "",
+      "context": "x",
+      "altGr": true
     }
   ]
 }

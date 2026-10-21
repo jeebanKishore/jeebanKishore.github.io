@@ -6,6 +6,9 @@
   "author": "Junaid P V",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "X",
@@ -342,56 +345,67 @@
     {
       "pattern": "F",
       "replacement": "ઌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ઽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "ૄ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "X",
       "replacement": "ૐ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\+",
       "replacement": "ૠ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ૡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ૢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ૣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "૥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\<",
       "replacement": "૱",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "$",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     }
   ]

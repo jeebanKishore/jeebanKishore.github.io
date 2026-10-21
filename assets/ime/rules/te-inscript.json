@@ -6,6 +6,9 @@
   "author": "Veeven",
   "license": "GPLv3",
   "version": "1.0",
+  "contextLength": 0,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "D",
@@ -109,11 +112,15 @@
     },
     {
       "pattern": "\\[",
-      "replacement": ""
+      "replacement": "డ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "\\{",
-      "replacement": ""
+      "replacement": "ఢ",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "C",
@@ -189,7 +196,9 @@
     },
     {
       "pattern": "\\<",
-      "replacement": ""
+      "replacement": "ష",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "m",
@@ -265,11 +274,15 @@
     },
     {
       "pattern": "0",
-      "replacement": ""
+      "replacement": "౦",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "1",
-      "replacement": ""
+      "replacement": "౧",
+      "contextRegex": "",
+      "context": ""
     },
     {
       "pattern": "2",
@@ -338,66 +351,79 @@
     {
       "pattern": "X",
       "replacement": "ॐ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\;",
       "replacement": "ౘ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "p",
       "replacement": "ౙ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "f",
       "replacement": "ౢ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ౣ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "F",
       "replacement": "ఌ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "R",
       "replacement": "ౡ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "॥",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\>",
       "replacement": "ఽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "2",
       "replacement": "‌",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₹",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\=",
       "replacement": "ౄ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\+",
       "replacement": "ౠ",
+      "altGr": true,
       "context": "x"
     }
   ]

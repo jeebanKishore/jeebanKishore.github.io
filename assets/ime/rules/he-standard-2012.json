@@ -8,6 +8,7 @@
   "version": "1.0",
   "contextLength": 0,
   "maxKeyLength": 0,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "q",
@@ -172,181 +173,217 @@
     {
       "pattern": "a",
       "replacement": "ְ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "e",
       "replacement": "ָ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "r",
       "replacement": "ֳ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "p",
       "replacement": "ַ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\[",
       "replacement": "ֲ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "m",
       "replacement": "ֵ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "x",
       "replacement": "ֶ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "c",
       "replacement": "ֱ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "j",
       "replacement": "ִ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "u",
       "replacement": "ֹ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\\\",
       "replacement": "ֻ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "s",
       "replacement": "ּ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "q",
       "replacement": "ׂ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "w",
       "replacement": "ׁ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "-",
       "replacement": "־",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "=",
       "replacement": "–",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\]",
       "replacement": "ֿ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "1",
       "replacement": "ֽ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "3",
       "replacement": "€",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "4",
       "replacement": "₪",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "5",
       "replacement": "°",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "6",
       "replacement": "֫",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "8",
       "replacement": "×",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "9",
       "replacement": "‎",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "0",
       "replacement": "‏",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "/",
       "replacement": "÷",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "y",
       "replacement": "װ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "h",
       "replacement": "ײ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "H",
       "replacement": "ײַ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "g",
       "replacement": "ױ",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "`",
       "replacement": "׳",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "'",
       "replacement": "״",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ";",
       "replacement": "„",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "l",
       "replacement": "”",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": "\\.",
       "replacement": "‚",
+      "altGr": true,
       "context": "x"
     },
     {
       "pattern": ",",
       "replacement": "’",
+      "altGr": true,
       "context": "x"
     }
   ]

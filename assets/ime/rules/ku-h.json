@@ -7,62 +7,92 @@
   "license": "GPLv3",
   "version": "1.0",
   "contextLength": 1,
+  "maxKeyLength": 1,
+  "dependencies": [],
   "rules": [
     {
       "pattern": "çh",
-      "replacement": "h"
+      "replacement": "ch",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "şh",
-      "replacement": "h"
+      "replacement": "sh",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "ḧh",
-      "replacement": "h"
+      "replacement": "hh",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "ẍh",
-      "replacement": "h"
+      "replacement": "xh",
+      "contextRegex": "h",
+      "context": "h"
     },
     {
       "pattern": "êe",
-      "replacement": "e"
+      "replacement": "ee",
+      "contextRegex": "e",
+      "context": "e"
     },
     {
       "pattern": "îi",
-      "replacement": "i"
+      "replacement": "ii",
+      "contextRegex": "i",
+      "context": "i"
     },
     {
       "pattern": "ûu",
-      "replacement": "u"
+      "replacement": "uu",
+      "contextRegex": "u",
+      "context": "u"
     },
     {
       "pattern": "Ç(H|h)",
-      "replacement": "(H|h)"
+      "replacement": "C$1",
+      "contextRegex": "(H|h)",
+      "context": "(H|h)"
     },
     {
       "pattern": "Ş(H|h)",
-      "replacement": "(H|h)"
+      "replacement": "S$1",
+      "contextRegex": "(H|h)",
+      "context": "(H|h)"
     },
     {
       "pattern": "Ḧ(H|h)",
-      "replacement": "(H|h)"
+      "replacement": "H$1",
+      "contextRegex": "(H|h)",
+      "context": "(H|h)"
     },
     {
       "pattern": "Ẍ(H|h)",
-      "replacement": "(H|h)"
+      "replacement": "X$1",
+      "contextRegex": "(H|h)",
+      "context": "(H|h)"
     },
     {
       "pattern": "Ê(E|e)",
-      "replacement": "(E|e)"
+      "replacement": "E$1",
+      "contextRegex": "(E|e)",
+      "context": "(E|e)"
     },
     {
       "pattern": "Î(I|i)",
-      "replacement": "(I|i)"
+      "replacement": "I$1",
+      "contextRegex": "(I|i)",
+      "context": "(I|i)"
     },
     {
       "pattern": "Û(U|u)",
-      "replacement": "(U|u)"
+      "replacement": "U$1",
+      "contextRegex": "(U|u)",
+      "context": "(U|u)"
     },
     {
       "pattern": "ch",
