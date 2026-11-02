@@ -1,1 +1,0 @@
-function o(a){return new Promise((n,e)=>{let r=new FileReader;r.onload=()=>{typeof r.result=="string"?n(r.result):e(new Error("FileReader returned a non-string result"));},r.onerror=()=>e(r.error??new Error("Failed to read file as data URL")),r.readAsDataURL(a);})}export{o};
