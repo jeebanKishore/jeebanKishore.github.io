@@ -1,0 +1,102 @@
+{
+  "projectId": "screen-recorder",
+  "title": "🎥 How to Use Screen Recorder",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Configure Recording Settings ⚙️",
+      "description": "Before starting, choose your audio sources:"
+    },
+    {
+      "title": "Start Recording 🎬",
+      "description": "Click \"Start Recording\" and select the screen, window, or browser tab you want to record. The browser will prompt you to choose your recording source. Once selected, recording begins immediately with a live timer display."
+    },
+    {
+      "title": "Pause & Resume ⏯️",
+      "description": "During recording, use the Pause button to temporarily stop recording without ending the session. Click Resume to continue from where you left off. The timer pauses during breaks."
+    },
+    {
+      "title": "Stop & Preview 🛑",
+      "description": "Click \"Stop Recording\" to end the session. Your recording will appear in the preview player below with full playback controls. The summary bar displays file size, duration, and format information."
+    },
+    {
+      "title": "Add Annotations ✏️",
+      "description": "After recording, click the \"Draw\" button to enable annotation mode. Draw directly on the video preview using your mouse. Change the brush color using the color picker, and clear all annotations with the \"Clear Annotations\" button."
+    },
+    {
+      "title": "Trim Timeline ✂️",
+      "description": "Use the dual sliders to set precise start and end points for your recording. The formatted timestamps show exactly where your trim points are positioned. This is useful for removing unwanted sections from the beginning or end."
+    },
+    {
+      "title": "Export Recording 💾",
+      "description": "Click \"Save Original (WebM)\" to download your raw recording immediately. Click \"Render Edited Video\" to use client-side FFmpeg WASM to trim the recording between your designated timeline points and permanently burn your canvas annotations into a standard MP4 video."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Client-Side FFmpeg WASM Processing ⚡",
+      "description": "Loads self-hosted ffmpeg-core.wasm from local assets/wasm/ in a dedicated Web Worker. Uses FFmpeg's virtual filesystem to perform millisecond-accurate timeline trimming and burns annotation overlays with -filter_complex overlay, encoding ready-to-share H.264/AAC MP4 files."
+    },
+    {
+      "title": "Screen Capture API 📺",
+      "description": "Uses the native navigator.mediaDevices.getDisplayMedia() API to capture screen content at 30 FPS. This provides access to entire screens, specific windows, or individual browser tabs with hardware-accelerated encoding."
+    },
+    {
+      "title": "MediaRecorder API 🎙️",
+      "description": "Leverages the MediaRecorder API with VP9 codec support for efficient video compression. Automatically falls back to standard WebM encoding if VP9 is unavailable, ensuring broad browser compatibility."
+    },
+    {
+      "title": "Audio Mixing Architecture 🎚️",
+      "description": "Implements the Web Audio API to create a sophisticated audio mixing pipeline. System audio and microphone streams are routed through an AudioContext with a MediaStreamAudioDestinationNode, allowing simultaneous capture of multiple audio sources into a single mixed track."
+    },
+    {
+      "title": "Canvas 2D Annotations 🎨",
+      "description": "Overlays a transparent HTML5 Canvas element on top of the video preview. Mouse events are captured and scaled to match the video's native resolution, ensuring annotations remain accurate regardless of display size. Drawing history is stored for potential future re-rendering."
+    },
+    {
+      "title": "Signal-Based Reactive State 🎯",
+      "description": "All component state (recording status, timer, settings, trim points) is managed using Angular Signals with OnPush change detection. This ensures optimal performance and automatic UI updates without manual change detection cycles."
+    },
+    {
+      "title": "Memory Management 🧹",
+      "description": "Implements proper cleanup with ngOnDestroy lifecycle hook. Stops all media tracks, closes audio contexts, revokes object URLs, and clears timers to prevent memory leaks during component destruction."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": "ppf-calculator",
+  "title": "📈 Precision PPF Calculator",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Structure Your Investment 💰",
+      "description": "Input your planned Annual Investment (up to the maximum tax-exempt limit of ₹1.5L) and dial in the current expected interest rate. Adjust the duration slider to simulate the mandatory 15-year lock-in period, or extend it in 5-year blocks up to 50 years to visualize generational wealth."
+    },
+    {
+      "title": "Optimize Your Deposit Strategy 📅",
+      "description": "Choose between Monthly or Yearly deposit frequencies. The calculator demonstrates exactly how front-loading your investments early in the financial year, or ensuring monthly deposits occur before the 5th, significantly boosts your final maturity amount over decades."
+    },
+    {
+      "title": "Analyze the Amortization Schedule 📊",
+      "description": "Scroll down to the dynamic data table for a granular, year-by-year breakdown of your financial journey. Track your Opening Balance, Yearly Deposits, strictly calculated Yearly Interest, and the Closing Balance across the entire lifecycle of the fund."
+    },
+    {
+      "title": "Visualize Exponential Growth 🚀",
+      "description": "The integrated charts provide a stark visual representation of compounding. Watch as the \"Interest Earned\" component inevitably overtakes your \"Total Invested\" principal, visually proving the value of long-term holding."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Algorithmic Statutory Compliance 🏛️",
+      "description": "The financial service engine strictly implements the Indian government's PPF interest calculation mandate: Interest is calculated on the lowest balance between the close of the 5th day and the end of the month. The algorithm intelligently branches logic based on deposit dates, computing monthly internal states but only crediting the compounded interest at the close of the financial year."
+    },
+    {
+      "title": "Reactive Signal Pipeline ⚡",
+      "description": "Calculating 50 years of complex monthly interest accruals instantly requires a highly optimized data flow. By binding form inputs directly to Angular Signals, the application circumvents standard change detection. Dragging the duration slider instantly recalculates the entire schedule array and seamlessly pipes the updated vectors to the charting engine at 60 FPS."
+    },
+    {
+      "title": "Data Visualization Adapter 🎨",
+      "description": "To maintain a lightweight footprint, the application utilizes an adapter pattern to map the dense PPFYearRow data structures into standardized metrics compatible with the shared SvgChartService. This allows the bespoke PPF data to be rendered beautifully on the existing graphical architecture without bloating the codebase with redundant chart logic."
+    },
+    {
+      "title": "Responsive Glass-Morphism Data Tables 📱",
+      "description": "Displaying wide financial ledgers on mobile devices is notoriously difficult. The UI employs a custom, horizontally scrollable glass-table component. It utilizes sticky headers and selective column hiding via media queries to guarantee that critical financial figures remain legible and beautiful, regardless of screen real estate."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

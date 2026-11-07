@@ -1,0 +1,74 @@
+{
+  "projectId": "background-remover",
+  "title": "🪄 How to Use the Magic Remover",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Upload an Image 🖼️",
+      "description": "Select any photo from your device. For the best results, pick an image where the subject has decent contrast against the background."
+    },
+    {
+      "title": "Choose Your Engine ⚙️",
+      "description": "If you selected the Algorithmic (OpenCV) engine, hover over the original image canvas. Click and drag to draw a green box that perfectly encapsulates your subject. This tells the algorithm exactly where to look."
+    },
+    {
+      "title": "Extract & Download ✨",
+      "description": "Click \"Remove Background\". Once processing is complete, you'll see your isolated subject over a transparent checkerboard. Click \"Download Transparent PNG\" to save the result with full alpha-channel transparency!"
+    }
+  ],
+  "cards": [
+    {
+      "title": "AI Engine: U^2-Net Neural Network 🧠",
+      "description": "The \"AI Mode\" utilizes the @imgly/background-removal library. It loads a pre-trained U^2-Net Machine Learning model directly into the browser. By leveraging WebGL and WebAssembly, it pushes the heavy tensor calculations to your device's GPU, generating a highly accurate alpha matte for the foreground."
+    },
+    {
+      "title": "Algorithmic Engine: OpenCV GrabCut 🧮",
+      "description": "The classic mode uses a WebAssembly port of OpenCV to run the GrabCut algorithm. It uses iterative Graph Cuts and Gaussian Mixture Models (GMMs). When you draw the bounding box, the algorithm assumes everything outside the box is the \"background\" GMM, and uses that data to statistically guess the foreground pixels inside the box."
+    },
+    {
+      "title": "Dynamic Memory & Scaling 📉",
+      "description": "Running C++ algorithms in a browser tab requires careful memory management. Before running GrabCut, the service checks the image dimensions. If it exceeds 800px, it mathematically calculates a scale factor and resizes the OpenCV Matrix (cv.Mat) using cv.INTER_AREA interpolation to prevent the browser tab from crashing while maintaining edge fidelity."
+    },
+    {
+      "title": "Pointer Manipulation 🎨",
+      "description": "Once OpenCV generates a mask, the service iterates through the image array pointer by pointer (ucharPtr). It checks if OpenCV marked the pixel as \"definite background\" or \"probable background\" (values 0 or 2), and aggressively strips the Alpha channel (sets opacity to 0) before painting it back to an HTML5 Canvas."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

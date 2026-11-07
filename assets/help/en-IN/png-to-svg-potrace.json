@@ -1,0 +1,82 @@
+{
+  "projectId": "png-to-svg-potrace",
+  "title": "📐 How to Use the Vectorizer",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Upload & Set Complexity 🖼️",
+      "description": "Upload your image and use the Color Count slider to determine how detailed the trace should be. Fewer colors result in a cleaner, flatter, more stylized graphic, while more colors capture shading and gradients."
+    },
+    {
+      "title": "Tune the Target Palette 🎨",
+      "description": "Before processing, the tool extracts a color palette. You can manually adjust these colors by clicking the swatch, or click the Eyedropper Tool and click anywhere on the preview image to perfectly sample a specific pixel!"
+    },
+    {
+      "title": "Vectorize! 🚀",
+      "description": "Click \"Vectorize Image\". The engine will trace the shapes of each color layer and convert them into smooth mathematical curves."
+    },
+    {
+      "title": "Post-Process & Merge Layers 🔄",
+      "description": "In the Layer Editor, you can clean up the final result. Drag and drop one color swatch onto another to instantly merge those two paths! You can also click the trash icon to completely remove unwanted backgrounds or noise."
+    },
+    {
+      "title": "Split or Combine ✂️",
+      "description": "Use the toggle on the preview card to view the final SVG as a single image, or separate it into Split Layers. The split view automatically adds registration marks, making it perfectly prepped for screen printing, vinyl plotting, or laser cutting!"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Color Quantization 📉",
+      "description": "Before tracing can begin, the millions of colors in a standard photo must be strictly reduced. The service leverages rgbquant and colorthief to analyze the image, build an optimized color histogram, and map every single pixel to the nearest match in your defined palette."
+    },
+    {
+      "title": "WASM Potrace Engine 🧮",
+      "description": "The heavy lifting is powered by esm-potrace-wasm. Potrace is an industry-standard algorithm that takes a binary bitmap, traces the outline of the shapes to create polygons, and then optimizes those polygons by fitting smooth Bezier curves to them. Because it's compiled to WebAssembly, it runs at near-native speeds right in your browser."
+    },
+    {
+      "title": "Non-Blocking UI Generation 🚦",
+      "description": "Vectorizing layer by layer is computationally expensive. To prevent the browser tab from completely freezing during processing, the service uses a yieldToMain() function wrapped around requestIdleCallback. This briefly pauses the loop, allowing Angular to update the progress bar and the browser to handle user interactions before resuming the math."
+    },
+    {
+      "title": "AST DOM Manipulation 🧩",
+      "description": "Features like \"Split Layers\" and \"Drag-to-Merge\" don't require recalculating the vectors. Instead, Angular parses the raw SVG string into an active Document Object Model (DOM). It dynamically merges <path> attributes, unwraps translation groups (<g>), recalculates bounding boxes (viewBox), and injects SVG registration marks natively on the fly!"
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

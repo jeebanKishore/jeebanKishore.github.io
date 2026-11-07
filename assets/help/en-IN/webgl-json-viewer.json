@@ -1,0 +1,82 @@
+{
+  "projectId": "webgl-json-viewer",
+  "title": "🚀 Enterprise-Grade JSON Visualization",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Ingest Massive Datasets 📂",
+      "description": "Drop in payloads up to 100MB in size. Use the configuration panel to set dynamic limits on Max Depth, Array Items, and Total Nodes (rendering up to 100,000 nodes simultaneously) to perfectly balance detail and performance."
+    },
+    {
+      "title": "Navigate with Zero Latency 🗺️",
+      "description": "Click and drag to pan across the infinite canvas, or use your mouse wheel to fluidly zoom in and out. Lost in the data? The interactive Minimap in the bottom corner provides a bird's-eye view—simply click anywhere on the minimap to instantly teleport your viewport to that section of the tree."
+    },
+    {
+      "title": "Deep Data Inspection & Breadcrumbs 🔍",
+      "description": "Click on any node to reveal its exact location. The Breadcrumb Path instantly generates the dot-notation path required to programmatically access that data, alongside its exact value. Both are one click away from being copied to your clipboard."
+    },
+    {
+      "title": "High-Speed Regex Search ⚡",
+      "description": "Use the search bar to scan thousands of keys and values in milliseconds. The toolbar displays the total number of hits, and you can cycle through the results using the up/down arrows. The camera will automatically pan and zoom to focus on the active search result."
+    },
+    {
+      "title": "Export for Documentation 📸",
+      "description": "Need to share a data architecture in a presentation or documentation? Click Export SVG to generate a high-fidelity, infinitely scalable vector graphic of your current tree state."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Dual-Canvas Rendering Engine 🎨",
+      "description": "To achieve peak performance without sacrificing text readability, we utilize a stacked dual-canvas architecture. A WebGL2 context handles the heavy lifting of rendering thousands of geometric nodes and connecting lines on the GPU. Directly above it, a transparent Canvas 2D API layer handles text rendering, ensuring crisp, device-pixel-ratio (DPR) optimized fonts that WebGL natively struggles with."
+    },
+    {
+      "title": "Rust & WebAssembly Core 🦀",
+      "description": "The entire data parser, state manager, search engine, and viewport math is written in Rust and compiled to WebAssembly (WASM). This provides near-native execution speed and strict memory safety. The StreamingJsonParser constructs a highly optimized NodeTree in memory, instantly calculating hierarchical layouts and bounding boxes before passing vertex data to WebGL."
+    },
+    {
+      "title": "Smart Relative Luminance Calculation 💡",
+      "description": "To support multiple themes (like Hacker Matrix and Sunset Pastel), node background colors change dynamically. Our Rust engine uses the standard relative luminance formula (0.299 * R + 0.587 * G + 0.114 * B) / 255.0 to calculate the perceptual brightness of any background color in real-time. If the luma exceeds 0.55, the text automatically switches to dark grey; otherwise, it renders in stark white, ensuring perfect WCAG contrast compliance dynamically."
+    },
+    {
+      "title": "Web Worker Validation 🛡️",
+      "description": "Parsing a 100MB JSON string on the main thread would freeze the browser UI for seconds. We offload structural validation to a dedicated Web Worker. It checks the blob size, verifies the JSON integrity, and communicates via asynchronous message passing before the Rust engine ever touches the data."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": "aspect-ratio-demo",
+  "title": "📐 Aspect Ratio & Scaling Lab",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Provide a Test Image 🖼️",
+      "description": "Upload any image to use as your test subject. The tool will automatically project it into three distinct container shapes: Landscape (280×200), Portrait (200×280), and Square (200×200)."
+    },
+    {
+      "title": "Select the Scale Mode 🎛️",
+      "description": "Use the Scale Mode dropdown to fundamentally change how the image reacts to its container's boundaries:"
+    },
+    {
+      "title": "Adjust the Focal Alignment 🎯",
+      "description": "When using Meet or Slice, the image might have extra space or be cropped. Use the X / Y Alignment dropdowns (Min, Mid, Max) to dictate which part of the image should anchor to the container. Want to crop towards the top-right corner? Set X to Max and Y to Min!"
+    },
+    {
+      "title": "Compare the Renders 🔍",
+      "description": "Scroll down to see the results. The top row utilizes standard <canvas> rendering, while the bottom row uses native <svg> rendering. Our custom mathematical engine guarantees both rows will look absolutely identical, proving our scaling math is pixel-perfect!"
+    }
+  ],
+  "cards": [
+    {
+      "title": "The \"preserveAspectRatio\" Discrepancy ⚖️",
+      "description": "In an SVG, achieving perfect letterboxing or cropping is as simple as adding an attribute like preserveAspectRatio=\"xMidYMax slice\" to an <image> tag. However, the Canvas 2D API's drawImage() method has absolutely no built-in equivalent, making responsive canvas graphics incredibly tedious to code."
+    },
+    {
+      "title": "Algorithmic Canvas Polyfill 🧮",
+      "description": "To solve this, we engineered the AspectRatioService. It acts as a mathematical polyfill for Canvas. It parses strings like \"xMaxYMid slice\" and executes complex dimensional arithmetic to calculate the exact Source X/Y (sx, sy), Source Width/Height (swidth, sheight), and Destination coordinates required to mimic SVG behavior on the Canvas API."
+    },
+    {
+      "title": "Handling the \"Meet\" Calculation 📐",
+      "description": "When in \"Meet\" mode, the algorithm calculates the scaling ratio for both width and height independently. It selects the minimum ratio of the two, applies it to the image, and then calculates the remaining delta pixels in the container to properly anchor the image based on your Min/Mid/Max alignment choices."
+    },
+    {
+      "title": "Reactive Render Pipeline ⚡",
+      "description": "The UI state is driven entirely by Angular Signals (xAlignment, yAlignment, scaleMode). Any change to the dropdowns instantly generates a new composite string (e.g., \"xMidYMid meet\"), triggering a simultaneous DOM update for the SVG attributes and a complete recalculation and re-draw sequence for the Canvas contexts at 60FPS."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

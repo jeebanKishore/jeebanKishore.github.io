@@ -1,0 +1,74 @@
+{
+  "projectId": "rich-text-lab",
+  "title": "📝 Rich Text & Transliteration Lab",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Rich Formatting 🎨",
+      "description": "Utilize the toolbar to apply custom fonts, text colors, background highlights, and structural formatting (H1, H2, bulleted lists). The editor ensures clean HTML output without deprecated or bloated markup."
+    },
+    {
+      "title": "Secure Copy & Paste 📋",
+      "description": "Try copying text from Microsoft Word, a website, or a Google Doc, and paste it into the editor. The engine will instantly strip out malicious scripts, hidden tracking pixels, and broken CSS, preserving only safe, clean formatting. You can even paste image files directly from your clipboard!"
+    },
+    {
+      "title": "Multi-Language IME 🌐",
+      "description": "Toggle the IME switch to activate the Input Method Editor. Select a target language (e.g., Hindi, Bengali) and an input logic rule set. As you type phonetically in English, the engine will intercept your keystrokes and transliterate the text into the native script in real-time."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Clipboard AST Sanitization 🧹",
+      "description": "Pasting rich text often introduces toxic DOM structures. Our custom ClipboardEvent interceptor utilizes a DOMParser to construct a virtual document. It recursively walks the node tree, aggressively filtering out unauthorized tags (retaining inner text) and stripping attributes. It even detects layout-breaking <div> elements and morphs them into semantically correct <p> tags."
+    },
+    {
+      "title": "Base64 Image Interception 🖼️",
+      "description": "To support offline workflows, the editor scans the clipboard for image/* payloads. It automatically captures the binary file, uses a FileReader to convert it into a Base64 Data URL, and injects it safely into the DOM. External tracking image URLs are actively blocked during paste events."
+    },
+    {
+      "title": "Synthetic Keydown Transliteration ⌨️",
+      "description": "The IME engine avoids browser lag by performing algorithmic string replacement. When typing, the ImeInputDirective intercepts input events and generates synthetic keyboard events. It applies advanced Regex logic against dynamic JSON rule dictionaries fetched via RxJS HttpClient to calculate precise transliterations based on current context constraints."
+    },
+    {
+      "title": "TreeWalker Cursor Tracking 📍",
+      "description": "When the IME replaces \"mera\" with \"मेरा\", the browser naturally loses track of the user's cursor if the text is wrapped in multi-colored <span> tags. Our engine utilizes a native document.createTreeWalker with a NodeFilter.SHOW_TEXT configuration to manually calculate raw character offsets, perform the replacement, and programmatically reposition the Selection range to exactly where it belongs, achieving flawless UX."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

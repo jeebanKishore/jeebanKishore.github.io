@@ -1,0 +1,70 @@
+{
+  "projectId": "svg-sticker-effect",
+  "title": "✂️ SVG Sticker Studio",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Upload Vector Art 🖼️",
+      "description": "Upload any standard SVG file. The engine will parse the internal geometry, regardless of whether it uses paths, circles, rectangles, or polygons, and normalize it for processing."
+    },
+    {
+      "title": "Configure the Offset 🎛️",
+      "description": "Click the download menu to select from four industry-standard export profiles:"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Mathematical Path Flattening 📐",
+      "description": "SVGs contain complex bezier curves and primitive shapes (rects, circles). The parsing engine first normalizes all elements into path data (d attributes). It then traverses the path using the native getPointAtLength() API, sampling points at precise intervals to convert pure math into measurable polygons."
+    },
+    {
+      "title": "Sub-Path Heuristic Detection 🔍",
+      "description": "A single SVG <path> often contains multiple disconnected shapes or \"holes.\" The parsing engine employs a distance-thresholding algorithm: by measuring the straight-line distance between sequential sampled points, it detects when the distance physically exceeds the sampling tolerance. This mathematically guarantees a \"MoveTo\" command occurred, allowing the engine to split the path into distinct geometric arrays automatically."
+    },
+    {
+      "title": "WebAssembly Geometry Engine 🦀",
+      "description": "Once the polygons are extracted, they are passed to a local WASM-compiled Boolean Geometry engine. This engine performs Clipper-style polygon union operations to merge all intersecting shapes into a single unified mass, and then applies the configured offset expansion."
+    },
+    {
+      "title": "CSS-Driven Prepress Compositing 🎨",
+      "description": "To generate the \"Print & Cut\" file, the application constructs a multi-layered DOM string. To simulate commercial \"Bleed\" (printing color slightly past the cut line so no white edges appear if the blade misaligns), it utilizes a massive stroke-width: 12 applied with stroke-linejoin=\"round\" on the background layer, organically pushing the ink bounds outward without requiring additional polygon calculations."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

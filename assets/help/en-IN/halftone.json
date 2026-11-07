@@ -1,0 +1,78 @@
+{
+  "projectId": "halftone",
+  "title": "🎨 Comprehensive Halftone User Guide",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Presets & Source Image 💾",
+      "description": "Before tweaking parameters, you must provide the engine with a data source."
+    },
+    {
+      "title": "Grid Pattern & Matrix 📐",
+      "description": "This section dictates the invisible mathematical grid upon which shapes are drawn."
+    },
+    {
+      "title": "Shape Palette 🔺",
+      "description": "Determines the physical geometry stamped at each calculated grid coordinate."
+    },
+    {
+      "title": "Dots & Size Mapping 🎛️",
+      "description": "This is the heart of the engine. It dictates how the shapes scale up and down."
+    },
+    {
+      "title": "Colors & Style 🎨",
+      "description": "Controls the final stroke and fill painting applied to the output vectors."
+    }
+  ],
+  "cards": [
+    {
+      "title": "1. Rust Wasm Flat-Buffer Bridge 🦀",
+      "description": "Instead of relying on JavaScript's V8 engine for heavy trigonometry, the grid matrix math is compiled into a Rust WebAssembly (Wasm) binary. To eliminate serialization bottlenecks across the Wasm bridge, the engine does not generate strings in Rust. Instead, Rust acts purely as a high-speed calculator. It computes the matrix and writes raw floating-point data [X, Y, Size, Rotation, R, G, B] directly into a pre-allocated Linear Memory buffer. The JavaScript Web Worker then reads this Float32Array instantly via a zero-copy memory view."
+    },
+    {
+      "title": "2. Mathematical Bucket Optimization 📦",
+      "description": "Attempting to append 150,000 separate <circle> elements into the DOM will immediately crash most browsers. To solve this, the JavaScript worker optimizes the final markup using \"Bucketing.\" Standard shapes that share identical color and stroke properties are mathematically concatenated into a single, massive SVG <path d=\"...\"> string. For custom imported SVGs, the engine caches the original geometry inside a <symbol> tag and leverages hardware-accelerated <use href=\"#id\"> tags to stamp it across the canvas, reducing memory footprint by 99%."
+    },
+    {
+      "title": "3. Signal-Driven Queueing 🚦",
+      "description": "The interface uses Angular Signals to track the state of every slider and color picker without Change Detection lag. Because Wasm renders are so fast, dragging a slider could theoretically trigger hundreds of redundant generation requests per second. The component implements an asynchronous debouncing queue inside an effect(). It intercepts rapid slider updates, registers only the latest state, and waits until the user ceases interaction (and the Web Worker confirms it is idle) before firing the matrix calculation, ensuring perfectly fluid 60fps UI performance."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": "json-viewer",
+  "title": "🗂️ Interactive JSON Inspector",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Ingest Data 📥",
+      "description": "Start by pasting your raw JSON directly into the editor, or use the Upload button to load a .json file from your device. Use the Format and Minify buttons in the toolbar to clean up messy payloads before viewing."
+    },
+    {
+      "title": "Navigate the Tree 🌳",
+      "description": "Click the View Tree icon to generate the interactive hierarchy. Use the Expand All and Collapse All controls to quickly manage large datasets, and click the chevron next to any object or array to dig deeper into its contents."
+    },
+    {
+      "title": "Real-Time Search Filtering 🔍",
+      "description": "Looking for a specific key or value? Type it into the search bar. The tree will instantly filter itself, hiding irrelevant branches while maintaining the exact parent-child hierarchy required to locate your search match."
+    },
+    {
+      "title": "Deep Node Inspection 🕵️‍♂️",
+      "description": "Click on any node in the tree to open the Inspector Panel on the right. This pane provides a granular breakdown of the node's children, its data type, and automatically generates a copyable Breadcrumb Path showing exactly how to programmatically target that specific node."
+    }
+  ],
+  "cards": [
+    {
+      "title": "AST-Style Node Mapping 🗺️",
+      "description": "Instead of rendering raw objects, the service utilizes a recursive parsing function to traverse the JSON and map it into an array of typed JsonNode objects. This enriches the raw data with critical UI metadata (like explicit data types, depth counters, and parent references) required for complex interactions."
+    },
+    {
+      "title": "Angular Material CDK Tree 🌲",
+      "description": "The visual hierarchy is powered by MatTreeNestedDataSource and NestedTreeControl. By binding our custom node structure to the Material CDK, we gain highly accessible, keyboard-navigable, and performant expanding/collapsing logic without writing fragile DOM manipulation code."
+    },
+    {
+      "title": "Recursive Filtering Algorithm 🧮",
+      "description": "The search function doesn't just use CSS to hide unmatched elements. It utilizes a deep recursive algorithm (buildFilteredTree) to construct a brand new virtual tree. If a deeply nested child matches the search query, the algorithm mathematically guarantees that all of its parent nodes are preserved in the new tree, preventing orphaned results."
+    },
+    {
+      "title": "Backtracking Breadcrumb Generation 📍",
+      "description": "Because the initial parsing step injects a parent pointer into every JsonNode, the Breadcrumb Generator operates with O(D) time complexity (where D is depth). When a leaf node is clicked, it simply walks backward through the parent references, unshifting keys into an array to construct the perfect dot-notation path instantly."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

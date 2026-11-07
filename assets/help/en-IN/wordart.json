@@ -1,0 +1,90 @@
+{
+  "projectId": "wordart",
+  "title": "🎨 How to Use WordArt Studio",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Curate Your Word List 📝",
+      "description": "Enter words manually, paste entire articles to auto-extract frequent terms with stop-word removal, or import existing lists. Assign Weights (1–100) to control relative word prominence. You can also assign individual colors, specific fonts, angles, or hyperlinks to each word."
+    },
+    {
+      "title": "Choose or Upload a Shape 🖼️",
+      "description": "Select from hundreds of curated silhouettes across Animals, Geometry, Holidays, Nature, and Symbols, or choose the freeform Wordle Cloud. Want to use your own logo or photo? Click Add Shape: upload any image, fine-tune the luminance threshold, apply edge carving, or toggle negative inversion."
+    },
+    {
+      "title": "Customize Fonts & Layout Angles 📐",
+      "description": "Browse modern web and display fonts—including multi-color OpenType fonts (COLR/CPAL). In the Layout tab, pick orientation presets such as Horizontal, Vertical, Crossing, Diagonal (+/- 45°), or Random Angles to match your aesthetic."
+    },
+    {
+      "title": "Dial in Density & Placement ⚙️",
+      "description": "Under the Style panel, adjust word density, maximum word scale, and repetition behavior. Choose between Fit to Shape (packs words until the silhouette is dense) or Target Count (places an exact number of words)."
+    },
+    {
+      "title": "Interactive Fine-Tuning 🖐️",
+      "description": "Once generated, the canvas is fully interactive! Click any word to drag, resize, rotate, change its color, pin its position, or bend it along a circular arc. Pinned words stay locked in place even when re-generating remaining words."
+    },
+    {
+      "title": "Export High-Resolution Artwork 💾",
+      "description": "Download your creation in vector SVG (with crystal-clear path curves or selectable text), high-DPI raster PNG / JPEG (up to 4K/8K resolution for prints and posters), or save your project as a reusable JSON preset."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Rust & WebAssembly Core 🦀",
+      "description": "Word placement inside complex shapes requires scanning millions of pixels to find optimal bounding boxes. A compiled Rust WebAssembly (WASM) engine executes a branch-free 2D histogram monotonic stack algorithm (find_max_empty_rectangle) alongside 64-bit word-parallel bitwise collision routines (PackedBitmap64), speeding up placement by over 15x–30x compared to pure JavaScript."
+    },
+    {
+      "title": "Dedicated Web Worker Execution 🧵",
+      "description": "Heavy algorithmic workloads and WASM routines execute entirely off the main thread in a dedicated Web Worker. Canvas image data buffers are transferred via zero-copy Transferable Objects, ensuring the user interface remains completely smooth (locked 60–120 FPS) with live streaming progress updates."
+    },
+    {
+      "title": "Computer Vision & Canny Edge Detection 👁️",
+      "description": "When custom images are imported, our Rust image pipeline performs real-time Grayscale conversion, 5×5 Gaussian smoothing, and Canny hysteresis edge detection. This carves interior silhouette boundaries and computes tight opaque bounding boxes in under 15ms for 4-megapixel images."
+    },
+    {
+      "title": "OpenType & Color Font Engine 🔤",
+      "description": "Powered by a customized fontkit adapter, the engine parses TrueType/OpenType font binaries directly, extracting Bézier curves, computing typographic metrics (x-height, ascenders), decomposing multi-layer color glyphs (COLR/CPAL), and calculating per-glyph affine transformation matrices for curved arc text bending."
+    },
+    {
+      "title": "Dual-Mode Graceful Fallback 🛡️",
+      "description": "The architecture implements a dual-mode engine: if WebAssembly is unavailable in legacy browser configurations, the pipeline seamlessly and transparently falls back to optimized TypeScript implementations without user interruption."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "projectId": "embroidery-digitizer",
+  "title": "🧵 How to Use the Industrial Digitizer",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Upload Artwork or Open Embroidery Files 📁",
+      "description": "Upload any artwork (SVG, PNG, JPG, WEBP) or open pre-existing embroidery machine files (.DST, .PES, .EXP, .JEF, .VP3, .XXX, .SEW). The engine automatically detects vectors or applies color segmentation, displaying stitch geometries instantly."
+    },
+    {
+      "title": "Choose Engine & Stitch Geometry 🎛️",
+      "description": "Preview realistic thread textures, lighting shadows, and jump-stitch dashed vectors. Use the bottom floating toolbar to play, pause, step forward/backward stitch-by-stitch, or scrub playback speed from 1x up to 100x. Use mouse wheel or pinch gestures to zoom and pan the embroidery hoop."
+    },
+    {
+      "title": "Direct Stitch & File Inspection 🔍",
+      "description": "Click the Inspect button on the canvas toolbar to open the full-screen virtual inspection stream. Powered by Angular CDK Virtual Scroll, easily scroll through 10,000+ stitch instructions at 60 FPS, filter by Stitches, Jumps, or Color Changes, jump directly to specific stitch indices, and copy technical specifications."
+    },
+    {
+      "title": "Machine Health & Quality Audit 🩺",
+      "description": "Click Audit Quality to run a real-time pre-flight diagnostic scan. The engine inspects your design for needle-breakage micro-stitches (<0.5 mm), snagging long stitches (>12.7 mm), density hotspots, and missing tie-in / tie-off lock stitches, giving you an overall Machine Readiness Score and safety tips."
+    },
+    {
+      "title": "Multi-Format Industrial Export 💾",
+      "description": "Download your ready-to-sew files in any major commercial embroidery format: Tajima (.DST), Brother (.PES), Melco/Bernina (.EXP), Janome (.JEF), Husqvarna Viking (.VP3), Singer (.XXX), or .SEW, or export high-resolution PNG/SVG mockups for production sheets."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Rust & WebAssembly Computational Geometry 🦀",
+      "description": "A high-performance Rust core compiled to WebAssembly (WASM) performs polygon raycasting, scanline slicing, contour normal offsetting, and path planning. It executes complex multi-layer stitch calculations across millions of operations in sub-millisecond execution times."
+    },
+    {
+      "title": "Clipper2 Boolean Overlap Removal ✂️",
+      "description": "Using the industrial-grade Clipper2 polygon clipping library in Rust, the digitizer performs boolean difference operations between layered shapes. Underneath layers are automatically trimmed to eliminate double-density bulletproof fabric stiffness and save thread."
+    },
+    {
+      "title": "Euler Path & TSP Travel Optimization 🧭",
+      "description": "The pipeline optimizes stitch sequencing using Traveling Salesperson heuristics and shortest-path graph algorithms. Disjoint regions are stitched efficiently with minimized jump distances, automatically inserting 3-stitch tie-in and tie-off lock stitches to guarantee stitch durability."
+    },
+    {
+      "title": "Multi-Format Binary Encoders & Decoders 🧬",
+      "description": "Custom binary encoders transpile coordinate streams into multi-vendor bitwise formats (.DST, .PES, .EXP, .JEF, .VP3, .XXX, .SEW) with byte-level header checksums, coordinate compression, and color palette blocks directly in memory."
+    },
+    {
+      "title": "60 FPS Micro-DOM Virtual Scrolling ⚡",
+      "description": "The Direct Stitch Inspection table utilizes Angular CDK Virtual Scroll (cdk-virtual-scroll-viewport). Even with 10,000+ stitch coordinate objects, only ~30 active DOM rows are rendered at any given moment, maintaining silky-smooth 60 FPS scrolling with negligible memory overhead."
+    },
+    {
+      "title": "Web Worker Multithreading 🧵",
+      "description": "Heavy WASM geometry generation runs in an isolated background Web Worker thread, keeping the Angular 19 UI completely responsive and stutter-free during complex embroidery processing."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

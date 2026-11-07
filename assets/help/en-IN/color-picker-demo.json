@@ -1,0 +1,82 @@
+{
+  "projectId": "color-picker-demo",
+  "title": "🎨 Benchmark Color & Gradient Editor",
+  "version": 1,
+  "steps": [
+    {
+      "title": "The Floating Workspace 🖱️",
+      "description": "Grab the top header of the Color Editor to drag it anywhere on your screen. The live preview updates the entire background of the application instantly, giving you full-screen context of how your color choices feel at scale."
+    },
+    {
+      "title": "Solid vs. Gradient Modes 🌓",
+      "description": "Use the top toggle to switch between a standard solid color and a complex gradient. In Gradient mode, a multi-point slider track appears. Click anywhere on the empty track to add a new color stop. Click and drag the circular handles to adjust the color blending, or use the red trash icon to delete the active stop."
+    },
+    {
+      "title": "Precision Tools & Eyedropper 💉",
+      "description": "Need to match a brand guideline? Type an exact Hex code into the input field (it fully supports 8-character Hex codes for opacity!). Alternatively, click the Eyedropper icon to sample any color directly from your screen—even outside the browser window. You can also click the quick-swatches below to snap to predefined brand colors."
+    },
+    {
+      "title": "Gradient Formatting 📐",
+      "description": "When in gradient mode, use the alignment tools to switch between Linear and Radial gradients. For linear gradients, simply type in a custom angle (0-360°) to rotate the color flow exactly how you want it."
+    },
+    {
+      "title": "Export to CSS 📋",
+      "description": "Once your gradient or solid color is perfect, click the \"Copy CSS\" button in the center of the screen. The exact rgba() or linear-gradient() CSS string is immediately copied to your clipboard."
+    }
+  ],
+  "cards": [
+    {
+      "title": "jQuery Eradication & Signal State 🛑",
+      "description": "The original implementation relied on querying the DOM (reading data-percent attributes off HTML elements) to calculate gradients. This Angular rewrite abolishes DOM-reading entirely. It uses a strict, unidirectional Signal-based data model. The UI is merely a reflection of the currentHsb() and gradientStops() arrays, resulting in zero-latency updates."
+    },
+    {
+      "title": "Universal Drag Directive 🧲",
+      "description": "Replacing jQuery UI's draggable physics required building a custom @HostListener directive. To prevent erratic jumping when clicking slider handles, the directive accepts a parent [appDragContainer]. It mathematically binds the mouse/touch clientX and clientY coordinates to the exact bounding rectangle of the track, ensuring flawless 0-100% percentage emissions."
+    },
+    {
+      "title": "Form Integration & ControlValueAccessor 🔌",
+      "description": "Despite its complexity, the entire editor acts as a standard HTML input. By implementing Angular's ControlValueAccessor, the component seamlessly integrates with Reactive Forms or two-way [(ngModel)] binding. It parses incoming CSS strings back into state, and emits perfectly formatted CSS outwards."
+    },
+    {
+      "title": "Pure Math Color Utilities 🧮",
+      "description": "Rather than importing bulky color-manipulation libraries, the app utilizes a custom ColorUtils class. It performs complex algebraic conversions between Hex, RGB, and HSB (Hue, Saturation, Brightness) natively. It even reverse-engineers 8-character Hex codes into precise floating-point Alpha channels."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

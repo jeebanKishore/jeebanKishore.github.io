@@ -1,0 +1,65 @@
+{
+  "projectId": "image-utility",
+  "title": "🖼️ How to Use Image Utility Studio",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Choose an Official Preset or Custom Size 🎯",
+      "description": "Select from dozens of government exam & visa presets (Indian Passport, PAN card, UPSC with DOP banner, SSC, IBPS, US Visa 2x2\", Schengen 35x45mm) or enter custom dimensions in mm, cm, inches, or pixels."
+    },
+    {
+      "title": "Interactive Biometric & Frame Positioning ✂️",
+      "description": "Position and crop your photo using mouse or touch drag and zoom. Align faces with official ICAO 9303 biometric guidelines (crown, eye level, chin) or apply creative frames (Polaroid, ID badge sleeve, custom frame PNG) with automatic window clipping."
+    },
+    {
+      "title": "Enhance Signatures & Clean Shadows 🖋️",
+      "description": "Use global Otsu adaptive thresholding to convert low-light mobile phone photos of signatures on wrinkled or shadowy paper into razor-sharp dark ink on pure white or transparent backgrounds."
+    },
+    {
+      "title": "Guaranteed Target Size Compression 🗜️",
+      "description": "Specify exact file size bounds (e.g. Min 20 KB, Max 50 KB). The binary-search compressor iteratively tunes quality to ensure your image never gets rejected by government automated scrutiny bots."
+    },
+    {
+      "title": "EXIF Privacy Sanitizer & DPI Embedding 🛡️",
+      "description": "Inspect camera and GPS metadata, strip sensitive geolocation tags with 1 click before sharing, and inject authentic JFIF 200/300 DPI tags directly into the exported JPEG."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Utility Modes & Tools",
+      "content": "Switch between Govt Presets, Custom Crop & Resize, Frames & Pan, Target Size Compressor, Signature Cleaner, Filters & Stamp, and EXIF tools.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Settings & Portal Presets",
+      "content": "Select target government portals (UPSC, Passport, US Visa), configure physical dimensions, DPI, and portal constraints.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "Quick Canvas Tools",
+      "content": "Toggle ICAO 9303 facial guidelines, rotate 90°, mirror flip, or center pan & zoom.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Image Stage",
+      "content": "Drag to pan and scroll or pinch to zoom. Your photo automatically fits available space while preserving its exact aspect ratio.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer]",
+      "title": "Reset & Export",
+      "content": "Reset your changes anytime or download the portal-compliant, DPI-calibrated image instantly.",
+      "placement": "top",
+      "icon": "download"
+    }
+  ]
+}
+

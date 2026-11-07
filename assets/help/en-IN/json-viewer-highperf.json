@@ -1,0 +1,78 @@
+{
+  "projectId": "json-viewer-highperf",
+  "title": "⚡ High-Performance Virtual JSON Viewer",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Ingest Massive Data 📥",
+      "description": "Upload multi-megabyte .json files directly from your device, or paste raw payloads into the editor. The UI remains completely responsive while background workers process the data."
+    },
+    {
+      "title": "Infinite Virtual Scrolling 🎢",
+      "description": "Navigate through thousands of nested objects and arrays with a locked 60 FPS. Expand or collapse massive arrays instantly without any layout thrashing or browser freezing."
+    },
+    {
+      "title": "Multi-Threaded Search 🔍",
+      "description": "Use the search bar to locate specific keys or values across massive datasets. The search query is executed on a dedicated background thread, ensuring the UI never stutters, even when scanning millions of characters."
+    },
+    {
+      "title": "Deep Inspection & Path Generation 📍",
+      "description": "Click on any node to open the Details Pane. The application automatically traces the node's ancestry to generate a programmatic, copy-pasteable JSON path (e.g., root.users[4].metadata.lastLogin), intelligently mixing dot and bracket notation."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Background Parser Thread 🧵",
+      "description": "Parsing strings into a deep AST (Abstract Syntax Tree) is an O(N) operation that blocks the main thread. We offload this to json-parser.worker.ts. This Web Worker recursively parses the JSON and flattens it into a 1D array of FlatJsonNode objects. It also pre-calculates structural metadata (like ancestorIsLast arrays) to draw the tree's vertical connecting lines."
+    },
+    {
+      "title": "CDK Virtual Viewport 🏎️",
+      "description": "Instead of rendering the entire flattened array, the UI leverages Angular's CdkVirtualScrollViewport. If your data has 50,000 nodes, but only 30 fit on your screen, the DOM only ever contains 30 elements. As you scroll, Angular instantly recycles and repaints those same 30 elements with the new data, keeping memory consumption microscopically low."
+    },
+    {
+      "title": "Zero-Serialization Search Engine 🚀",
+      "description": "Passing a 50,000-node array back and forth between the Main Thread and a Web Worker for every keystroke during a search would cause massive serialization lag. Instead, json-search.worker.ts caches the master array in its own memory *once* upon initialization. When you type, it only sends back an array of matched integers (indices), completely eliminating IPC (Inter-Process Communication) bottlenecks."
+    },
+    {
+      "title": "O(D) Path Backtracking 🧮",
+      "description": "Because the tree is rendered as a flat array instead of nested objects, generating the breadcrumb path requires clever mapping. Every node stores a parentId. When clicked, the engine performs a lightning-fast O(D) backtrack (where D is depth), traversing upward through the flat array to construct the precise syntax path instantly."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

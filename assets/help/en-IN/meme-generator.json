@@ -1,0 +1,74 @@
+{
+  "projectId": "meme-generator",
+  "title": "🎭 Advanced Meme Studio",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Canvas Setup 🖼️",
+      "description": "Click Image to upload your base template. The smart canvas will automatically contain and clip the image to optimal dimensions. Use the zoom controls or click and drag the image to frame it perfectly within the viewport."
+    },
+    {
+      "title": "Rich Text Compositing ✍️",
+      "description": "Use the Upper and Lower Text Editors to draft your content. Unlike standard generators, you can highlight individual words to change their color, font family, size, or background. Your changes are instantly rendered onto the live canvas."
+    },
+    {
+      "title": "Global Styling 🎨",
+      "description": "Use the Toggle BG button to switch the canvas backing between light and dark modes, automatically calculating the best contrast for unstyled text. Use the Align button to shift text alignment seamlessly."
+    },
+    {
+      "title": "Zero-Latency Export 💾",
+      "description": "Once your masterpiece is ready, click the Download icon. The application will instantly compile the DOM layers into a high-resolution PNG image directly on your device, requiring zero server processing."
+    }
+  ],
+  "cards": [
+    {
+      "title": "SVG Coordinate System 📐",
+      "description": "The core image engine is built on an infinitely scalable <svg> element utilizing an internal viewBox. This allows the app to perform complex pan and zoom matrix mathematics (tracking deltaX and deltaY via HostListeners) without losing resolution or triggering expensive browser layout reflows."
+    },
+    {
+      "title": "Safe HTML Injection Engine 🛡️",
+      "description": "To achieve multi-style typography within a single text block, the app utilizes Angular's DomSanitizer. This takes the raw output from the Rich Text Editor, safely bypasses security contexts, and binds it directly to the DOM using [innerHTML] while strictly preventing Cross-Site Scripting (XSS) vulnerabilities."
+    },
+    {
+      "title": "Client-Side Rasterization 📸",
+      "description": "Exporting HTML DOM layers (SVG images + div text blocks) as a single flat image file is incredibly complex. The app utilizes html2canvas-pro to traverse the DOM tree, clone the active CSS styles, and redraw the entire visual hierarchy pixel-by-pixel onto an isolated <canvas> element at 2x scale, before encoding it into a downloadable binary Blob."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

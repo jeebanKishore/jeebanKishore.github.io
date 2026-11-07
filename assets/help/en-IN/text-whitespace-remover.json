@@ -1,0 +1,74 @@
+{
+  "projectId": "text-whitespace-remover",
+  "title": "📖 How to Use",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Input Your Text 📥",
+      "description": "Choose one of two methods:"
+    },
+    {
+      "title": "Remove Whitespace 🧹",
+      "description": "Click the \"Remove All Whitespace\" button. The tool will:"
+    },
+    {
+      "title": "Copy Result 📋",
+      "description": "Click the \"Copy to Clipboard\" button to copy the processed text. You'll see a confirmation notification when the copy is successful."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Signal-Based State 🎯",
+      "description": "Uses Angular Signals for reactive state management with OnPush change detection, ensuring optimal performance and automatic UI updates."
+    },
+    {
+      "title": "Whitespace Removal Algorithm 🔧",
+      "description": "Uses the regular expression /\\\\s+/g to match and remove all Unicode whitespace characters, including:"
+    },
+    {
+      "title": "Clipboard API Integration 📋",
+      "description": "Uses the modern navigator.clipboard.writeText() API for secure, asynchronous clipboard operations with proper error handling and user feedback."
+    },
+    {
+      "title": "File Upload Support 📁",
+      "description": "Accepts text files (.txt) up to 5MB using the FileReader API. Files are read as UTF-8 text and processed client-side for privacy."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

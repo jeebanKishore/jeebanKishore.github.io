@@ -1,0 +1,78 @@
+{
+  "projectId": "png-to-svg",
+  "title": "✨ Advanced Auto-Vectorizer",
+  "version": 1,
+  "steps": [
+    {
+      "title": "One-Click Presets ⚡",
+      "description": "Start by uploading an image. Use the Quick Presets (Photo/Portrait, Logo/Icon, Line Art/Sketch) to automatically dial in the perfect tracing parameters for your specific image type."
+    },
+    {
+      "title": "Interactive Magic Wand 🪄",
+      "description": "Need to remove a background or isolate a specific shape? Use the built-in Magic Wand tool. Click anywhere on the image to intelligently select connected regions based on your defined Color Tolerance, powered by background Superpixel generation."
+    },
+    {
+      "title": "Advanced Engine Tuning 🎛️",
+      "description": "Take manual control over the math. Adjust Speckle Filtering to remove noise, tweak Corner & Length Thresholds for sharper or softer shapes, and choose between smooth Splines or rigid Polygons."
+    },
+    {
+      "title": "Professional CAD/Print Export 💾",
+      "description": "Once the math settles, download your vector. Export as a standard SVG for web and print, or use the DXF and EPS export options to directly feed AutoCAD, laser cutters, and CNC machines."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Web Worker Multithreading 🧵",
+      "description": "Image vectorization requires four intense passes: Color Quantization, Edge Detection, Path Generation, and Spline Optimization. The VectorizerService delegates this entire lifecycle to an isolated Web Worker via asynchronous message passing, ensuring your UI never freezes during complex calculations."
+    },
+    {
+      "title": "Hierarchical & Cutout Pathing 📐",
+      "description": "The engine supports two distinct polygon rendering methods. Stacked (Hierarchical) places smaller shapes on top of larger background shapes, ideal for digital art. Cutout mode literally punches mathematical holes out of overlapping shapes using boolean logic, creating perfect single-layer paths required for vinyl plotters and CNC routing."
+    },
+    {
+      "title": "Superpixel Segmentation 🧩",
+      "description": "To power the Magic Wand, the engine utilizes a Superpixel generation algorithm. Instead of analyzing millions of individual pixels, it groups perceptually similar adjacent pixels into larger geometric clusters. This allows the wand's flood-fill logic to traverse the image exponentially faster."
+    },
+    {
+      "title": "Synchronized Pan & Zoom Viewports 🔍",
+      "description": "To provide an exact 1:1 comparison between the original raster and the generated vector, the component utilizes Angular @HostListener bindings to track matrix transformations (Scale, TranslateX/Y). Panning or zooming on one canvas instantly applies the identical transformation matrix to the other, creating a flawless diffing experience."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "projectId": "pathology-lab",
+  "title": "biotech Pathology Report Generator & Lab Studio",
+  "version": 1,
+  "steps": [
+    {
+      "title": "tune 1. First-Time Laboratory Onboarding & Complete Lab Setup",
+      "description": "When launching Pathology Lab Studio for the first time on a new computer or clinic terminal, you must configure your laboratory's official branding, contact details, medical credentials, stationery calibration, and payment endpoints:"
+    },
+    {
+      "title": "person 2. Patient Registration & Demographics Input",
+      "description": "Accurate patient demographics are essential because biological reference intervals, normal ranges, and eGFR formulas automatically calibrate according to age and gender:"
+    },
+    {
+      "title": "science 3. Test Catalog Selection, Row-by-Row Search & Custom Tests",
+      "description": "Select individual diagnostic investigations, comprehensive multi-analyte clinical profiles, or register custom laboratory investigations on the fly:"
+    },
+    {
+      "title": "edit_note 4. Test Results Entry, Rapid Keystrokes & Auto-Calculations",
+      "description": "Engineered for high laboratory throughput, allowing medical technicians to key in complete reports without ever taking their hands off the keyboard:"
+    },
+    {
+      "title": "history 5. Viewing Report History, Searching & Restoring Past Visits",
+      "description": "All created, finalized, and amended reports are persisted locally in IndexedDB. Easily retrieve, review, re-print, or repeat visits for existing patients:"
+    },
+    {
+      "title": "receipt_long 6. Patient Billing, GST Invoicing & Dynamic UPI QR Payments",
+      "description": "Eliminate the need for separate accounting software with integrated point-of-sale billing, multi-tender payments, and instant NPCI dynamic QR codes:"
+    },
+    {
+      "title": "verified_user 7. Clinical Report Governance & Lifecycle (Draft ➔ Final ➔ Amended)",
+      "description": "Pathology Lab Studio enforces clinical audit trails through a 3-tier document lifecycle:"
+    },
+    {
+      "title": "print 8. Print Preview, Pagination & Pre-Printed Letterhead Calibration",
+      "description": "Deliver vector-crisp, publication-grade clinical printouts on standard A4 paper or pre-printed clinic letterheads:"
+    }
+  ],
+  "cards": [
+    {
+      "title": "bolt Angular Signals Reactive Store",
+      "description": "Built with lightweight, fine-grained Angular Signals. The centralized ReportStore tracks patient demographics, selected test panels, entered raw values, and clinical overrides. Derived state (abnormal counts, filled counts, calculation dependencies, and validation readiness) evaluates through memorized computed() signals at 60 FPS without wasteful component re-renders."
+    },
+    {
+      "title": "storage Robust Client-Side IndexedDB Engine",
+      "description": "Data persistence leverages browser-native IndexedDB through an asynchronous storage abstraction. Laboratories maintain thousands of patient visits, custom diagnostic panels, customized reference intervals, doctor registries, and base64 clinic logos and signatures with zero memory degradation or local storage size limitations."
+    },
+    {
+      "title": "straighten CSS Paged Media Print Precision",
+      "description": "The reporting view strictly conforms to W3C CSS Paged Media Module Level 3 (@page, size: A4 portrait, break-inside: avoid, and millimetric margin coordinates). Print stylesheets eliminate screen UI controls and backdrop layers, delivering vector-crisp typographic hierarchy with precise 0.25pt hair-line borders suitable for both laser and high-speed clinical printing."
+    },
+    {
+      "title": "monetization_on Integer Paise Monetary Arithmetic",
+      "description": "Patient billing and tax calculations avoid standard JavaScript floating-point representation anomalies (e.g. 0.1 + 0.2 !== 0.3). The billing engine internally performs all financial arithmetic strictly in integer paise (₹1 = 100 paise), guaranteeing penny-accurate GST computations, percentage discount rounds, and multi-tender cash reconciliations."
+    },
+    {
+      "title": "shield Native Web Crypto SHA-256 Security & Audit Trail",
+      "description": "Access control relies on the browser's hardware-accelerated SubtleCrypto API. Master admin passwords are authenticated against a cryptographically secure 128-bit salt and SHA-256 digest, ensuring zero plain-text credential leaks in local storage. All deletion events generate an immutable audit log tracking patient identifiers, deleted test panels, and calculated monetary amounts for full cash accountability."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

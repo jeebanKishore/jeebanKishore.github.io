@@ -1,0 +1,74 @@
+{
+  "projectId": "rent-receipt",
+  "title": "🧾 Professional Rent Receipt Generator",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Input Lease Parameters 📝",
+      "description": "Fill in the comprehensive configuration form with Tenant and Landlord details. The form strictly validates required fields to ensure your generated receipts meet standard accounting compliance."
+    },
+    {
+      "title": "Tax Compliance & PAN 🏛️",
+      "description": "For rent amounts exceeding specific tax thresholds, the tool provides a dedicated field for the Landlord's PAN. If provided, this is automatically injected into the footer of every generated receipt, satisfying governmental tax exemption requirements."
+    },
+    {
+      "title": "Live Document Preview 👁️",
+      "description": "As you type, the application dynamically builds a physical \"Paper\" preview below the configuration card. This WYSIWYG (What You See Is What You Get) interface lets you verify the exact layout, including the ₹1 Revenue Stamp placeholder and signature lines, before printing."
+    },
+    {
+      "title": "One-Click Batch Export 🖨️",
+      "description": "Generating receipts for an entire financial year? The engine can batch-process multiple months instantly. Click the print button to compile the receipts into an isolated, print-optimized document ready for physical printing or PDF saving."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Algorithmic Currency Localization 🇮🇳",
+      "description": "Standard JavaScript localization libraries often fail to properly format numbers using the South Asian numbering system. This application features a custom algorithmic parser that recursively breaks down raw integer inputs and transliterates them into accurate Indian currency syntax (e.g., Crores, Lakhs, Thousands) in real-time."
+    },
+    {
+      "title": "Reactive Form Architecture ⚡",
+      "description": "The core configuration utilizes Angular's ReactiveFormsModule interconnected with modern Signals. This creates a high-performance, unidirectional data flow. Any change to the FormGroup instantly recalculates the textual layout and currency conversions without requiring manual DOM updates or dirty-checking."
+    },
+    {
+      "title": "Print-Media DOM Isolation 🖨️",
+      "description": "Printing directly from a complex web app usually results in broken layouts containing UI buttons, scrollbars, and navigation headers. To solve this, the export pipeline extracts the pure receipt HTML and injects it into an isolated Blob object of type text/html. This Blob is served to a new, sterile browser window containing only the exact CSS required for A4 paper dimensions, guaranteeing a flawless PDF generation."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

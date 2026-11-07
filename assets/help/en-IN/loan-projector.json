@@ -1,0 +1,78 @@
+{
+  "projectId": "loan-projector",
+  "title": "🏦 Advanced Loan & Mortgage Projector",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Bidirectional Forecasting 🔄",
+      "description": "Use the calculation mode toggle to choose your strategy:"
+    },
+    {
+      "title": "Variable Interest Rates 📈",
+      "description": "Real mortgages fluctuate. Add Rate Revisions to simulate historical changes or project future rate hikes. The amortization engine will automatically recalculate the interest component from that exact date forward."
+    },
+    {
+      "title": "Strategic Prepayments 💰",
+      "description": "Got an annual bonus? Add it as a Prepayment. The schedule will instantly update to show you exactly how many thousands of rupees (and months of debt) that single lump-sum payment shaved off the backend of your loan."
+    },
+    {
+      "title": "Import, Export & Print 🗄️",
+      "description": "Building a complex 20-year mortgage simulation takes time. Click Download JSON to save your exact configuration (including all prepayments and rate changes) to your device. Next time you visit, just upload that JSON file to instantly resume where you left off."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Daily Reducing Balance Algorithm 🧮",
+      "description": "Most online calculators use simplistic monthly compounding. This service utilizes an exact daysInPeriod calculation. It computes the exact number of days between the previous payment and the current payment, accounting for leap years and 31-day months, to calculate the precise daily interest accrued (balance * rate / 365 * days)."
+    },
+    {
+      "title": "Client-Side State Hydration 💧",
+      "description": "The JSON import functionality circumvents server-side databases entirely. When a user drops a saved configuration file into the FileUploadComponent, the browser's native FileReader API parses the text, and the Angular component instantly hydrates the complex nested Signals (mapping stringified dates back into native JavaScript Date objects)."
+    },
+    {
+      "title": "Bidirectional Signal Binding ⚡",
+      "description": "The calcMode Signal acts as a master switch for the UI. By leveraging Angular's unidirectional data flow, disabling the \"Duration\" input dynamically recalculates the mathematical resolution strategy on every keystroke, ensuring the amortization array never falls out of sync with the user's inputs."
+    },
+    {
+      "title": "Print-Media CSS Segregation 🖨️",
+      "description": "To generate professional PDF reports, the DOM utilizes the .no-print CSS class architecture. When the user triggers the Print View, the UI cleanly strips away the configuration cards, upload zones, and interactive buttons, leaving only the pristine, A4-optimized Data Table and Summary Graphics for the print spooler."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

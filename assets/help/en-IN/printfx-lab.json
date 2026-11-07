@@ -1,0 +1,60 @@
+{
+  "projectId": "printfx-lab",
+  "title": "🎨 How to Use PrintFX Studio",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Select an Effect & Tweak Parameters 🎛️",
+      "description": "Browse 15 curated print effects across Distress & Texture, Misregistration & Print Flaws, Halftone & Engraving, Vector Typography, Layer Stacking & Base, Tactile & Dimensional, and Specialty Inks. Adjust ink colors, wear seed, grain scale, and dimensional angles with instant live proofs."
+    },
+    {
+      "title": "Choose Process & Substrate Setup 👕",
+      "description": "Select target print technologies (DTG, Screen Printing, Sublimation, DTF Transfer, Laser Engraving, or Label Printing). Preflight checks continuously validate ink contrast, minimum font sizes, and process incompatibilities (e.g., flagging white ink on dye sublimation or multi-tone inks on laser)."
+    },
+    {
+      "title": "Inspect Color Separations & Film Plates 🖨️",
+      "description": "Switch to the Color Plates view mode to inspect individual monochrome film plates generated for silk screen or flexo burning. Each plate displays spot ink swatch values, registration target marks, and prepress slug documentation."
+    },
+    {
+      "title": "Production Exports with pHYs DPI Calibration 💾",
+      "description": "Download production SVG vectors, layered Inkscape/Illustrator SVGs with one layer per ink plate, or raster PNGs injected with raw physical binary chunks (pHYs) so RIP software prints at exact physical dimensions (e.g. 300 DPI) without downsampling."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}

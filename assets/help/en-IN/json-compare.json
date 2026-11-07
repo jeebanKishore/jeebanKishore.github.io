@@ -1,0 +1,78 @@
+{
+  "projectId": "json-compare",
+  "title": "⚖️ High-Performance JSON Compare",
+  "version": 1,
+  "steps": [
+    {
+      "title": "Load Your Datasets 📥",
+      "description": "Upload or paste your \"Original\" and \"Modified\" JSON payloads into the configuration panels. Click the Compare JSON button to initiate the diffing engine."
+    },
+    {
+      "title": "Synchronized Split-View 👁️",
+      "description": "Scroll through either the left or right pane. The tool perfectly synchronizes the scroll position of both viewports, ensuring the original and modified nodes remain flawlessly aligned horizontally, just like professional Git diff tools."
+    },
+    {
+      "title": "Analyze the Diff 🎨",
+      "description": "The tool utilizes standard GitHub-style color coding to highlight changes:"
+    },
+    {
+      "title": "Collapse and Expand 🌳",
+      "description": "Click the + or - toggles to expand or collapse nested objects and arrays. Because both panes are bound to the same state engine, expanding a node on the left automatically expands its counterpart on the right to maintain visual symmetry."
+    }
+  ],
+  "cards": [
+    {
+      "title": "Simultaneous O(N) Traversal 🧮",
+      "description": "Instead of rendering two separate trees and attempting to diff them in the UI, a dedicated Web Worker (json-diff.worker.ts) walks both the Original and Modified JSON objects simultaneously. It recursively compares node types and values in a single pass, flattening the multi-dimensional objects into two linear 1D arrays to prevent main-thread freezing."
+    },
+    {
+      "title": "Dummy Node Injection 💉",
+      "description": "To maintain perfect horizontal alignment in a split view, both arrays must be the exact same length. When the algorithm detects that a key was added to the right side, it intentionally pushes a blank \"Dummy Node\" into the left array. The UI renders this dummy node as an empty, striped spacer, ensuring all subsequent nodes stay locked in vertical sync."
+    },
+    {
+      "title": "Dual Virtual Viewports 🏎️",
+      "description": "The UI utilizes two side-by-side Angular CdkVirtualScrollViewport components. Even if the diff generates 100,000 nodes, the DOM only ever renders the ~40 nodes currently visible on your screen. The components recycle DOM elements as you scroll, keeping memory consumption near zero."
+    },
+    {
+      "title": "Cross-Viewport Scroll Synchronization 🔄",
+      "description": "Keeping two independent virtual scrollers aligned requires strict event management. The component binds to the native (scroll) events of both viewports. When the left pane scrolls, it programmatically updates the scrollTop of the right pane (and vice versa). To prevent an infinite event-triggering loop, a boolean locking mechanism (isSyncingLeft / isSyncingRight) intercepts and nullifies the echo events."
+    }
+  ],
+  "tourSteps": [
+    {
+      "targetSelector": "[shell-rail]",
+      "title": "Navigation Rail",
+      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "placement": "right",
+      "icon": "tab"
+    },
+    {
+      "targetSelector": "[shell-master]",
+      "title": "Controls & Inputs",
+      "content": "Upload files, customize settings, and tweak parameters here.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": "[shell-canvas-header]",
+      "title": "View Modes",
+      "content": "Toggle between original, processed, split, and inspection views.",
+      "placement": "bottom",
+      "icon": "visibility"
+    },
+    {
+      "targetSelector": "[shell-canvas-content]",
+      "title": "Interactive Stage",
+      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "placement": "bottom",
+      "icon": "preview"
+    },
+    {
+      "targetSelector": "[shell-canvas-footer] .footer-actions",
+      "title": "Actions & Export",
+      "content": "Trigger processing, reset parameters, or download your results.",
+      "placement": "top",
+      "icon": "auto_fix_high"
+    }
+  ]
+}
