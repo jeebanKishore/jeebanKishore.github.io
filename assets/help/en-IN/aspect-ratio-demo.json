@@ -1,78 +1,125 @@
 {
   "projectId": "aspect-ratio-demo",
   "title": "📐 Aspect Ratio & Scaling Lab",
-  "version": 1,
+  "version": 2,
   "steps": [
     {
-      "title": "Provide a Test Image 🖼️",
-      "description": "Upload any image to use as your test subject. The tool will automatically project it into three distinct container shapes: Landscape (280×200), Portrait (200×280), and Square (200×200)."
+      "title": "1. Open the Settings rail",
+      "description": "The left rail contains one workspace: Settings. Select it to reveal the image upload control and scaling options in the master pane. The project compares the same source image across three fixed aspect-ratio surfaces."
     },
     {
-      "title": "Select the Scale Mode 🎛️",
-      "description": "Use the Scale Mode dropdown to fundamentally change how the image reacts to its container's boundaries:"
+      "title": "2. Provide an image",
+      "description": "Use the upload area to choose an image from your device. Images are processed in the browser. If no custom image is loaded, choose one of the built-in portrait, landscape, or square sample images from Default Image Format."
     },
     {
-      "title": "Adjust the Focal Alignment 🎯",
-      "description": "When using Meet or Slice, the image might have extra space or be cropped. Use the X / Y Alignment dropdowns (Min, Mid, Max) to dictate which part of the image should anchor to the container. Want to crop towards the top-right corner? Set X to Max and Y to Min!"
+      "title": "3. Choose X and Y alignment",
+      "description": "Min, Mid, and Max control which part of the image remains anchored when Meet or Slice changes the visible crop. For example, X = Max and Y = Min keeps the upper-right region aligned while excess content is cropped."
     },
     {
-      "title": "Compare the Renders 🔍",
-      "description": "Scroll down to see the results. The top row utilizes standard <canvas> rendering, while the bottom row uses native <svg> rendering. Our custom mathematical engine guarantees both rows will look absolutely identical, proving our scaling math is pixel-perfect!"
+      "title": "4. Choose the fit mode: Meet or Slice",
+      "description": "Meet fits the complete image inside each container and may leave letterboxed space. Slice fills the complete container and crops overflow. Change the mode to compare how the same source behaves in landscape, portrait, and square surfaces."
+    },
+    {
+      "title": "5. Select Canvas or SVG implementation",
+      "description": "Use the canvas header tabs to compare the two rendering implementations. Canvas uses the 2D drawImage API with calculated source and destination rectangles; SVG uses native image scaling and preserveAspectRatio behavior."
+    },
+    {
+      "title": "6. Compare the three output surfaces",
+      "description": "Each view shows landscape (280×200), portrait (200×280), and square (200×200) output. Compare cropping, empty space, and focal alignment across all three shapes rather than judging only one preview."
+    },
+    {
+      "title": "7. Read the current setting",
+      "description": "The topbar status displays the active composite setting, such as xMidYMid meet or xMaxYMin slice. Use it to record or reproduce a particular comparison configuration."
+    },
+    {
+      "title": "8. Reset the experiment",
+      "description": "Reset restores the default alignment and fit controls. Clearing an uploaded image returns the demo to the selected built-in sample image. Reset does not export or persist an image; it only restores the current workspace state."
     }
   ],
   "cards": [
     {
-      "title": "The \"preserveAspectRatio\" Discrepancy ⚖️",
-      "description": "In an SVG, achieving perfect letterboxing or cropping is as simple as adding an attribute like preserveAspectRatio=\"xMidYMax slice\" to an <image> tag. However, the Canvas 2D API's drawImage() method has absolutely no built-in equivalent, making responsive canvas graphics incredibly tedious to code."
+      "title": "Settings rail and master pane",
+      "description": "The Settings rail item opens the only control pane in this project. The pane contains upload/input controls and four selectors: X Alignment, Y Alignment, Fit Mode, and Default Image Format. Default Image Format is shown only when a custom upload is not active."
     },
     {
-      "title": "Algorithmic Canvas Polyfill 🧮",
-      "description": "To solve this, we engineered the AspectRatioService. It acts as a mathematical polyfill for Canvas. It parses strings like \"xMaxYMid slice\" and executes complex dimensional arithmetic to calculate the exact Source X/Y (sx, sy), Source Width/Height (swidth, sheight), and Destination coordinates required to mimic SVG behavior on the Canvas API."
+      "title": "Upload behavior",
+      "description": "The shared image upload control validates the selected file before the component creates an in-memory HTMLImageElement. The image is rendered locally into Canvas and SVG previews. Selecting a custom image hides the built-in format selector until the image is cleared."
     },
     {
-      "title": "Handling the \"Meet\" Calculation 📐",
-      "description": "When in \"Meet\" mode, the algorithm calculates the scaling ratio for both width and height independently. It selects the minimum ratio of the two, applies it to the image, and then calculates the remaining delta pixels in the container to properly anchor the image based on your Min/Mid/Max alignment choices."
+      "title": "Meet versus Slice",
+      "description": "Meet calculates a scale that keeps the entire source image visible inside the destination rectangle. Slice calculates a scale that fills the destination rectangle, then uses X/Y alignment to decide which overflow remains visible."
     },
     {
-      "title": "Reactive Render Pipeline ⚡",
-      "description": "The UI state is driven entirely by Angular Signals (xAlignment, yAlignment, scaleMode). Any change to the dropdowns instantly generates a new composite string (e.g., \"xMidYMid meet\"), triggering a simultaneous DOM update for the SVG attributes and a complete recalculation and re-draw sequence for the Canvas contexts at 60FPS."
+      "title": "Alignment model",
+      "description": "The component combines the selected values into a string such as xMidYMid meet. Min, Mid, and Max are applied independently to the horizontal and vertical axes, allowing nine focal positions for each fit mode."
+    },
+    {
+      "title": "Canvas implementation",
+      "description": "The Canvas view uses three fixed-size canvas elements and recalculates their drawing rectangles when controls change or the container is resized. The component keeps the preview elements mounted so their rendering contexts remain stable."
+    },
+    {
+      "title": "SVG implementation",
+      "description": "The SVG view uses three native SVG image elements with matching viewBox dimensions. It provides a direct comparison against Canvas scaling and alignment behavior. Switching tabs changes visibility while preserving the preview elements."
+    },
+    {
+      "title": "Responsive redraw",
+      "description": "A ResizeObserver watches the canvas content region and redraws the previews when the available space changes. This keeps the comparison usable when the shell pane is collapsed, the viewport changes size, or the application enters a compact layout."
+    },
+    {
+      "title": "Troubleshooting: blank preview",
+      "description": "If a preview is blank, wait for the sample image to finish loading or choose another built-in format. For a custom file, confirm that it is a supported image type and reselect it if the browser did not finish decoding it."
+    },
+    {
+      "title": "Troubleshooting: unexpected crop",
+      "description": "Slice intentionally crops overflow. Try Meet to display the complete image, or change X Alignment and Y Alignment to move the focal area toward Min, Mid, or Max. The topbar composite setting confirms the active values."
+    },
+    {
+      "title": "Privacy and processing",
+      "description": "Uploaded images are read and rendered in the browser. The component uses local image, Canvas, SVG, and ResizeObserver APIs; it does not send the selected image to an application backend."
     }
   ],
   "tourSteps": [
     {
-      "targetSelector": "[shell-rail]",
-      "title": "Navigation Rail",
-      "content": "Switch between modes, tools, configuration tabs, and metrics.",
-      "placement": "right",
-      "icon": "tab"
-    },
-    {
-      "targetSelector": "[shell-master]",
-      "title": "Controls & Inputs",
-      "content": "Upload files, customize settings, and tweak parameters here.",
+      "targetSelector": ".aspect-ratio-shell-wrapper [shell-rail]",
+      "title": "Settings workspace",
+      "content": "This project has one rail item. Open Settings to control the source image, alignment, and fit behavior.",
       "placement": "right",
       "icon": "tune"
     },
     {
-      "targetSelector": "[shell-canvas-header]",
-      "title": "View Modes",
-      "content": "Toggle between original, processed, split, and inspection views.",
-      "placement": "bottom",
-      "icon": "visibility"
+      "targetSelector": ".aspect-ratio-settings-pane .upload-section",
+      "title": "Choose a source image",
+      "content": "Upload an image to compare it across three aspect-ratio surfaces, or use the built-in sample formats.",
+      "placement": "right",
+      "icon": "upload_file"
     },
     {
-      "targetSelector": "[shell-canvas-content]",
-      "title": "Interactive Stage",
-      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "targetSelector": ".aspect-ratio-settings-pane .controls-grid",
+      "title": "Control scaling and focal point",
+      "content": "Try Meet and Slice, then change X and Y alignment to see how cropping and letterboxing respond.",
+      "placement": "right",
+      "icon": "tune"
+    },
+    {
+      "targetSelector": ".aspect-ratio-canvas-header",
+      "title": "Compare Canvas and SVG",
+      "content": "Switch between the Canvas and SVG implementations to compare their rendering behavior.",
       "placement": "bottom",
+      "icon": "compare"
+    },
+    {
+      "targetSelector": ".aspect-ratio-canvas-content",
+      "title": "Inspect three output shapes",
+      "content": "Compare landscape, portrait, and square previews and watch how the active setting affects each surface.",
+      "placement": "top",
       "icon": "preview"
     },
     {
-      "targetSelector": "[shell-canvas-footer] .footer-actions",
-      "title": "Actions & Export",
-      "content": "Trigger processing, reset parameters, or download your results.",
-      "placement": "top",
-      "icon": "auto_fix_high"
+      "targetSelector": ".aspect-ratio-topbar-status",
+      "title": "Read or reproduce the setting",
+      "content": "The topbar shows the active composite value, such as xMidYMid meet. Use Reset in the footer to return to defaults.",
+      "placement": "bottom",
+      "icon": "info"
     }
   ]
 }

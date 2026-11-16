@@ -11,10 +11,12 @@ export class JsonVisualizer {
     expand_all(): void;
     export_svg(): string;
     get_current_search_index(): number;
+    get_node_breadcrumb(node_id: number): string | undefined;
     get_node_count(): number;
     get_pan_x(): number;
     get_pan_y(): number;
     get_search_result_count(): number;
+    get_search_results_json(limit: number): string;
     get_visible_count(): number;
     get_zoom(): number;
     handle_click(x: number, y: number): string | undefined;
@@ -28,6 +30,7 @@ export class JsonVisualizer {
     reset_view(): void;
     resize(width: number, height: number): void;
     search(query: string): number;
+    select_search_result(index: number): boolean;
     set_dark_mode(is_dark: boolean): void;
     set_limits(max_depth: number, max_array_items: number, max_nodes: number): void;
     set_theme(theme: number): void;
@@ -53,10 +56,12 @@ export interface InitOutput {
     readonly jsonvisualizer_expand_all: (a: number) => void;
     readonly jsonvisualizer_export_svg: (a: number, b: number) => void;
     readonly jsonvisualizer_get_current_search_index: (a: number) => number;
+    readonly jsonvisualizer_get_node_breadcrumb: (a: number, b: number, c: number) => void;
     readonly jsonvisualizer_get_node_count: (a: number) => number;
     readonly jsonvisualizer_get_pan_x: (a: number) => number;
     readonly jsonvisualizer_get_pan_y: (a: number) => number;
     readonly jsonvisualizer_get_search_result_count: (a: number) => number;
+    readonly jsonvisualizer_get_search_results_json: (a: number, b: number, c: number) => void;
     readonly jsonvisualizer_get_visible_count: (a: number) => number;
     readonly jsonvisualizer_get_zoom: (a: number) => number;
     readonly jsonvisualizer_handle_click: (a: number, b: number, c: number, d: number) => void;
@@ -70,6 +75,7 @@ export interface InitOutput {
     readonly jsonvisualizer_reset_view: (a: number) => void;
     readonly jsonvisualizer_resize: (a: number, b: number, c: number) => void;
     readonly jsonvisualizer_search: (a: number, b: number, c: number) => number;
+    readonly jsonvisualizer_select_search_result: (a: number, b: number) => number;
     readonly jsonvisualizer_set_dark_mode: (a: number, b: number) => void;
     readonly jsonvisualizer_set_limits: (a: number, b: number, c: number, d: number) => void;
     readonly jsonvisualizer_set_theme: (a: number, b: number) => void;
@@ -77,8 +83,8 @@ export interface InitOutput {
     readonly jsonvisualizer_zoom: (a: number, b: number, c: number, d: number) => void;
     readonly __wbindgen_export: (a: number, b: number) => number;
     readonly __wbindgen_export2: (a: number, b: number, c: number, d: number) => number;
-    readonly __wbindgen_export3: (a: number, b: number, c: number) => void;
-    readonly __wbindgen_export4: (a: number) => void;
+    readonly __wbindgen_export3: (a: number) => void;
+    readonly __wbindgen_export4: (a: number, b: number, c: number) => void;
     readonly __wbindgen_add_to_stack_pointer: (a: number) => number;
 }
 

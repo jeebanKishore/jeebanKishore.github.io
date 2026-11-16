@@ -1,98 +1,237 @@
 {
   "projectId": "pathology-lab",
-  "title": "biotech Pathology Report Generator & Lab Studio",
-  "version": 1,
+  "title": "Pathology Lab: complete workflow guide",
+  "version": 2,
   "steps": [
     {
-      "title": "tune 1. First-Time Laboratory Onboarding & Complete Lab Setup",
-      "description": "When launching Pathology Lab Studio for the first time on a new computer or clinic terminal, you must configure your laboratory's official branding, contact details, medical credentials, stationery calibration, and payment endpoints:"
+      "title": "tune 1. First-time setup",
+      "description": "Open Manage and configure the laboratory profile before creating a report. Add the laboratory name, address, contact details, logo, signature, report display preferences, stationery margins, letterhead options, payment details, investigation scope, and security settings. These settings are stored in this browser and are used by later reports.",
+      "substeps": [
+        "Open Manage from the workspace controls.",
+        "Complete the laboratory profile and contact details.",
+        "Configure report branding, stationery, payment, investigation, and security options.",
+        "Save settings and verify the preview before creating a report."
+      ]
     },
     {
-      "title": "person 2. Patient Registration & Demographics Input",
-      "description": "Accurate patient demographics are essential because biological reference intervals, normal ranges, and eGFR formulas automatically calibrate according to age and gender:"
+      "title": "person 2. Register the patient",
+      "description": "Enter the patient name and sex, which are required before a report can be finalized. Age and age unit, patient ID, sample barcode, referring doctor, collection/report dates and times, and clinical history are optional fields that help identify and contextualize the visit. Check the patient identity and specimen details before continuing.",
+      "substeps": [
+        "Open Patient and enter the patient name and sex.",
+        "Add age, identifiers, sample, doctor, dates, and history as available.",
+        "Check every identifier against the specimen and request form.",
+        "Use the readiness panel to confirm the patient section is complete."
+      ]
     },
     {
-      "title": "science 3. Test Catalog Selection, Row-by-Row Search & Custom Tests",
-      "description": "Select individual diagnostic investigations, comprehensive multi-analyte clinical profiles, or register custom laboratory investigations on the fly:"
+      "title": "science 3. Select investigations",
+      "description": "Use the Tests pane to search by test or analyte, filter by department, show favorites, select a complete package, or select individual analytes. Use the star button to manage favorites. Removing the last active analyte removes that panel from the report. Custom Test lets you create a local test definition; configure its analytes, units, reference values, pricing, and display behavior carefully.",
+      "substeps": [
+        "Open Tests and search or filter the catalog.",
+        "Use favorites or select a complete package when appropriate.",
+        "Select individual analytes when only part of a panel is needed.",
+        "Review the selected-test chips before moving to Results."
+      ]
     },
     {
-      "title": "edit_note 4. Test Results Entry, Rapid Keystrokes & Auto-Calculations",
-      "description": "Engineered for high laboratory throughput, allowing medical technicians to key in complete reports without ever taking their hands off the keyboard:"
+      "title": "edit_note 4. Enter results",
+      "description": "Open the Results pane to enter numeric, qualitative, or custom text results. Search within results, collapse or expand panels, and switch between card and table layouts. Quick values are shortcuts for common entries. Calculated analytes use configured formulas; a typed value becomes a manual override until it is reset. Reference ranges and displayed units are configuration aids and must be reviewed against local laboratory policy.",
+      "substeps": [
+        "Open Results and choose card or table view.",
+        "Search for the analyte and enter the result using the appropriate input type.",
+        "Review units, ranges, calculated values, and visible flags.",
+        "Save the draft before leaving the workspace."
+      ]
     },
     {
-      "title": "history 5. Viewing Report History, Searching & Restoring Past Visits",
-      "description": "All created, finalized, and amended reports are persisted locally in IndexedDB. Easily retrieve, review, re-print, or repeat visits for existing patients:"
+      "title": "rule 5. Review flags and controls",
+      "description": "Low, high, abnormal, implausible, calculated, manually bolded, excluded, and panic indicators help you review the data entered into the application. Fill Demo Values is for testing the interface only and must not be used as clinical data. Restore excluded parameters, clear a panel, reset a calculated value, or edit a reference range only after confirming the intended change.",
+      "substeps": [
+        "Review low, high, abnormal, implausible, and panic indicators.",
+        "Use Fill Demo Values only for interface testing.",
+        "Restore excluded analytes or clear a panel only after confirming the effect.",
+        "Review any range override and document local policy decisions separately."
+      ]
     },
     {
-      "title": "receipt_long 6. Patient Billing, GST Invoicing & Dynamic UPI QR Payments",
-      "description": "Eliminate the need for separate accounting software with integrated point-of-sale billing, multi-tender payments, and instant NPCI dynamic QR codes:"
+      "title": "save 6. Save and recover drafts",
+      "description": "Save Report stores the current draft in local browser storage. The application also maintains a crash-recovery draft while you work. If a pending draft is found when the project opens, review it before restoring or discarding it. Clear/New Report removes the current working data after confirmation; export a backup first when the data matters.",
+      "substeps": [
+        "Use Save Report to persist the current draft.",
+        "If draft recovery appears, compare it with the current work before restoring.",
+        "Use Clear/New Report only after confirming the action.",
+        "Export a backup before destructive storage operations."
+      ]
     },
     {
-      "title": "verified_user 7. Clinical Report Governance & Lifecycle (Draft ➔ Final ➔ Amended)",
-      "description": "Pathology Lab Studio enforces clinical audit trails through a 3-tier document lifecycle:"
+      "title": "history 7. Use report history",
+      "description": "Report History supports text search and date filters for all, today, the last 7 days, or the last 30 days. Load opens a saved report for review. Repeat Visit creates a new editable draft with selected patient demographics but without the previous results or report identity. Delete permanently removes the selected record after the configured authorization checks and records the action in the audit log.",
+      "substeps": [
+        "Search history by patient or report text.",
+        "Use the date filter and reset it when needed.",
+        "Load a report for review or choose Repeat Visit for a new draft.",
+        "Delete only after confirming the record and authorization requirements."
+      ]
     },
     {
-      "title": "print 8. Print Preview, Pagination & Pre-Printed Letterhead Calibration",
-      "description": "Deliver vector-crisp, publication-grade clinical printouts on standard A4 paper or pre-printed clinic letterheads:"
+      "title": "verified 8. Finalize and amend",
+      "description": "Finalize is enabled only when the patient, selected investigations, and required result readiness checks pass. Finalization stores an immutable snapshot and locks report-mutating controls. To correct a finalized report, use the Clinical Amendment workflow, provide an auditable reason, and review the amended report. Finalization, amendment, and print output should be reviewed by an appropriately qualified person.",
+      "substeps": [
+        "Complete the readiness checklist before finalizing.",
+        "Review patient, tests, values, flags, and preview output.",
+        "Confirm the finalization dialog and wait for the snapshot to save.",
+        "Use amendment for corrections; do not try to edit a locked report."
+      ]
+    },
+    {
+      "title": "visibility 9. Review the preview",
+      "description": "Use the preview toolbar to zoom out, zoom in, return to actual size, auto-scale, switch between continuous and single-page views, and move between pages. The readiness menu explains missing patient, test, or result prerequisites. The alignment grid is a calibration aid for stationery margins and does not change report data.",
+      "substeps": [
+        "Use zoom and auto-scale to inspect the page.",
+        "Switch between continuous and single-page layouts.",
+        "Use previous and next page controls for multi-page reports.",
+        "Open readiness details if an export action is disabled."
+      ]
+    },
+    {
+      "title": "print 10. Generate PDF or print",
+      "description": "Quick PDF creates a vector report from the current preview when readiness requirements are met. Official Print opens the browser print workflow. Review page count, patient identity, results, flags, stationery margins, letterhead, signatures, footer, watermark, and calculated-result markers before saving or printing. A4 portrait is the default; A5 landscape is available when the stationery profile is configured for it.",
+      "substeps": [
+        "Choose PDF or browser Print after reviewing the preview.",
+        "Select the configured A4 or A5 stationery profile.",
+        "Check margins, letterhead, signatures, footer, watermark, and page breaks.",
+        "Review the generated file or print preview before distribution."
+      ]
+    },
+    {
+      "title": "receipt_long 11. Invoice and payments",
+      "description": "Invoice & Billing is available after a valid patient and at least one selected panel exist. Review the calculated subtotal, choose a percentage discount, select Cash, UPI, or Card, enter the amount received and an optional payment/reference number, then record the payment. Partial and fully settled payments appear in payment history. Print Receipt produces a billing receipt; verify amounts and payment references before issuing it.",
+      "substeps": [
+        "Open Invoice & Billing after patient and panel prerequisites are met.",
+        "Select a discount and payment method.",
+        "Enter the received amount and payment/reference number.",
+        "Record the payment and review history before printing the receipt."
+      ]
+    },
+    {
+      "title": "description 12. Report display and stationery",
+      "description": "Manage controls can show a draft watermark or badge, display configured panic notices, and show calculated-result hash markers. When stationery is enabled, configure reserved margins, header/footer/signature suppression, letterhead preview, background printing, and page size. Use the calibration grid and a test print to verify alignment before using pre-printed paper.",
+      "substeps": [
+        "Enable stationery only when the printed workflow requires it.",
+        "Set reserved margins and page size for the physical paper.",
+        "Use the alignment grid for a test calibration print.",
+        "Choose whether letterhead appears in preview and export."
+      ]
+    },
+    {
+      "title": "backup 13. Backup, import, and reset",
+      "description": "Export Backup creates a local .plr-backup file containing the project data and configured assets. Import replaces the current pathology data on this device, so export the existing data first and verify the selected file. The rollback action is intended for the immediately preceding import. Factory Reset is destructive and clears pathology data from browser storage; use it only after confirming that a verified backup exists.",
+      "substeps": [
+        "Export a backup before importing or resetting data.",
+        "Confirm that import will replace current device data.",
+        "Use rollback only for the immediately preceding import.",
+        "Verify important reports after import and protect the backup file."
+      ]
+    },
+    {
+      "title": "shield 14. Security and audit log",
+      "description": "Security settings can create, change, or remove a master password and can require that password before deleting records. The audit log supports searching, exporting, and clearing recorded deletion events. A browser password or local audit log is not a replacement for an organization’s access-control, retention, or backup policy. Protect exported files and the device where this application is used.",
+      "substeps": [
+        "Set a master password if deletion authorization is required.",
+        "Choose whether deleting records requires the password.",
+        "Review and export the audit log according to local policy.",
+        "Use clear-audit and password-removal actions only after confirmation."
+      ]
+    },
+    {
+      "title": "keyboard 15. Keyboard, mobile, and offline use",
+      "description": "Useful shortcuts include Ctrl/Cmd+S to save, P to print, N to start a new report, B to collapse the sidebar, / to focus supported searches, and ? to open help. On mobile, use the rail and pane controls to move between Patient, Tests, Results, and Manage. The application processes report data in this browser; offline operation depends on the service worker, cached application/help assets, and browser storage availability.",
+      "substeps": [
+        "Use the keyboard shortcuts when working at a desktop.",
+        "Use the rail and collapsed panes on mobile.",
+        "Keep the app open online once so the PWA can update its cached assets.",
+        "Confirm browser storage and service-worker availability before relying on offline work."
+      ]
+    },
+    {
+      "title": "info 16. Clinical and data-safety notice",
+      "description": "This guide documents software controls and is not medical advice. Reference intervals, formulas, flags, and panic thresholds are configurable or reference aids; they do not independently diagnose or determine treatment. Verify patient identity, specimen, units, configured ranges, calculations, and the final signed report according to qualified laboratory review and local policy. Browser storage can be cleared or become unavailable, so maintain an approved backup and retention process.",
+      "substeps": [
+        "Treat ranges, formulas, flags, and panic limits as configured aids.",
+        "Verify patient identity, specimen, units, and result entries.",
+        "Have a qualified reviewer check the report.",
+        "Follow the laboratory’s retention, approval, and distribution policy."
+      ]
     }
   ],
   "cards": [
     {
-      "title": "bolt Angular Signals Reactive Store",
-      "description": "Built with lightweight, fine-grained Angular Signals. The centralized ReportStore tracks patient demographics, selected test panels, entered raw values, and clinical overrides. Derived state (abnormal counts, filled counts, calculation dependencies, and validation readiness) evaluates through memorized computed() signals at 60 FPS without wasteful component re-renders."
+      "title": "route Report lifecycle",
+      "description": "The normal flow is setup → patient → tests → results → review → save → finalize → PDF/print. A finalized report is locked; corrections use the amendment workflow, while Repeat Visit creates a separate draft."
     },
     {
-      "title": "storage Robust Client-Side IndexedDB Engine",
-      "description": "Data persistence leverages browser-native IndexedDB through an asynchronous storage abstraction. Laboratories maintain thousands of patient visits, custom diagnostic panels, customized reference intervals, doctor registries, and base64 clinic logos and signatures with zero memory degradation or local storage size limitations."
+      "title": "storage Local-first data",
+      "description": "Reports, settings, custom tests, and configured assets are stored locally in the browser. This supports offline use but is not synchronization or disaster recovery. Browser profile changes, private browsing restrictions, quota limits, and clearing site data can affect availability."
     },
     {
-      "title": "straighten CSS Paged Media Print Precision",
-      "description": "The reporting view strictly conforms to W3C CSS Paged Media Module Level 3 (@page, size: A4 portrait, break-inside: avoid, and millimetric margin coordinates). Print stylesheets eliminate screen UI controls and backdrop layers, delivering vector-crisp typographic hierarchy with precise 0.25pt hair-line borders suitable for both laser and high-speed clinical printing."
+      "title": "fact Readiness checks",
+      "description": "The readiness panel indicates which prerequisites are satisfied. A valid patient, selected investigations, and recorded values are required for the relevant report actions. A disabled button normally means a prerequisite is missing or the report is finalized."
     },
     {
-      "title": "monetization_on Integer Paise Monetary Arithmetic",
-      "description": "Patient billing and tax calculations avoid standard JavaScript floating-point representation anomalies (e.g. 0.1 + 0.2 !== 0.3). The billing engine internally performs all financial arithmetic strictly in integer paise (₹1 = 100 paise), guaranteeing penny-accurate GST computations, percentage discount rounds, and multi-tender cash reconciliations."
+      "title": "calculate Configured calculations",
+      "description": "Calculated values and reference ranges follow the configured catalog and formula rules. A manually entered calculated value is treated as an override until reset. Review calculated outputs and their inputs; do not assume a configured formula is appropriate for every clinical context."
     },
     {
-      "title": "shield Native Web Crypto SHA-256 Security & Audit Trail",
-      "description": "Access control relies on the browser's hardware-accelerated SubtleCrypto API. Master admin passwords are authenticated against a cryptographically secure 128-bit salt and SHA-256 digest, ensuring zero plain-text credential leaks in local storage. All deletion events generate an immutable audit log tracking patient identifiers, deleted test panels, and calculated monetary amounts for full cash accountability."
+      "title": "print Print verification",
+      "description": "Always verify patient identifiers, sample identifiers, page count, result values, units, flags, comments, margins, letterhead, and signatures before distributing a PDF or printed report. Use a calibration print when changing stationery or printer settings."
+    },
+    {
+      "title": "backup Backup before destructive actions",
+      "description": "Export before importing, factory reset, changing storage environments, or making major catalog changes. Keep backup files protected and test that important backups can be imported before relying on them."
     }
   ],
   "tourSteps": [
     {
       "targetSelector": "[shell-rail]",
-      "title": "Navigation Rail",
-      "content": "Switch between modes, tools, configuration tabs, and metrics.",
+      "title": "Navigate the lab workspace",
+      "content": "Use the rail to move between Patient, Tests, Results, and Manage. On smaller screens, the rail and master pane can be collapsed to make more room for the report preview.",
       "placement": "right",
       "icon": "tab"
     },
     {
+      "targetSelector": ".patient-context-ribbon",
+      "title": "Check patient context",
+      "content": "The context ribbon summarizes the active patient, sample, selected tests, and flagged values. Confirm this information before entering or printing results.",
+      "placement": "bottom",
+      "icon": "person"
+    },
+    {
       "targetSelector": "[shell-master]",
-      "title": "Controls & Inputs",
-      "content": "Upload files, customize settings, and tweak parameters here.",
+      "title": "Enter and configure data",
+      "content": "The master pane contains the active Patient, Tests, Results, or Manage controls. Complete the current pane before moving to the next workflow stage.",
       "placement": "right",
       "icon": "tune"
     },
     {
       "targetSelector": "[shell-canvas-header]",
-      "title": "View Modes",
-      "content": "Toggle between original, processed, split, and inspection views.",
+      "title": "Control the preview",
+      "content": "Use the preview toolbar for zoom, page mode, calibration, and page navigation. The preview is the final visual check before PDF generation or browser printing.",
       "placement": "bottom",
       "icon": "visibility"
     },
     {
       "targetSelector": "[shell-canvas-content]",
-      "title": "Interactive Stage",
-      "content": "Your primary workspace with high-resolution preview and canvas tools.",
+      "title": "Review the report",
+      "content": "Review patient details, selected investigations, entered results, configured flags, calculations, stationery, and page breaks in the report preview.",
       "placement": "bottom",
-      "icon": "preview"
+      "icon": "description"
     },
     {
       "targetSelector": "[shell-canvas-footer] .footer-actions",
-      "title": "Actions & Export",
-      "content": "Trigger processing, reset parameters, or download your results.",
+      "title": "Save, bill, export, and print",
+      "content": "The footer contains readiness details and the main report actions. Missing prerequisites are explained in the readiness menu; finalized reports remain locked until an amendment or new visit is started.",
       "placement": "top",
-      "icon": "auto_fix_high"
+      "icon": "print"
     }
   ]
 }
