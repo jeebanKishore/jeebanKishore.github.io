@@ -2150,6 +2150,10 @@
         "uploadSignature": "Click to upload signature",
         "stationeryTitle": "Pre-printed Stationery & Letterhead Profile",
         "stationeryHint": "Upload your clinic's letterhead (PDF or image), calibrate printable margins visually, and preview reports against your official letterhead stationery.",
+        "paperSizeTitle": "Report Paper Format & Orientation",
+        "paperSizeHint": "Select the physical paper dimensions and print orientation for report sheets and vector PDF export.",
+        "paperSizeA4": "A4 Portrait (210 × 297 mm)",
+        "paperSizeA5": "A5 Landscape (210 × 148 mm)",
         "usePreprintedLetterhead": "Use Pre-printed Letterhead Stationery",
         "defaultLetterheadFile": "Clinic-Letterhead.pdf",
         "removeLetterhead": "Remove letterhead",
@@ -2270,6 +2274,9 @@
         "selectPackage": "Select all package parameters",
         "fullPackage": "Full Package",
         "addPackage": "+ Add Package",
+        "dragToReorder": "Drag to reorder",
+        "dragHint": "Drag to reorder report",
+        "removeTest": "Remove {{name}}",
         "noMatches": "No test matches \"{{query}}\".",
         "panelCount": "{{count}} {{count, plural, =1 {panel} other {panels}}} · {{tests}} {{tests, plural, =1 {test} other {tests}}}"
       },
@@ -2311,6 +2318,7 @@
         "saveFailed": "Failed to save test"
       },
       "valueEntry": {
+        "dragReorder": "Drag to change report order",
         "searchLabel": "Search tests or analytes in results (e.g. Hb, platelets, creatinine)",
         "searchPlaceholder": "Search test name, analyte or section...",
         "clearSearch": "Clear Search",

@@ -1,0 +1,1 @@
+import{Rn as es,Tr as pV,mi as yr}from"./chunk-BDkbbCoy.js";var n=(()=>{class e{static ɵfac=function(i){return new(i||e)};static ɵmod=es({type:e});static ɵinj=yr({imports:[pV]})}return e})();export{n as t};
